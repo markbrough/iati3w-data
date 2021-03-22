@@ -1,6 +1,9 @@
 VENV=venv/bin/activate
 
-run: venv
+run-3w: venv
+	. $(VENV) && python fetch-3w-data.py
+
+run-iati: venv
 	. $(VENV) && python fetch-iati-data.py
 
 venv: requirements.txt

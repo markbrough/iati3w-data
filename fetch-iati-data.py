@@ -6,20 +6,16 @@ import diterator, json
 # Utility functions
 #
 
-def classify_local (org_type):
-    """ Return True if an org type is local, False if international, or None if ambiguous 
-    See https://iatistandard.org/en/iati-standard/203/codelists/organisationtype/
-
-    """
-    if org_type in ["24", "72"]:
-        return "local"
-    elif org_type in ["10", "11", "15", "22", "23", "30", "60", "70", "80", "90"]:
-        return "uncertain"
+def get_role (org):
+    """ Get a text label for an organisation's role in an activity """
+    if org.role == "1":
+        return "funding"
+    elif org.role == "4":
+        return "implementing"
     else:
-        return "international"
+        return "programming"
 
-    
-def is_humanitarian_related (activity):
+def has_humanitarian_content (activity):
     """ More-thorough review of an activity to check if it seems humanitarian.
     Will return true if the activity is flagged humanitarian, any transaction
     is flagged humanitarian, a humantarian-scope is present, and/or it
@@ -72,18 +68,29 @@ print("[")
 
 for i, activity in enumerate(activities):
 
+    org_map = activity.participating_orgs_by_role
+
     data = {
-        "source": "IATI",
-        "is_humanitarian_related": is_humanitarian_related(activity),
         "identifier": activity.identifier,
+        "source": "IATI",
+        "reported_by": str(activity.reporting_org.name),
+        "has_humanitarian_content": has_humanitarian_content(activity),
         "title": str(activity.title),
         "description": str(activity.description),
-        "orgs": [[str(org), classify_local(org.type)] for org in activity.participating_orgs],
-        "dac_sectors": [str(sector) for sector in activity.sectors_by_vocabulary.get("1", [])],
-        "clusters": [str(sector) for sector in activity.sectors_by_vocabulary.get("10", [])],
+        "orgs": {
+            "implementing": list(set([str(org.name) for org in org_map.get("4", [])])),
+            "programming": list(set(
+                [str(org.name) for org in org_map.get("2", [])] +
+                [str(org.name) for org in org_map.get("3", [])]
+            )),
+            "funding": list(set([str(org.name) for org in org_map.get("1", [])])),
+        },
+        "dac_sectors": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("1", [])])),
+        "humanitarian_clusters": list(set([str(sector.narrative) for sector in activity.sectors_by_vocabulary.get("10", [])])),
         "start_date": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
         "end_date": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned,
         "is_active": True if activity.activity_status == "2" else False,
+        "recipient_countries": [country.code.upper() for country in activity.recipient_countries],
         "locations": list(set([str(location.name) for location in activity.locations if location.name])),
     }
     if i > 0:
