@@ -91,7 +91,9 @@ for i, activity in enumerate(activities):
         "end_date": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned,
         "is_active": True if activity.activity_status == "2" else False,
         "recipient_countries": [country.code.upper() for country in activity.recipient_countries],
-        "locations": list(set([str(location.name) for location in activity.locations if location.name])),
+        "locations": {
+            "unclassified": list(set([str(location.name) for location in activity.locations if location.name])),
+        }
     }
     if i > 0:
         print(",")

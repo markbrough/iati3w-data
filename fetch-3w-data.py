@@ -52,17 +52,26 @@ for i, row in enumerate(hxl.data(DATASET)):
         "end_date": row.get("#date+end"),
         "is_active": row.get("#status") == "Ongoing",
         "countries": ["SO"],
-        "locations": [],
+        "locations": {
+            "admin1": [],
+            "admin2": [],
+            "unclassified": [],
+        },
     }
 
     # add the participating organisations
     add_item(data["orgs"]["implementing"], row.get("#org+impl"))
     add_item(data["orgs"]["programming"], row.get("#org+prog")),
     add_item(data["orgs"]["funding"], row.get("#org+funding")),
+
+    # add the clusters
     add_item(data["humanitarian_clusters"], row.get("#sector"))
-    for hashtag in ["#adm1+name", "#adm2+name", "#loc+name"]:
-        add_item(data["locations"], row.get(hashtag))
-    
+
+    # add the locations
+    add_item(data["locations"]["admin1"], row.get("#adm1+name"))
+    add_item(data["locations"]["admin2"], row.get("#adm2+name"))
+    add_item(data["locations"]["unclassified"], row.get("#loc+name"))
+
     # Generate pseudo-identifier
     data["identifier"] = make_pseudo_identifier(data)
 

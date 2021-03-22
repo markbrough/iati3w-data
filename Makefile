@@ -1,10 +1,10 @@
 VENV=venv/bin/activate
 
 demo-iati:
-	. $(VENV) && python fetch-iati-data.py | head -100
+	. $(VENV) && python fetch-iati-data.py | head -1000
 
 demo-3w:
-	. $(VENV) && python fetch-3w-data.py | head -100
+	. $(VENV) && python fetch-3w-data.py | head -1000
 
 generate: generate-iati generate-3w
 

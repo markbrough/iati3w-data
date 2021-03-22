@@ -39,7 +39,7 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
 
 ```
 {
-    "identifier": "b85eecad795af36cc4abeed1667a1b212707a52f6c162a6dfd2d409e49fbca8f",
+    "identifier": "90f016202193360e3f1b20765b9989cc2eb1dfd48420fde428d20a0c99e52abd",
     "source": "Somalia 3W",
     "reported_by": "OCHA Somalia",
     "has_humanitarian_content": true,
@@ -64,11 +64,17 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
     "countries": [
         "SO"
     ],
-    "locations": [
-        "Lower Juba",
-        "Kismayo",
-        "Galbeedt Area "
-    ]
+    "locations": {
+        "admin1": [
+            "Lower Juba"
+        ],
+        "admin2": [
+            "Kismayo"
+        ],
+        "unclassified": [
+            "Galbeedt Area "
+        ]
+    }
 }
 ```
 
@@ -133,19 +139,25 @@ Note that the majority of IATI records will not have humanitarian content and wi
     "recipient_countries": [
         "SO"
     ],
-    "locations": [
-        "Luuq",
-        "Hargeysa",
-        "Mogadishu",
-        "Bossaso",
-        "Somalia Liaison Support Office",
-        "Dhobley",
-        "Baidoa",
-        "Garoowe",
-        "Kismaayo",
-        "Gaalkacyo",
-        "Berbera"
-    ]
+    "locations": {
+        "admin1": [
+        ],
+        "admin2": [
+            "Luuq",
+            "Hargeysa",
+            "Bossaso",
+            "Kismaayo",
+            "Garoowe",
+            "Gaalkacyo",
+            "Berbera"
+        ],
+        "unclassified": [
+            "Mogadishu",
+            "Somalia Liaison Support Office",
+            "Dhobley",
+            "Baidoa"
+        ]
+    }
 }
 ```
 
