@@ -37,7 +37,8 @@ Both the IATI and 3W follow similar formats, with a JSON list of objects.
 
 Note that identifiers for 3W activities are just hashes, and are not guaranteed to be stable.
 
-```{
+```
+{
     "identifier": "b85eecad795af36cc4abeed1667a1b212707a52f6c162a6dfd2d409e49fbca8f",
     "source": "Somalia 3W",
     "reported_by": "OCHA Somalia",
@@ -68,14 +69,16 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
         "Kismayo",
         "Galbeedt Area "
     ]
-}```
+}
+```
 
 ### Sample IATI JSON object
 
 Note that the majority of IATI records will not have humanitarian content and will not list humanitarian clusters. Unlike 3W activities, IATI activities will sometimes list multiple countries, and will nearly always list DAC sectors (which are always empty in the 3W objects).
 
 
-```{
+```
+{
     "identifier": "XM-DAC-41121-2020-EHGL-SOM",
     "source": "IATI",
     "reported_by": "United Nations High Commissioner for Refugees (UNHCR)",
@@ -143,7 +146,8 @@ Note that the majority of IATI records will not have humanitarian content and wi
         "Gaalkacyo",
         "Berbera"
     ]
-}```
+}
+```
 
 ## Author
 
