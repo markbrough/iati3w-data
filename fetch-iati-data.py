@@ -1,4 +1,4 @@
-""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
+f""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
 
 import diterator, json
 
@@ -13,7 +13,7 @@ def classify_local (org_type):
     """
     if org_type in ["24", "72"]:
         return "local"
-    elif org_type in ["10", "11", "15", "22", "23", "30", "70", "80", "90"]:
+    elif org_type in ["10", "11", "15", "22", "23", "30", "60", "70", "80", "90"]:
         return "uncertain"
     else:
         return "international"
