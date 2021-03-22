@@ -14,7 +14,7 @@ def make_pseudo_identifier (data):
         data["title"],
         data["description"],
         "||".join([org[0] for org in data["orgs"]]),
-        "||".join(data["clusters"]),
+        "||".join(data["humanitarian_clusters"]),
         "||".join(data["locations"]),
     ]).encode("utf-8")).hexdigest()
 
@@ -59,7 +59,7 @@ for i, row in enumerate(hxl.data(DATASET)):
     add_item(data["orgs"]["implementing"], [row.get("#org+impl"), "implementing"], row.get("#org+impl") is not None)
     add_item(data["orgs"]["programming"], [row.get("#org+prog"), "programming"], row.get("#org+prog") is not None)
     add_item(data["orgs"]["funding"], [row.get("#org+funding"), "funding"], row.get("#org+funding") is not None)
-    add_item(data["clusters"], row.get("#sector"))
+    add_item(data["humanitarian_clusters"], row.get("#sector"))
     for hashtag in ["#adm1+name", "#adm2+name", "#loc+name"]:
         add_item(data["locations"], row.get(hashtag))
     
