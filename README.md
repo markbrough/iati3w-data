@@ -45,6 +45,7 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
     "has_humanitarian_content": true,
     "title": "Integrated WASH, Shelter, CCCM, Protection and information management support to improve living conditions of crisis-affected rural and IDP populations in Somalia",
     "description": "CCCM respnse comprised of coordination, monitoring, creation of CMCs, training of CMC, information management at site level, site maintenance. Shetler component (transitional shelters plus ESK) and Protection component ",
+    "is_active": true,
     "orgs": {
         "implementing": [
             "SADO"
@@ -54,17 +55,16 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
         ],
         "funding": []
     },
-    "dac_sectors": [],
-    "humanitarian_clusters": [
-        "CCCM"
-    ],
-    "start_date": "2020-09-01",
-    "end_date": "2021-02-28",
-    "is_active": true,
-    "countries": [
-        "SO"
-    ],
+    "sectors": {
+        "dac": [],
+        "humanitarian": [
+            "CCCM"
+        ]
+    },
     "locations": {
+        "countries": [
+            "SO"
+        ],
         "admin1": [
             "Lower Juba"
         ],
@@ -74,6 +74,10 @@ Note that identifiers for 3W activities are just hashes, and are not guaranteed 
         "unclassified": [
             "Galbeedt Area "
         ]
+    },
+    "dates": {
+        "start": "2020-09-01",
+        "end": "2021-02-28"
     }
 }
 ```
@@ -91,6 +95,7 @@ Note that the majority of IATI records will not have humanitarian content and wi
     "has_humanitarian_content": true,
     "title": "UNHCR operation in Somalia (2020)",
     "description": "This activity shows details of the UNHCR operation in Somalia for 2020 including the budget, funding, expenditure and results.",
+    "is_active": false,
     "orgs": {
         "implementing": [
             "United Nations High Commissioner for Refugees (UNHCR)"
@@ -120,26 +125,25 @@ Note that the majority of IATI records will not have humanitarian content and wi
             "Germany - Federal Foreign Office"
         ]
     },
-    "dac_sectors": [
-        "73010",
-        "72010",
-        "72050"
-    ],
-    "humanitarian_clusters": [
-        "Gender Based Violence",
-        "Education",
-        "Health",
-        "Early Recovery",
-        "Emergency Shelter and NFI",
-        "Protection"
-    ],
-    "start_date": "2020-01-01",
-    "end_date": "2020-12-31",
-    "is_active": false,
-    "recipient_countries": [
-        "SO"
-    ],
+    "sectors": {
+        "dac": [
+            "73010",
+            "72010",
+            "72050"
+        ],
+        "humanitarian": [
+            "Gender Based Violence",
+            "Education",
+            "Health",
+            "Early Recovery",
+            "Emergency Shelter and NFI",
+            "Protection"
+        ]
+    },
     "locations": {
+        "countries": [
+            "SO"
+        ],
         "admin1": [
         ],
         "admin2": [
@@ -157,6 +161,10 @@ Note that the majority of IATI records will not have humanitarian content and wi
             "Dhobley",
             "Baidoa"
         ]
+    },
+    "dates": {
+        "start": "2020-01-01",
+        "end": "2020-12-31"
     }
 }
 ```

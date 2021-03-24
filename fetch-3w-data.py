@@ -10,12 +10,12 @@ from hxl.datatypes import is_empty
 
 def make_pseudo_identifier (data):
     """ Since 3W data doesn't have unique activity identifiers, construct a pseudo one """
-    return hashlib.sha256("|||".join([
+    return hashlib.sha256(json.dumps([
         data["title"],
         data["description"],
-        "||".join([org[0] for org in data["orgs"]]),
-        "||".join(data["humanitarian_clusters"]),
-        "||".join(data["locations"]),
+        data["orgs"],
+        data["sectors"],
+        data["locations"],
     ]).encode("utf-8")).hexdigest()
 
 
@@ -31,9 +31,9 @@ def add_item (items, item, condition=None):
 
 DATASET = "https://proxy.hxlstandard.org/data/8acb4c"
 
-print("[")
+result = []
 
-for i, row in enumerate(hxl.data(DATASET)):
+for row in hxl.data(DATASET):
     data = {
         "identifier": None,
         "source": "Somalia 3W",
@@ -41,21 +41,25 @@ for i, row in enumerate(hxl.data(DATASET)):
         "has_humanitarian_content": True,
         "title": row.get("#activity+programme", default=row.get("#activity+project")),
         "description": row.get("#activity+project"),
+        "is_active": row.get("#status") == "Ongoing",
         "orgs": {
             "implementing": [],
             "programming": [],
             "funding": [],
         },
-        "dac_sectors": [],
-        "humanitarian_clusters": [],
-        "start_date": row.get("#date+start"),
-        "end_date": row.get("#date+end"),
-        "is_active": row.get("#status") == "Ongoing",
-        "countries": ["SO"],
+        "sectors": {
+            "dac": [],
+            "humanitarian": [],
+        },
         "locations": {
+            "countries": ["SO"],
             "admin1": [],
             "admin2": [],
             "unclassified": [],
+        },
+        "dates": {
+            "start": row.get("#date+start"),
+            "end": row.get("#date+end"),
         },
     }
 
@@ -65,7 +69,7 @@ for i, row in enumerate(hxl.data(DATASET)):
     add_item(data["orgs"]["funding"], row.get("#org+funding")),
 
     # add the clusters
-    add_item(data["humanitarian_clusters"], row.get("#sector"))
+    add_item(data["sectors"]["humanitarian"], row.get("#sector"))
 
     # add the locations
     add_item(data["locations"]["admin1"], row.get("#adm1+name"))
@@ -75,9 +79,9 @@ for i, row in enumerate(hxl.data(DATASET)):
     # Generate pseudo-identifier
     data["identifier"] = make_pseudo_identifier(data)
 
-    if i > 0:
-        print(",")
-    print(json.dumps(data, indent=4), end="")
-
-print("]")
+    result.append(data)
     
+print(json.dumps(result, indent=4))
+
+# end
+

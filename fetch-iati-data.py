@@ -1,6 +1,6 @@
 f""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
 
-import diterator, json
+import diterator, json, sys
 
 #
 # Utility functions
@@ -64,9 +64,9 @@ activities = diterator.Iterator({
 # We need only basic metadata for each activity
 # Print one at a time to keep memory usage low
 
-print("[")
+result = []
 
-for i, activity in enumerate(activities):
+for activity in activities:
 
     org_map = activity.participating_orgs_by_role
 
@@ -77,6 +77,7 @@ for i, activity in enumerate(activities):
         "has_humanitarian_content": has_humanitarian_content(activity),
         "title": str(activity.title),
         "description": str(activity.description),
+        "is_active": True if activity.activity_status == "2" else False,
         "orgs": {
             "implementing": list(set([str(org.name) for org in org_map.get("4", [])])),
             "programming": list(set(
@@ -85,21 +86,23 @@ for i, activity in enumerate(activities):
             )),
             "funding": list(set([str(org.name) for org in org_map.get("1", [])])),
         },
-        "dac_sectors": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("1", [])])),
-        "humanitarian_clusters": list(set([str(sector.narrative) for sector in activity.sectors_by_vocabulary.get("10", [])])),
-        "start_date": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
-        "end_date": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned,
-        "is_active": True if activity.activity_status == "2" else False,
-        "recipient_countries": [country.code.upper() for country in activity.recipient_countries],
+        "sectors": {
+            "dac": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("1", [])])),
+            "humanitarian": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("10", [])])),
+        },
         "locations": {
+            "countries": [country.code.upper() for country in activity.recipient_countries],
+            "admin1": [],
+            "admin2": [],
             "unclassified": list(set([str(location.name) for location in activity.locations if location.name])),
-        }
+        },
+        "dates": {
+            "start": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
+            "end": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned
+        },
     }
-    if i > 0:
-        print(",")
-    print(json.dumps(data, indent=4), end="")
+    result.append(data)
 
-print("\n]")
-
+print(json.dumps(result, indent=4))
 
 # end
