@@ -55,19 +55,13 @@ $(ORG_INDEX): venv $(ACTIVITIES) index-orgs.py
 	. $(VENV) && python index-orgs.py $(ACTIVITIES) > $@
 
 $(SECTOR_INDEX): venv $(ACTIVITIES) index-sectors.py
-	. $(VENV) && python index-orgs.py $(ACTIVITIES) > $@
+	. $(VENV) && python index-sectors.py $(ACTIVITIES) > $@
 
 $(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py
-	. $(VENV) && python index-orgs.py $(ACTIVITIES) > $@
+	. $(VENV) && python index-locations.py $(ACTIVITIES) > $@
 
 $(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py
 	. $(VENV) && python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
-
-$(IATI_ACTIVITIES): venv $(TIMESTAMP) fetch-iati-data.py
-	. $(VENV) && mkdir -p output && time python fetch-iati-data.py > $@
-
-$(3W_ACTIVITIES): venv $(TIMESTAMP) fetch-3w-data.py
-	. $(VENV) && mkdir -p output && time python fetch-3w-data.py > $@
 
 #
 # Extras
