@@ -22,7 +22,7 @@ def make_pseudo_identifier (data):
 def add_item (items, item, condition=None):
     """ Add an item to a list if it's not empty (or optionally, if the condition is true) """
     if (condition is None and not is_empty(item)) or condition:
-        items.append(item)
+        items.append(item.strip())
     
     
 #

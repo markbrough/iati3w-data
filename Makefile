@@ -34,6 +34,7 @@ LOCATION_INDEX=output/location-index.json
 all: index
 
 index: index-orgs index-sectors index-locations
+	touch $(TIMESTAMP)
 
 index-orgs: $(ORG_INDEX)
 
@@ -62,6 +63,12 @@ $(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py
 
 $(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py
 	. $(VENV) && python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+
+$(IATI_ACTIVITIES): venv fetch-iati-data.py
+	. $(VENV) && mkdir -p output && python fetch-iati-data.py > $@
+
+$(3W_ACTIVITIES): venv fetch-3w-data.py
+	. $(VENV) && mkdir -p output && python fetch-3w-data.py > $@
 
 #
 # Extras
