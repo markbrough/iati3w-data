@@ -81,14 +81,14 @@ for activity in activities:
         "orgs": {
             "implementing": list(set([str(org.name) for org in org_map.get("4", [])])),
             "programming": list(set(
-                [str(org.name) for org in org_map.get("2", [])] +
-                [str(org.name) for org in org_map.get("3", [])]
+                [str(org.name).strip() for org in org_map.get("2", [])] +
+                [str(org.name).strip() for org in org_map.get("3", [])]
             )),
-            "funding": list(set([str(org.name) for org in org_map.get("1", [])])),
+            "funding": list(set([str(org.name).strip() for org in org_map.get("1", [])])),
         },
         "sectors": {
-            "dac": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("1", [])])),
-            "humanitarian": list(set([sector.code for sector in activity.sectors_by_vocabulary.get("10", [])])),
+            "dac": list(set([sector.code.strip() for sector in activity.sectors_by_vocabulary.get("1", [])])),
+            "humanitarian": list(set([sector.code.strip() for sector in activity.sectors_by_vocabulary.get("10", [])])),
         },
         "locations": {
             "countries": [country.code.upper() for country in activity.recipient_countries],

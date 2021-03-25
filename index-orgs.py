@@ -55,7 +55,7 @@ with open(sys.argv[1], "r") as input:
                 # Index locations
                 for type in LOCATION_TYPES:
                     for location in activity["locations"][type]:
-                        if sector:
+                        if location:
                             index[org]["locations"].setdefault(location, 0)
                             index[org]["locations"][location] += 1
 
