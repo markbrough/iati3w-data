@@ -8,13 +8,6 @@ if len(sys.argv) != 2:
     print("Usage: {} <activity-file>".format(sys.argv[0]), file=sys.stderr)
     sys.exit(2)
 
-def add_to_list (l, items):
-    unique_values = set(l)
-    for item in items:
-        if item:
-          unique_values.add(item)
-    return sorted(list(unique_values))
-
 index = {}
 
 with open(sys.argv[1], "r") as input:
@@ -22,39 +15,36 @@ with open(sys.argv[1], "r") as input:
     for activity in activities:
         for type in ["dac", "humanitarian"]:
             for sector in activity["sectors"][type]:
+
+                # Set up this sector's entry (if it doesn't already exist)
                 index.setdefault(type, {})
                 index[type].setdefault(sector, {
                     "activities": [],
-                    "orgs": [],
-                    "locations": []
+                    "orgs": {},
+                    "locations": {},
                 });
-
                 entry = index[type][sector]
 
-                # activities
-                info = {
+                
+                # Add a brief summary of the activity
+                entry["activities"].append({
                     "identifier": activity["identifier"],
                     "title": activity["title"],
-                    "orgs": [],
-                    "locations": []
-                }
-
-                for role in ROLES:
-                    info["orgs"] = add_to_list(info["orgs"], activity["orgs"][role])
-
-                for loctype in LOCTYPES:
-                    info["locations"] = add_to_list(info["locations"], activity["locations"][loctype])
-
-                entry["activities"].append(info)
+                })
 
                 # orgs
                 for role in ROLES:
-                    entry["orgs"] = add_to_list(entry["orgs"], activity["orgs"].get(role, []))
+                    for org in activity["orgs"].get(role, []):
+                        if org:
+                            entry["orgs"].setdefault(org, 0)
+                            entry["orgs"][org] += 1
 
                 # locations
                 for loctype in LOCTYPES:
-                    entry["locations"] = add_to_list(entry["locations"], activity["locations"].get(loctype, []))
-
+                    for location in activity["locations"].get(loctype, []):
+                        if location:
+                            entry["locations"].setdefault(location, 0)
+                            entry["locations"][location] += 1
                 
 print(json.dumps(index, indent=4))
 

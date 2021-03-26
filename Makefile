@@ -33,6 +33,9 @@ LOCATION_INDEX=output/location-index.json
 
 all: index
 
+push-update: index
+	cd output && git add . && git commit -m "Data update" && git push origin
+
 index: index-orgs index-sectors index-locations
 	touch $(TIMESTAMP)
 
@@ -47,6 +50,7 @@ merge-activities: $(ACTIVITIES)
 fetch-iati: $(IATI_ACTIVITIES)
 
 fetch-3w: $(3W_ACTIVITIES)
+
 
 #
 # File targets

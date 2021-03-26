@@ -1,29 +1,53 @@
+""" Create a JSON index with information about each org in the activities
+
+Usage:
+
+python3 index-orgs.py output/activities.json > output/org-index.json
+
+Started 2021-03 by David Megginson
+
+"""
+
 import json, sys
 
-ROLES = ["implementing", "programming", "funding"]
-SECTOR_TYPES = ["dac", "humanitarian"]
-LOCATION_TYPES = ["admin1", "admin2", "unclassified"]
+from iati3w_common import * # common variables and functions
 
+
+index = {}
+""" The index that we will export as JSON """
+
+#
+# Check command-line usage
+#
 if len(sys.argv) != 2:
     print("Usage: {} <activity-file>".format(sys.argv[0]), file=sys.stderr)
     sys.exit(2)
-
-index = {}
-
+    
+#
+# Loop through all the activities in the JSON file specified
+#
 with open(sys.argv[1], "r") as input:
     activities = json.load(input)
     for activity in activities:
 
+        #
+        # Loop through the activity roles
+        #
         for role in ROLES:
-            for org in activity["orgs"][role]:
+
+            #
+            # Loop through each org and index it
+            #
+            for org in activity["orgs"].get(role, []):
 
                 # Skip blank orgs
                 if not org:
                     continue
 
+                # Clean whitespace
                 org = org.strip();
 
-                # Add a default record if missing
+                # Add a default record if this is the first time we've seen the org
                 index.setdefault(org, {
                     "activities": {},
                     "partners": {},
@@ -31,33 +55,41 @@ with open(sys.argv[1], "r") as input:
                     "locations": {},
                 })
 
-                # Index activities
-                index[org]["activities"].setdefault(role, [])
-                index[org]["activities"][role].append({
+                # This is the org index entry we'll be working on
+                entry = index[org]
+
+                # Add this activity to the org's index
+                entry["activities"].setdefault(role, [])
+                entry["activities"][role].append({
                     "identifier": activity["identifier"],
                     "title": activity["title"],
                 })
 
-                # Index partners
+                # Add the other orgs as partners (we don't worry about roles here)
                 for role in ROLES:
                     for partner in activity["orgs"][role]:
+                        partner = partner.strip()
                         if partner and (partner != org):
-                            index[org]["partners"].setdefault(partner, 0)
-                            index[org]["partners"][partner] += 1
+                            entry["partners"].setdefault(partner, 0)
+                            entry["partners"][partner] += 1
 
-                # Index sectors
+                # Add the sectors (DAC and Humanitarian)
                 for type in SECTOR_TYPES:
-                    for sector in activity["sectors"][type]:
+                    for sector in activity["sectors"].get(type, []):
                         if sector:
-                            index[org]["sectors"].setdefault(sector, 0)
-                            index[org]["sectors"][sector] += 1
+                            entry["sectors"].setdefault(type, {})
+                            entry["sectors"][type].setdefault(sector, 0)
+                            entry["sectors"][type][sector] += 1
 
-                # Index locations
+                # Add the subnational locations
                 for type in LOCATION_TYPES:
-                    for location in activity["locations"][type]:
+                    for location in activity["locations"].get(type, []):
                         if location:
-                            index[org]["locations"].setdefault(location, 0)
-                            index[org]["locations"][location] += 1
+                            entry["locations"].setdefault(type, {})
+                            entry["locations"][type].setdefault(location, 0)
+                            entry["locations"][type][location] += 1
 
+# Dump the index to stdout
 print(json.dumps(index, indent=4))
 
+# end
