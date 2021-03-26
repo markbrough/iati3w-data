@@ -58,15 +58,21 @@ with open(sys.argv[1], "r") as input:
                 for role in ROLES:
                     for org in activity["orgs"].get(role, []):
                         if org:
-                            entry["orgs"].setdefault(org, 0)
-                            entry["orgs"][org] += 1
+                            entry["orgs"].setdefault(role, {})
+                            entry["orgs"][role].setdefault(org, 0)
+                            entry["orgs"][role][org] += 1
 
                 # locations
                 for loctype in LOCATION_TYPES:
                     for location in activity["locations"].get(loctype, []):
                         if location:
-                            entry["locations"].setdefault(location, 0)
-                            entry["locations"][location] += 1
-                
+                            entry["locations"].setdefault(loctype, {})
+                            entry["locations"][loctype].setdefault(location, 0)
+                            entry["locations"][loctype][location] += 1
+
+# Dump index to standard output
 print(json.dumps(index, indent=4))
+
+# end
+
 
