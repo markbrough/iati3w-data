@@ -1,19 +1,40 @@
+""" Create a JSON index with information about each sector in the activities
+
+Usage:
+
+python3 index-sectors.py output/activities.json > output/sector-index.json
+
+Started 2021-03 by David Megginson
+
+"""
+
 import json, sys
+from iati3w_common import * # common variables and functions
 
-ROLES = ["implementing", "programming", "funding"]
 
-LOCTYPES = ["admin1", "admin2", "unclassified"]
+index = {}
+""" The index that we will export as JSON """
 
+
+#
+# Check command-line usage
+#
 if len(sys.argv) != 2:
     print("Usage: {} <activity-file>".format(sys.argv[0]), file=sys.stderr)
     sys.exit(2)
 
-index = {}
 
+#
+# Loop through the activities in the JSON file specified
+#
 with open(sys.argv[1], "r") as input:
     activities = json.load(input)
     for activity in activities:
-        for type in ["dac", "humanitarian"]:
+
+        #
+        # Loop through the sector types
+        #
+        for type in SECTOR_TYPES:
             for sector in activity["sectors"][type]:
 
                 # Set up this sector's entry (if it doesn't already exist)
@@ -30,6 +51,7 @@ with open(sys.argv[1], "r") as input:
                 entry["activities"].append({
                     "identifier": activity["identifier"],
                     "title": activity["title"],
+                    "source": activity["source"],
                 })
 
                 # orgs
@@ -40,7 +62,7 @@ with open(sys.argv[1], "r") as input:
                             entry["orgs"][org] += 1
 
                 # locations
-                for loctype in LOCTYPES:
+                for loctype in LOCATION_TYPES:
                     for location in activity["locations"].get(loctype, []):
                         if location:
                             entry["locations"].setdefault(location, 0)

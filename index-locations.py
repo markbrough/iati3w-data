@@ -65,6 +65,7 @@ with open(sys.argv[1], "r") as input:
                 entry["activities"].append({
                     "identifier": activity["identifier"],
                     "title": activity["title"],
+                    "source": activity["source"],
                 })
 
                 # Add the activity orgs (don't track roles here)

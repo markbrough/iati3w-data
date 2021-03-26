@@ -9,7 +9,6 @@ Started 2021-03 by David Megginson
 """
 
 import json, sys
-
 from iati3w_common import * # common variables and functions
 
 
@@ -64,6 +63,7 @@ with open(sys.argv[1], "r") as input:
                 entry["activities"][role].append({
                     "identifier": activity["identifier"],
                     "title": activity["title"],
+                    "source": activity["source"],
                 })
 
                 # Add the other orgs as partners (don't track roles here)
