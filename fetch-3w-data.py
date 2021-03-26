@@ -36,7 +36,7 @@ result = []
 for row in hxl.data(DATASET):
     data = {
         "identifier": None,
-        "source": "Somalia 3W",
+        "source": "3W",
         "reported_by": "OCHA Somalia",
         "has_humanitarian_content": True,
         "title": row.get("#activity+programme", default=row.get("#activity+project")),
