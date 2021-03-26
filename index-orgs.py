@@ -16,6 +16,7 @@ from iati3w_common import * # common variables and functions
 index = {}
 """ The index that we will export as JSON """
 
+
 #
 # Check command-line usage
 #
@@ -65,7 +66,7 @@ with open(sys.argv[1], "r") as input:
                     "title": activity["title"],
                 })
 
-                # Add the other orgs as partners (we don't worry about roles here)
+                # Add the other orgs as partners (don't track roles here)
                 for role in ROLES:
                     for partner in activity["orgs"][role]:
                         partner = partner.strip()
