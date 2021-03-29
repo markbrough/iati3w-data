@@ -53,10 +53,14 @@ with open(sys.argv[1], "r") as input:
                     "partners": {},
                     "sectors": {},
                     "locations": {},
+                    "total_activities": 0,
                 })
 
                 # This is the org index entry we'll be working on
                 entry = index[org]
+
+                # Count activities
+                entry["total_activities"] += 1;
 
                 # Add this activity to the org's index
                 entry["activities"].setdefault(role, [])
@@ -64,6 +68,9 @@ with open(sys.argv[1], "r") as input:
                     "identifier": activity["identifier"],
                     "title": activity["title"],
                     "source": activity["source"],
+                    "orgs": flatten(activity["orgs"]),
+                    "sectors": flatten(activity["sectors"]),
+                    "locations": flatten(activity["locations"], excludes=["countries"]),
                 })
 
                 # Add the other orgs as partners (don't track roles here)

@@ -54,10 +54,10 @@ for row in hxl.data(DATASET):
             "humanitarian": [],
         },
         "locations": {
-            "countries": ["SO"],
-            "admin1": [],
-            "admin2": [],
             "unclassified": [],
+            "admin2": [],
+            "admin1": [],
+            "countries": ["SO"],
         },
         "dates": {
             "start": row.get("#date+start"),

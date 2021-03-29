@@ -52,6 +52,8 @@ with open(sys.argv[1], "r") as input:
                     "identifier": activity["identifier"],
                     "title": activity["title"],
                     "source": activity["source"],
+                    "orgs": flatten(activity["orgs"]),
+                    "locations": flatten(activity["locations"], excludes=["countries"]),
                 })
 
                 # orgs

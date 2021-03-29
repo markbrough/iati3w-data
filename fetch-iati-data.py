@@ -1,4 +1,4 @@
-f""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
+""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
 
 import diterator, json, sys
 
@@ -93,10 +93,10 @@ for activity in activities:
             "humanitarian": list(set([sector.code.strip() for sector in activity.sectors_by_vocabulary.get("10", [])])),
         },
         "locations": {
-            "countries": [country.code.upper() for country in activity.recipient_countries],
-            "admin1": [],
-            "admin2": [],
             "unclassified": [],
+            "admin2": [],
+            "admin1": [],
+            "countries": [country.code.upper() for country in activity.recipient_countries],
         },
         "dates": {
             "start": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,

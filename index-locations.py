@@ -66,6 +66,9 @@ with open(sys.argv[1], "r") as input:
                     "identifier": activity["identifier"],
                     "title": activity["title"],
                     "source": activity["source"],
+                    "orgs": flatten(activity["orgs"]),
+                    "sectors": flatten(activity["sectors"]),
+                    "locations": flatten(activity["locations"], excludes=["countries"]),
                 })
 
                 # Add the activity orgs (don't track roles here)

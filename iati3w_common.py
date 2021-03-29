@@ -31,7 +31,21 @@ def fix_location (s):
     else:
         return ""
 
+def flatten (map, excludes=[]):
+    """ Flatten a dict of lists into a single list, with duplicates removed """
+    result = []
+    for key in map:
+        if key in excludes:
+            continue
+        for s in map[key]:
+            if not s in result:
+                result.append(s)
+    return result
 
+
+#
+# Location lookup
+#
 location_lookup_table = None
 
 def get_location_lookup_table ():
