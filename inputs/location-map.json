@@ -9,6 +9,8 @@
                 "level": "admin2",
                 "name": "Banadir",
                 "pcode": "SO22",
+                "parent_name": "Banadir",
+                "parent_pcode": "SO22",
                 "synonyms": []
             }
         }
@@ -23,24 +25,32 @@
                 "level": "admin2",
                 "name": "Borama",
                 "pcode": "SO11",
+                "parent_name": "Awdal",
+                "parent_pcode": "SO11",
                 "synonyms": []
             },
             "Baki": {
                 "level": "admin2",
                 "name": "Baki",
                 "pcode": "SO11",
+                "parent_name": "Awdal",
+                "parent_pcode": "SO11",
                 "synonyms": []
             },
             "Lughaye": {
                 "level": "admin2",
                 "name": "Lughaye",
                 "pcode": "SO11",
+                "parent_name": "Awdal",
+                "parent_pcode": "SO11",
                 "synonyms": []
             },
             "Zeylac": {
                 "level": "admin2",
                 "name": "Zeylac",
                 "pcode": "SO11",
+                "parent_name": "Awdal",
+                "parent_pcode": "SO11",
                 "synonyms": []
             }
         }
@@ -55,18 +65,24 @@
                 "level": "admin2",
                 "name": "Hargeysa",
                 "pcode": "SO12",
+                "parent_name": "Woqooyi Galbeed",
+                "parent_pcode": "SO12",
                 "synonyms": []
             },
             "Berbera": {
                 "level": "admin2",
                 "name": "Berbera",
                 "pcode": "SO12",
+                "parent_name": "Woqooyi Galbeed",
+                "parent_pcode": "SO12",
                 "synonyms": []
             },
             "Gebiley": {
                 "level": "admin2",
                 "name": "Gebiley",
                 "pcode": "SO12",
+                "parent_name": "Woqooyi Galbeed",
+                "parent_pcode": "SO12",
                 "synonyms": []
             }
         }
@@ -81,24 +97,32 @@
                 "level": "admin2",
                 "name": "Burco",
                 "pcode": "SO13",
+                "parent_name": "Togdheer",
+                "parent_pcode": "SO13",
                 "synonyms": []
             },
             "Buuhoodle": {
                 "level": "admin2",
                 "name": "Buuhoodle",
                 "pcode": "SO13",
+                "parent_name": "Togdheer",
+                "parent_pcode": "SO13",
                 "synonyms": []
             },
             "Owdweyne": {
                 "level": "admin2",
                 "name": "Owdweyne",
                 "pcode": "SO13",
+                "parent_name": "Togdheer",
+                "parent_pcode": "SO13",
                 "synonyms": []
             },
             "Sheikh": {
                 "level": "admin2",
                 "name": "Sheikh",
                 "pcode": "SO13",
+                "parent_name": "Togdheer",
+                "parent_pcode": "SO13",
                 "synonyms": []
             }
         }
@@ -113,24 +137,32 @@
                 "level": "admin2",
                 "name": "Laas Caanood",
                 "pcode": "SO14",
+                "parent_name": "Sool",
+                "parent_pcode": "SO14",
                 "synonyms": []
             },
             "Caynabo": {
                 "level": "admin2",
                 "name": "Caynabo",
                 "pcode": "SO14",
+                "parent_name": "Sool",
+                "parent_pcode": "SO14",
                 "synonyms": []
             },
             "Taleex": {
                 "level": "admin2",
                 "name": "Taleex",
                 "pcode": "SO14",
+                "parent_name": "Sool",
+                "parent_pcode": "SO14",
                 "synonyms": []
             },
             "Xudun": {
                 "level": "admin2",
                 "name": "Xudun",
                 "pcode": "SO14",
+                "parent_name": "Sool",
+                "parent_pcode": "SO14",
                 "synonyms": []
             }
         }
@@ -145,18 +177,24 @@
                 "level": "admin2",
                 "name": "Ceerigaabo",
                 "pcode": "SO15",
+                "parent_name": "Sanaag",
+                "parent_pcode": "SO15",
                 "synonyms": []
             },
             "Ceel Afweyn": {
                 "level": "admin2",
                 "name": "Ceel Afweyn",
                 "pcode": "SO15",
+                "parent_name": "Sanaag",
+                "parent_pcode": "SO15",
                 "synonyms": []
             },
             "Laasqoray": {
                 "level": "admin2",
                 "name": "Laasqoray",
                 "pcode": "SO15",
+                "parent_name": "Sanaag",
+                "parent_pcode": "SO15",
                 "synonyms": []
             }
         }
@@ -171,36 +209,48 @@
                 "level": "admin2",
                 "name": "Bossaso",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             },
             "Bandarbeyla": {
                 "level": "admin2",
                 "name": "Bandarbeyla",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             },
             "Caluula": {
                 "level": "admin2",
                 "name": "Caluula",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             },
             "Iskushuban": {
                 "level": "admin2",
                 "name": "Iskushuban",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             },
             "Qandala": {
                 "level": "admin2",
                 "name": "Qandala",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             },
             "Qardho": {
                 "level": "admin2",
                 "name": "Qardho",
                 "pcode": "SO16",
+                "parent_name": "Bari",
+                "parent_pcode": "SO16",
                 "synonyms": []
             }
         }
@@ -215,18 +265,24 @@
                 "level": "admin2",
                 "name": "Garoowe",
                 "pcode": "SO17",
+                "parent_name": "Nugaal",
+                "parent_pcode": "SO17",
                 "synonyms": []
             },
             "Burtinle": {
                 "level": "admin2",
                 "name": "Burtinle",
                 "pcode": "SO17",
+                "parent_name": "Nugaal",
+                "parent_pcode": "SO17",
                 "synonyms": []
             },
             "Eyl": {
                 "level": "admin2",
                 "name": "Eyl",
                 "pcode": "SO17",
+                "parent_name": "Nugaal",
+                "parent_pcode": "SO17",
                 "synonyms": []
             }
         }
@@ -241,30 +297,40 @@
                 "level": "admin2",
                 "name": "Gaalkacyo",
                 "pcode": "SO18",
+                "parent_name": "Mudug",
+                "parent_pcode": "SO18",
                 "synonyms": []
             },
             "Galdogob": {
                 "level": "admin2",
                 "name": "Galdogob",
                 "pcode": "SO18",
+                "parent_name": "Mudug",
+                "parent_pcode": "SO18",
                 "synonyms": []
             },
             "Hobyo": {
                 "level": "admin2",
                 "name": "Hobyo",
                 "pcode": "SO18",
+                "parent_name": "Mudug",
+                "parent_pcode": "SO18",
                 "synonyms": []
             },
             "Jariiban": {
                 "level": "admin2",
                 "name": "Jariiban",
                 "pcode": "SO18",
+                "parent_name": "Mudug",
+                "parent_pcode": "SO18",
                 "synonyms": []
             },
             "Xarardheere": {
                 "level": "admin2",
                 "name": "Xarardheere",
                 "pcode": "SO18",
+                "parent_name": "Mudug",
+                "parent_pcode": "SO18",
                 "synonyms": []
             }
         }
@@ -279,30 +345,40 @@
                 "level": "admin2",
                 "name": "Dhuusamarreeb",
                 "pcode": "SO19",
+                "parent_name": "Galgaduud",
+                "parent_pcode": "SO19",
                 "synonyms": []
             },
             "Cabudwaaq": {
                 "level": "admin2",
                 "name": "Cabudwaaq",
                 "pcode": "SO19",
+                "parent_name": "Galgaduud",
+                "parent_pcode": "SO19",
                 "synonyms": []
             },
             "Cadaado": {
                 "level": "admin2",
                 "name": "Cadaado",
                 "pcode": "SO19",
+                "parent_name": "Galgaduud",
+                "parent_pcode": "SO19",
                 "synonyms": []
             },
             "Ceel Buur": {
                 "level": "admin2",
                 "name": "Ceel Buur",
                 "pcode": "SO19",
+                "parent_name": "Galgaduud",
+                "parent_pcode": "SO19",
                 "synonyms": []
             },
             "Ceel Dheer": {
                 "level": "admin2",
                 "name": "Ceel Dheer",
                 "pcode": "SO19",
+                "parent_name": "Galgaduud",
+                "parent_pcode": "SO19",
                 "synonyms": []
             }
         }
@@ -317,18 +393,24 @@
                 "level": "admin2",
                 "name": "Belet Weyne",
                 "pcode": "SO20",
+                "parent_name": "Hiraan",
+                "parent_pcode": "SO20",
                 "synonyms": []
             },
             "Bulo Burto": {
                 "level": "admin2",
                 "name": "Bulo Burto",
                 "pcode": "SO20",
+                "parent_name": "Hiraan",
+                "parent_pcode": "SO20",
                 "synonyms": []
             },
             "Jalalaqsi": {
                 "level": "admin2",
                 "name": "Jalalaqsi",
                 "pcode": "SO20",
+                "parent_name": "Hiraan",
+                "parent_pcode": "SO20",
                 "synonyms": []
             }
         }
@@ -343,24 +425,32 @@
                 "level": "admin2",
                 "name": "Jowhar",
                 "pcode": "SO21",
+                "parent_name": "Middle Shabelle",
+                "parent_pcode": "SO21",
                 "synonyms": []
             },
             "Adan Yabaal": {
                 "level": "admin2",
                 "name": "Adan Yabaal",
                 "pcode": "SO21",
+                "parent_name": "Middle Shabelle",
+                "parent_pcode": "SO21",
                 "synonyms": []
             },
             "Balcad": {
                 "level": "admin2",
                 "name": "Balcad",
                 "pcode": "SO21",
+                "parent_name": "Middle Shabelle",
+                "parent_pcode": "SO21",
                 "synonyms": []
             },
             "Cadale": {
                 "level": "admin2",
                 "name": "Cadale",
                 "pcode": "SO21",
+                "parent_name": "Middle Shabelle",
+                "parent_pcode": "SO21",
                 "synonyms": []
             }
         }
@@ -375,42 +465,56 @@
                 "level": "admin2",
                 "name": "Marka",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Afgooye": {
                 "level": "admin2",
                 "name": "Afgooye",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Baraawe": {
                 "level": "admin2",
                 "name": "Baraawe",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Kurtunwaarey": {
                 "level": "admin2",
                 "name": "Kurtunwaarey",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Qoryooley": {
                 "level": "admin2",
                 "name": "Qoryooley",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Sablaale": {
                 "level": "admin2",
                 "name": "Sablaale",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             },
             "Wanla Weyn": {
                 "level": "admin2",
                 "name": "Wanla Weyn",
                 "pcode": "SO23",
+                "parent_name": "Lower Shabelle",
+                "parent_pcode": "SO23",
                 "synonyms": []
             }
         }
@@ -425,24 +529,32 @@
                 "level": "admin2",
                 "name": "Baydhaba",
                 "pcode": "SO24",
+                "parent_name": "Bay",
+                "parent_pcode": "SO24",
                 "synonyms": []
             },
             "Buur Hakaba": {
                 "level": "admin2",
                 "name": "Buur Hakaba",
                 "pcode": "SO24",
+                "parent_name": "Bay",
+                "parent_pcode": "SO24",
                 "synonyms": []
             },
             "Diinsoor": {
                 "level": "admin2",
                 "name": "Diinsoor",
                 "pcode": "SO24",
+                "parent_name": "Bay",
+                "parent_pcode": "SO24",
                 "synonyms": []
             },
             "Qansax Dheere": {
                 "level": "admin2",
                 "name": "Qansax Dheere",
                 "pcode": "SO24",
+                "parent_name": "Bay",
+                "parent_pcode": "SO24",
                 "synonyms": []
             }
         }
@@ -457,30 +569,40 @@
                 "level": "admin2",
                 "name": "Xudur",
                 "pcode": "SO25",
+                "parent_name": "Bakool",
+                "parent_pcode": "SO25",
                 "synonyms": []
             },
             "Ceel Barde": {
                 "level": "admin2",
                 "name": "Ceel Barde",
                 "pcode": "SO25",
+                "parent_name": "Bakool",
+                "parent_pcode": "SO25",
                 "synonyms": []
             },
             "Tayeeglow": {
                 "level": "admin2",
                 "name": "Tayeeglow",
                 "pcode": "SO25",
+                "parent_name": "Bakool",
+                "parent_pcode": "SO25",
                 "synonyms": []
             },
             "Waajid": {
                 "level": "admin2",
                 "name": "Waajid",
                 "pcode": "SO25",
+                "parent_name": "Bakool",
+                "parent_pcode": "SO25",
                 "synonyms": []
             },
             "Rab Dhuure": {
                 "level": "admin2",
                 "name": "Rab Dhuure",
                 "pcode": "SO25",
+                "parent_name": "Bakool",
+                "parent_pcode": "SO25",
                 "synonyms": []
             }
         }
@@ -495,36 +617,48 @@
                 "level": "admin2",
                 "name": "Garbahaarey",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             },
             "Baardheere": {
                 "level": "admin2",
                 "name": "Baardheere",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             },
             "Belet Xaawo": {
                 "level": "admin2",
                 "name": "Belet Xaawo",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             },
             "Ceel Waaq": {
                 "level": "admin2",
                 "name": "Ceel Waaq",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             },
             "Doolow": {
                 "level": "admin2",
                 "name": "Doolow",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             },
             "Luuq": {
                 "level": "admin2",
                 "name": "Luuq",
                 "pcode": "SO26",
+                "parent_name": "Gedo",
+                "parent_pcode": "SO26",
                 "synonyms": []
             }
         }
@@ -539,18 +673,24 @@
                 "level": "admin2",
                 "name": "Bu'aale",
                 "pcode": "SO27",
+                "parent_name": "Middle Juba",
+                "parent_pcode": "SO27",
                 "synonyms": []
             },
             "Jilib": {
                 "level": "admin2",
                 "name": "Jilib",
                 "pcode": "SO27",
+                "parent_name": "Middle Juba",
+                "parent_pcode": "SO27",
                 "synonyms": []
             },
             "Saakow": {
                 "level": "admin2",
                 "name": "Saakow",
                 "pcode": "SO27",
+                "parent_name": "Middle Juba",
+                "parent_pcode": "SO27",
                 "synonyms": []
             }
         }
@@ -565,24 +705,32 @@
                 "level": "admin2",
                 "name": "Kismaayo",
                 "pcode": "SO28",
+                "parent_name": "Lower Juba",
+                "parent_pcode": "SO28",
                 "synonyms": []
             },
             "Afmadow": {
                 "level": "admin2",
                 "name": "Afmadow",
                 "pcode": "SO28",
+                "parent_name": "Lower Juba",
+                "parent_pcode": "SO28",
                 "synonyms": []
             },
             "Badhaadhe": {
                 "level": "admin2",
                 "name": "Badhaadhe",
                 "pcode": "SO28",
+                "parent_name": "Lower Juba",
+                "parent_pcode": "SO28",
                 "synonyms": []
             },
             "Jamaame": {
                 "level": "admin2",
                 "name": "Jamaame",
                 "pcode": "SO28",
+                "parent_name": "Lower Juba",
+                "parent_pcode": "SO28",
                 "synonyms": []
             }
         }
