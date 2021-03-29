@@ -2,6 +2,8 @@
 
 import hxl, hashlib, json
 
+from iati3w_common import *
+
 from hxl.datatypes import is_empty
 
 #
@@ -23,7 +25,7 @@ def add_item (items, item, condition=None):
     """ Add an item to a list if it's not empty (or optionally, if the condition is true) """
     if (condition is None and not is_empty(item)) or condition:
         items.append(item.strip())
-    
+
     
 #
 # Read Somalia 3W activities via the HXL Proxy (which adds HXL hashtags)
@@ -72,9 +74,9 @@ for row in hxl.data(DATASET):
     add_item(data["sectors"]["humanitarian"], row.get("#sector"))
 
     # add the locations
-    add_item(data["locations"]["admin1"], row.get("#adm1+name"))
-    add_item(data["locations"]["admin2"], row.get("#adm2+name"))
-    add_item(data["locations"]["unclassified"], row.get("#loc+name"))
+    add_item(data["locations"]["admin1"], fix_location(row.get("#adm1+name")))
+    add_item(data["locations"]["admin2"], fix_location(row.get("#adm2+name")))
+    add_item(data["locations"]["unclassified"], fix_location(row.get("#loc+name")))
 
     # Generate pseudo-identifier
     data["identifier"] = make_pseudo_identifier(data)

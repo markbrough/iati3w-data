@@ -59,20 +59,21 @@ fetch-3w: $(3W_ACTIVITIES)
 $(ORG_INDEX): venv $(ACTIVITIES) index-orgs.py
 	. $(VENV) && python index-orgs.py $(ACTIVITIES) > $@
 
-$(SECTOR_INDEX): venv $(ACTIVITIES) index-sectors.py
+$(SECTOR_INDEX): venv $(ACTIVITIES) index-sectors.py iati3w_common.py
 	. $(VENV) && python index-sectors.py $(ACTIVITIES) > $@
 
-$(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py
+$(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py iati3w_common.py
 	. $(VENV) && python index-locations.py $(ACTIVITIES) > $@
 
-$(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py
+$(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py iati3w_common.py
 	. $(VENV) && python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(IATI_ACTIVITIES): venv fetch-iati-data.py
+$(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py
 	. $(VENV) && mkdir -p output && python fetch-iati-data.py > $@
 
-$(3W_ACTIVITIES): venv fetch-3w-data.py
+$(3W_ACTIVITIES): venv fetch-3w-data.py iati3w_common.py
 	. $(VENV) && mkdir -p output && python fetch-3w-data.py > $@
+
 
 #
 # Extras

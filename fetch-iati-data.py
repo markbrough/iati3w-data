@@ -2,6 +2,8 @@ f""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 for
 
 import diterator, json, sys
 
+from iati3w_common import *
+
 #
 # Utility functions
 #
@@ -94,13 +96,21 @@ for activity in activities:
             "countries": [country.code.upper() for country in activity.recipient_countries],
             "admin1": [],
             "admin2": [],
-            "unclassified": list(set([str(location.name) for location in activity.locations if location.name])),
+            "unclassified": [],
         },
         "dates": {
             "start": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
             "end": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned
         },
     }
+
+    # Look up location strings
+    for location in activity.locations:
+        info = lookup_location(str(location.name))
+        loclist = data["locations"][info["level"]]
+        if info["name"] not in loclist:
+            loclist.append(info["name"])
+    
     result.append(data)
 
 print(json.dumps(result, indent=4))
