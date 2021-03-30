@@ -1,0 +1,80 @@
+{
+    "Emergency Shelter and NFI": {
+        "synonyms": [
+            "4"
+        ]
+    },
+    "Camp Coordination / Management": {
+        "synonyms": [
+            "1",
+            "CCCM"
+        ]
+    },
+    "Mine Action": {
+        "synonyms": [
+            "5406"
+        ]
+    },
+    "Food Security": {
+        "synonyms": [
+            "6"
+        ]
+    },
+    "Water Sanitation Hygiene": {
+        "synonyms": [
+            "11",
+            "WASH"
+        ]
+    },
+    "Logistics": {
+        "synonyms": [
+            "8"
+        ]
+    },
+    "Child Protection": {
+        "synonyms": [
+            "5403"
+        ]
+    },
+    "Protection": {
+        "synonyms": [
+            "10"
+        ]
+    },
+    "Education": {
+        "synonyms": [
+            "3"
+        ]
+    },
+    "Nutrition": {
+        "synonyms": [
+            "9"
+        ]
+    },
+    "Health": {
+        "synonyms": [
+            "7"
+        ]
+    },
+    "Early Recovery": {
+        "synonyms": [
+            "2"
+        ]
+    },
+    "Emergency Telecommunications": {
+        "synonyms": [
+            "5"
+        ]
+    },
+    "Gender Based Violence": {
+        "synonyms": [
+            "5404",
+            "GBV"
+        ]
+    },
+    "Housing, Land and Property": {
+        "synonyms": [
+            "5405"
+        ]
+    }
+}
