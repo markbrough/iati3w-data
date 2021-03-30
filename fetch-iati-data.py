@@ -55,26 +55,18 @@ def has_humanitarian_content (activity):
 
 
 #
-# Manage DAC sectors
+# Manage sectors
 #
 
-sector_map = None
-
-
-def get_sector_map ():
-    global sector_map
-    if sector_map is None:
-        with open("inputs/dac3-sector-map.json", "r") as input:
-            sector_map = json.load(input)
-    return sector_map
-
-
 def lookup_sector (code):
-    map = get_sector_map()
-    if code[:3] in map:
-        return map[code[:3]]
-    else:
-        return None
+    """ Look up a DAC purpose by 3-digit code """
+    map = get_dataset("inputs/dac3-sector-map.json")
+    return map.get(code[:3], None) # use the 3-digit code
+
+def lookup_cluster (code):
+    """ Look up a humanitarian cluster by code """
+    map = get_dataset("inputs/humanitarian-cluster-map.json")
+    return map.get(code, None)
 
 
 #
@@ -132,11 +124,15 @@ for activity in activities:
         for sector in activity.sectors_by_vocabulary.get(vocab, []):
             info = lookup_sector(sector.code)
             if info is not None:
-                add_unique(info["name"], data["sectors"]["dac"])
+                add_unique(info["dac-group"], data["sectors"]["dac"])
                 if "humanitarian-mapping" in info:
                     add_unique(info["humanitarian-mapping"], data["sectors"]["humanitarian"])
 
-    # TODO humanitarian vocab 10 missing
+    # Look up humanitarian clusters by code
+    for sector in activity.sectors_by_vocabulary.get("10", []):
+        info = lookup_cluster(sector.code)
+        if info is not None:
+            add_unique(info["name"], data["sectors"]["humanitarian"])
 
     # Look up location strings
     for location in activity.locations:

@@ -26,6 +26,15 @@ def add_item (items, item, condition=None):
     if (condition is None and not is_empty(item)) or condition:
         items.append(item.strip())
 
+def fix_cluster_name (name):
+    """ Look up the normalised version of a cluster name """
+    table = get_lookup_table("inputs/humanitarian-cluster-map.json")
+    key = make_token(name)
+    if key in table and "name" in table[key]:
+        return table[key]["name"]
+    else:
+        return normalise_string(name)
+
     
 #
 # Read Somalia 3W activities via the HXL Proxy (which adds HXL hashtags)
@@ -50,8 +59,8 @@ for row in hxl.data(DATASET):
             "funding": [],
         },
         "sectors": {
-            "dac": [],
             "humanitarian": [],
+            "dac": [],
         },
         "locations": {
             "unclassified": [],
@@ -71,7 +80,7 @@ for row in hxl.data(DATASET):
     add_item(data["orgs"]["funding"], row.get("#org+funding")),
 
     # add the clusters
-    add_item(data["sectors"]["humanitarian"], row.get("#sector"))
+    add_item(data["sectors"]["humanitarian"], fix_cluster_name(row.get("#sector")))
 
     # add the locations
     add_item(data["locations"]["admin1"], fix_location(row.get("#adm1+name")))

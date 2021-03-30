@@ -48,6 +48,40 @@ def flatten (map, excludes=[]):
                 result.append(s)
     return result
 
+#
+# Look up and manage JSON datasets
+#
+
+datasets_loaded = {}
+
+def get_dataset (path):
+    global datasets_loaded
+    if not path in datasets_loaded:
+        with open(path, "r") as input:
+            datasets_loaded[path] = json.load(input)
+    return datasets_loaded[path]
+
+
+lookup_tables_loaded = {}
+
+def get_lookup_table (path):
+    """ Make a lookup table, including synonyms
+    Keys will be tokenized
+
+    """
+    global lookup_tables_loaded
+    if not path in lookup_tables_loaded:
+        result = {}
+        map = get_dataset(path)
+        for key, info in map.items():
+            result[make_token(key)] = info
+            if "name" in info:
+                result.setdefault(make_token(info["name"]), info)
+            for synonym in info.get("synonyms", []):
+                result.setdefault(make_token(synonym), info)
+        lookup_tables_loaded[path] = result
+    return lookup_tables_loaded[path]
+
 
 #
 # Location lookup
@@ -61,8 +95,7 @@ def get_location_lookup_table ():
     if location_lookup_table is None:
         location_lookup_table = {}
 
-        with open("inputs/location-map.json", "r") as input:
-            map = json.load(input)
+        map = get_dataset("inputs/location-map.json")
 
         for name1, info1 in map.items():
 

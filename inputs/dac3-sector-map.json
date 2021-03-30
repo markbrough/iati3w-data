@@ -1,151 +1,191 @@
 {
     "111": {
         "name": "Education, Level Unspecified",
+        "dac-group": "Education",
         "humanitarian-mapping": "Education"
     },
     "112": {
         "name": "Basic Education",
+        "dac-group": "Education",
         "humanitarian-mapping": "Education"
     },
     "113": {
         "name": "Secondary Education",
+        "dac-group": "Education",
         "humanitarian-mapping": "Education"
     },
     "114": {
         "name": "Post-Secondary Education",
+        "dac-group": "Education",
         "humanitarian-mapping": "Education"
     },
     "121": {
         "name": "Health, General",
+        "dac-group": "Health",
         "humanitarian-mapping": "Health"
     },
     "122": {
         "name": "Basic Health",
+        "dac-group": "Health",
         "humanitarian-mapping": "Health"
     },
     "123": {
         "name": "Non-communicable diseases (NCDs)",
+        "dac-group": "Health",
         "humanitarian-mapping": "Health"
     },
     "130": {
         "name": "Population Policies/Programmes & Reproductive Health",
+        "dac-group": "Population Policies/Programmes & Reproductive Health",
         "humanitarian-mapping": "Health"
     },
     "140": {
         "name": "Water Supply & Sanitation",
-        "humanitarian-mapping": "WASH"
+        "dac-group": "Water Supply & Sanitation",
+        "humanitarian-mapping": "Water Sanitation Hygiene"
     },
     "151": {
-        "name": "Government & Civil Society-general"
+        "name": "Government & Civil Society-general",
+        "dac-group": "Government & Civil Society"
     },
     "152": {
-        "name": "Conflict, Peace & Security"
+        "name": "Conflict, Peace & Security",
+        "dac-group": "Government & Civil Society"
     },
     "160": {
-        "name": "Other Social Infrastructure & Services"
+        "name": "Other Social Infrastructure & Services",
+        "dac-group": "Other Social Infrastructure & Services"
     },
     "210": {
         "name": "Transport & Storage",
+        "dac-group": "Transport & Storage",
         "humanitarian-mapping": "Logistics"
     },
     "220": {
         "name": "Communications",
+        "dac-group": "Communications",
         "humanitarian-mapping": "Emergency Telecommunications"
     },
     "230": {
-        "name": "ENERGY GENERATION AND SUPPLY"
+        "name": "ENERGY GENERATION AND SUPPLY",
+        "dac-group": "Energy"
     },
     "231": {
-        "name": "Energy Policy"
+        "name": "Energy Policy",
+        "dac-group": "Energy"
     },
     "232": {
-        "name": "Energy generation, renewable sources"
+        "name": "Energy generation, renewable sources",
+        "dac-group": "Energy"
     },
     "233": {
-        "name": "Energy generation, non-renewable sources"
+        "name": "Energy generation, non-renewable sources",
+        "dac-group": "Energy"
     },
     "234": {
-        "name": "Hybrid energy plants"
+        "name": "Hybrid energy plants",
+        "dac-group": "Energy"
     },
     "235": {
-        "name": "Nuclear energy plants"
+        "name": "Nuclear energy plants",
+        "dac-group": "Energy"
     },
     "236": {
-        "name": "Energy distribution"
+        "name": "Energy distribution",
+        "dac-group": "Energy"
     },
     "240": {
-        "name": "Banking & Financial Services"
+        "name": "Banking & Financial Services",
+        "dac-group": "Banking & Financial Services"
     },
     "250": {
-        "name": "Business & Other Services"
+        "name": "Business & Other Services",
+        "dac-group": "Business & Other Services"
     },
     "311": {
         "name": "Agriculture",
+        "dac-group": "Agriculture, Forestry, Fishing",
         "humanitarian-mapping": "Food Security"
     },
     "312": {
-        "name": "Forestry"
+        "name": "Forestry",
+        "dac-group": "Agriculture, Forestry, Fishing"
     },
     "313": {
         "name": "Fishing",
+        "dac-group": "Agriculture, Forestry, Fishing",
         "humanitarian-mapping": "Food Security"
     },
     "321": {
-        "name": "Industry"
+        "name": "Industry",
+        "dac-group": "Industry, Mining, Construction"
     },
     "322": {
-        "name": "Mineral Resources & Mining"
+        "name": "Mineral Resources & Mining",
+        "dac-group": "Industry, Mining, Construction"
     },
     "323": {
         "name": "Construction",
+        "dac-group": "Industry, Mining, Construction",
         "humanitarian-mapping": "Housing, Land, and Property"
     },
     "331": {
-        "name": "Trade Policies & Regulations"
+        "name": "Trade Policies & Regulations",
+        "dac-group": "Trade Policies & Regulations"
     },
     "332": {
-        "name": "Tourism"
+        "name": "Tourism",
+        "dac-group": "Tourism"
     },
     "410": {
-        "name": "General Environment Protection"
+        "name": "General Environment Protection",
+        "dac-group": "General Environment Protection"
     },
     "430": {
-        "name": "Other Multisector"
+        "name": "Other Multisector",
+        "dac-group": "Other Multisector"
     },
     "510": {
-        "name": "General Budget Support"
+        "name": "General Budget Support",
+        "dac-group": "General Budget Support"
     },
     "520": {
         "name": "Development Food Assistance",
+        "dac-group": "Development Food Assistance",
         "humanitarian-mapping": "Food Security"
     },
     "530": {
         "name": "Other Commodity Assistance",
+        "dac-group": "Other Commodity Assistance",
         "humanitarian-mapping": "Emergency Shelter and NFI"
     },
     "600": {
-        "name": "Action Relating to Debt"
+        "name": "Action Relating to Debt",
+        "dac-group": "Action Relating to Debt"
     },
     "720": {
-        "name": "Emergency Response"
+        "name": "Emergency Response",
+        "dac-group": "Emergency Response"
     },
     "730": {
         "name": "Reconstruction Relief & Rehabilitation",
+        "dac-group": "Reconstruction Relief & Rehabilitation",
         "humanitarian-mapping": "Early Recovery"
     },
     "740": {
-        "name": "Disaster Prevention & Preparedness"
+        "name": "Disaster Prevention & Preparedness",
+        "dac-group": "Disaster Prevention & Preparedness"
     },
     "910": {
-        "name": "Administrative Costs of Donors"
-    },
-    "920": {
-        "name": "SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)"
+        "name": "Administrative Costs of Donors",
+        "dac-group": "Administrative Costs of Donors"
     },
     "930": {
-        "name": "Refugees in Donor Countries"
+        "name": "Refugees in Donor Countries",
+        "dac-group": "Refugees in Donor Countries"
     },
     "998": {
-        "name": "Unallocated / Unspecified"
+        "name": "Unallocated / Unspecified",
+        "dac-group": "Unallocated / Unspecified"
     }
 }
