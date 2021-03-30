@@ -55,6 +55,29 @@ def has_humanitarian_content (activity):
 
 
 #
+# Manage DAC sectors
+#
+
+sector_map = None
+
+
+def get_sector_map ():
+    global sector_map
+    if sector_map is None:
+        with open("inputs/dac3-sector-map.json", "r") as input:
+            sector_map = json.load(input)
+    return sector_map
+
+
+def lookup_sector (code):
+    map = get_sector_map()
+    if code[:3] in map:
+        return map[code[:3]]
+    else:
+        return None
+
+
+#
 # Show all activities from 2020-01-01 forward
 #
 
@@ -89,8 +112,8 @@ for activity in activities:
             "funding": list(set([str(org.name).strip() for org in org_map.get("1", [])])),
         },
         "sectors": {
-            "dac": list(set([sector.code.strip() for sector in activity.sectors_by_vocabulary.get("1", [])])),
-            "humanitarian": list(set([sector.code.strip() for sector in activity.sectors_by_vocabulary.get("10", [])])),
+            "dac": [],
+            "humanitarian": [],
         },
         "locations": {
             "unclassified": [],
@@ -103,6 +126,17 @@ for activity in activities:
             "end": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned
         },
     }
+
+    # Look up DAC sectors and humanitarian equivalents
+    for vocab in ["1", "2"]:
+        for sector in activity.sectors_by_vocabulary.get(vocab, []):
+            info = lookup_sector(sector.code)
+            if info is not None:
+                add_unique(info["name"], data["sectors"]["dac"])
+                if "humanitarian-mapping" in info:
+                    add_unique(info["humanitarian-mapping"], data["sectors"]["humanitarian"])
+
+    # TODO humanitarian vocab 10 missing
 
     # Look up location strings
     for location in activity.locations:

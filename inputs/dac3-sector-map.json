@@ -1,151 +1,151 @@
 {
     "111": {
         "name": "Education, Level Unspecified",
-        "humanitarian-mapping": "Education",
+        "humanitarian-mapping": "Education"
     },
     "112": {
         "name": "Basic Education",
-        "humanitarian-mapping": "Education",
+        "humanitarian-mapping": "Education"
     },
     "113": {
         "name": "Secondary Education",
-        "humanitarian-mapping": "Education",
+        "humanitarian-mapping": "Education"
     },
     "114": {
         "name": "Post-Secondary Education",
-        "humanitarian-mapping": "Education",
+        "humanitarian-mapping": "Education"
     },
     "121": {
         "name": "Health, General",
-        "humanitarian-mapping": "Health",
+        "humanitarian-mapping": "Health"
     },
     "122": {
         "name": "Basic Health",
-        "humanitarian-mapping": "Health",
+        "humanitarian-mapping": "Health"
     },
     "123": {
         "name": "Non-communicable diseases (NCDs)",
-        "humanitarian-mapping": "Health",
+        "humanitarian-mapping": "Health"
     },
     "130": {
         "name": "Population Policies/Programmes & Reproductive Health",
-        "humanitarian-mapping": "Health",
+        "humanitarian-mapping": "Health"
     },
     "140": {
         "name": "Water Supply & Sanitation",
-        "humanitarian-mapping": "WASH",
+        "humanitarian-mapping": "WASH"
     },
     "151": {
-        "name": "Government & Civil Society-general",
+        "name": "Government & Civil Society-general"
     },
     "152": {
-        "name": "Conflict, Peace & Security",
+        "name": "Conflict, Peace & Security"
     },
     "160": {
-        "name": "Other Social Infrastructure & Services",
+        "name": "Other Social Infrastructure & Services"
     },
     "210": {
         "name": "Transport & Storage",
-        "humanitarian-mapping": "Logistics",
+        "humanitarian-mapping": "Logistics"
     },
     "220": {
         "name": "Communications",
-        "humanitarian-mapping": "Emergency Telecommunications",
+        "humanitarian-mapping": "Emergency Telecommunications"
     },
     "230": {
-        "name": "ENERGY GENERATION AND SUPPLY",
+        "name": "ENERGY GENERATION AND SUPPLY"
     },
     "231": {
-        "name": "Energy Policy",
+        "name": "Energy Policy"
     },
     "232": {
-        "name": "Energy generation, renewable sources",
+        "name": "Energy generation, renewable sources"
     },
     "233": {
-        "name": "Energy generation, non-renewable sources",
+        "name": "Energy generation, non-renewable sources"
     },
     "234": {
-        "name": "Hybrid energy plants",
+        "name": "Hybrid energy plants"
     },
     "235": {
-        "name": "Nuclear energy plants",
+        "name": "Nuclear energy plants"
     },
     "236": {
-        "name": "Energy distribution",
+        "name": "Energy distribution"
     },
     "240": {
-        "name": "Banking & Financial Services",
+        "name": "Banking & Financial Services"
     },
     "250": {
-        "name": "Business & Other Services",
+        "name": "Business & Other Services"
     },
     "311": {
         "name": "Agriculture",
-        "humanitarian-mapping": "Food Security",
+        "humanitarian-mapping": "Food Security"
     },
     "312": {
-        "name": "Forestry",
+        "name": "Forestry"
     },
     "313": {
         "name": "Fishing",
-        "humanitarian-mapping": "Food Security",
+        "humanitarian-mapping": "Food Security"
     },
     "321": {
-        "name": "Industry",
+        "name": "Industry"
     },
     "322": {
-        "name": "Mineral Resources & Mining",
+        "name": "Mineral Resources & Mining"
     },
     "323": {
         "name": "Construction",
-        "humanitarian-mapping": "Housing, Land, and Property",
+        "humanitarian-mapping": "Housing, Land, and Property"
     },
     "331": {
-        "name": "Trade Policies & Regulations",
+        "name": "Trade Policies & Regulations"
     },
     "332": {
-        "name": "Tourism",
+        "name": "Tourism"
     },
     "410": {
-        "name": "General Environment Protection",
+        "name": "General Environment Protection"
     },
     "430": {
-        "name": "Other Multisector",
+        "name": "Other Multisector"
     },
     "510": {
-        "name": "General Budget Support",
+        "name": "General Budget Support"
     },
     "520": {
         "name": "Development Food Assistance",
-        "humanitarian-mapping": "Food Security",
+        "humanitarian-mapping": "Food Security"
     },
     "530": {
         "name": "Other Commodity Assistance",
-        "humanitarian-mapping": "Emergency Shelter and NFI",
+        "humanitarian-mapping": "Emergency Shelter and NFI"
     },
     "600": {
-        "name": "Action Relating to Debt",
+        "name": "Action Relating to Debt"
     },
     "720": {
-        "name": "Emergency Response",
+        "name": "Emergency Response"
     },
     "730": {
         "name": "Reconstruction Relief & Rehabilitation",
-        "humanitarian-mapping": "Early Recovery",
+        "humanitarian-mapping": "Early Recovery"
     },
     "740": {
-        "name": "Disaster Prevention & Preparedness",
+        "name": "Disaster Prevention & Preparedness"
     },
     "910": {
-        "name": "Administrative Costs of Donors",
+        "name": "Administrative Costs of Donors"
     },
     "920": {
-        "name": "SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)",
+        "name": "SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)"
     },
     "930": {
-        "name": "Refugees in Donor Countries",
+        "name": "Refugees in Donor Countries"
     },
     "998": {
-        "name": "Unallocated / Unspecified",
+        "name": "Unallocated / Unspecified"
     }
 }

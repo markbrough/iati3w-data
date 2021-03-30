@@ -1,80 +1,68 @@
 {
-    "Emergency Shelter and NFI": {
+    "1": {
+        "name": "Camp Coordination / Management",
         "synonyms": [
-            "4"
-        ]
-    },
-    "Camp Coordination / Management": {
-        "synonyms": [
-            "1",
             "CCCM"
         ]
     },
-    "Mine Action": {
-        "synonyms": [
-            "5406"
-        ]
+    "2": {
+        "name": "Early Recovery",
+        "synonyms": []
     },
-    "Food Security": {
-        "synonyms": [
-            "6"
-        ]
+    "3": {
+        "name": "Education",
+        "synonyms": []
     },
-    "Water Sanitation Hygiene": {
-        "synonyms": [
-            "11",
-            "WASH"
-        ]
+    "4": {
+        "name": "Emergency Shelter and NFI",
+        "synonyms": []
     },
-    "Logistics": {
-        "synonyms": [
-            "8"
-        ]
+    "5": {
+        "name": "Emergency Telecommunications",
+        "synonyms": []
     },
-    "Child Protection": {
-        "synonyms": [
-            "5403"
-        ]
+    "5403": {
+        "name": "Child Protection",
+        "synonyms": []
     },
-    "Protection": {
+    "5404": {
+        "name": "Gender Based Violence",
         "synonyms": [
-            "10"
-        ]
-    },
-    "Education": {
-        "synonyms": [
-            "3"
-        ]
-    },
-    "Nutrition": {
-        "synonyms": [
-            "9"
-        ]
-    },
-    "Health": {
-        "synonyms": [
-            "7"
-        ]
-    },
-    "Early Recovery": {
-        "synonyms": [
-            "2"
-        ]
-    },
-    "Emergency Telecommunications": {
-        "synonyms": [
-            "5"
-        ]
-    },
-    "Gender Based Violence": {
-        "synonyms": [
-            "5404",
             "GBV"
         ]
     },
-    "Housing, Land and Property": {
+    "5405": {
+        "name": "Housing, Land and Property",
+        "synonyms": []
+    },
+    "5406": {
+        "name": "Mine Action",
+        "synonyms": []
+    },
+    "6": {
+        "name": "Food Security",
+        "synonyms": []
+    },
+    "7": {
+        "name": "Health",
+        "synonyms": []
+    },
+    "8": {
+        "name": "Logistics",
+        "synonyms": []
+    },
+    "9": {
+        "name": "Nutrition",
+        "synonyms": []
+    },
+    "10": {
+        "name": "Protection",
+        "synonyms": []
+    },
+    "11": {
+        "name": "Water Sanitation Hygiene",
         "synonyms": [
-            "5405"
+            "WASH"
         ]
     }
 }

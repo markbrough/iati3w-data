@@ -11,6 +11,12 @@ SECTOR_TYPES = ["dac", "humanitarian"]
 LOCATION_TYPES = ["admin1", "admin2", "unclassified"]
 
 
+def add_unique (s, l):
+    """ Add a value if it's not already in a list """
+    if not s in l:
+        l.append(s)
+    return l
+
 def normalise_string (s):
     """ Normalise whitespace in a string.
     Preserve character case and punctuation
