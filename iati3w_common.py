@@ -12,8 +12,8 @@ LOCATION_TYPES = ["admin1", "admin2", "unclassified"]
 
 
 def add_unique (s, l):
-    """ Add a value if it's not already in a list """
-    if not s in l:
+    """ Add a value if it's not already in a list and isn't falsey """
+    if s and (not s in l):
         l.append(s)
     return l
 
@@ -106,7 +106,19 @@ def get_location_lookup_table ():
             # add the districts
             for name2, info2 in info1.get("admin2", {}).items():
                 token2 = make_token(name2)
+                info2["admin1"] = info1["name"]
                 location_lookup_table.setdefault(token2, info2) # only if doesn't exist
+
+                # add the unclassified locations
+                for name3, info3 in info2.get("unclassified", {}).items():
+                    token3 = make_token(name3)
+                    info3["admin1"] = info1["name"]
+                    info3["admin2"] = info2["name"]
+                    location_lookup_table.setdefault(token3, info3) # only if doesn't exist
+
+                    # add the synonyms for unclassified locations
+                    for name4 in info3.get("synonyms", []):
+                        location_lookup_table.setdefault(make_token(name4), info3) # only if doesn't exist
 
                 # add the synonyms for the districts
                 for name3 in info2.get("synonyms", []):

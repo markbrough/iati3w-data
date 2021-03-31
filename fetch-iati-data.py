@@ -137,9 +137,15 @@ for activity in activities:
     # Look up location strings
     for location in activity.locations:
         info = lookup_location(str(location.name))
-        loclist = data["locations"][info["level"]]
-        if info["name"] not in loclist:
-            loclist.append(info["name"])
+        if info["level"] == "admin1":
+            add_unique(info["name"], data["locations"]["admin1"])
+        elif info["level"] == "admin2":
+            add_unique(info["name"], data["locations"]["admin2"])
+            add_unique(info.get("admin1", None), data["locations"]["admin1"])
+        elif info["level"] == "unclassified":
+            add_unique(info["name"], data["locations"]["unclassified"])
+            add_unique(info.get("admin2", None), data["locations"]["admin2"])
+            add_unique(info.get("admin1", None), data["locations"]["admin1"])
     
     result.append(data)
 
