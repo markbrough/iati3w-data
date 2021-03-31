@@ -237,7 +237,7 @@
     },
     "African Development Bank": {
         "name": "African Development Bank",
-        "scope": "unknown",
+        "scope": "regional",
         "synonyms": []
     },
     "African Development Fund": {
@@ -280,17 +280,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Aid vision": {
-        "name": "Aid vision",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Alkowthar Water Supply Company": {
         "name": "Alkowthar Water Supply Company",
         "scope": "local",
         "synonyms": []
     },
-    "Alliance for Health Policy and Systems Research AHPSR ": {
+    "Alliance for Health Policy and Systems Research (AHPSR)": {
         "name": "Alliance for Health Policy and Systems Research AHPSR ",
         "scope": "unknown",
         "synonyms": []
@@ -302,7 +297,7 @@
     },
     "Assessed Contributions": {
         "name": "Assessed Contributions",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Athani": {
@@ -312,12 +307,7 @@
     },
     "Australia": {
         "name": "Australia",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Australia for UNHCR": {
-        "name": "Australia for UNHCR",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Awale Driling com": {
@@ -342,12 +332,12 @@
     },
     "BP INTERNATIONAL LIMITED": {
         "name": "BP INTERNATIONAL LIMITED",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "BRA MAERSK": {
         "name": "BRA MAERSK",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "BRCiS": {
@@ -372,22 +362,22 @@
     },
     "Belgium": {
         "name": "Belgium",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Bill Melinda Gates Foundation": {
         "name": "Bill Melinda Gates Foundation",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "British Government DFID ": {
         "name": "British Government DFID ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Bundesministerium f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung BMZ ": {
         "name": "Bundesministerium f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung BMZ ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "CARE": {
@@ -423,11 +413,6 @@
     "CEDA": {
         "name": "CEDA",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "CENTRAL EMERGENCY RESPONSE FUND": {
-        "name": "CENTRAL EMERGENCY RESPONSE FUND",
-        "scope": "international",
         "synonyms": []
     },
     "CERELPA": {
@@ -477,7 +462,7 @@
     },
     "CONCERN WORLDWIDE IRL ": {
         "name": "CONCERN WORLDWIDE IRL",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "COOPI": {
@@ -485,8 +470,8 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "COVID 19 Solidarity Fund": {
-        "name": "COVID 19 Solidarity Fund",
+    "COVID-19 Solidarity Fund": {
+        "name": "COVID-19 Solidarity Fund",
         "scope": "unknown",
         "synonyms": []
     },
@@ -497,7 +482,7 @@
     },
     "CPR THE GOVERMENT OF KOREA": {
         "name": "CPR THE GOVERMENT OF KOREA",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "CRS": {
@@ -1561,11 +1546,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Japan for UNHCR": {
-        "name": "Japan for UNHCR",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Juba Foundation": {
         "name": "Juba Foundation",
         "scope": "unknown",
@@ -2091,6 +2071,7 @@
         "name": "Oxfam Novib",
         "scope": "international",
         "synonyms": [
+            "Stichting Oxfam Novib",
             "Oxfam Netherlands Novib",
             "In 2004 Oxfam Novib set up a Liaison Office in Nairobi Kenya in order to support the Strengthening Somali Civil Society Program at the request of the EU This request was based on Oxfam Novib s work in Somalia to date but intended to be more widely directed atthe entire civil society sector and the specific context in which it is operating in a post conflict country The program started with consulting local organisations in Somalia and Somaliland to get a complete picture of the sectors and regions where they are active the challenges they face and the relationship between civil society local political structures and the private sector A program was then developed to strengthen the institutional development of Oxfam Novib s partners and those of other Oxfams as well as a range of new NGOs In the first year local consultants were trained in Somalia They were then seconded to civil society organisations to build their capacity in financial and organisational management Furthermore workshops were organised on specific themes suchas human rights and the role of civil society in the Somali context The Liaison Office is now going to support the expansion of the program focussing on strengthening both organisation and project management while facilitating more training in the fields of civic education governance human rights and women s rights HIV and AIDS and child protection Over the years the Somalia Country Office has expanded its intervention on short term humanitarian response as well as development development interventions In 2015 2016 a decision was reached to move the Country Programme operation which was largely in Nairobi from Nairobi to Hargeisa The country office has a small office in Nairobi Kenya and large operations office in Hargeisa Somaliland"
         ]
@@ -2320,10 +2301,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SADO": {
-        "name": "SADO",
-        "scope": "unknown",
-        "synonyms": []
+    "Social-life and Agricultural Development Organization (SADO)": {
+        "name": "Social-life and Agricultural Development Organization (SADO)",
+        "scope": "local",
+        "url": "https://sadosomalia.org",
+        "synonyms": [
+            "SADO"
+        ]
     },
     "SAEDO": {
         "name": "SAEDO",
@@ -2740,11 +2724,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Sweden for UNHCR": {
-        "name": "Sweden for UNHCR",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Sweden through Swedish International Development Cooperation Agency Sida ": {
         "name": "Sweden through Swedish International Development Cooperation Agency Sida ",
         "scope": "unknown",
@@ -2877,11 +2856,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "UK for UNHCR": {
-        "name": "UK for UNHCR",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "UN Action Against Sexual Violence in Conflict": {
         "name": "UN Action Against Sexual Violence in Conflict",
         "scope": "international",
@@ -2970,11 +2944,6 @@
     "UNFPA USA": {
         "name": "UNFPA USA",
         "scope": "international",
-        "synonyms": []
-    },
-    "UNHCR": {
-        "name": "UNHCR",
-        "scope": "unknown",
         "synonyms": []
     },
     "UNICEF": {
@@ -3120,11 +3089,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "USA for UNHCR": {
-        "name": "USA for UNHCR",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "USAID": {
         "name": "USAID",
         "scope": "unknown",
@@ -3150,15 +3114,24 @@
         "scope": "international",
         "synonyms": []
     },
-    "United Nations Central Emergency Response Fund CERF ": {
-        "name": "United Nations Central Emergency Response Fund CERF ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "United Nations High Commissioner for Refugees UNHCR ": {
-        "name": "United Nations High Commissioner for Refugees UNHCR ",
+    "United Nations Central Emergency Response Fund (CERF)": {
+        "name": "United Nations Central Emergency Response Fund (CERF)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "CENTRAL EMERGENCY RESPONSE FUND"
+        ]
+    },
+    "United Nations High Commissioner for Refugees (UNHCR)": {
+        "name": "United Nations High Commissioner for Refugees (UNHCR)",
+        "scope": "international",
+        "synonyms": [
+            "UNHCR",
+            "Australia for UNHCR",
+            "Japan for UNHCR",
+            "Sweden for UNHCR",
+            "UK for UNHCR",
+            "USA for UNHCR"
+        ]
     },
     "United Nations Industrial Development Organization": {
         "name": "United Nations Industrial Development Organization",
@@ -3316,7 +3289,9 @@
         "url": "https://woccaorg.com",
         "synonyms": [
             "WOCCA",
-            "Women and Child Care Organization"
+            "Women and Child Care Organization",
+            "Women and Child Care Organisation",
+            "Women and Child Care Organisation (WOCCA)"
         ]
     },
     "World Bank": {
