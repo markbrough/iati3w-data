@@ -370,11 +370,6 @@
         "scope": "local",
         "synonyms": []
     },
-    "Belgian Committee for UNICEF": {
-        "name": "Belgian Committee for UNICEF",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Belgium": {
         "name": "Belgium",
         "scope": "unknown",
@@ -395,24 +390,19 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CANADA": {
-        "name": "CANADA",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "CARE": {
         "name": "CARE",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "CARE Canada": {
         "name": "CARE Canada",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "CARE Deutschland Luxemburg e V ": {
         "name": "CARE Deutschland Luxemburg e V",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "CARE Somalia": {
@@ -522,23 +512,16 @@
     },
     "Canada": {
         "name": "Canada",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Canadian UNICEF Committee": {
-        "name": "Canadian UNICEF Committee",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved ": {
-        "name": "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved ",
-        "scope": "local",
+        "scope": "international",
         "synonyms": []
     },
     "Candlelight for Environment Education and Health": {
         "name": "Candlelight for Environment Education and Health",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "local",
+        "url": "http://www.candlelightsomal.org/",
+        "synonyms": [
+            "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved"
+        ]
     },
     "Care Nederland": {
         "name": "Care Nederland",
@@ -710,15 +693,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DRC": {
-        "name": "DRC",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Danish Refugee Council": {
-        "name": "Danish Refugee Council",
+    "Danish Refugee Council (DRC)": {
+        "name": "Danish Refugee Council (DRC)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "DRC",
+            "Danish Refugee Council"
+        ]
     },
     "Dawa": {
         "name": "Dawa",
@@ -727,7 +708,7 @@
     },
     "Denmark": {
         "name": "Denmark",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Denmark Ministry of Foreign Affairs": {
@@ -737,27 +718,27 @@
     },
     "Department for International Development DFID United Kingdom": {
         "name": "Department for International Development DFID United Kingdom",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Department of Foreign Affairs Trade and Development DFATD Canada": {
         "name": "Department of Foreign Affairs Trade and Development DFATD Canada",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Department of Foreign Affairs and Trade DFAT Australia": {
         "name": "Department of Foreign Affairs and Trade DFAT Australia",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit": {
         "name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit GIZ GmbH": {
         "name": "Deutsche Gesellschaft f\u00fcr Internationale Zusammenarbeit GIZ GmbH",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Deutsches Rotes Kreuz e V ": {
@@ -972,22 +953,22 @@
     },
     "Foreign Affairs Trade and Development Canada": {
         "name": "Foreign Affairs Trade and Development Canada",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Foreign Commonwealth Development Office": {
         "name": "Foreign Commonwealth Development Office",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Foreign Commonwealth Development Office FCDO United Kingdom": {
         "name": "Foreign Commonwealth Development Office FCDO United Kingdom",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Foreign Commonwealth Office": {
         "name": "Foreign Commonwealth Office",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Foreign Commonwealth and Development Office": {
@@ -1155,11 +1136,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "German Committee for UNICEF": {
-        "name": "German Committee for UNICEF",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Germany": {
         "name": "Germany",
         "scope": "unknown",
@@ -1255,10 +1231,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "HAVOYOCO was set up in 1992 by a group of young people from Hargeisa in Somaliland The organisation s focus is on education empowerment and creating opportunities for young people and women to provide in their own livelihood HAVOYOCO is involved in a vocational training literacy and numeracy activities for internally displaced IDPs and returnee women and young girls constructing low cost houses for IDPs in Hargeisa b community awareness campaigns on HIV and AIDS prevention and reducing stigmatisation malaria prevention and treatment peace building and human rights awareness mainly through circus and drama shows c pastoral developmentsuch as livelihood support health for people and livestock the capacity building of pastoral organisations in villages restocking and environmental protection and d humanitarian interventions such as the rehabilitation of water sources water trucking and the distribution of pack camels to pastoralist households Its operational areas include all Somaliland regions and the Somali regionof Ethiopia The relationship with Oxfam Novib began in 1997 when Oxfam Novib and its Ethiopian counterpart Circus Ethiopia visitedHargeisa In 1998 Oxfam Novib funded HAVOYOCO s organisation costs and a literacy project for youths Oxfam Novib has also funded asoap making centre management and literacy courses and income generating activities around the soap factory ": {
-        "name": "HAVOYOCO was set up in 1992 by a group of young people from Hargeisa in Somaliland The organisation s focus is on education empowerment and creating opportunities for young people and women to provide in their own livelihood HAVOYOCO is involved in a vocational training literacy and numeracy activities for internally displaced IDPs and returnee women and young girls constructing low cost houses for IDPs in Hargeisa b community awareness campaigns on HIV and AIDS prevention and reducing stigmatisation malaria prevention and treatment peace building and human rights awareness mainly through circus and drama shows c pastoral developmentsuch as livelihood support health for people and livestock the capacity building of pastoral organisations in villages restocking and environmental protection and d humanitarian interventions such as the rehabilitation of water sources water trucking and the distribution of pack camels to pastoralist households Its operational areas include all Somaliland regions and the Somali regionof Ethiopia The relationship with Oxfam Novib began in 1997 when Oxfam Novib and its Ethiopian counterpart Circus Ethiopia visitedHargeisa In 1998 Oxfam Novib funded HAVOYOCO s organisation costs and a literacy project for youths Oxfam Novib has also funded asoap making centre management and literacy courses and income generating activities around the soap factory ",
+    "Horn of Africa Voluntary Youth Committee (HAVOYOCO)": {
+        "name": "Horn of Africa Voluntary Youth Committee (HAVOYOCO)",
         "scope": "local",
-        "synonyms": []
+        "synonyms": [
+            "HAVOYOCO",
+            "HAVOYOCO was set up in 1992 by a group of young people from Hargeisa in Somaliland The organisation s focus is on education empowerment and creating opportunities for young people and women to provide in their own livelihood HAVOYOCO is involved in a vocational training literacy and numeracy activities for internally displaced IDPs and returnee women and young girls constructing low cost houses for IDPs in Hargeisa b community awareness campaigns on HIV and AIDS prevention and reducing stigmatisation malaria prevention and treatment peace building and human rights awareness mainly through circus and drama shows c pastoral developmentsuch as livelihood support health for people and livestock the capacity building of pastoral organisations in villages restocking and environmental protection and d humanitarian interventions such as the rehabilitation of water sources water trucking and the distribution of pack camels to pastoralist households Its operational areas include all Somaliland regions and the Somali regionof Ethiopia The relationship with Oxfam Novib began in 1997 when Oxfam Novib and its Ethiopian counterpart Circus Ethiopia visitedHargeisa In 1998 Oxfam Novib funded HAVOYOCO s organisation costs and a literacy project for youths Oxfam Novib has also funded asoap making centre management and literacy courses and income generating activities around the soap factory "
+        ]
     },
     "HDC": {
         "name": "HDC",
@@ -1327,11 +1306,6 @@
     },
     "Himilo Foundation": {
         "name": "Himilo Foundation",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Hong Kong Committee for UNICEF": {
-        "name": "Hong Kong Committee for UNICEF",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1425,25 +1399,22 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "INTERNATIONAL ORGANIZATION FOR MIGRATION INT ": {
-        "name": "INTERNATIONAL ORGANIZATION FOR MIGRATION INT",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "INTERSOS": {
         "name": "INTERSOS",
         "scope": "international",
         "synonyms": []
     },
-    "IOM": {
-        "name": "IOM",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "IOM Development Fund": {
-        "name": "IOM Development Fund",
+    "UN Migration (IOM)": {
+        "name": "UN Migration (IOM)",
         "scope": "international",
-        "synonyms": []
+        "url": "https://www.iom.int",
+        "synonyms": [
+            "IOM",
+            "IOM Development Fund",
+            "International Organization for Migration",
+            "International Organization for Migration IOM",
+            "INTERNATIONAL ORGANIZATION FOR MIGRATION INT"
+        ]
     },
     "IRC": {
         "name": "IRC",
@@ -1463,11 +1434,6 @@
     "ISLAMIC DEVELOPMENT BANK": {
         "name": "ISLAMIC DEVELOPMENT BANK",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "In 2004 Oxfam Novib set up a Liaison Office in Nairobi Kenya in order to support the Strengthening Somali Civil Society Program at the request of the EU This request was based on Oxfam Novib s work in Somalia to date but intended to be more widely directed atthe entire civil society sector and the specific context in which it is operating in a post conflict country The program started with consulting local organisations in Somalia and Somaliland to get a complete picture of the sectors and regions where they are active the challenges they face and the relationship between civil society local political structures and the private sector A program was then developed to strengthen the institutional development of Oxfam Novib s partners and those of other Oxfams as well as a range of new NGOs In the first year local consultants were trained in Somalia They were then seconded to civil society organisations to build their capacity in financial and organisational management Furthermore workshops were organised on specific themes suchas human rights and the role of civil society in the Somali context The Liaison Office is now going to support the expansion of the program focussing on strengthening both organisation and project management while facilitating more training in the fields of civic education governance human rights and women s rights HIV and AIDS and child protection Over the years the Somalia Country Office has expanded its intervention on short term humanitarian response as well as development development interventions In 2015 2016 a decision was reached to move the Country Programme operation which was largely in Nairobi from Nairobi to Hargeisa The country office has a small office in Nairobi Kenya and large operations office in Hargeisa Somaliland ": {
-        "name": "In 2004 Oxfam Novib set up a Liaison Office in Nairobi Kenya in order to support the Strengthening Somali Civil Society Program at the request of the EU This request was based on Oxfam Novib s work in Somalia to date but intended to be more widely directed atthe entire civil society sector and the specific context in which it is operating in a post conflict country The program started with consulting local organisations in Somalia and Somaliland to get a complete picture of the sectors and regions where they are active the challenges they face and the relationship between civil society local political structures and the private sector A program was then developed to strengthen the institutional development of Oxfam Novib s partners and those of other Oxfams as well as a range of new NGOs In the first year local consultants were trained in Somalia They were then seconded to civil society organisations to build their capacity in financial and organisational management Furthermore workshops were organised on specific themes suchas human rights and the role of civil society in the Somali context The Liaison Office is now going to support the expansion of the program focussing on strengthening both organisation and project management while facilitating more training in the fields of civic education governance human rights and women s rights HIV and AIDS and child protection Over the years the Somalia Country Office has expanded its intervention on short term humanitarian response as well as development development interventions In 2015 2016 a decision was reached to move the Country Programme operation which was largely in Nairobi from Nairobi to Hargeisa The country office has a small office in Nairobi Kenya and large operations office in Hargeisa Somaliland ",
-        "scope": "international",
         "synonyms": []
     },
     "InterSOM": {
@@ -1507,16 +1473,6 @@
     },
     "International NGO Safety Organization": {
         "name": "International NGO Safety Organization",
-        "scope": "international",
-        "synonyms": []
-    },
-    "International Organization for Migration": {
-        "name": "International Organization for Migration",
-        "scope": "international",
-        "synonyms": []
-    },
-    "International Organization for Migration IOM ": {
-        "name": "International Organization for Migration IOM ",
         "scope": "international",
         "synonyms": []
     },
@@ -1642,13 +1598,10 @@
     },
     "KAALO Aid and Development": {
         "name": "KAALO Aid and Development",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum ": {
-        "name": "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum ",
         "scope": "local",
-        "synonyms": []
+        "synonyms": [
+            "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum "
+        ]
     },
     "KANAVA": {
         "name": "KANAVA",
@@ -2030,15 +1983,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Nagaad": {
-        "name": "Nagaad",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Nagaad is the women s network in Somaliland which ON has been supporting since its establishment in1997 Nagaad was formed by 32 women s groups in Hargeisa While it has raised its profile tremendously after 2000 with a range of advocacy and publicity actions in the media notably around women s political participation it has always remained a of 32 member organisations many of them remain weak except for a few larger ones some of whom are also counterparts of Oxfam Novib Nagaad built its own office and received support from a variety of donors Over the last four years Nagaad has elaborated a restructuring plan and a new strategic plan that involves a more focus on networking instead of direct implementation b admission of 15 new members from the regions of Somaliland and working relationships with regional women s umbrellas and professional associations The network now has a membership of 46organisations ": {
-        "name": "Nagaad is the women s network in Somaliland which ON has been supporting since its establishment in1997 Nagaad was formed by 32 women s groups in Hargeisa While it has raised its profile tremendously after 2000 with a range of advocacy and publicity actions in the media notably around women s political participation it has always remained a of 32 member organisations many of them remain weak except for a few larger ones some of whom are also counterparts of Oxfam Novib Nagaad built its own office and received support from a variety of donors Over the last four years Nagaad has elaborated a restructuring plan and a new strategic plan that involves a more focus on networking instead of direct implementation b admission of 15 new members from the regions of Somaliland and working relationships with regional women s umbrellas and professional associations The network now has a membership of 46organisations ",
+    "Nagaad Network": {
+        "name": "Nagaad Network",
         "scope": "local",
-        "synonyms": []
+        "url": "https://nagaad.org/",
+        "synonyms": [
+            "Nagaad",
+            "Nagaad is the women s network in Somaliland which ON has been supporting since its establishment in1997 Nagaad was formed by 32 women s groups in Hargeisa While it has raised its profile tremendously after 2000 with a range of advocacy and publicity actions in the media notably around women s political participation it has always remained a of 32 member organisations many of them remain weak except for a few larger ones some of whom are also counterparts of Oxfam Novib Nagaad built its own office and received support from a variety of donors Over the last four years Nagaad has elaborated a restructuring plan and a new strategic plan that involves a more focus on networking instead of direct implementation b admission of 15 new members from the regions of Somaliland and working relationships with regional women s umbrellas and professional associations The network now has a membership of 46organisations"
+        ]
     },
     "National Philanthropic Trust NPT ": {
         "name": "National Philanthropic Trust NPT ",
@@ -2087,12 +2039,12 @@
     },
     "Norway": {
         "name": "Norway",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Norway Ministry of Justice and Public Security": {
         "name": "Norway Ministry of Justice and Public Security",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Norwegian Church Aid": {
@@ -2117,16 +2069,11 @@
     },
     "OXFAM": {
         "name": "OXFAM",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "OXFAM GERMANY": {
         "name": "OXFAM GERMANY",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "OXFAM Netherlands NOVIB ": {
-        "name": "OXFAM Netherlands NOVIB ",
         "scope": "international",
         "synonyms": []
     },
@@ -2137,18 +2084,16 @@
     },
     "Other multilateral institution": {
         "name": "Other multilateral institution",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Oxfam": {
-        "name": "Oxfam",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Oxfam Novib": {
         "name": "Oxfam Novib",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Oxfam Netherlands Novib",
+            "In 2004 Oxfam Novib set up a Liaison Office in Nairobi Kenya in order to support the Strengthening Somali Civil Society Program at the request of the EU This request was based on Oxfam Novib s work in Somalia to date but intended to be more widely directed atthe entire civil society sector and the specific context in which it is operating in a post conflict country The program started with consulting local organisations in Somalia and Somaliland to get a complete picture of the sectors and regions where they are active the challenges they face and the relationship between civil society local political structures and the private sector A program was then developed to strengthen the institutional development of Oxfam Novib s partners and those of other Oxfams as well as a range of new NGOs In the first year local consultants were trained in Somalia They were then seconded to civil society organisations to build their capacity in financial and organisational management Furthermore workshops were organised on specific themes suchas human rights and the role of civil society in the Somali context The Liaison Office is now going to support the expansion of the program focussing on strengthening both organisation and project management while facilitating more training in the fields of civic education governance human rights and women s rights HIV and AIDS and child protection Over the years the Somalia Country Office has expanded its intervention on short term humanitarian response as well as development development interventions In 2015 2016 a decision was reached to move the Country Programme operation which was largely in Nairobi from Nairobi to Hargeisa The country office has a small office in Nairobi Kenya and large operations office in Hargeisa Somaliland"
+        ]
     },
     "Oxford Policy Management": {
         "name": "Oxford Policy Management",
@@ -2805,11 +2750,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Swedish Committee for UNICEF": {
-        "name": "Swedish Committee for UNICEF",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Swiss Development Cooperation Agency SDC DDC ": {
         "name": "Swiss Development Cooperation Agency SDC DDC ",
         "scope": "unknown",
@@ -2892,7 +2832,7 @@
     },
     "The Government of Somalia": {
         "name": "The Government of Somalia",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "The Hub East Africa": {
@@ -2900,15 +2840,12 @@
         "scope": "local",
         "synonyms": []
     },
-    "The United Kingdom": {
-        "name": "The United Kingdom",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "The project has no gender capacity building plans the partner is a unit from Hargeisa Univeristy called legal aid clinic which hasbeen implementing access to justice programing with different aid donors and agencies this project targets to all marginalized groups women and men are equally access the justice service and will benefit this project equally": {
-        "name": "The project has no gender capacity building plans the partner is a unit from Hargeisa Univeristy called legal aid clinic which hasbeen implementing access to justice programing with different aid donors and agencies this project targets to all marginalized groups women and men are equally access the justice service and will benefit this project equally",
-        "scope": "unknown",
-        "synonyms": []
+    "University of Hargeisa": {
+        "name": "Univesity of Hargeisa",
+        "scope": "local",
+        "synonyms": [
+            "The project has no gender capacity building plans the partner is a unit from Hargeisa Univeristy called legal aid clinic which hasbeen implementing access to justice programing with different aid donors and agencies this project targets to all marginalized groups women and men are equally access the justice service and will benefit this project equally"
+        ]
     },
     "Tier\u00e4rzte ohne Grenzen e V ": {
         "name": "Tier\u00e4rzte ohne Grenzen e V ",
@@ -2990,40 +2927,35 @@
         "scope": "international",
         "synonyms": []
     },
-    "UN World Food Programme WFP ": {
-        "name": "UN World Food Programme WFP ",
-        "scope": "unknown",
-        "synonyms": []
+    "World Food Programme (WFP) ": {
+        "name": "UN World Food Programme (WFP)",
+        "scope": "international",
+        "synonyms": [
+            "WFP",
+            "UN World Food Programme WFP",
+            "WFP World Food Programme",
+            "World Food Programme WFP",
+            "WORLD FOOD PROGRAM",
+            "WORLD FOOD PROGRAMME"
+        ]
     },
     "UNAIDS": {
         "name": "UNAIDS",
         "scope": "international",
         "synonyms": []
     },
-    "UNDP": {
-        "name": "UNDP",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNDP AS ADMINISTRATIVE AGENT FOR A JOINT PROGRAMME PASS THROUGH ARRANGEMENT": {
-        "name": "UNDP AS ADMINISTRATIVE AGENT FOR A JOINT PROGRAMME PASS THROUGH ARRANGEMENT",
+    "United Nations Development Programme (UNDP)": {
+        "name": "United Nations Development Programme (UNDP)",
         "scope": "international",
-        "synonyms": []
-    },
-    "UNDP Funding Windows": {
-        "name": "UNDP Funding Windows",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNDP MDTF": {
-        "name": "UNDP MDTF",
-        "scope": "international",
-        "synonyms": []
-    },
-    "UNDP Multi Partner Trust Fund MPTF ": {
-        "name": "UNDP Multi Partner Trust Fund MPTF ",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UNDP",
+            "UNDP AS ADMINISTRATIVE AGENT FOR A JOINT PROGRAMME PASS THROUGH ARRANGEMENT",
+            "UNDP Funding Windows",
+            "UNDP MDTF",
+            "UNDP Multi Partner Trust Fund MPTF",
+            "United Nations Development Programme",
+            "United Nations Development Programme UNDP"
+        ]
     },
     "UNDSS Somalia": {
         "name": "UNDSS Somalia",
@@ -3048,47 +2980,30 @@
     "UNICEF": {
         "name": "UNICEF",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Belgian Committee for UNICEF",
+            "Canadian UNICEF Committee",
+            "German Committee for UNICEF",
+            "Hong Kong Committee for UNICEF",
+            "Swedish Committee for UNICEF",
+            "UNICEF FOR GR ALLOCATIONS ONLY ",
+            "UNICEF Mexico",
+            "UNICEF QATAR",
+            "UNICEF Saudi Arabia",
+            "United Kingdom Committee for UNICEF",
+            "United Nations Children's Fund",
+            "United Nations Children's Fund UNICEF",
+            "United States Fund for UNICEF"
+        ]
     },
-    "UNICEF FOR GR ALLOCATIONS ONLY ": {
-        "name": "UNICEF FOR GR ALLOCATIONS ONLY ",
+    "United Kingdom of Great Britain and Northern Ireland": {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
         "scope": "international",
-        "synonyms": []
-    },
-    "UNICEF Mexico": {
-        "name": "UNICEF Mexico",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNICEF QATAR": {
-        "name": "UNICEF QATAR",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNICEF Saudi Arabia": {
-        "name": "UNICEF Saudi Arabia",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND": {
-        "name": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND THE ": {
-        "name": "UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND THE ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNITED NATIONS CHILDREN S FUND": {
-        "name": "UNITED NATIONS CHILDREN S FUND",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNITED NATIONS DEVELOPMENT PROGRAMME": {
-        "name": "UNITED NATIONS DEVELOPMENT PROGRAMME",
-        "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "United Kingdom",
+            "The United Kingdom",
+            "United Kingdom of Great Britain and Northern Ireland The"
+        ]
     },
     "UNITED NATIONS ENVIRONMENT PROGRAMME": {
         "name": "UNITED NATIONS ENVIRONMENT PROGRAMME",
@@ -3230,16 +3145,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "United Kingdom": {
-        "name": "United Kingdom",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "United Kingdom Committee for UNICEF": {
-        "name": "United Kingdom Committee for UNICEF",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "United Nations Assistance Mission in Somalia": {
         "name": "United Nations Assistance Mission in Somalia",
         "scope": "international",
@@ -3248,21 +3153,6 @@
     "United Nations Central Emergency Response Fund CERF ": {
         "name": "United Nations Central Emergency Response Fund CERF ",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "United Nations Children s Fund UNICEF ": {
-        "name": "United Nations Children s Fund UNICEF ",
-        "scope": "international",
-        "synonyms": []
-    },
-    "United Nations Development Programme": {
-        "name": "United Nations Development Programme",
-        "scope": "international",
-        "synonyms": []
-    },
-    "United Nations Development Programme UNDP ": {
-        "name": "United Nations Development Programme UNDP ",
-        "scope": "international",
         "synonyms": []
     },
     "United Nations High Commissioner for Refugees UNHCR ": {
@@ -3315,11 +3205,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "United States Fund for UNICEF": {
-        "name": "United States Fund for UNICEF",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "VAD": {
         "name": "VAD",
         "scope": "unknown",
@@ -3355,23 +3240,8 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "WFP": {
-        "name": "WFP",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "WFP World Food Programme": {
-        "name": "WFP World Food Programme",
-        "scope": "international",
-        "synonyms": []
-    },
     "WHH": {
         "name": "WHH",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "WHO Contingency Fund for Emergencies": {
-        "name": "WHO Contingency Fund for Emergencies",
         "scope": "unknown",
         "synonyms": []
     },
@@ -3380,29 +3250,9 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "WOCCA": {
-        "name": "WOCCA",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ": {
         "name": "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "WORLD FOOD PROGRAM": {
-        "name": "WORLD FOOD PROGRAM",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "WORLD FOOD PROGRAMME": {
-        "name": "WORLD FOOD PROGRAMME",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "WORLD HEALTH ORGANIZATION": {
-        "name": "WORLD HEALTH ORGANIZATION",
-        "scope": "international",
         "synonyms": []
     },
     "WPPL": {
@@ -3452,7 +3302,7 @@
     },
     "Welthungerhilfe": {
         "name": "Welthungerhilfe",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Women Pioneers for Peace and Life": {
@@ -3460,60 +3310,43 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Women and Child Care Organisation WOCCA ": {
-        "name": "Women and Child Care Organisation WOCCA ",
-        "scope": "regional",
-        "synonyms": []
+    "Women and Child Care Organization (WOCCA)": {
+        "name": "Women and Child Care Organization (WOCCA)",
+        "scope": "local",
+        "url": "https://woccaorg.com",
+        "synonyms": [
+            "WOCCA",
+            "Women and Child Care Organization"
+        ]
     },
-    "Women and Child Care Organization": {
-        "name": "Women and Child Care Organization",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "World Bank Group WB ": {
-        "name": "World Bank Group WB ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "World Bank The": {
-        "name": "World Bank The",
+    "World Bank": {
+        "name": "World Bank", 
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "World Bank The",
+            "World Bank Group WB",
+            "World Bank Washington D C"
+        ]
     },
-    "World Bank Washington D C ": {
-        "name": "World Bank Washington D C ",
+    "World Health Organization (WHO)": {
+        "name": "World Health Organization (WHO)",
         "scope": "international",
-        "synonyms": []
-    },
-    "World Food Programme": {
-        "name": "World Food Programme",
-        "scope": "international",
-        "synonyms": []
-    },
-    "World Food Programme WFP ": {
-        "name": "World Food Programme WFP ",
-        "scope": "international",
-        "synonyms": []
-    },
-    "World Health Organization": {
-        "name": "World Health Organization",
-        "scope": "international",
-        "synonyms": []
-    },
-    "World Health Organization WHO ": {
-        "name": "World Health Organization WHO ",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "World Health Organization",
+            "WHO Contingency Fund for Emergencies"
+        ]
     },
     "World Vision Canada": {
         "name": "World Vision Canada",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "World Vision International": {
         "name": "World Vision International",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "international",
+        "synonyms": [
+            "World Vision"
+        ]
     },
     "World Vision Somalia": {
         "name": "World Vision Somalia",
