@@ -75,9 +75,16 @@ for row in hxl.data(DATASET):
     }
 
     # add the participating organisations
-    add_item(data["orgs"]["implementing"], row.get("#org+impl"))
-    add_item(data["orgs"]["programming"], row.get("#org+prog")),
-    add_item(data["orgs"]["funding"], row.get("#org+funding")),
+    info = lookup_org(row.get("#org+impl"))
+    if info:
+        add_item(data["orgs"]["implementing"], info["name"])
+    info = lookup_org(row.get("#org+prog"))
+    if info:
+        add_item(data["orgs"]["programming"], info["name"])
+    info = lookup_org(row.get("#org+funding"))
+    if info:
+        add_item(data["orgs"]["funding"], info["name"])
+
 
     # add the clusters
     add_item(data["sectors"]["humanitarian"], fix_cluster_name(row.get("#sector")))

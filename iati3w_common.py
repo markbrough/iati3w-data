@@ -22,14 +22,14 @@ def normalise_string (s):
     Preserve character case and punctuation
 
     """
-    return re.sub(r'\W+', ' ', s.strip())
+    return re.sub(r'\s+', ' ', s.strip())
 
 def make_token (s):
     """ Create a lookup token from a string.
     Normalise space, convert to lowercase, and remove punctuation
 
     """
-    return re.sub(r'[^\w+]', ' ', s.strip().lower())
+    return re.sub(r'\W+', ' ', s).lower().strip()
 
 def fix_location (s):
     if s:
@@ -82,6 +82,26 @@ def get_lookup_table (path):
         lookup_tables_loaded[path] = result
     return lookup_tables_loaded[path]
 
+
+def lookup_org (name):
+    """ Look up an org by name """
+    if name is None:
+        return None
+    name = str(name)
+    if is_empty(name):
+        return None
+    token = make_token(name)
+    table = get_lookup_table("inputs/org-map.json")
+    if token in table:
+        return table[token]
+    else:
+        import sys
+        print("Failed lookup |{}|".format(token), file=sys.stderr)
+        return {
+            "name": normalise_string(name),
+            "scope": "unknown",
+        }
+    
 
 #
 # Location lookup

@@ -37,7 +37,6 @@ push-update: index
 	cd output && git add . && git commit -m "Data update" && git push origin
 
 index: index-orgs index-sectors index-locations
-	touch $(TIMESTAMP)
 
 index-orgs: $(ORG_INDEX)
 
@@ -68,10 +67,10 @@ $(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py iati3w_common.py
 $(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py iati3w_common.py
 	. $(VENV) && python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py
+$(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py $(TIMESTAMP)
 	. $(VENV) && mkdir -p output && python fetch-iati-data.py > $@
 
-$(3W_ACTIVITIES): venv fetch-3w-data.py iati3w_common.py
+$(3W_ACTIVITIES): venv fetch-3w-data.py iati3w_common.py $(TIMESTAMP)
 	. $(VENV) && mkdir -p output && python fetch-3w-data.py > $@
 
 
@@ -91,4 +90,4 @@ venv: requirements.txt
 
 # Delete the timestamp and force a complete build
 force:
-	rm -f $(TIMESTAMP)
+	touch $(TIMESTAMP)

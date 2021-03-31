@@ -55,7 +55,7 @@ def has_humanitarian_content (activity):
 
 
 #
-# Manage sectors
+# Lookup tables
 #
 
 def lookup_sector (code):
@@ -96,12 +96,9 @@ for activity in activities:
         "description": str(activity.description),
         "is_active": True if activity.activity_status == "2" else False,
         "orgs": {
-            "implementing": list(set([str(org.name) for org in org_map.get("4", [])])),
-            "programming": list(set(
-                [str(org.name).strip() for org in org_map.get("2", [])] +
-                [str(org.name).strip() for org in org_map.get("3", [])]
-            )),
-            "funding": list(set([str(org.name).strip() for org in org_map.get("1", [])])),
+            "implementing": [],
+            "programming": [],
+            "funding": [],
         },
         "sectors": {
             "dac": [],
@@ -118,6 +115,14 @@ for activity in activities:
             "end": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned
         },
     }
+
+    # Add orgs
+    # FIXME classify by scope
+    for params in [["4", "implementing"], ["3", "programming"], ["2", "programming"], ["1", "funding"]]:
+        for org in org_map.get(params[0], []):
+            info = lookup_org(org.name)
+            if info is not None:
+                add_unique(info["name"], data["orgs"][params[1]])
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:
