@@ -1,63 +1,83 @@
 {
-    "AADSOM": {
-        "name": "AADSOM",
-        "scope": "unknown",
-        "synonyms": []
+    "Action Against Disasters Somalia (AADSOM)": {
+        "name": "Action Against Disasters Somalia (AADSOM)",
+        "scope": "local",
+        "url": "http://aadsom.org/",
+        "synonyms": [
+            "AADSOM"
+        ]
     },
     "AAMIN": {
         "name": "AAMIN",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "https://aamin.so/",
         "synonyms": []
     },
-    "AAP": {
-        "name": "AAP",
-        "scope": "unknown",
-        "synonyms": []
+    "Action Against Poverty (AAP)": {
+        "name": "Action Against Poverty (AAP)",
+        "scope": "local",
+        "synonyms": [
+            "AAP"
+        ]
     },
-    "ACF": {
-        "name": "ACF",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "ACTED": {
-        "name": "ACTED",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "ACTED FR ": {
-        "name": "ACTED FR ",
+    "Action Contre la Faim (ACF)": {
+        "name": "Action Contre la Faim (ACF)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "ACF"
+        ]
+    },
+    "Agency for Technical Cooperation and Development (ACTED)": {
+        "name": "Agency for Technical Cooperation and Development (ACTED)",
+        "scope": "international",
+        "url": "https://www.acted.org/en/countries/somalia/",
+        "synonyms": [
+            "ACTED",
+            "ACTED FR"
+        ]
     },
     "ADA": {
         "name": "ADA",
-        "scope": "unknown",
+        "scope": "international",
+        "url": "https://www.ada-microfinance.org/",
         "synonyms": []
     },
-    "ADEC": {
+    "Agency for Development and Environmental Care (ADEC)": {
         "name": "ADEC",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "local",
+        "url": "https://www.facebook.com/Adecsomalia/",
+        "synonyms": [
+            "ADEC"
+        ]
     },
-    "ADRA": {
-        "name": "ADRA",
-        "scope": "unknown",
-        "synonyms": []
+    "Adventist Development and Relief Agency (ADRA)": {
+        "name": "Adventist Development and Relief Agency (ADRA)",
+        "scope": "international",
+        "url": "https://adrasom.org",
+        "synonyms": [
+            "ADRA"
+        ]
     },
-    "AFD": {
-        "name": "AFD",
-        "scope": "unknown",
-        "synonyms": []
+    "Agence Française de Développement (AFD)": {
+        "name": "Agence Française de Développement (AFD)",
+        "scope": "international",
+        "synonyms": [
+            "AFD"
+        ]
     },
-    "AFRAH Company": {
-        "name": "AFRAH Company",
-        "scope": "unknown",
-        "synonyms": []
+    "AFRAH Construction Company": {
+        "name": "AFRAH Construction Company",
+        "scope": "regional",
+        "synonyms": [
+            "AFRAH Company"
+        ]
     },
-    "AFSC": {
-        "name": "AFSC",
-        "scope": "unknown",
-        "synonyms": []
+    "American Friends Service Committee (AFSC)": {
+        "name": "American Friends Service Committee (AFSC)",
+        "scope": "international",
+        "synonyms": [
+            "AFSC"
+        ]
     },
     "AGRAH": {
         "name": "AGRAH",
@@ -71,33 +91,40 @@
     },
     "ALIGHT": {
         "name": "ALIGHT",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "international",
+        "url": "https://wearealight.org/our-work/somalia/",
+        "synonyms": [
+            "American Refugee Committee",
+            "ARC"
+        ]
     },
-    "ANPPCAN SOM": {
-        "name": "ANPPCAN SOM",
-        "scope": "unknown",
-        "synonyms": []
+    "African Network for the Prevention and Protection Against Child Abuse and Neglect (ANPPCAN)": {
+        "name": "African Network for the Prevention and Protection Against Child Abuse and Neglect (ANPPCAN)",
+        "scope": "regional",
+        "url": "http://www.anppcan.org/",
+        "synonyms": [
+            "ANPPCAN",
+            "ANPPCAN SOM"
+        ]
     },
     "APCC": {
         "name": "APCC",
         "scope": "unknown",
         "synonyms": []
     },
-    "ARC": {
-        "name": "ARC",
-        "scope": "unknown",
-        "synonyms": []
+    "Action for Relief & Development (ARD)": {
+        "name": "Action for Relief & Development (ARD)",
+        "scope": "local",
+        "synonyms": [
+            "ARD"
+        ]
     },
-    "ARD": {
-        "name": "ARD",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "ARDI": {
-        "name": "ARDI",
-        "scope": "unknown",
-        "synonyms": []
+    "African Relief Development Initiative (ARDI)": {
+        "name": "African Relief Development Initiative (ARDI)",
+        "scope": "regional",
+        "synonyms": [
+            "ARDI"
+        ]
     },
     "ARIN": {
         "name": "ARIN",
@@ -109,25 +136,30 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "ASAL Action in Semi Arid Lands ": {
-        "name": "ASAL Action in Semi Arid Lands",
-        "scope": "unknown",
-        "synonyms": []
+    "Action in Semi Arid Lands (ASAL)": {
+        "name": "Action in Semi Arid Lands (ASAL)",
+        "scope": "local",
+        "synonyms": [
+            "ASAL",
+            "ASAL Action in Semi Arid Lands",
+            "ASAL Youth Development organization"
+        ]
     },
-    "ASAL Youth Development organization": {
-        "name": "ASAL Youth Development organization",
-        "scope": "unknown",
-        "synonyms": []
+    "Action for Social & Economic Progress (ASEP)": {
+        "name": "Action for Social & Economic Progress (ASEP)",
+        "scope": "local",
+        "url": "https://asepsomalia.org",
+        "synonyms": [
+            "ASEP"
+        ]
     },
-    "ASEP": {
-        "name": "ASEP",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "AVORD": {
-        "name": "AVORD",
-        "scope": "unknown",
-        "synonyms": []
+    "African Volunteers for Relief and Development (AVORD)": {
+        "name": "African Volunteers for Relief and Development (AVORD)",
+        "scope": "local",
+        "url": "http://www.avord.org/",
+        "synonyms": [
+            "AVORD"
+        ]
     },
     "AVSI Foundation": {
         "name": "AVSI Foundation",
@@ -191,13 +223,12 @@
     },
     "Adeso": {
         "name": "Adeso",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Adeso is an African led humanitarian and development organization that is changing the way people think about and deliver aid in Africa Since our founding in 1991 as Horn Relief we have worked with thousands of vulnerable and marginalized communities to assist them in reaching their full potential Based on this we have grown rapidly from a local grassroots NGO operating exclusively in Somalia to a major player on the regional stage with 15 field offices in Somalia Kenya and South Sudan and over 200 staff serving communities ": {
-        "name": "Adeso is an African led humanitarian and development organization that is changing the way people think about and deliver aid in Africa Since our founding in 1991 as Horn Relief we have worked with thousands of vulnerable and marginalized communities to assist them in reaching their full potential Based on this we have grown rapidly from a local grassroots NGO operating exclusively in Somalia to a major player on the regional stage with 15 field offices in Somalia Kenya and South Sudan and over 200 staff serving communities ",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "regional",
+        "url": "https://adesoafrica.org/who-we-are/",
+        "synonyms": [
+            "Horn of Africa",
+            "Adeso is an African led humanitarian and development organization that is changing the way people think about and deliver aid in Africa Since our founding in 1991 as Horn Relief we have worked with thousands of vulnerable and marginalized communities to assist them in reaching their full potential Based on this we have grown rapidly from a local grassroots NGO operating exclusively in Somalia to a major player on the regional stage with 15 field offices in Somalia Kenya and South Sudan and over 200 staff serving communities "
+        ]
     },
     "AfricaWater Facility Fund": {
         "name": "AfricaWater Facility Fund",
@@ -267,11 +298,6 @@
     "Althani": {
         "name": "Althani",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "American Refugee Committee": {
-        "name": "American Refugee Committee",
-        "scope": "international",
         "synonyms": []
     },
     "Assessed Contributions": {
@@ -2256,7 +2282,7 @@
     },
     "READO": {
         "name": "READO",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "REW": {
