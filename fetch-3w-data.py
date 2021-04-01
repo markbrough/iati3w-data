@@ -21,11 +21,6 @@ def make_pseudo_identifier (data):
     ]).encode("utf-8")).hexdigest()
 
 
-def add_item (items, item, condition=None):
-    """ Add an item to a list if it's not empty (or optionally, if the condition is true) """
-    if (condition is None and not is_empty(item)) or condition:
-        items.append(item.strip())
-
 def fix_cluster_name (name):
     """ Look up the normalised version of a cluster name """
     table = get_lookup_table("inputs/humanitarian-cluster-map.json")
@@ -72,27 +67,44 @@ for row in hxl.data(DATASET):
             "start": row.get("#date+start"),
             "end": row.get("#date+end"),
         },
+        "aid_type": "unknown",
+        "targeted": {
+        },
     }
 
     # add the participating organisations
-    info = lookup_org(row.get("#org+impl"))
-    if info:
-        add_item(data["orgs"]["implementing"], info["name"])
-    info = lookup_org(row.get("#org+prog"))
-    if info:
-        add_item(data["orgs"]["programming"], info["name"])
-    info = lookup_org(row.get("#org+funding"))
-    if info:
-        add_item(data["orgs"]["funding"], info["name"])
-
+    for params in [["#org+impl", "implementing"], ["#org+prog", "programming"], ["#org+funding", "funding"],]:
+        add_unique(lookup_org(row.get(params[0])), data["orgs"][params[1]], "name")
 
     # add the clusters
-    add_item(data["sectors"]["humanitarian"], fix_cluster_name(row.get("#sector")))
+    add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
 
     # add the locations
-    add_item(data["locations"]["admin1"], fix_location(row.get("#adm1+name")))
-    add_item(data["locations"]["admin2"], fix_location(row.get("#adm2+name")))
-    add_item(data["locations"]["unclassified"], fix_location(row.get("#loc+name")))
+    for params in [["#adm1+name", "admin1"], ["#adm2+name", "admin2"], ["#loc+name", "unclassified"],]:
+        add_unique(fix_location(row.get(params[0])), data["locations"][params[1]])
+
+    # add modality (e.g. for cash programming)
+    modality = normalise_string(row.get("#modality"))
+    if modality and not is_empty(modality):
+        data["aid_type"] = modality
+
+    # add intended targeted
+    for params in [
+            ["#targeted+ind+all", "total_individuals"],
+            ["#targeted+hh+all", "total_households"],
+            ["#targeted+f+adults", "women"],
+            ["#targeted+m+adults", "men"],
+            ["#targeted+f+children", "girls"],
+            ["#targeted+m+children", "boys"],
+    ]:
+        try:
+            s = normalise_string(row.get(params[0]))
+            if not is_empty(s):
+                v = int(s)
+                data["targeted"][params[1]] = v
+        except:
+            pass
+                
 
     # Generate pseudo-identifier
     data["identifier"] = make_pseudo_identifier(data)

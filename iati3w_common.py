@@ -6,15 +6,36 @@ import json, re, string
 
 from hxl.datatypes import is_empty
 
+#
+# Keys for classifying things
+#
 ROLES = ["implementing", "programming", "funding"]
 SECTOR_TYPES = ["dac", "humanitarian"]
 LOCATION_TYPES = ["admin1", "admin2", "unclassified"]
 
 
-def add_unique (s, l):
-    """ Add a value if it's not already in a list and isn't falsey """
-    if s and (not s in l):
-        l.append(s)
+#
+# Utility functions
+#
+
+def add_unique (element, l, key=None):
+    """ Add an element to a list if it's not already in a list and isn't falsey
+    If key is not None, assume the value to add is a dict and use the key for uniqueness.
+    """
+
+    if not element:
+        # don't add if the item is falsely
+        pass
+    elif key is None:
+        # if there's no key, assume a string or something that can be forced to one
+        s = str(element)
+        if not is_empty(s) and not s in l:
+            l.append(element)
+    else:
+        s = str(element.get(key, ""))
+        if not is_empty(s) and not s in [str(v1.get(key, None)) for v1 in l]:
+            l.append(element)
+
     return l
 
 def normalise_string (s):
@@ -22,7 +43,10 @@ def normalise_string (s):
     Preserve character case and punctuation
 
     """
-    return re.sub(r'\s+', ' ', s.strip())
+    if not s:
+        return None
+    else:
+        return re.sub(r'\s+', ' ', s.strip())
 
 def make_token (s):
     """ Create a lookup token from a string.
@@ -48,6 +72,7 @@ def flatten (map, excludes=[]):
                 result.append(s)
     return result
 
+
 #
 # Look up and manage JSON datasets
 #
@@ -61,6 +86,10 @@ def get_dataset (path):
             datasets_loaded[path] = json.load(input)
     return datasets_loaded[path]
 
+
+#
+# Lookup tables (transformed from JSON maps)
+#
 
 lookup_tables_loaded = {}
 
@@ -104,8 +133,9 @@ def lookup_org (name):
     
 
 #
-# Location lookup
+# Special lookup tables for locations (which are hierarchical)
 #
+
 location_lookup_table = None
 
 def get_location_lookup_table ():
