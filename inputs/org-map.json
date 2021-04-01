@@ -11,7 +11,9 @@
         "name": "AAMIN",
         "scope": "local",
         "url": "https://aamin.so/",
-        "synonyms": []
+        "synonyms": [
+            "AAMIN Organization"
+        ]
     },
     "Action Against Poverty (AAP)": {
         "name": "Action Against Poverty (AAP)",
@@ -181,11 +183,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Aamin Organization": {
-        "name": "Aamin Organization",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Acci\u00f3n Contra El Hambre ES ": {
         "name": "Acci\u00f3n Contra El Hambre ES ",
         "scope": "international",
@@ -218,7 +215,7 @@
     },
     "Adam Smith International": {
         "name": "Adam Smith International",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Adeso": {
@@ -358,11 +355,6 @@
     "Balcad District Administration of Middle Shabelle Region": {
         "name": "Balcad District Administration of Middle Shabelle Region",
         "scope": "local",
-        "synonyms": []
-    },
-    "Belgium": {
-        "name": "Belgium",
-        "scope": "international",
         "synonyms": []
     },
     "Bill Melinda Gates Foundation": {
@@ -625,7 +617,7 @@
     },
     "DEPARTMENT FOR INTERNATIONAL DEVELOPMENT DFID ": {
         "name": "DEPARTMENT FOR INTERNATIONAL DEVELOPMENT DFID ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "DERF": {
@@ -635,7 +627,7 @@
     },
     "DEUTSCHE GESELLSCHAFT FUR INTERNATIONALE ZUSAMMENARBEIT GIZ GMBH": {
         "name": "DEUTSCHE GESELLSCHAFT FUR INTERNATIONALE ZUSAMMENARBEIT GIZ GMBH",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "DFID": {
@@ -691,14 +683,9 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Denmark": {
-        "name": "Denmark",
-        "scope": "international",
-        "synonyms": []
-    },
     "Denmark Ministry of Foreign Affairs": {
         "name": "Denmark Ministry of Foreign Affairs",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Department for International Development DFID United Kingdom": {
@@ -818,17 +805,17 @@
     },
     "European Commission Directorate General for International Cooperation and Development DEVCO ": {
         "name": "European Commission Directorate General for International Cooperation and Development DEVCO ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Commission Directorate General for International Partnerships DEVCO ": {
         "name": "European Commission Directorate General for International Partnerships DEVCO ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Commission Directorate General for Service for Foreign Policy Instruments FPI ": {
         "name": "European Commission Directorate General for Service for Foreign Policy Instruments FPI ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Commission EC": {
@@ -903,7 +890,7 @@
     },
     "FONDS MONETAIRE INTERNATIONAL": {
         "name": "FONDS MONETAIRE INTERNATIONAL",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "FRS MoEWR": {
@@ -913,17 +900,17 @@
     },
     "Federal Foreign Office Germany": {
         "name": "Federal Foreign Office Germany",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Federal Ministry for Economic Cooperation and Development BMZ Germany": {
         "name": "Federal Ministry for Economic Cooperation and Development BMZ Germany",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Finland Ministry of Foreign Affairs": {
         "name": "Finland Ministry of Foreign Affairs",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Food and Agriculture Organization of the United Nations FAO ": {
@@ -958,7 +945,7 @@
     },
     "Foreign Commonwealth and Development Office": {
         "name": "Foreign Commonwealth and Development Office",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Fragile States Facility": {
@@ -1001,11 +988,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GERMANY": {
-        "name": "GERMANY",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "GEWDO": {
         "name": "GEWDO",
         "scope": "unknown",
@@ -1016,65 +998,89 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GOVERNMENT OF BELGIUM": {
-        "name": "GOVERNMENT OF BELGIUM",
-        "scope": "unknown",
+    "Government of Belgium": {
+        "name": "Government of Belgium",
+        "scope": "international",
+        "synonyms": [
+            "Belgium"
+        ]
+    },
+    "Government of Denmark": {
+        "name": "Government of Denmark",
+        "scope": "international",
+        "synonyms": [
+            "Denmark"
+        ]
+    },
+    "Government of Germany": {
+        "name": "Government of Germany",
+        "scope": "international",
+        "synonyms": [
+            "Germany"
+        ]
+    },
+    "Government of Italy": {
+        "name": "Government of Italy",
+        "scope": "international",
+        "synonyms": [
+            "Italy"
+        ]
+    },
+    "Government of Japan": {
+        "name": "Government of Japan",
+        "scope": "international",
+        "synonyms": [
+            "Japan"
+        ]
+    },
+    "Government of Kuwait": {
+        "name": "Government of Kuwait",
+        "scope": "international",
+        "synonyms": [
+            "Kuwait"
+        ]
+    },
+    "Government of Luxembourg": {
+        "name": "Government of Luxembourg",
+        "scope": "international",
+        "synonyms": [
+            "Luxembourg"
+        ]
+    },
+    "Government of the Netherlands": {
+        "name": "Government of the Netherlands",
+        "scope": "international",
+        "synonyms": [
+            "Netherlands",
+            "The Netherlands",
+            "Government of Netherlands"
+        ]
+    },
+    "Government of Norway": {
+        "name": "Government of Norway",
+        "scope": "international",
+        "synonyms": [
+            "Norway"
+        ]
+    },
+    "Government of Poland": {
+        "name": "Government of Poland",
+        "scope": "international",
+        "synonyms": [
+            "Poland"
+        ]
+    },
+    "Government of Somalia, Ministry of Finance": {
+        "name": "Government of Somalia, Ministry of Finance",
+        "scope": "local",
         "synonyms": []
     },
-    "GOVERNMENT OF DENMARK": {
-        "name": "GOVERNMENT OF DENMARK",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF GERMANY": {
-        "name": "GOVERNMENT OF GERMANY",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF ITALY": {
-        "name": "GOVERNMENT OF ITALY",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF JAPAN": {
-        "name": "GOVERNMENT OF JAPAN",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF KUWAIT": {
-        "name": "GOVERNMENT OF KUWAIT",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF LUXEMBOURG": {
-        "name": "GOVERNMENT OF LUXEMBOURG",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF NETHERLANDS": {
-        "name": "GOVERNMENT OF NETHERLANDS",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF NORWAY": {
-        "name": "GOVERNMENT OF NORWAY",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF POLAND": {
-        "name": "GOVERNMENT OF POLAND",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF SOMALIA MINISTRY OF FINANCE": {
-        "name": "GOVERNMENT OF SOMALIA MINISTRY OF FINANCE",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GOVERNMENT OF SWITZERLAND": {
-        "name": "GOVERNMENT OF SWITZERLAND",
-        "scope": "unknown",
-        "synonyms": []
+    "Government of Switzerland": {
+        "name": "Government of Switzerland",
+        "scope": "international",
+        "synonyms": [
+            "Switzerland"
+        ]
     },
     "GRASHO": {
         "name": "GRASHO",
@@ -1128,7 +1134,7 @@
     },
     "Germany Federal Foreign Office": {
         "name": "Germany Federal Foreign Office",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Global Education": {
@@ -1501,24 +1507,17 @@
         "scope": "international",
         "synonyms": []
     },
-    "It is a Somali women non governmental humanitarian organization at a national level founded in 1992 at Mogadishu the capital city by a group of Somali women intellectuals from cross section of the community The Save Somali Women and Children SSWC contributeto the creation of a safe and sustainable situation by supporting women to overcome marginalization violence and poverty in their communities It operates as a non profit making organization that has the right to network with a variety of organizations that share similar values and vision In Somalia women face a range of complex challenges that require multiple solutions We work in the belief that women through their own efforts and in collaboration with local national and international allies are central to transforming their own lives and the lives of their communities and population of which they are part SSWC is women led and women centered organization so its programs reflect the needs of those served that have well functioning management finance and programmatic structures and systems ": {
-        "name": "It is a Somali women non governmental humanitarian organization at a national level founded in 1992 at Mogadishu the capital city by a group of Somali women intellectuals from cross section of the community The Save Somali Women and Children SSWC contributeto the creation of a safe and sustainable situation by supporting women to overcome marginalization violence and poverty in their communities It operates as a non profit making organization that has the right to network with a variety of organizations that share similar values and vision In Somalia women face a range of complex challenges that require multiple solutions We work in the belief that women through their own efforts and in collaboration with local national and international allies are central to transforming their own lives and the lives of their communities and population of which they are part SSWC is women led and women centered organization so its programs reflect the needs of those served that have well functioning management finance and programmatic structures and systems ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Italy": {
-        "name": "Italy",
-        "scope": "unknown",
-        "synonyms": []
+    "Save Somali Women and Children (SSWC)": {
+        "name": "Save Somali Women and Children (SSWC)",
+        "scope": "local",
+        "synonyms": [
+            "SSWC",
+            "It is a Somali women non governmental humanitarian organization at a national level founded in 1992 at Mogadishu the capital city by a group of Somali women intellectuals from cross section of the community The Save Somali Women and Children SSWC contributeto the creation of a safe and sustainable situation by supporting women to overcome marginalization violence and poverty in their communities It operates as a non profit making organization that has the right to network with a variety of organizations that share similar values and vision In Somalia women face a range of complex challenges that require multiple solutions We work in the belief that women through their own efforts and in collaboration with local national and international allies are central to transforming their own lives and the lives of their communities and population of which they are part SSWC is women led and women centered organization so its programs reflect the needs of those served that have well functioning management finance and programmatic structures and systems "
+        ]
     },
     "Italy AICS Agenzia Italiana per la Cooperazione allo Sviluppo Italian Agency for Cooperation and Development": {
         "name": "Italy AICS Agenzia Italiana per la Cooperazione allo Sviluppo Italian Agency for Cooperation and Development",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "JAPAN": {
-        "name": "JAPAN",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "JIRA": {
@@ -1605,11 +1604,6 @@
     },
     "KSR": {
         "name": "KSR",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "KUWAIT": {
-        "name": "KUWAIT",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1810,27 +1804,27 @@
     },
     "Ministry of Foreign Affairs Italy": {
         "name": "Ministry of Foreign Affairs Italy",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Ministry of Foreign Affairs NL": {
         "name": "Ministry of Foreign Affairs NL",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Ministry of Interior and Federal Affairs Innenministerium ": {
         "name": "Ministry of Interior and Federal Affairs Innenministerium",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Ministry of Interior and Federal Affairs and Reconciliation Min f\u00fcr Innere u F\u00f6derale Angelegenheiten u Vers\u00f6hnung": {
         "name": "Ministry of Interior and Federal Affairs and Reconciliation Min f\u00fcr Innere u F\u00f6derale Angelegenheiten u Vers\u00f6hnung",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Ministry of Planning Investment and Economic Development Ministerium f\u00fcr Planung Investment und wirtschaftl Entwickl": {
         "name": "Ministry of Planning Investment and Economic Development Ministerium f\u00fcr Planung Investment und wirtschaftl Entwickl",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Ministry of Public Works Housing Transportation": {
@@ -1977,14 +1971,9 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Netherlands": {
-        "name": "Netherlands",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Netherlands Enterprise Agency": {
         "name": "Netherlands Enterprise Agency",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "New Ways": {
@@ -2015,11 +2004,6 @@
     "Northern Frontier Youth League": {
         "name": "Northern Frontier Youth League",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "Norway": {
-        "name": "Norway",
-        "scope": "international",
         "synonyms": []
     },
     "Norway Ministry of Justice and Public Security": {
@@ -2504,10 +2488,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SOSTA Somaliland Skills Training Association SOSTA is a non profit making organization which was founded in 2008 and with headquarters in Borama Awdal region of Somaliland but operating in all regions of Somaliland SOSTA VISION SOSTA s vision is to become a leading employment and skills training organization in Somaliland as well as empowering vulnerable groups to capitalize on their resources SOSTA MISSION Its mission is to help alleviate the sufferings of unemployed youth women children IDPs and other vulnerable groups The organization has a formal organizational structure that defines the roles and responsibility of its members and staff guided by clear policy and procedures ": {
-        "name": "SOSTA Somaliland Skills Training Association SOSTA is a non profit making organization which was founded in 2008 and with headquarters in Borama Awdal region of Somaliland but operating in all regions of Somaliland SOSTA VISION SOSTA s vision is to become a leading employment and skills training organization in Somaliland as well as empowering vulnerable groups to capitalize on their resources SOSTA MISSION Its mission is to help alleviate the sufferings of unemployed youth women children IDPs and other vulnerable groups The organization has a formal organizational structure that defines the roles and responsibility of its members and staff guided by clear policy and procedures ",
+    "Somali Students Training Association (SOSTA)": {
+        "name": "Somali Students Training Association (SOSTA)",
         "scope": "local",
-        "synonyms": []
+        "url": "https://www.facebook.com/InfoSOSTA2019/",
+        "synonyms": [
+            "SOSTA",
+            "SOSTA Somaliland Skills Training Association SOSTA is a non profit making organization which was founded in 2008 and with headquarters in Borama Awdal region of Somaliland but operating in all regions of Somaliland SOSTA VISION SOSTA s vision is to become a leading employment and skills training organization in Somaliland as well as empowering vulnerable groups to capitalize on their resources SOSTA MISSION Its mission is to help alleviate the sufferings of unemployed youth women children IDPs and other vulnerable groups The organization has a formal organizational structure that defines the roles and responsibility of its members and staff guided by clear policy and procedures "
+        ]
     },
     "SOSYO": {
         "name": "SOSYO",
@@ -2536,11 +2524,6 @@
     },
     "SRO": {
         "name": "SRO",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "SSWC": {
-        "name": "SSWC",
         "scope": "unknown",
         "synonyms": []
     },
@@ -2634,10 +2617,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Shaqodoon is a local nonprofit organization that designs delivers and evaluates innovative programs to address some of the local most urgent challenges in livelihood skill training education and health Shaqodoon has offices and or presences in Somaliland Puntland Galmudug and South Central Somali Shaqodoon is a national platform whose goal is to prioritize youth employment and educationon the development agenda and to exchange knowledge on effective policies and programs to improve employment andeducation opportunities for youth prioritizing at risk youth marginalized groups and people who have lost hope and are thus often jailed for local crimes Shaqodoon Organization is a service provider dedicated to skill development employment services youth entrepreneurship private sector business development and technology for development Shaqodoon makes use of participatory methods to ensure youth participate in delivering its services ": {
-        "name": "Shaqodoon is a local nonprofit organization that designs delivers and evaluates innovative programs to address some of the local most urgent challenges in livelihood skill training education and health Shaqodoon has offices and or presences in Somaliland Puntland Galmudug and South Central Somali Shaqodoon is a national platform whose goal is to prioritize youth employment and educationon the development agenda and to exchange knowledge on effective policies and programs to improve employment andeducation opportunities for youth prioritizing at risk youth marginalized groups and people who have lost hope and are thus often jailed for local crimes Shaqodoon Organization is a service provider dedicated to skill development employment services youth entrepreneurship private sector business development and technology for development Shaqodoon makes use of participatory methods to ensure youth participate in delivering its services ",
+    "Shaqodoon": {
+        "name": "Shaqodoon",
         "scope": "local",
-        "synonyms": []
+        "synonyms": [
+            "Shaqodoon is a local nonprofit organization that designs delivers and evaluates innovative programs to address some of the local most urgent challenges in livelihood skill training education and health Shaqodoon has offices and or presences in Somaliland Puntland Galmudug and South Central Somali Shaqodoon is a national platform whose goal is to prioritize youth employment and educationon the development agenda and to exchange knowledge on effective policies and programs to improve employment andeducation opportunities for youth prioritizing at risk youth marginalized groups and people who have lost hope and are thus often jailed for local crimes Shaqodoon Organization is a service provider dedicated to skill development employment services youth entrepreneurship private sector business development and technology for development Shaqodoon makes use of participatory methods to ensure youth participate in delivering its services "
+        ]
     },
     "Shilcon Concern": {
         "name": "Shilcon Concern",
@@ -2853,7 +2838,7 @@
     },
     "UK Foreign Commonwealth and Development Office FCDO ": {
         "name": "UK Foreign Commonwealth and Development Office FCDO ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "UN Action Against Sexual Violence in Conflict": {
