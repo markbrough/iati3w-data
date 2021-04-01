@@ -44,11 +44,9 @@ with open(sys.argv[1], "r") as input:
                 if not org:
                     continue
 
-                # Clean whitespace
-                org = org.strip();
-
                 # Add a default record if this is the first time we've seen the org
-                index.setdefault(org, {
+                index.setdefault(org["name"], {
+                    "info": org,
                     "activities": {},
                     "partners": {},
                     "sectors": {},
@@ -57,7 +55,7 @@ with open(sys.argv[1], "r") as input:
                 })
 
                 # This is the org index entry we'll be working on
-                entry = index[org]
+                entry = index[org["name"]]
 
                 # Count activities
                 entry["total_activities"] += 1;
@@ -76,10 +74,9 @@ with open(sys.argv[1], "r") as input:
                 # Add the other orgs as partners (don't track roles here)
                 for role in ROLES:
                     for partner in activity["orgs"][role]:
-                        partner = partner.strip()
-                        if partner and (partner != org):
-                            entry["partners"].setdefault(partner, 0)
-                            entry["partners"][partner] += 1
+                        if partner["name"] != org["name"]:
+                            entry["partners"].setdefault(partner["name"], 0)
+                            entry["partners"][partner["name"]] += 1
 
                 # Add the sectors (DAC and Humanitarian)
                 for type in SECTOR_TYPES:

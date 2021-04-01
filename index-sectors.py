@@ -60,8 +60,8 @@ with open(sys.argv[1], "r") as input:
                 for role in ROLES:
                     for org in activity["orgs"].get(role, []):
                         if org:
-                            entry["orgs"].setdefault(org, 0)
-                            entry["orgs"][org] += 1
+                            entry["orgs"].setdefault(org["name"], 0)
+                            entry["orgs"][org["name"]] += 1
 
                 # locations
                 for loctype in LOCATION_TYPES:

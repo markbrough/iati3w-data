@@ -76,9 +76,8 @@ with open(sys.argv[1], "r") as input:
                     for org in activity["orgs"].get(role, []):
                         if not org:
                             continue
-                        org = org.strip()
-                        entry["orgs"].setdefault(org, 0)
-                        entry["orgs"][org] += 1
+                        entry["orgs"].setdefault(org["name"], 0)
+                        entry["orgs"][org["name"]] += 1
 
                 # Add the sectors for each type
                 for type in SECTOR_TYPES:
