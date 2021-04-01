@@ -8,15 +8,6 @@ from iati3w_common import *
 # Utility functions
 #
 
-def get_role (org):
-    """ Get a text label for an organisation's role in an activity """
-    if org.role == "1":
-        return "funding"
-    elif org.role == "4":
-        return "implementing"
-    else:
-        return "programming"
-
 def has_humanitarian_content (activity):
     """ More-thorough review of an activity to check if it seems humanitarian.
     Will return true if the activity is flagged humanitarian, any transaction
@@ -114,15 +105,21 @@ for activity in activities:
             "start": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
             "end": activity.end_date_actual if activity.end_date_actual else activity.end_date_planned
         },
+        "modalities": [], # TODO
+        "targeted": {}, # TODO
     }
 
     # Add orgs
-    # FIXME classify by scope
-    for params in [["4", "implementing"], ["3", "programming"], ["2", "programming"], ["1", "funding"]]:
+    for params in [
+            ["4", "implementing"],
+            ["3", "programming"],
+            ["2", "programming"],
+            ["1", "funding"]
+    ]:
         for org in org_map.get(params[0], []):
             info = lookup_org(org.name)
             if info is not None:
-                add_unique(info["name"], data["orgs"][params[1]])
+                add_unique(info, data["orgs"][params[1]], "name")
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:

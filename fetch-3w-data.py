@@ -40,6 +40,8 @@ DATASET = "https://proxy.hxlstandard.org/data/8acb4c"
 result = []
 
 for row in hxl.data(DATASET):
+
+    # Rough in the activity object (fill in details later)
     data = {
         "identifier": None,
         "source": "3W",
@@ -67,26 +69,33 @@ for row in hxl.data(DATASET):
             "start": row.get("#date+start"),
             "end": row.get("#date+end"),
         },
-        "aid_type": "unknown",
-        "targeted": {
-        },
+        "modalities": [],
+        "targeted": {},
     }
 
     # add the participating organisations
-    for params in [["#org+impl", "implementing"], ["#org+prog", "programming"], ["#org+funding", "funding"],]:
+    for params in [
+            ["#org+impl", "implementing"],
+            ["#org+prog", "programming"],
+            ["#org+funding", "funding"],
+    ]:
         add_unique(lookup_org(row.get(params[0])), data["orgs"][params[1]], "name")
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
 
     # add the locations
-    for params in [["#adm1+name", "admin1"], ["#adm2+name", "admin2"], ["#loc+name", "unclassified"],]:
+    for params in [
+            ["#adm1+name", "admin1"],
+            ["#adm2+name", "admin2"],
+            ["#loc+name", "unclassified"],
+    ]:
         add_unique(fix_location(row.get(params[0])), data["locations"][params[1]])
 
     # add modality (e.g. for cash programming)
     modality = normalise_string(row.get("#modality"))
     if modality and not is_empty(modality):
-        data["aid_type"] = modality
+        data["modalities"].append(modality)
 
     # add intended targeted
     for params in [

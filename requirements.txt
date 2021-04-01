@@ -1,2 +1,2 @@
-diterator
+diterator==0.3
 libhxl
