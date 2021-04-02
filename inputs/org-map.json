@@ -487,11 +487,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Canada": {
-        "name": "Canada",
-        "scope": "international",
-        "synonyms": []
-    },
     "Candlelight for Environment Education and Health": {
         "name": "Candlelight for Environment Education and Health",
         "scope": "local",
@@ -512,7 +507,7 @@
     },
     "Centers for Disease Control and Prevention CDC United States of America": {
         "name": "Centers for Disease Control and Prevention CDC United States of America",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Central Government": {
@@ -525,10 +520,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "China": {
+    "Government of China": {
         "name": "China",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "international",
+        "synonyms": [
+            "China"
+        ]
     },
     "City of Garowe": {
         "name": "City of Garowe",
@@ -635,11 +632,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DG for International Cooperation and Development DEVCO European Commission": {
-        "name": "DG for International Cooperation and Development DEVCO European Commission",
-        "scope": "international",
-        "synonyms": []
-    },
     "DHO": {
         "name": "DHO",
         "scope": "unknown",
@@ -728,15 +720,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Directorate General for European Civil Protection and Humanitarian Aid Operations ECHO ": {
-        "name": "Directorate General for European Civil Protection and Humanitarian Aid Operations ECHO ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Directorate General for European Civil Protection and Humanitarian Aid Operations ECHO European Commission": {
-        "name": "Directorate General for European Civil Protection and Humanitarian Aid Operations ECHO European Commission",
+    "Directorate General for European Civil Protection and Humanitarian Aid Operations (ECHO)": {
+        "name": "Directorate General for European Civil Protection and Humanitarian Aid Operations (ECHO)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Directorate General for European Civil Protection and Humanitarian Aid Operations ECHO European Commission",
+            "European Commission ECHO",
+            "European Commission Humanitarian Aid Civil Protection"
+        ]
     },
     "Dur Dur Water Supply": {
         "name": "Dur Dur Water Supply",
@@ -746,11 +737,6 @@
     "Dutch International Business Development Co\u00f6peratieve Vereniging UA": {
         "name": "Dutch International Business Development Co\u00f6peratieve Vereniging UA",
         "scope": "international",
-        "synonyms": []
-    },
-    "EC_DEVCO": {
-        "name": "EC_DEVCO",
-        "scope": "unknown",
         "synonyms": []
     },
     "EC_FPI": {
@@ -765,12 +751,12 @@
     },
     "EUROPEAN COMMISSION": {
         "name": "EUROPEAN COMMISSION",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "EUROPEAN ECONOMIC COMMUNITY": {
         "name": "EUROPEAN ECONOMIC COMMUNITY",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "EVSO": {
@@ -803,15 +789,15 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "European Commission Directorate General for International Cooperation and Development DEVCO ": {
-        "name": "European Commission Directorate General for International Cooperation and Development DEVCO ",
+    "European Commission Directorate General for International Cooperation and Development (DEVCO)": {
+        "name": "European Commission Directorate General for International Cooperation and Development (DEVCO)",
         "scope": "international",
-        "synonyms": []
-    },
-    "European Commission Directorate General for International Partnerships DEVCO ": {
-        "name": "European Commission Directorate General for International Partnerships DEVCO ",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "DEVCO",
+            "DG for International Cooperation and Development DEVCO European Commission",
+            "EC_DEVCO",
+            "European Commission Directorate General for International Partnerships DEVCO"
+        ]
     },
     "European Commission Directorate General for Service for Foreign Policy Instruments FPI ": {
         "name": "European Commission Directorate General for Service for Foreign Policy Instruments FPI ",
@@ -821,16 +807,6 @@
     "European Commission EC": {
         "name": "European Commission EC",
         "scope": "international",
-        "synonyms": []
-    },
-    "European Commission ECHO": {
-        "name": "European Commission ECHO",
-        "scope": "international",
-        "synonyms": []
-    },
-    "European Commission Humanitarian Aid Civil Protection": {
-        "name": "European Commission Humanitarian Aid Civil Protection",
-        "scope": "unknown",
         "synonyms": []
     },
     "European Commission Instrument contributing to Stability and Peace IcSP ": {
@@ -1005,6 +981,13 @@
             "Belgium"
         ]
     },
+    "Government of Canada": {
+        "name": "Government of Canada",
+        "scope": "international",
+        "synonyms": [
+            "Canada"
+        ]
+    },
     "Government of Denmark": {
         "name": "Government of Denmark",
         "scope": "international",
@@ -1124,11 +1107,6 @@
     },
     "General Service Agency": {
         "name": "General Service Agency",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Germany": {
-        "name": "Germany",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1512,6 +1490,7 @@
         "scope": "local",
         "synonyms": [
             "SSWC",
+            "Save Somali Women & Children",
             "It is a Somali women non governmental humanitarian organization at a national level founded in 1992 at Mogadishu the capital city by a group of Somali women intellectuals from cross section of the community The Save Somali Women and Children SSWC contributeto the creation of a safe and sustainable situation by supporting women to overcome marginalization violence and poverty in their communities It operates as a non profit making organization that has the right to network with a variety of organizations that share similar values and vision In Somalia women face a range of complex challenges that require multiple solutions We work in the belief that women through their own efforts and in collaboration with local national and international allies are central to transforming their own lives and the lives of their communities and population of which they are part SSWC is women led and women centered organization so its programs reflect the needs of those served that have well functioning management finance and programmatic structures and systems "
         ]
     },
@@ -1532,11 +1511,6 @@
     },
     "JRIA": {
         "name": "JRIA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Japan": {
-        "name": "Japan",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1939,11 +1913,6 @@
     },
     "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY": {
         "name": "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "NORWAY": {
-        "name": "NORWAY",
         "scope": "unknown",
         "synonyms": []
     },
@@ -3009,15 +2978,16 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT USAID ": {
-        "name": "UNITED STATES AGENCY FOR INTERNATIONAL DEVELOPMENT USAID ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UNITED STATES OF AMERICA THE ": {
-        "name": "UNITED STATES OF AMERICA THE ",
-        "scope": "unknown",
-        "synonyms": []
+    "Government of the United States of America": {
+        "name": "Government of the United States of America",
+        "scope": "international",
+        "synonyms": [
+            "US",
+            "USA",
+            "United States",
+            "United States of America",
+            "UNITED STATES OF AMERICA THE"
+        ]
     },
     "UNMAS": {
         "name": "UNMAS",
@@ -3061,26 +3031,6 @@
     },
     "USA State BPRM": {
         "name": "USA State BPRM",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "USA USAID": {
-        "name": "USA USAID",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "USA USAID OFDA": {
-        "name": "USA USAID OFDA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "USAID": {
-        "name": "USAID",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "USAID Food for Peace": {
-        "name": "USAID Food for Peace",
         "scope": "unknown",
         "synonyms": []
     },
@@ -3143,24 +3093,27 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "United States": {
-        "name": "United States",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "United States Agency for International Development USAID ": {
-        "name": "United States Agency for International Development USAID ",
-        "scope": "unknown",
-        "synonyms": []
+    "United States Agency for International Development (USAID)": {
+        "name": "United States Agency for International Development (USAID)",
+        "scope": "international",
+        "synonyms": [
+            "Food for Peace",
+            "OFDA",
+            "USAID",
+            "USAID Food for Peace",
+            "USAID OFDA",
+            "USA USAID",
+            "USA USAID OFDA"
+        ]
     },
     "United States Department of Commerce": {
         "name": "United States Department of Commerce",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "United States Department of State USDOS ": {
         "name": "United States Department of State USDOS ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "VAD": {
