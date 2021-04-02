@@ -41,38 +41,40 @@ with open(sys.argv[1], "r") as input:
                 index.setdefault(type, {})
                 index[type].setdefault(sector, {
                     "activities": [],
-                    "orgs": {},
-                    "locations": {},
+                    "orgs": {
+                        "local": {},
+                        "regional": {},
+                        "international": {},
+                        "unknown": {},
+                    },
+                    "locations": {
+                        "admin1": {},
+                        "admin2": {},
+                        "unclassified": {},
+                    },
                 });
                 entry = index[type][sector]
 
-                
                 # Add a brief summary of the activity
-                entry["activities"].append({
-                    "identifier": activity["identifier"],
-                    "title": activity["title"],
-                    "source": activity["source"],
-                    "orgs": flatten(activity["orgs"]),
-                    "locations": flatten(activity["locations"], excludes=["countries"]),
-                })
+                add_unique(activity["identifier"], entry["activities"])
 
-                # orgs
+                # Classify organisations by their scope
                 for role in ROLES:
-                    for org in activity["orgs"].get(role, []):
-                        if org:
-                            entry["orgs"].setdefault(org["name"], 0)
-                            entry["orgs"][org["name"]] += 1
+                    for org_name in activity["orgs"].get(role, []):
+                        if org_name:
+                            org = lookup_org(org_name)
+                            entry["orgs"][org["scope"]].setdefault(org["name"], 0)
+                            entry["orgs"][org["scope"]][org["name"]] += 1
 
                 # locations
                 for loctype in LOCATION_TYPES:
                     for location in activity["locations"].get(loctype, []):
                         if location:
-                            entry["locations"].setdefault(loctype, {})
                             entry["locations"][loctype].setdefault(location, 0)
                             entry["locations"][loctype][location] += 1
 
 # Dump index to standard output
-print(json.dumps(index, indent=4))
+print(json.dumps(index))
 
 # end
 

@@ -12,7 +12,7 @@ for i, filename in enumerate(sys.argv[1:]):
     with open(filename, "r") as input:
         activities = activities + list(json.load(input))
 
-print(json.dumps(activities, indent=4))
+print(json.dumps(activities))
 
 
 

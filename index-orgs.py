@@ -38,51 +38,59 @@ with open(sys.argv[1], "r") as input:
             #
             # Loop through each org and index it
             #
-            for org in activity["orgs"].get(role, []):
+            for org_name in activity["orgs"].get(role, []):
 
                 # Skip blank orgs
-                if not org:
+                if is_empty(org_name):
                     continue
 
                 # Add a default record if this is the first time we've seen the org
-                index.setdefault(org["name"], {
-                    "info": org,
-                    "activities": {},
-                    "partners": {},
-                    "sectors": {},
-                    "locations": {},
+                index.setdefault(org_name, {
+                    "info": lookup_org(org_name),
+                    "activities": {
+                        "implementing": [],
+                        "programming": [],
+                        "funding": [],
+                    },
+                    "partners": {
+                        "local": {},
+                        "regional": {},
+                        "international": {},
+                        "unknown": {},
+                    },
+                    "sectors": {
+                        "humanitarian": {},
+                        "dac": {},
+                    },
+                    "locations": {
+                        "admin1": {},
+                        "admin2": {},
+                        "unclassified": {},
+                    },
                     "total_activities": 0,
                 })
 
                 # This is the org index entry we'll be working on
-                entry = index[org["name"]]
+                entry = index[org_name]
 
                 # Count activities
                 entry["total_activities"] += 1;
 
                 # Add this activity to the org's index
-                entry["activities"].setdefault(role, [])
-                entry["activities"][role].append({
-                    "identifier": activity["identifier"],
-                    "title": activity["title"],
-                    "source": activity["source"],
-                    "orgs": flatten(activity["orgs"]),
-                    "sectors": flatten(activity["sectors"]),
-                    "locations": flatten(activity["locations"], excludes=["countries"]),
-                })
+                entry["activities"][role].append(activity["identifier"])
 
                 # Add the other orgs as partners (don't track roles here)
                 for role in ROLES:
                     for partner in activity["orgs"][role]:
-                        if partner["name"] != org["name"]:
-                            entry["partners"].setdefault(partner["name"], 0)
-                            entry["partners"][partner["name"]] += 1
+                        if not is_empty(partner) and partner != org_name:
+                            org = lookup_org(partner)
+                            entry["partners"][org["scope"]].setdefault(partner, 0)
+                            entry["partners"][org["scope"]][partner] += 1
 
                 # Add the sectors (DAC and Humanitarian)
                 for type in SECTOR_TYPES:
                     for sector in activity["sectors"].get(type, []):
                         if sector:
-                            entry["sectors"].setdefault(type, {})
                             entry["sectors"][type].setdefault(sector, 0)
                             entry["sectors"][type][sector] += 1
 
@@ -90,11 +98,10 @@ with open(sys.argv[1], "r") as input:
                 for type in LOCATION_TYPES:
                     for location in activity["locations"].get(type, []):
                         if location:
-                            entry["locations"].setdefault(type, {})
                             entry["locations"][type].setdefault(location, 0)
                             entry["locations"][type][location] += 1
 
 # Dump the index to stdout
-print(json.dumps(index, indent=4))
+print(json.dumps(index))
 
 # end

@@ -53,35 +53,40 @@ with open(sys.argv[1], "r") as input:
 
                 # Add a default record if this is the first time we've seen the location
                 index[loctype].setdefault(location, {
+                    "info": {
+                        "name": location,
+                        "level": loctype,
+                    },
                     "activities": [],
-                    "orgs": {},
-                    "sectors": {},
+                    "orgs": {
+                        "local": {},
+                        "regional": {},
+                        "international": {},
+                        "unknown": {},
+                    },
+                    "sectors": {
+                        "humanitarian": {},
+                        "dac": {},
+                    },
                 })
 
                 # This is the location index entry we'll be working on
                 entry = index[loctype][location]
 
                 # Add this activity
-                entry["activities"].append({
-                    "identifier": activity["identifier"],
-                    "title": activity["title"],
-                    "source": activity["source"],
-                    "orgs": flatten(activity["orgs"]),
-                    "sectors": flatten(activity["sectors"]),
-                    "locations": flatten(activity["locations"], excludes=["countries"]),
-                })
+                entry["activities"].append(activity["identifier"])
 
                 # Add the activity orgs (don't track roles here)
                 for role in ROLES:
-                    for org in activity["orgs"].get(role, []):
-                        if not org:
+                    for org_name in activity["orgs"].get(role, []):
+                        if not org_name:
                             continue
-                        entry["orgs"].setdefault(org["name"], 0)
-                        entry["orgs"][org["name"]] += 1
+                        org = lookup_org(org_name)
+                        entry["orgs"][org["scope"]].setdefault(org["name"], 0)
+                        entry["orgs"][org["scope"]][org["name"]] += 1
 
                 # Add the sectors for each type
                 for type in SECTOR_TYPES:
-                    entry["sectors"].setdefault(type, {})
                     for sector in activity["sectors"].get(type, []):
                         if not sector:
                             continue
@@ -91,7 +96,7 @@ with open(sys.argv[1], "r") as input:
                         
 
 # Dump the index as JSON to stdout
-print(json.dumps(index, indent=4))
+print(json.dumps(index))
 
 # end
 

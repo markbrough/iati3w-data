@@ -9,9 +9,10 @@ from hxl.datatypes import is_empty
 #
 # Keys for classifying things
 #
-ROLES = ["implementing", "programming", "funding"]
-SECTOR_TYPES = ["dac", "humanitarian"]
-LOCATION_TYPES = ["admin1", "admin2", "unclassified"]
+ROLES = ["implementing", "programming", "funding",]
+SCOPES = ["local", "regional", "international", "unknown",]
+SECTOR_TYPES = ["dac", "humanitarian",]
+LOCATION_TYPES = ["admin1", "admin2", "unclassified",]
 
 
 #

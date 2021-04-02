@@ -119,7 +119,7 @@ for activity in activities:
         for org in org_map.get(params[0], []):
             info = lookup_org(org.name)
             if info is not None:
-                add_unique(info, data["orgs"][params[1]], "name")
+                add_unique(info["name"], data["orgs"][params[1]])
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:
@@ -138,6 +138,8 @@ for activity in activities:
 
     # Look up location strings
     for location in activity.locations:
+        if location.name is None or is_empty(str(location.name)):
+            continue
         info = lookup_location(str(location.name))
         if info["level"] == "admin1":
             add_unique(info["name"], data["locations"]["admin1"])
