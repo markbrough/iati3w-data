@@ -2158,10 +2158,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "READO": {
-        "name": "READO",
+    "Rural Education and Agriculture Development Organization (READO)": {
+        "name": "Rural Education and Agriculture Development Organization (READO)",
         "scope": "local",
-        "synonyms": []
+        "url": "https://readosom.org",
+        "synonyms": [
+            "READO"
+        ]
     },
     "REW": {
         "name": "REW",
