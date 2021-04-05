@@ -23,20 +23,14 @@
             "AAP"
         ]
     },
-    "Action Contre la Faim (ACF)": {
-        "name": "Action Contre la Faim (ACF)",
-        "scope": "international",
-        "synonyms": [
-            "ACF"
-        ]
-    },
     "Agency for Technical Cooperation and Development (ACTED)": {
         "name": "Agency for Technical Cooperation and Development (ACTED)",
         "scope": "international",
         "url": "https://www.acted.org/en/countries/somalia/",
         "synonyms": [
             "ACTED",
-            "ACTED FR"
+            "ACTED FR",
+            "Agency for Technical Cooperation and Development"
         ]
     },
     "ADA": {
@@ -184,20 +178,20 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Acci\u00f3n Contra El Hambre ES ": {
-        "name": "Acci\u00f3n Contra El Hambre ES ",
-        "scope": "international",
-        "synonyms": []
-    },
     "Action Against Disasters Somalia": {
         "name": "Action Against Disasters Somalia",
         "scope": "unknown",
         "synonyms": []
     },
-    "Action Against Hunger": {
+    "Action Against Hunger (ACF)": {
         "name": "Action Against Hunger",
         "scope": "international",
-        "synonyms": []
+        "url": "https://www.actioncontrelafaim.org/",
+        "synonyms": [
+            "Acci\u00f3n Contra El Hambre ES",
+            "Action Contre la Faim",
+            "Action Contre la Faim (ACF)"
+        ]
     },
     "ActionAid": {
         "name": "ActionAid",
@@ -207,11 +201,6 @@
             "Action Aid",
             "Action Aid Somaliland"
         ]
-    },
-    "Action Contre la Faim": {
-        "name": "Action Contre la Faim",
-        "scope": "international",
-        "synonyms": []
     },
     "Action for Relief and Development": {
         "name": "Action for Relief and Development",
@@ -272,11 +261,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Agency for Technical Cooperation and Development": {
-        "name": "Agency for Technical Cooperation and Development",
-        "scope": "international",
-        "synonyms": []
-    },
     "Aid Vision": {
         "name": "Aid Vision",
         "scope": "unknown",
@@ -300,6 +284,7 @@
     "Assessed Contributions": {
         "name": "Assessed Contributions",
         "scope": "international",
+        "skip": true,
         "synonyms": []
     },
     "Athani": {
@@ -307,10 +292,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Australia": {
-        "name": "Australia",
+    "Government of Australia": {
+        "name": "Government of Australia",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Australia"
+        ]
     },
     "Awale Driling com": {
         "name": "Awale Driling com",
@@ -362,10 +349,13 @@
         "scope": "local",
         "synonyms": []
     },
-    "Bill Melinda Gates Foundation": {
-        "name": "Bill Melinda Gates Foundation",
+    "Bill & Melinda Gates Foundation": {
+        "name": "Bill & Melinda Gates Foundation",
         "scope": "international",
-        "synonyms": []
+        "url": "https://gatesfoundation.org",
+        "synonyms": [
+            "Bill and Melinda Gates Foundation"
+        ]
     },
     "British Government DFID ": {
         "name": "British Government DFID ",
@@ -435,6 +425,7 @@
     "Civil Society Organisation (community based or national, undesignated)": {
         "name": "Civil Society Organisation (community based or national, undesignated)",
         "scope": "local",
+        "skip": true,
         "synonyms": [
             "CIVIL SOCIETY ORGANIZATION Community based organization",
             "CIVIL SOCIETY ORGANIZATION National NGO"
@@ -443,11 +434,6 @@
     "COHOPE": {
         "name": "COHOPE",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR ": {
-        "name": "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR ",
-        "scope": "international",
         "synonyms": []
     },
     "Concern Worldwide": {
@@ -521,7 +507,7 @@
         "synonyms": []
     },
     "Government of China": {
-        "name": "China",
+        "name": "Government of China",
         "scope": "international",
         "synonyms": [
             "China"
@@ -1038,6 +1024,7 @@
             "Netherlands",
             "The Netherlands",
             "Dutch Ministry of Foreign Affairs",
+            "Ministry of Foreign Affairs NL",
             "Government of Netherlands"
         ]
     },
@@ -1054,11 +1041,6 @@
         "synonyms": [
             "Poland"
         ]
-    },
-    "Government of Somalia, Ministry of Finance": {
-        "name": "Government of Somalia, Ministry of Finance",
-        "scope": "local",
-        "synonyms": []
     },
     "Government of Switzerland": {
         "name": "Government of Switzerland",
@@ -1156,7 +1138,9 @@
         "name": "Government Of Somalia",
         "scope": "local",
         "synonyms": [
-            "Somalia"
+            "Somalia",
+            "The Government of Somalia",
+            "Government of Somalia, Ministry of Finance"
         ]
     },
     "Government of France": {
@@ -1169,20 +1153,25 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Governmental donors of unearmarked and flexible funds": {
-        "name": "Governmental donors of unearmarked and flexible funds",
+    "Governmental donors of unearmarked and flexible funds (undesignated)": {
+        "name": "Governmental donors of unearmarked and flexible funds (undesignated)",
         "scope": "unknown",
-        "synonyms": []
+        "skip": true,
+        "synonyms": [
+            "Governmental donors of unearmarked and flexible funds"
+        ]
     },
     "Ground Truth Solutions": {
         "name": "Ground Truth Solutions",
         "scope": "unknown",
         "synonyms": []
     },
-    "HADMO": {
-        "name": "HADMO",
-        "scope": "unknown",
-        "synonyms": []
+    "Humanitarian Assistance and Drought Management Organization (HADMO)": {
+        "name": "Humanitarian Assistance and Drought Management Organization (HADMO)",
+        "scope": "local",
+        "synonyms": [
+            "HADMO"
+        ]
     },
     "HADO": {
         "name": "HADO",
@@ -1356,16 +1345,20 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "INTERNATIONAL LABOUR ORGANIZATION": {
-        "name": "INTERNATIONAL LABOUR ORGANIZATION",
-        "scope": "unknown",
-        "synonyms": []
+    "International Labour Organization (ILO)": {
+        "name": "International Labour Organization (ILO)",
+        "scope": "international",
+        "synonyms": [
+            "ILO",
+            "International Labour Organization"
+        ]
     },
     "International Monetary Fund (IMF)": {
         "name": "International Monetary Fund (IMF)",
         "scope": "international",
         "synonyms": [
-            "IMF"
+            "IMF",
+            "International Monetary Fund"
         ]
     },
     "INTERSOS": {
@@ -1384,11 +1377,6 @@
             "International Organization for Migration IOM",
             "INTERNATIONAL ORGANIZATION FOR MIGRATION INT"
         ]
-    },
-    "IRC": {
-        "name": "IRC",
-        "scope": "unknown",
-        "synonyms": []
     },
     "IRDO": {
         "name": "IRDO",
@@ -1410,10 +1398,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "International Committee of the Red Cross": {
-        "name": "International Committee of the Red Cross",
+    "International Committee of the Red Cross (ICRC)": {
+        "name": "International Committee of the Red Cross (ICRC)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "International Committee of the Red Cross",
+            "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR"
+        ]
     },
     "International Development Association": {
         "name": "International Development Association",
@@ -1428,6 +1419,7 @@
     "International NGO (undesignated)": {
         "name": "International NGO (undesignated)",
         "scope": "international",
+        "skip": true,
         "synonyms": [
             "International NGO",
             "iNGO",
@@ -1444,15 +1436,14 @@
         "scope": "international",
         "synonyms": []
     },
-    "International Rescue Committee": {
-        "name": "International Rescue Committee",
+    "International Rescue Committee (IRC)": {
+        "name": "International Rescue Committee (IRC)",
         "scope": "international",
-        "synonyms": []
-    },
-    "International Rescue Committee IRC Deutschland gGmbH": {
-        "name": "International Rescue Committee IRC Deutschland gGmbH",
-        "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "IRC",
+            "International Rescue Committee",
+            "International Rescue Committee IRC Deutschland gGmbH"
+        ]
     },
     "Intersom": {
         "name": "Intersom",
@@ -1464,10 +1455,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Ireland": {
-        "name": "Ireland",
-        "scope": "unknown",
-        "synonyms": []
+    "Government of Ireland": {
+        "name": "Government of Ireland",
+        "scope": "international",
+        "synonyms": [
+            "Ireland"
+        ]
     },
     "Islamic Development Bank": {
         "name": "Islamic Development Bank",
@@ -1543,15 +1536,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "KAALO": {
-        "name": "KAALO",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "KAALO Aid and Development": {
         "name": "KAALO Aid and Development",
         "scope": "local",
         "synonyms": [
+            "KAALO",
+            "KAALO Aid Development",
             "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum "
         ]
     },
@@ -1577,11 +1567,6 @@
     },
     "KSR": {
         "name": "KSR",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Kaalo Aid Development": {
-        "name": "Kaalo Aid Development",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1657,11 +1642,6 @@
     },
     "MINISTERIO DE ENERGIA": {
         "name": "MINISTERIO DE ENERGIA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "MINISTRY OF FINANCE": {
-        "name": "MINISTRY OF FINANCE",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1767,7 +1747,8 @@
     },
     "Ministry of Finance": {
         "name": "Ministry of Finance",
-        "scope": "local",
+        "scope": "unknown",
+        "skip": true,
         "synonyms": []
     },
     "Ministry of Foreign Affairs DGIS ": {
@@ -2181,10 +2162,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Recipient Government": {
-        "name": "Recipient Government",
+    "Recipient Government (undesignated)": {
+        "name": "Recipient Government (undesignated)",
         "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "Recipient Government"
+        ]
     },
     "Redd Barna": {
         "name": "Redd Barna",
@@ -2642,11 +2625,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Somalia": {
-        "name": "Somalia",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Somalia Humanitarian Fund": {
         "name": "Somalia Humanitarian Fund",
         "scope": "international",
@@ -2767,18 +2745,13 @@
         "scope": "international",
         "synonyms": []
     },
-    "The Government of Somalia": {
-        "name": "The Government of Somalia",
-        "scope": "local",
-        "synonyms": []
-    },
     "The Hub East Africa": {
         "name": "The Hub East Africa",
         "scope": "local",
         "synonyms": []
     },
     "University of Hargeisa": {
-        "name": "Univesity of Hargeisa",
+        "name": "University of Hargeisa",
         "scope": "local",
         "synonyms": [
             "The project has no gender capacity building plans the partner is a unit from Hargeisa Univeristy called legal aid clinic which hasbeen implementing access to justice programing with different aid donors and agencies this project targets to all marginalized groups women and men are equally access the justice service and will benefit this project equally"
@@ -3327,6 +3300,15 @@
         "synonyms": [
             "SHACDO",
             "Shabelle Community Development Organization"
+        ]
+    },
+    "International Development Law Organization (IDLO)": {
+        "name": "International Development Law Organization (IDLO)",
+        "scope": "international",
+        "url": "https://www.idlo.int",
+        "synonyms": [
+            "IDLO",
+            "International Development Law Organization"
         ]
     }
 }
