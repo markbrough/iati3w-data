@@ -452,10 +452,12 @@
         "scope": "international",
         "synonyms": []
     },
-    "CONCERN WORLDWIDE IRL ": {
-        "name": "CONCERN WORLDWIDE IRL",
+    "Concern Worldwide": {
+        "name": "Concern Worldwide",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Concern Worldwide IRL"
+        ]
     },
     "COOPI": {
         "name": "COOPI",
@@ -1162,11 +1164,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Government of Japan": {
-        "name": "Government of Japan",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Government of the United Arab Emirates": {
         "name": "Government of the United Arab Emirates",
         "scope": "unknown",
@@ -1245,10 +1242,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "HIRDA": {
-        "name": "HIRDA",
-        "scope": "unknown",
-        "synonyms": []
+    "Himilo Relief and Development Association (HIRDA)": {
+        "name": "Himilo Relief and Development Association (HIRDA)",
+        "scope": "local",
+        "url": "https://www.hirda.org",
+        "synonyms": [
+            "HIRDA",
+            "Himilo Relief and Development Association"
+        ]
     },
     "HIRDO": {
         "name": "HIRDO",
@@ -2354,11 +2355,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SHACDO": {
-        "name": "SHACDO",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "SHELL FOUNDATION": {
         "name": "SHELL FOUNDATION",
         "scope": "international",
@@ -2528,25 +2524,32 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SWEDEN": {
-        "name": "SWEDEN",
-        "scope": "unknown",
-        "synonyms": []
+    "Government of Sweden": {
+        "name": "Government of Sweden",
+        "scope": "international",
+        "synonyms": [
+            "Sweden"
+        ]
     },
     "SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION SIDA ": {
         "name": "SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION SIDA ",
         "scope": "unknown",
         "synonyms": []
     },
-    "SWISS AGENCY FOR DEVELOPMENT AND COOPERATION SDC": {
-        "name": "SWISS AGENCY FOR DEVELOPMENT AND COOPERATION SDC",
-        "scope": "unknown",
-        "synonyms": []
+    "Swiss Agency for Development and Cooperation (SDC)": {
+        "name": "Swiss Agency for Development and Cooperation (SDC)",
+        "scope": "international",
+        "synonyms": [
+            "SDC",
+            "SDC Swiss Agency for Development and Co"
+        ]
     },
-    "SWITZERLAND": {
-        "name": "SWITZERLAND",
-        "scope": "unknown",
-        "synonyms": []
+    "Government of Switzerland": {
+        "name": "Government of Switzerland",
+        "scope": "international",
+        "synonyms": [
+            "Switzerland"
+        ]
     },
     "SWSCRI": {
         "name": "SWSCRI",
@@ -2874,6 +2877,15 @@
         "scope": "international",
         "synonyms": []
     },
+    "United Nations Office on Drugs and Crime (UNODC)": {
+        "name": "United Nations Office on Drugs and Crime (UNODC)",
+        "scope": "international",
+        "synonyms": [
+            "UNODC",
+            "United Nations Office on Drug and Crime",
+            "United Nations Office on Drugs and Crime"
+        ]
+    },
     "United Nations Development Programme (UNDP)": {
         "name": "United Nations Development Programme (UNDP)",
         "scope": "international",
@@ -3133,15 +3145,24 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "VSF Suisse": {
-        "name": "VSF Suisse",
+    "Vétérinaires sans Frontières International (VSF)": {
+        "name": "Vétérinaires sans Frontières International (VSF)",
         "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "VSF",
+            "VSF International",
+            "Vétérinaires sans Frontières",
+            "Veterinaires sans Frontieres",
+            "VSF Suisse"
+        ]
     },
-    "WAAPO": {
-        "name": "WAAPO",
-        "scope": "unknown",
-        "synonyms": []
+    "Women's Action Advocacy Progress Organisation (WAAPO)": {
+        "name": "Women's Action Advocacy Progress Organisation (WAAPO)",
+        "scope": "local",
+        "url": "https://waapo.org/",
+        "synonyms": [
+            "WAAPO"
+        ]
     },
     "WARDI": {
         "name": "WARDI",
@@ -3302,5 +3323,21 @@
         "name": "manaal Relief Foundation",
         "scope": "unknown",
         "synonyms": []
+    },
+    "King Salman Humanitarian Aid and Relief Center": {
+        "name": "King Salman Humanitarian Aid and Relief Center",
+        "scope": "international",
+        "synonyms": [
+            "king salman humanitarian aid relief centre"
+        ]
+    },
+    "Shabelle Community Development Organization (SHACDO)": {
+        "name": "Shabelle Community Development Organization",
+        "scope": "international",
+        "url": "https://www.facebook.com/shacdosom/",
+        "synonyms": [
+            "SHACDO",
+            "Shabelle Community Development Organization"
+        ]
     }
 }
