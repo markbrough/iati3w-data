@@ -4,7 +4,8 @@
         "scope": "local",
         "url": "http://aadsom.org/",
         "synonyms": [
-            "AADSOM"
+            "AADSOM",
+            "Action Against Disasters Somalia"
         ]
     },
     "AAMIN": {
@@ -198,10 +199,14 @@
         "scope": "international",
         "synonyms": []
     },
-    "Action Aid": {
-        "name": "Action Aid",
-        "scope": "unknown",
-        "synonyms": []
+    "ActionAid": {
+        "name": "ActionAid",
+        "scope": "international",
+        "url": "https://somaliland.actionaid.org/",
+        "synonyms": [
+            "Action Aid",
+            "Action Aid Somaliland"
+        ]
     },
     "Action Contre la Faim": {
         "name": "Action Contre la Faim",
@@ -427,20 +432,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CIVIL SOCIETY ORGANIZATION Community based organization": {
-        "name": "CIVIL SOCIETY ORGANIZATION Community based organization",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "CIVIL SOCIETY ORGANIZATION International NGO": {
-        "name": "CIVIL SOCIETY ORGANIZATION International NGO",
-        "scope": "international",
-        "synonyms": []
-    },
-    "CIVIL SOCIETY ORGANIZATION National NGO": {
-        "name": "CIVIL SOCIETY ORGANIZATION National NGO",
-        "scope": "unknown",
-        "synonyms": []
+    "Civil Society Organisation (community based or national, undesignated)": {
+        "name": "Civil Society Organisation (community based or national, undesignated)",
+        "scope": "local",
+        "synonyms": [
+            "CIVIL SOCIETY ORGANIZATION Community based organization",
+            "CIVIL SOCIETY ORGANIZATION National NGO"
+        ]
     },
     "COHOPE": {
         "name": "COHOPE",
@@ -1156,8 +1154,10 @@
     },
     "Government Of Somalia": {
         "name": "Government Of Somalia",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "local",
+        "synonyms": [
+            "Somalia"
+        ]
     },
     "Government of France": {
         "name": "Government of France",
@@ -1361,15 +1361,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "INTERNATIONAL MONETARY FUND": {
-        "name": "INTERNATIONAL MONETARY FUND",
+    "International Monetary Fund (IMF)": {
+        "name": "International Monetary Fund (IMF)",
         "scope": "international",
-        "synonyms": []
-    },
-    "INTERNATIONAL NGO": {
-        "name": "INTERNATIONAL NGO",
-        "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "IMF"
+        ]
     },
     "INTERSOS": {
         "name": "INTERSOS",
@@ -1428,15 +1425,14 @@
         "scope": "international",
         "synonyms": []
     },
-    "International Monetary Fund IMF ": {
-        "name": "International Monetary Fund IMF ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "International NGO": {
-        "name": "International NGO",
+    "International NGO (undesignated)": {
+        "name": "International NGO (undesignated)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "International NGO",
+            "iNGO",
+            "CIVIL SOCIETY ORGANIZATION International NGO"
+        ]
     },
     "International NGO Safety Organisation": {
         "name": "International NGO Safety Organisation",
@@ -1709,15 +1705,15 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "MULTI LATERAL ORGANIZATION": {
-        "name": "MULTI LATERAL ORGANIZATION",
+    "Multilateral organisations (undesignated)": {
+        "name": "Multilateral organisations (undesignated)",
         "scope": "international",
-        "synonyms": []
-    },
-    "MULTILATERAL ORGANISATIONS": {
-        "name": "MULTILATERAL ORGANISATIONS",
-        "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "UN agency",
+            "Multilateral organizations",
+            "Multi lateral organization",
+            "Multilateral organisations"
+        ]
     },
     "MUSLIM AID": {
         "name": "MUSLIM AID",
@@ -1811,12 +1807,12 @@
     },
     "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau": {
         "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland": {
         "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "Minist\u00e8re des Travaux publics de la Reconstruction et du Logement MPWR H ": {
@@ -2820,23 +2816,13 @@
         "scope": "international",
         "synonyms": []
     },
-    "UN Agency": {
-        "name": "UN Agency",
-        "scope": "international",
-        "synonyms": []
-    },
     "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS": {
         "name": "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS",
         "scope": "unknown",
         "synonyms": []
     },
-    "UN HABITAT": {
-        "name": "UN HABITAT",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UN Habitat": {
-        "name": "UN Habitat",
+    "UN-Habitat": {
+        "name": "UN-Habitat",
         "scope": "international",
         "synonyms": []
     },

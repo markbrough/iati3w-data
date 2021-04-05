@@ -82,10 +82,10 @@ for activity in activities:
         "identifier": activity.identifier,
         "source": "IATI",
         "reported_by": str(activity.reporting_org.name),
-        "has_humanitarian_content": has_humanitarian_content(activity),
+        "humanitarian": has_humanitarian_content(activity),
         "title": str(activity.title),
         "description": str(activity.description),
-        "is_active": True if activity.activity_status == "2" else False,
+        "active": True if activity.activity_status == "2" else False,
         "orgs": {
             "implementing": [],
             "programming": [],

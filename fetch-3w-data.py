@@ -18,7 +18,7 @@ def make_pseudo_identifier (data):
         data["orgs"],
         data["sectors"],
         data["locations"],
-    ]).encode("utf-8")).hexdigest()
+    ]).encode("utf-8")).hexdigest()[:8]
 
 
 def fix_cluster_name (name):
@@ -46,10 +46,10 @@ for row in hxl.data(DATASET):
         "identifier": None,
         "source": "3W",
         "reported_by": "OCHA Somalia",
-        "has_humanitarian_content": True,
+        "humanitarian": True,
         "title": row.get("#activity+programme", default=row.get("#activity+project")),
         "description": row.get("#activity+project"),
-        "is_active": row.get("#status") == "Ongoing",
+        "active": row.get("#status") == "Ongoing",
         "orgs": {
             "implementing": [],
             "programming": [],
