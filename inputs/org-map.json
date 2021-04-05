@@ -579,7 +579,7 @@
     },
     "DAI Europe": {
         "name": "DAI Europe",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "DAN": {
@@ -811,7 +811,7 @@
     },
     "European Commission Instrument contributing to Stability and Peace IcSP ": {
         "name": "European Commission Instrument contributing to Stability and Peace IcSP",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Commission Service for Foreign Policy Instruments": {
@@ -821,12 +821,12 @@
     },
     "European Development Fund": {
         "name": "European Development Fund",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Union": {
         "name": "European Union",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Europ\u00e4ische Union EU ": {
@@ -846,7 +846,7 @@
     },
     "FAO FOOD AND AGRICULTURE ORGANIZAT OF THE UNITED NATION": {
         "name": "FAO FOOD AND AGRICULTURE ORGANIZAT OF THE UNITED NATION",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "FCA": {
@@ -1013,7 +1013,8 @@
         "name": "Government of Japan",
         "scope": "international",
         "synonyms": [
-            "Japan"
+            "Japan",
+            "Japan Ministry of Foreign Affairs"
         ]
     },
     "Government of Kuwait": {
@@ -1036,6 +1037,7 @@
         "synonyms": [
             "Netherlands",
             "The Netherlands",
+            "Dutch Ministry of Foreign Affairs",
             "Government of Netherlands"
         ]
     },
@@ -2111,7 +2113,7 @@
     },
     "Port of Rotterdam International PORINT ": {
         "name": "Port of Rotterdam International PORINT",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Private donors": {
@@ -2930,12 +2932,12 @@
     },
     "UNITED NATIONS ENVIRONMENT PROGRAMME": {
         "name": "UNITED NATIONS ENVIRONMENT PROGRAMME",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "UNITED NATIONS FOOD AND AGRICULTURE ORGANIZATION": {
         "name": "UNITED NATIONS FOOD AND AGRICULTURE ORGANIZATION",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES": {
@@ -2975,7 +2977,7 @@
     },
     "UNITED NATIONS TRUST FUND FOR HUMAN SECURITY": {
         "name": "UNITED NATIONS TRUST FUND FOR HUMAN SECURITY",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Government of the United States of America": {
@@ -3090,7 +3092,7 @@
     },
     "United Nations agency fund or commission UN ": {
         "name": "United Nations agency fund or commission UN ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "United States Agency for International Development (USAID)": {

@@ -6,13 +6,15 @@ if len(sys.argv) < 2:
     print("Usage: {} <file> [file ...]".format(sys.argv[0]), file=sys.stderr)
     sys.exit(2)
 
-activities = []
+result = {}
 
 for i, filename in enumerate(sys.argv[1:]):
     with open(filename, "r") as input:
-        activities = activities + list(json.load(input))
+        activities = json.load(input)
+    for activity in activities:
+        result.setdefault(activity["identifier"], activity)
 
-print(json.dumps(activities))
+print(json.dumps(result))
 
 
 

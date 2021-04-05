@@ -29,7 +29,7 @@ if len(sys.argv) != 2:
 #
 with open(sys.argv[1], "r") as input:
     activities = json.load(input)
-    for activity in activities:
+    for identifier, activity in activities.items():
 
         #
         # Loop through the sector types
@@ -77,5 +77,3 @@ with open(sys.argv[1], "r") as input:
 print(json.dumps(index))
 
 # end
-
-
