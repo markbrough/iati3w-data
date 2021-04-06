@@ -81,7 +81,9 @@ for row in hxl.data(DATASET):
     ]:
         org_name = row.get(params[0])
         if org_name:
-            add_unique(lookup_org(org_name)["name"], data["orgs"][params[1]])
+            org = lookup_org(org_name)
+            if org is not None and not org.get("skip", False):
+                add_unique(org["name"], data["orgs"][params[1]])
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])

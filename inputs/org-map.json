@@ -188,6 +188,7 @@
         "scope": "international",
         "url": "https://www.actioncontrelafaim.org/",
         "synonyms": [
+            "ACF",
             "Acci\u00f3n Contra El Hambre ES",
             "Action Contre la Faim",
             "Action Contre la Faim (ACF)"
@@ -357,11 +358,6 @@
             "Bill and Melinda Gates Foundation"
         ]
     },
-    "British Government DFID ": {
-        "name": "British Government DFID ",
-        "scope": "international",
-        "synonyms": []
-    },
     "Bundesministerium f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung BMZ ": {
         "name": "Bundesministerium f\u00fcr wirtschaftliche Zusammenarbeit und Entwicklung BMZ ",
         "scope": "international",
@@ -440,6 +436,7 @@
         "name": "Concern Worldwide",
         "scope": "international",
         "synonyms": [
+            "Concern",
             "Concern Worldwide IRL"
         ]
     },
@@ -491,10 +488,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Centers for Disease Control and Prevention CDC United States of America": {
-        "name": "Centers for Disease Control and Prevention CDC United States of America",
+    "Centers for Disease Control and Prevention (CDC)": {
+        "name": "Centers for Disease Control and Prevention (CDC)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "CDC",
+            "USA CDC",
+            "Centers for Disease Control and Prevention CDC United States of America"
+        ]
     },
     "Central Government": {
         "name": "Central Government",
@@ -533,14 +534,9 @@
         "scope": "international",
         "synonyms": []
     },
-    "Concern": {
-        "name": "Concern",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Consolidated Funds from NatComs": {
         "name": "Consolidated Funds from NatComs",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Cooperazione e Sviluppo": {
@@ -551,17 +547,10 @@
     "Crown Agents Bank": {
         "name": "Crown Agents Bank",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "Crown Agents Bank Limited CHAPS": {
-        "name": "Crown Agents Bank Limited CHAPS",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Crown Agents Limited": {
-        "name": "Crown Agents Limited",
-        "scope": "unknown",
-        "synonyms": []
+        "synonyms": [
+            "Crown Agents Bank Limited CHAPS",
+            "Crown Agents Limited"
+        ]
     },
     "DAI Europe": {
         "name": "DAI Europe",
@@ -598,11 +587,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DEPARTMENT FOR INTERNATIONAL DEVELOPMENT DFID ": {
-        "name": "DEPARTMENT FOR INTERNATIONAL DEVELOPMENT DFID ",
-        "scope": "international",
-        "synonyms": []
-    },
     "DERF": {
         "name": "DERF",
         "scope": "unknown",
@@ -611,11 +595,6 @@
     "DEUTSCHE GESELLSCHAFT FUR INTERNATIONALE ZUSAMMENARBEIT GIZ GMBH": {
         "name": "DEUTSCHE GESELLSCHAFT FUR INTERNATIONALE ZUSAMMENARBEIT GIZ GMBH",
         "scope": "international",
-        "synonyms": []
-    },
-    "DFID": {
-        "name": "DFID",
-        "scope": "unknown",
         "synonyms": []
     },
     "DHO": {
@@ -663,11 +642,6 @@
     },
     "Denmark Ministry of Foreign Affairs": {
         "name": "Denmark Ministry of Foreign Affairs",
-        "scope": "international",
-        "synonyms": []
-    },
-    "Department for International Development DFID United Kingdom": {
-        "name": "Department for International Development DFID United Kingdom",
         "scope": "international",
         "synonyms": []
     },
@@ -735,15 +709,16 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "EUROPEAN COMMISSION": {
-        "name": "EUROPEAN COMMISSION",
+    "European Commission": {
+        "name": "European Commission",
         "scope": "international",
-        "synonyms": []
-    },
-    "EUROPEAN ECONOMIC COMMUNITY": {
-        "name": "EUROPEAN ECONOMIC COMMUNITY",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "European Economic Community",
+            "European Commission EC",
+            "European Commission Service for Foreign Policy Instruments",
+            "European Commission Instrument contributing to Stability and Peace IcSP",
+            "European Commission Directorate General for Service for Foreign Policy Instruments FPI"
+        ]
     },
     "EVSO": {
         "name": "EVSO",
@@ -785,26 +760,6 @@
             "European Commission Directorate General for International Partnerships DEVCO"
         ]
     },
-    "European Commission Directorate General for Service for Foreign Policy Instruments FPI ": {
-        "name": "European Commission Directorate General for Service for Foreign Policy Instruments FPI ",
-        "scope": "international",
-        "synonyms": []
-    },
-    "European Commission EC": {
-        "name": "European Commission EC",
-        "scope": "international",
-        "synonyms": []
-    },
-    "European Commission Instrument contributing to Stability and Peace IcSP ": {
-        "name": "European Commission Instrument contributing to Stability and Peace IcSP",
-        "scope": "international",
-        "synonyms": []
-    },
-    "European Commission Service for Foreign Policy Instruments": {
-        "name": "European Commission Service for Foreign Policy Instruments",
-        "scope": "international",
-        "synonyms": []
-    },
     "European Development Fund": {
         "name": "European Development Fund",
         "scope": "international",
@@ -823,16 +778,6 @@
     "FAIDO": {
         "name": "FAIDO",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "FAO": {
-        "name": "FAO",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "FAO FOOD AND AGRICULTURE ORGANIZAT OF THE UNITED NATION": {
-        "name": "FAO FOOD AND AGRICULTURE ORGANIZAT OF THE UNITED NATION",
-        "scope": "international",
         "synonyms": []
     },
     "FCA": {
@@ -875,10 +820,17 @@
         "scope": "international",
         "synonyms": []
     },
-    "Food and Agriculture Organization of the United Nations FAO ": {
-        "name": "Food and Agriculture Organization of the United Nations FAO ",
+    "Food and Agriculture Organization of the United Nations (FAO)": {
+        "name": "Food and Agriculture Organization of the United Nations (FAO)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "FAO",
+            "Food and Agriculture Organization",
+            "FAO Food and Agriculture Organizat of the United Nation",
+            "FAO Food and Agriculture Organizat of the United Nations",
+            "The Food and Agriculture Organization of the United Nations",
+            "United Nations Food and Agriculture Organization"
+        ]
     },
     "Foore": {
         "name": "Foore",
@@ -890,25 +842,22 @@
         "scope": "international",
         "synonyms": []
     },
-    "Foreign Commonwealth Development Office": {
-        "name": "Foreign Commonwealth Development Office",
+    "Foreign, Commonwealth & Development Office (FCDO)": {
+        "name": "Foreign, Commonwealth & Development Office (FCDO)",
         "scope": "international",
-        "synonyms": []
-    },
-    "Foreign Commonwealth Development Office FCDO United Kingdom": {
-        "name": "Foreign Commonwealth Development Office FCDO United Kingdom",
-        "scope": "international",
-        "synonyms": []
-    },
-    "Foreign Commonwealth Office": {
-        "name": "Foreign Commonwealth Office",
-        "scope": "international",
-        "synonyms": []
-    },
-    "Foreign Commonwealth and Development Office": {
-        "name": "Foreign Commonwealth and Development Office",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "FCDO",
+            "DFID",
+            "British Government (DFID)",
+            "Department for International Development (DFID)",
+            "Department for International Development (DFID) United Kingdom",
+            "Foreign Commonwealth Office",
+            "Foreign Commonwealth Development Office",
+            "Foreign Commonwealth and Development Office",
+            "Foreign Commonwealth Development Office FCDO United Kingdom",
+            "UK Foreign Commonwealth and Development Office (FCDO)",
+            "UK Department for International Development (DFID)"
+        ]
     },
     "Fragile States Facility": {
         "name": "Fragile States Facility",
@@ -930,15 +879,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GAVI Alliance": {
-        "name": "GAVI Alliance",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "GAVI The Vaccine Alliance": {
-        "name": "GAVI The Vaccine Alliance",
+    "GAVI, The Vaccine Alliance": {
+        "name": "GAVI, The Vaccine Alliance",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "GAVI",
+            "GAVI Alliance"
+        ]
     },
     "GAVO": {
         "name": "GAVO",
@@ -955,10 +902,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GOVERNMENT": {
-        "name": "GOVERNMENT",
+    "Government (undesignated)": {
+        "name": "Government (undesignated)",
         "scope": "unknown",
-        "synonyms": []
+        "skip": true,
+        "synonyms": [
+            "Government"
+        ]
     },
     "Government of Belgium": {
         "name": "Government of Belgium",
@@ -1084,11 +1034,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Gavi The Vaccine Alliance": {
-        "name": "Gavi The Vaccine Alliance",
-        "scope": "international",
-        "synonyms": []
-    },
     "General Service Agency": {
         "name": "General Service Agency",
         "scope": "unknown",
@@ -1099,10 +1044,12 @@
         "scope": "international",
         "synonyms": []
     },
-    "Global Education": {
-        "name": "Global Education",
+    "Global Education Cluster": {
+        "name": "Global Education Cluster",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Global Education"
+        ]
     },
     "Global Environment Fund Truste": {
         "name": "Global Environment Fund Truste",
@@ -1114,10 +1061,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Global Nutrition": {
-        "name": "Global Nutrition",
+    "Global Nutrition Cluster": {
+        "name": "Global Nutrition Cluster",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "Global Nutrition"
+        ]
     },
     "Global Partnership for Education": {
         "name": "Global Partnership for Education",
@@ -1129,10 +1078,13 @@
         "scope": "international",
         "synonyms": []
     },
-    "Global Water Sanitation Hygiene": {
-        "name": "Global Water Sanitation Hygiene",
+    "Global Water Sanitation Hygiene (WASH) Cluster": {
+        "name": "Global Water Sanitation Hygiene (WASH) Cluster",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "WASH",
+            "Global Water Sanitation Hygiene"
+        ]
     },
     "Government Of Somalia": {
         "name": "Government Of Somalia",
@@ -1375,7 +1327,7 @@
             "IOM Development Fund",
             "International Organization for Migration",
             "International Organization for Migration IOM",
-            "INTERNATIONAL ORGANIZATION FOR MIGRATION INT"
+            "International Organization for Migration INT"
         ]
     },
     "IRDO": {
@@ -1585,11 +1537,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Kuwait": {
-        "name": "Kuwait",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "LLG": {
         "name": "LLG",
         "scope": "unknown",
@@ -1689,7 +1636,6 @@
         "name": "Multilateral organisations (undesignated)",
         "scope": "international",
         "synonyms": [
-            "UN agency",
             "Multilateral organizations",
             "Multi lateral organization",
             "Multilateral organisations"
@@ -1856,9 +1802,10 @@
         "scope": "international",
         "synonyms": []
     },
-    "N A": {
-        "name": "N A",
-        "scope": "international",
+    "N/A": {
+        "name": "N/A",
+        "scope": "unknown",
+        "skip": true,
         "synonyms": []
     },
     "NAPAD": {
@@ -1891,10 +1838,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY": {
-        "name": "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY",
+    "Non Governmental Organisations and Civil Society (undesignated)": {
+        "name": "Non Governmental Organisations and Civil Society (undesignated)",
         "scope": "unknown",
-        "synonyms": []
+        "skip": true,
+        "synonyms": [
+            "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY"
+        ]
     },
     "NPA": {
         "name": "NPA",
@@ -2102,12 +2052,16 @@
     "Private sector institution": {
         "name": "Private sector institution",
         "scope": "unknown",
+        "skip": true,
         "synonyms": []
     },
-    "Programme Support Costs": {
-        "name": "Programme Support Costs",
+    "Programme Support Costs (undesignated)": {
+        "name": "Programme Support Costs (undesignated)",
         "scope": "unknown",
-        "synonyms": []
+        "skip": true,
+        "synonyms": [
+            "Programme Support Costs"
+        ]
     },
     "QRCS": {
         "name": "QRCS",
@@ -2165,6 +2119,7 @@
     "Recipient Government (undesignated)": {
         "name": "Recipient Government (undesignated)",
         "scope": "unknown",
+        "skip": true,
         "synonyms": [
             "Recipient Government"
         ]
@@ -2191,7 +2146,7 @@
     },
     "Republic of Korea": {
         "name": "Republic of Korea",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Riverine Relief Program": {
@@ -2201,7 +2156,7 @@
     },
     "Rotary International": {
         "name": "Rotary International",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Rural Education and Agriculture Development Organization": {
@@ -2216,7 +2171,8 @@
     },
     "SAACID": {
         "name": "SAACID",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "http://www.saacid.org",
         "synonyms": []
     },
     "SAAFI Company": {
@@ -2349,16 +2305,6 @@
     },
     "SHRA": {
         "name": "SHRA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "SIDA": {
-        "name": "SIDA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "SIDA Sweden": {
-        "name": "SIDA Sweden",
         "scope": "unknown",
         "synonyms": []
     },
@@ -2513,24 +2459,23 @@
             "Sweden"
         ]
     },
-    "SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION SIDA ": {
-        "name": "SWEDISH INTERNATIONAL DEVELOPMENT COOPERATION SIDA ",
-        "scope": "unknown",
-        "synonyms": []
+    "Swedish International Development Cooperation Agency (SIDA)": {
+        "name": "Swedish International Development Cooperation Agency (SIDA)",
+        "scope": "international",
+        "synonyms": [
+            "SIDA",
+            "SIDA Sweden",
+            "Swedish International Development Cooperation (SIDA)",
+            "Sweden through Swedish International Development Cooperation Agency (SIDA)"
+        ]
     },
     "Swiss Agency for Development and Cooperation (SDC)": {
         "name": "Swiss Agency for Development and Cooperation (SDC)",
         "scope": "international",
         "synonyms": [
             "SDC",
-            "SDC Swiss Agency for Development and Co"
-        ]
-    },
-    "Government of Switzerland": {
-        "name": "Government of Switzerland",
-        "scope": "international",
-        "synonyms": [
-            "Switzerland"
+            "SDC Swiss Agency for Development and Co",
+            "Swiss Development Cooperation Agency (SDC DDC)"
         ]
     },
     "SWSCRI": {
@@ -2655,26 +2600,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Sweden": {
-        "name": "Sweden",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Sweden through Swedish International Development Cooperation Agency Sida ": {
-        "name": "Sweden through Swedish International Development Cooperation Agency Sida ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Swiss Development Cooperation Agency SDC DDC ": {
-        "name": "Swiss Development Cooperation Agency SDC DDC ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Switzerland": {
-        "name": "Switzerland",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "TAADO": {
         "name": "TAADO",
         "scope": "unknown",
@@ -2693,11 +2618,6 @@
     "TASS": {
         "name": "TASS",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "THE FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS": {
-        "name": "THE FOOD AND AGRICULTURE ORGANIZATION OF THE UNITED NATIONS",
-        "scope": "international",
         "synonyms": []
     },
     "TIDS": {
@@ -2777,16 +2697,6 @@
         "scope": "international",
         "synonyms": []
     },
-    "UK Department for International Development DFID ": {
-        "name": "UK Department for International Development DFID ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UK Foreign Commonwealth and Development Office FCDO ": {
-        "name": "UK Foreign Commonwealth and Development Office FCDO ",
-        "scope": "international",
-        "synonyms": []
-    },
     "UN Action Against Sexual Violence in Conflict": {
         "name": "UN Action Against Sexual Violence in Conflict",
         "scope": "international",
@@ -2804,11 +2714,6 @@
     },
     "UN INDUSTRIAL DEVELOPMENT ORGANIZATION": {
         "name": "UN INDUSTRIAL DEVELOPMENT ORGANIZATION",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "UN Office for Project Services": {
-        "name": "UN Office for Project Services",
         "scope": "unknown",
         "synonyms": []
     },
@@ -2871,11 +2776,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "UNFPA USA": {
-        "name": "UNFPA USA",
-        "scope": "international",
-        "synonyms": []
-    },
     "UNICEF": {
         "name": "UNICEF",
         "scope": "international",
@@ -2909,43 +2809,32 @@
         "scope": "international",
         "synonyms": []
     },
-    "UNITED NATIONS FOOD AND AGRICULTURE ORGANIZATION": {
-        "name": "UNITED NATIONS FOOD AND AGRICULTURE ORGANIZATION",
-        "scope": "international",
-        "synonyms": []
-    },
-    "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES": {
-        "name": "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES",
-        "scope": "international",
-        "synonyms": []
-    },
     "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME": {
         "name": "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME",
         "scope": "international",
         "synonyms": []
     },
-    "UNITED NATIONS OFFICE FOR PROJECT SERVICES": {
-        "name": "UNITED NATIONS OFFICE FOR PROJECT SERVICES",
+    "United Nations Office for Project Services (UNOPS)": {
+        "name": "United Nations Office for Project Services (UNOPS)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UNOPS",
+            "UNOPS New York",
+            "UN Office for Project Services",
+            "UNITED NATIONS OFFICE FOR PROJECT SERVICES"
+        ]
     },
-    "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS": {
-        "name": "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS",
+    "United Nations Organisation (UN)": {
+        "name": "United Nations Organisation (UN)",
         "scope": "international",
-        "synonyms": []
-    },
-    "UNITED NATIONS ORGANISATION": {
-        "name": "UNITED NATIONS ORGANISATION",
-        "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UN",
+            "UNO",
+            "UNITED NATIONS ORGANISATION"
+        ]
     },
     "UNITED NATIONS PEACEBUILDING FUND": {
         "name": "UNITED NATIONS PEACEBUILDING FUND",
-        "scope": "international",
-        "synonyms": []
-    },
-    "UNITED NATIONS POPULATION FUND": {
-        "name": "UNITED NATIONS POPULATION FUND",
         "scope": "international",
         "synonyms": []
     },
@@ -2962,7 +2851,9 @@
             "USA",
             "United States",
             "United States of America",
-            "UNITED STATES OF AMERICA THE"
+            "UNITED STATES OF AMERICA THE",
+            "United States Department of Commerce",
+            "United States Department of State (USDOS)"
         ]
     },
     "UNMAS": {
@@ -2975,18 +2866,8 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "UNOCHA": {
-        "name": "UNOCHA",
-        "scope": "international",
-        "synonyms": []
-    },
     "UNODC": {
         "name": "UNODC",
-        "scope": "international",
-        "synonyms": []
-    },
-    "UNOPS New York": {
-        "name": "UNOPS New York",
         "scope": "international",
         "synonyms": []
     },
@@ -2997,11 +2878,6 @@
     },
     "US Department of State Office to monitor combat Tracking in persons ": {
         "name": "US Department of State Office to monitor combat Tracking in persons ",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "USA CDC": {
-        "name": "USA CDC",
         "scope": "unknown",
         "synonyms": []
     },
@@ -3029,7 +2905,8 @@
         "name": "United Nations Central Emergency Response Fund (CERF)",
         "scope": "international",
         "synonyms": [
-            "CENTRAL EMERGENCY RESPONSE FUND"
+            "CERF",
+            "Central Emergency Response Fund"
         ]
     },
     "United Nations High Commissioner for Refugees (UNHCR)": {
@@ -3041,33 +2918,51 @@
             "Japan for UNHCR",
             "Sweden for UNHCR",
             "UK for UNHCR",
-            "USA for UNHCR"
+            "USA for UNHCR",
+            "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES"
         ]
     },
-    "United Nations Industrial Development Organization": {
-        "name": "United Nations Industrial Development Organization",
+    "United Nations Industrial Development Organization (UNIDO)": {
+        "name": "United Nations Industrial Development Organization (UNIDO)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UNIDO",
+            "United Nations Industrial Development Organization"
+        ]
     },
     "United Nations Multi Partner Trust Fund for Somalia": {
         "name": "United Nations Multi Partner Trust Fund for Somalia",
         "scope": "international",
         "synonyms": []
     },
-    "United Nations Office for the Coordination of Humanitarian Affairs OCHA ": {
-        "name": "United Nations Office for the Coordination of Humanitarian Affairs OCHA ",
+    "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)": {
+        "name": "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)",
         "scope": "international",
-        "synonyms": []
+        "url": "https://www.unocha.org",
+        "synonyms": [
+            "OCHA",
+            "UNOCHA",
+            "UN OCHA",
+            "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS"
+        ]
     },
-    "United Nations Population Fund": {
-        "name": "United Nations Population Fund",
+    "United Nations Population Fund (UNFPA)": {
+        "name": "United Nations Population Fund (UNFPA)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UNFPA",
+            "UNFPA USA",
+            "United Nations Population Fund"
+        ]
     },
-    "United Nations agency fund or commission UN ": {
-        "name": "United Nations agency fund or commission UN ",
+    "United Nations agency, fund, or commission (undesignated)": {
+        "name": "United Nations agency, fund or commission (undesignated)",
         "scope": "international",
-        "synonyms": []
+        "skip": true,
+        "synonyms": [
+            "UN agency",
+            "United Nations agency, fund, or commission (UN)"
+        ]
     },
     "United States Agency for International Development (USAID)": {
         "name": "United States Agency for International Development (USAID)",
@@ -3081,16 +2976,6 @@
             "USA USAID",
             "USA USAID OFDA"
         ]
-    },
-    "United States Department of Commerce": {
-        "name": "United States Department of Commerce",
-        "scope": "international",
-        "synonyms": []
-    },
-    "United States Department of State USDOS ": {
-        "name": "United States Department of State USDOS ",
-        "scope": "international",
-        "synonyms": []
     },
     "VAD": {
         "name": "VAD",
@@ -3133,7 +3018,7 @@
     },
     "WASDA": {
         "name": "WASDA",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "WHH": {

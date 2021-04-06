@@ -81,7 +81,7 @@ for activity in activities:
     data = {
         "identifier": activity.identifier,
         "source": "IATI",
-        "reported_by": str(activity.reporting_org.name),
+        "reported_by": str(activity.reporting_org.name), # don't normalise
         "humanitarian": has_humanitarian_content(activity),
         "title": str(activity.title),
         "description": str(activity.description),
@@ -118,7 +118,7 @@ for activity in activities:
     ]:
         for org in org_map.get(params[0], []):
             info = lookup_org(org.name)
-            if info is not None:
+            if info is not None and not info.get("skip", False):
                 add_unique(info["name"], data["orgs"][params[1]])
 
     # Look up DAC sectors and humanitarian equivalents
