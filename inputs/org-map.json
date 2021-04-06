@@ -2137,7 +2137,7 @@
     },
     "Relief International": {
         "name": "Relief International",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Relief International UK": {
@@ -2995,7 +2995,7 @@
     },
     "Vétérinaires sans Frontières International (VSF)": {
         "name": "Vétérinaires sans Frontières International (VSF)",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": [
             "VSF",
             "VSF International",
