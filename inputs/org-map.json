@@ -546,7 +546,7 @@
     },
     "Crown Agents Bank": {
         "name": "Crown Agents Bank",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": [
             "Crown Agents Bank Limited CHAPS",
             "Crown Agents Limited"
@@ -1115,7 +1115,8 @@
     },
     "Ground Truth Solutions": {
         "name": "Ground Truth Solutions",
-        "scope": "unknown",
+        "scope": "international",
+        "url": "https://groundtruthsolutions.org/",
         "synonyms": []
     },
     "Humanitarian Assistance and Drought Management Organization (HADMO)": {
@@ -1524,17 +1525,17 @@
     },
     "KfW Bankengruppe KfW ": {
         "name": "KfW Bankengruppe KfW ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "KfW Germany": {
         "name": "KfW Germany",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Korea": {
         "name": "Korea",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "LLG": {
@@ -1961,7 +1962,7 @@
     },
     "Oxford Policy Management": {
         "name": "Oxford Policy Management",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "PAC": {
@@ -2597,7 +2598,7 @@
     },
     "Stichting International NGO Safety Organisation": {
         "name": "Stichting International NGO Safety Organisation",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "TAADO": {
@@ -2878,12 +2879,12 @@
     },
     "US Department of State Office to monitor combat Tracking in persons ": {
         "name": "US Department of State Office to monitor combat Tracking in persons ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "USA State BPRM": {
         "name": "USA State BPRM",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "UVRDO": {
@@ -3053,7 +3054,7 @@
     },
     "WYG International": {
         "name": "WYG International",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "WZI": {
