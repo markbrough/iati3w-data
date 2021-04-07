@@ -436,6 +436,7 @@
         "name": "Concern Worldwide",
         "scope": "international",
         "synonyms": [
+            "CWW",
             "Concern",
             "Concern Worldwide IRL"
         ]
@@ -465,11 +466,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CWW": {
-        "name": "CWW",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Candlelight for Environment Education and Health": {
         "name": "Candlelight for Environment Education and Health",
         "scope": "local",
@@ -478,15 +474,21 @@
             "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved"
         ]
     },
-    "Care Nederland": {
-        "name": "Care Nederland",
-        "scope": "unknown",
-        "synonyms": []
+    "CARE Nederland": {
+        "name": "CARE Nederland",
+        "scope": "international",
+        "synonyms": [
+            "Stichting CARE Nederland"
+        ]
     },
-    "Center for Peace and Democracy": {
-        "name": "Center for Peace and Democracy",
-        "scope": "unknown",
-        "synonyms": []
+    "Centre for Peace and Democracy (CPD)": {
+        "name": "Centre for Peace and Democracy (CPD)",
+        "scope": "local",
+        "url": "https://cpd-africa.org",
+        "synonyms": [
+            "Center for Peace and Democracy",
+            "Centre for Peace and Democracy"
+        ]
     },
     "Centers for Disease Control and Prevention (CDC)": {
         "name": "Centers for Disease Control and Prevention (CDC)",
@@ -564,7 +566,7 @@
     },
     "DANSK FLYGTNINGEHJAELP": {
         "name": "DANSK FLYGTNINGEHJAELP",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "DAWA": {
@@ -747,7 +749,7 @@
     },
     "Espa\u00f1a con ACNUR": {
         "name": "Espa\u00f1a con ACNUR",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "European Commission Directorate General for International Cooperation and Development (DEVCO)": {
@@ -793,11 +795,6 @@
     "FMOEWR": {
         "name": "FMOEWR",
         "scope": "unknown",
-        "synonyms": []
-    },
-    "FONDS MONETAIRE INTERNATIONAL": {
-        "name": "FONDS MONETAIRE INTERNATIONAL",
-        "scope": "international",
         "synonyms": []
     },
     "FRS MoEWR": {
@@ -973,9 +970,16 @@
         "synonyms": [
             "Netherlands",
             "The Netherlands",
-            "Dutch Ministry of Foreign Affairs",
-            "Ministry of Foreign Affairs NL",
             "Government of Netherlands"
+        ]
+    },
+    "Netherlands Ministry of Foreign Affairs": {
+        "name": "Netherlands Ministry of Foreign Affairs",
+        "scope": "international",
+        "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs/",
+        "synonyms": [
+            "Dutch Ministry of Foreign Affairs",
+            "Ministry of Foreign Affairs NL"
         ]
     },
     "Government of Norway": {
@@ -1174,10 +1178,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "HIMFO": {
-        "name": "HIMFO",
-        "scope": "unknown",
-        "synonyms": []
+    "Himilo Foundation (HIMFO)": {
+        "name": "Himilo Foundation (HIMFO)",
+        "scope": "local",
+        "url": "http://himfo.org/",
+        "synonyms": [
+            "HIMFO",
+            "Himilo Foundation"
+        ]
     },
     "HINNA": {
         "name": "HINNA",
@@ -1215,11 +1223,6 @@
     },
     "Hidig Relief And Development Organization": {
         "name": "Hidig Relief And Development Organization",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Himilo Foundation": {
-        "name": "Himilo Foundation",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1311,7 +1314,8 @@
         "scope": "international",
         "synonyms": [
             "IMF",
-            "International Monetary Fund"
+            "International Monetary Fund",
+            "Fonds Monetaire International"
         ]
     },
     "INTERSOS": {
@@ -1543,10 +1547,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "LRDO": {
-        "name": "LRDO",
-        "scope": "unknown",
-        "synonyms": []
+    "Livelihood Relief & Development Organization (LRDO)": {
+        "name": "Livelihood Relief & Development Organization (LRDO)",
+        "scope": "local",
+        "url": "https://lrdo.org",
+        "synonyms": [
+            "LRDO"
+        ]
     },
     "LTA Safa ": {
         "name": "LTA Safa",
@@ -1578,15 +1585,19 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "MEDAIR": {
-        "name": "MEDAIR",
-        "scope": "unknown",
+    "Medair": {
+        "name": "Medair",
+        "scope": "international",
+        "url": "https://www.medair.org",
         "synonyms": []
     },
-    "MERCY USA": {
-        "name": "MERCY USA",
-        "scope": "unknown",
-        "synonyms": []
+    "Mercy-USA": {
+        "name": "Mercy-USA",
+        "scope": "international",
+        "url": "https://mercyusa.org/",
+        "synonyms": [
+            "Mercy-USA for Aid and Development"
+        ]
     },
     "MINISTERIO DE ENERGIA": {
         "name": "MINISTERIO DE ENERGIA",
@@ -1623,10 +1634,12 @@
         "scope": "international",
         "synonyms": []
     },
-    "MRGI": {
-        "name": "MRGI",
-        "scope": "unknown",
-        "synonyms": []
+    "Minority Rights Group International (MRGI)": {
+        "name": "Minority Rights Group Internationa (MRGI)",
+        "scope": "international",
+        "synonyms": [
+            "MRGI"
+        ]
     },
     "MUDRO": {
         "name": "MUDRO",
@@ -1652,28 +1665,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Medair": {
-        "name": "Medair",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "Medico International": {
         "name": "Medico International",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Mercy Corps": {
         "name": "Mercy Corps",
-        "scope": "international",
-        "synonyms": []
-    },
-    "Mercy USA": {
-        "name": "Mercy USA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Mercy USA for Aid and Development": {
-        "name": "Mercy USA for Aid and Development",
         "scope": "international",
         "synonyms": []
     },
@@ -1705,11 +1703,6 @@
     },
     "Ministry of Foreign Affairs Italy": {
         "name": "Ministry of Foreign Affairs Italy",
-        "scope": "international",
-        "synonyms": []
-    },
-    "Ministry of Foreign Affairs NL": {
-        "name": "Ministry of Foreign Affairs NL",
         "scope": "international",
         "synonyms": []
     },
@@ -2349,11 +2342,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SOMALIA HUMANITARIAN FUND": {
-        "name": "SOMALIA HUMANITARIAN FUND",
-        "scope": "international",
-        "synonyms": []
-    },
     "SOPHPA": {
         "name": "SOPHPA",
         "scope": "unknown",
@@ -2566,30 +2554,35 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Somali Young Doctors Association": {
-        "name": "Somali Young Doctors Association",
-        "scope": "unknown",
-        "synonyms": []
+    "Somali Young Doctors Association (SOYDA)": {
+        "name": "Somali Young Doctors Association (SOYDA)",
+        "scope": "local",
+        "url": "https://www.facebook.com/Somali-Young-Doctors-Association-SOYDA-632958410235571/",
+        "synonyms": [
+            "Somali Young Doctors Association"
+        ]
     },
-    "Somalia Humanitarian Fund": {
-        "name": "Somalia Humanitarian Fund",
+    "Somalia Humanitarian Fund (SHF)": {
+        "name": "Somalia Humanitarian Fund (SHF)",
         "scope": "international",
-        "synonyms": []
+        "url": "https://www.unocha.org/somalia/shf",
+        "synonyms": [
+            "SHF",
+            "Somalia Humanitarian Fund"
+        ]
     },
     "Somalil\u00e4ndische Fachbeh\u00f6rde f\u00fcr Planung und Entwicklung": {
         "name": "Somalil\u00e4ndische Fachbeh\u00f6rde f\u00fcr Planung und Entwicklung",
         "scope": "unknown",
         "synonyms": []
     },
-    "Somrar Organization": {
-        "name": "Somrar Organization",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Stichting Care Nederland": {
-        "name": "Stichting Care Nederland",
-        "scope": "unknown",
-        "synonyms": []
+    "Somaliland Relief & Research Organization (SOMRAR)": {
+        "name": "Somaliland Relief & Research Organization (SOMRAR)",
+        "scope": "local",
+        "synonyms": [
+            "SOMRAR",
+            "SOMRAR Organization"
+        ]
     },
     "Stichting Fonds Instituut Clingendael": {
         "name": "Stichting Fonds Instituut Clingendael",
@@ -3180,7 +3173,7 @@
         ]
     },
     "Shabelle Community Development Organization (SHACDO)": {
-        "name": "Shabelle Community Development Organization",
+        "name": "Shabelle Community Development Organization (SHACDO)",
         "scope": "local",
         "url": "https://www.facebook.com/shacdosom/",
         "synonyms": [
@@ -3195,6 +3188,14 @@
         "synonyms": [
             "IDLO",
             "International Development Law Organization"
+        ]
+    },
+    "Deeg-roor Medical Organization (DMO)": {
+        "name": "Deeg-roor Medical Organization (DMO)",
+        "scope": "local",
+        "url": "http://www.dmosomalia.org/",
+        "synonyms": [
+            "Deeg-roor Medical Organization"
         ]
     }
 }
