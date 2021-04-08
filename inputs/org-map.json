@@ -579,15 +579,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DEH": {
-        "name": "DEH",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "DEH Relief and Development Organization": {
-        "name": "DEH Relief and Development Organization",
-        "scope": "unknown",
-        "synonyms": []
+    "DEH Relief Somalia": {
+        "name": "DEH Relief Somalia",
+        "scope": "local",
+        "url": "https://www.facebook.com/pg/DEHReliefSomalia/",
+        "synonyms": [
+            "DEH",
+            "DEH Relief and Development Organization"       
+        ]
     },
     "DERF": {
         "name": "DERF",
@@ -884,10 +883,13 @@
             "GAVI Alliance"
         ]
     },
-    "GAVO": {
-        "name": "GAVO",
-        "scope": "unknown",
-        "synonyms": []
+    "General Assistance and Volunteer Organization (GAVO)": {
+        "name": "General Assistance and Volunteer Organization (GAVO)",
+        "scope": "local",
+        "url": "http://gavosoma.org/",
+        "synonyms": [
+            "GAVO"
+        ]
     },
     "GDSI": {
         "name": "GDSI",
@@ -1023,10 +1025,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GSA": {
-        "name": "GSA",
-        "scope": "unknown",
-        "synonyms": []
+    "Gurmad for Sustainable Aid (GSA)": {
+        "name": "Gurmad for Sustainable Aid (GSA)",
+        "scope": "local",
+        "url": "http://gsa.org.so/",
+        "synonyms": [
+            "GSA"
+        ]
     },
     "GSDO": {
         "name": "GSDO",
@@ -1101,17 +1106,17 @@
     },
     "Government of France": {
         "name": "Government of France",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Government of the United Arab Emirates": {
         "name": "Government of the United Arab Emirates",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Governmental donors of unearmarked and flexible funds (undesignated)": {
         "name": "Governmental donors of unearmarked and flexible funds (undesignated)",
-        "scope": "unknown",
+        "scope": "international",
         "skip": true,
         "synonyms": [
             "Governmental donors of unearmarked and flexible funds"
@@ -1211,10 +1216,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "HPA": {
-        "name": "HPA",
-        "scope": "unknown",
-        "synonyms": []
+    "Health Poverty Action Somaliland (HPA)": {
+        "name": "Health Poverty Action Somaliland (HPA)",
+        "scope": "local",
+        "url": "https://hpasomaliland.wordpress.com/about/",
+        "synonyms": [
+            "HPA"
+        ]
     },
     "HREC": {
         "name": "HREC",
@@ -1404,11 +1412,6 @@
     },
     "Intersom": {
         "name": "Intersom",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Intersos": {
-        "name": "Intersos",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1751,25 +1754,34 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "MoEWR": {
-        "name": "MoEWR",
-        "scope": "unknown",
-        "synonyms": []
+    "Somalia Ministry of Energy and Water Resources (MoEWR)": {
+        "name": "Somalia Ministry of Energy and Water Resources (MoEWR)",
+        "scope": "local",
+        "url": "https://moewr.gov.so/",
+        "synonyms": [
+            "MoEWR"
+        ]
     },
-    "MoH": {
-        "name": "MoH",
-        "scope": "unknown",
-        "synonyms": []
+    "Somalia Ministry of Health (MoH)": {
+        "name": "Somalia Ministry of Health (MoH)",
+        "scope": "local",
+        "url": "https://moh.gov.so/",
+        "synonyms": [
+            "MoH"
+        ]
     },
     "MoW": {
         "name": "MoW",
         "scope": "unknown",
         "synonyms": []
     },
-    "MoWDAFA": {
-        "name": "MoWDAFA",
-        "scope": "unknown",
-        "synonyms": []
+    "Somalia Ministry of Women & Human Rights Development": {
+        "name": "Somalia Ministry of Women & Human Rights Development",
+        "scope": "local",
+        "url": "https://mwhrd.gov.so",
+        "synonyms": [
+            "MoWDAFA"
+        ]
     },
     "Montreal Protocol HFC": {
         "name": "Montreal Protocol HFC",
