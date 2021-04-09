@@ -60,21 +60,7 @@ def lookup_cluster (code):
     return map.get(code, None)
 
 
-#
-# Show all activities from 2020-01-01 forward
-#
-
-activities = diterator.Iterator({
-    "country_code": "SO",
-    "day_end_gteq": "2020-01-01",
-})
-
-# We need only basic metadata for each activity
-# Print one at a time to keep memory usage low
-
-result = []
-
-for activity in activities:
+def make_activity(activity):
 
     org_map = activity.participating_orgs_by_role
 
@@ -150,9 +136,30 @@ for activity in activities:
             add_unique(info["name"], data["locations"]["unclassified"])
             add_unique(info.get("admin2", None), data["locations"]["admin2"])
             add_unique(info.get("admin1", None), data["locations"]["admin1"])
-    
-    result.append(data)
 
-print(json.dumps(result, indent=4))
+    return data
+
+
+def get_activities(files):
+
+    result = []
+    identifiers_seen = set()
+
+    for file in files:
+        with open(file, "r") as input:
+            for activity in diterator.XMLIterator(input):
+                if activity.identifier in identifiers_seen:
+                    print("Skipping duplicate:", activity.identifier, file=sys.stderr)
+                else:
+                    result.append(make_activity(activity))
+                    identifiers_seen.add(activity.identifier)
+
+    return result
+
+#
+# Script entry point
+#
+if __name__ == "__main__":
+    print(json.dumps(get_activities(sys.argv[1:]), indent=4))
 
 # end

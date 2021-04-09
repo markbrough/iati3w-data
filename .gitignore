@@ -1,4 +1,5 @@
-__pycache__
 *.pyc
+/downloads
 /output
 /venv
+__pycache__

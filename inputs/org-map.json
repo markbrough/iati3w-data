@@ -81,10 +81,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "AHIO": {
-        "name": "AHIO",
-        "scope": "unknown",
-        "synonyms": []
+    "Agency for Humanitarian Initiative Organization (AHIO)": {
+        "name": "Agency for Humanitarian Initiative Organization (AHIO)",
+        "scope": "local",
+        "synonyms": [
+            "AHIO"
+        ]
     },
     "ALIGHT": {
         "name": "ALIGHT",
@@ -163,10 +165,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "AYDA": {
-        "name": "AYDA",
-        "scope": "unknown",
-        "synonyms": []
+    "African Youth Development Association (AYDA)": {
+        "name": "African Youth Development Association (AYDA)",
+        "scope": "regional",
+        "synonyms": [
+            "AYDA"
+        ]
     },
     "AYUUB": {
         "name": "AYUUB",
@@ -218,7 +222,6 @@
         "scope": "regional",
         "url": "https://adesoafrica.org/who-we-are/",
         "synonyms": [
-            "Horn of Africa",
             "Adeso is an African led humanitarian and development organization that is changing the way people think about and deliver aid in Africa Since our founding in 1991 as Horn Relief we have worked with thousands of vulnerable and marginalized communities to assist them in reaching their full potential Based on this we have grown rapidly from a local grassroots NGO operating exclusively in Somalia to a major player on the regional stage with 15 field offices in Somalia Kenya and South Sudan and over 200 staff serving communities "
         ]
     },
@@ -393,10 +396,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CEDA": {
-        "name": "CEDA",
-        "scope": "unknown",
-        "synonyms": []
+    "Community Empowerment and Development Action (CEDA)": {
+        "name": "Community Empowerment and Development Action (CEDA)",
+        "scope": "local",
+        "url": "https://cedasom.org/",
+        "synonyms": [
+            "CEDA"
+        ]
     },
     "CERELPA": {
         "name": "CERELPA",
@@ -413,10 +419,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CISP": {
-        "name": "CISP",
-        "scope": "unknown",
-        "synonyms": []
+    "Comitato Internazionale per lo Sviluppo dei Popoli (CISP)": {
+        "name": "Comitato Internazionale per lo Sviluppo dei Popoli (CISP)",
+        "scope": "international",
+        "url": "https://www.cisp-som.org/",
+        "synonyms": [
+            "CISP"
+        ]
     },
     "Civil Society Organisation (community based or national, undesignated)": {
         "name": "Civil Society Organisation (community based or national, undesignated)",
@@ -441,10 +450,13 @@
             "Concern Worldwide IRL"
         ]
     },
-    "COOPI": {
-        "name": "COOPI",
-        "scope": "unknown",
-        "synonyms": []
+    "Cooperazione Internazionale (COOPI)": {
+        "name": "Cooperazione Internazionale (COOPI)",
+        "scope": "international",
+        "url": "https://coopi.org",
+        "synonyms": [
+            "COOPI"
+        ]
     },
     "COVID-19 Solidarity Fund": {
         "name": "COVID-19 Solidarity Fund",
@@ -564,15 +576,17 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DANSK FLYGTNINGEHJAELP": {
-        "name": "DANSK FLYGTNINGEHJAELP",
+    "Dansk Flygtningehjaelp": {
+        "name": "Dansk Flygtningehjaelp",
         "scope": "international",
         "synonyms": []
     },
-    "DAWA": {
-        "name": "DAWA",
-        "scope": "unknown",
-        "synonyms": []
+    "al-Dawa": {
+        "name": "al-Dawa",
+        "scope": "local",
+        "synonyms": [
+            "Dawa"
+        ]
     },
     "DBG": {
         "name": "DBG",
@@ -786,10 +800,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "FENPS": {
-        "name": "FENPS",
-        "scope": "unknown",
-        "synonyms": []
+    "Formal Education Network for Private Schools (FENPS)": {
+        "name": "Formal Education Network for Private Schools (FENPS)",
+        "scope": "local",
+        "url": "https://fenps.net/",
+        "synonyms": [
+            "FENPS",
+            "Formal Education Network for Private Schools"
+        ]
     },
     "FMOEWR": {
         "name": "FMOEWR",
@@ -1135,11 +1153,6 @@
             "HADMO"
         ]
     },
-    "HADO": {
-        "name": "HADO",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "HALO Trust": {
         "name": "HALO Trust",
         "scope": "unknown",
@@ -1239,10 +1252,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Horn of Africa Aid and Devt Org": {
-        "name": "Horn of Africa Aid and Devt Org",
-        "scope": "unknown",
-        "synonyms": []
+    "Horn of Africa Aid and Development Organization (HADO)": {
+        "name": "Horn of Africa Aid and Development Organization (HADO)",
+        "scope": "local",
+        "url": "https://www.facebook.com/hadosomalia/",
+        "synonyms": [
+            "HADO",
+            "Horn of Africa Aid and Devt Org"
+        ]
     },
     "Horn of Africa Peace Network": {
         "name": "Horn of Africa Peace Network",
@@ -1427,15 +1444,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Islamic Relief": {
-        "name": "Islamic Relief",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Islamic Relief Worldwide Somalia": {
-        "name": "Islamic Relief Worldwide Somalia",
+    "Islamic Relief Worldwide": {
+        "name": "Islamic Relief Worldwide",
         "scope": "international",
-        "synonyms": []
+        "url": "https://www.islamic-relief.org",
+        "synonyms": [
+            "Islamic Relief",
+            "Islamic Relief Worldwide Somalia"
+        ]
     },
     "Save Somali Women and Children (SSWC)": {
         "name": "Save Somali Women and Children (SSWC)",
@@ -1473,12 +1489,7 @@
     },
     "Juba Foundation": {
         "name": "Juba Foundation",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Juba foundation": {
-        "name": "Juba foundation",
-        "scope": "unknown",
+        "scope": "local",
         "synonyms": []
     },
     "Jubbaland Mine action network JUMAN ": {
@@ -1975,10 +1986,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "PAH": {
-        "name": "PAH",
-        "scope": "unknown",
-        "synonyms": []
+    "Polish Humanitarian Action (PAH)": {
+        "name": "Polish Humanitarian Action (PAH)",
+        "scope": "international",
+        "synonyms": [
+            "PAH"
+        ]
     },
     "PASOS": {
         "name": "PASOS",
@@ -1995,10 +2008,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "PMWDO": {
-        "name": "PMWDO",
-        "scope": "unknown",
-        "synonyms": []
+    "Puntland Minority Women Development Organisation (PMWDO)": {
+        "name": "Puntland Minority Women Development Organisation (PMWDO)",
+        "scope": "local",
+        "url": "https://www.facebook.com/pmwdo/",
+        "synonyms": [
+            "PMWDO"
+        ]
     },
     "PRDO": {
         "name": "PRDO",
@@ -2112,10 +2128,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "RRP": {
-        "name": "RRP",
-        "scope": "unknown",
-        "synonyms": []
+    "Riverine Relief Program (RRP)": {
+        "name": "Riverine Relief Program (RRP)",
+        "scope": "local",
+        "synonyms": [
+            "RRP"
+        ]
     },
     "Rays Rehab And Dev Association": {
         "name": "Rays Rehab And Dev Association",
@@ -2244,10 +2262,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "SCODO": {
-        "name": "SCODO",
-        "scope": "unknown",
-        "synonyms": []
+    "Solidarity Community Development Org (SCODO)": {
+        "name": "Solidarity Community Development Org (SCODO)",
+        "scope": "local",
+        "url": "https://www.facebook.com/pg/SCODOLNGO",
+        "synonyms": [
+            "SCODO"
+        ]
     },
     "SDC": {
         "name": "SDC",
@@ -2810,6 +2831,14 @@
             "United Kingdom of Great Britain and Northern Ireland The"
         ]
     },
+    "United Nations Educational, Scientific, and Cultural Organization (UNESCO)": {
+        "name": "United Nations Educational, Scientific, and Cultural Organization (UNESCO)",
+        "scope": "international",
+        "url": "https://unesco.org",
+        "synonyms": [
+            "UNESCO"
+        ]
+    },
     "UNITED NATIONS ENVIRONMENT PROGRAMME": {
         "name": "UNITED NATIONS ENVIRONMENT PROGRAMME",
         "scope": "international",
@@ -2862,10 +2891,13 @@
             "United States Department of State (USDOS)"
         ]
     },
-    "UNMAS": {
-        "name": "UNMAS",
-        "scope": "unknown",
-        "synonyms": []
+    "United Nations Mine Action Service (UNMAS)": {
+        "name": "United Nations Mine Action Service (UNMAS)",
+        "scope": "international",
+        "url": "https://unmas.org",
+        "synonyms": [
+            "UNMAS"
+        ]
     },
     "UNO Fl\u00fcchtlingshilfe": {
         "name": "UNO Fl\u00fcchtlingshilfe",
@@ -2897,9 +2929,9 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Ukroboronservice": {
-        "name": "Ukroboronservice",
-        "scope": "unknown",
+    "UkrOboronService": {
+        "name": "UkrOboronService",
+        "scope": "international",
         "synonyms": []
     },
     "United Nations Assistance Mission in Somalia": {
@@ -2980,7 +3012,8 @@
             "USAID Food for Peace",
             "USAID OFDA",
             "USA USAID",
-            "USA USAID OFDA"
+            "USA USAID OFDA",
+            "U.S. Agency for International Development"
         ]
     },
     "VAD": {
@@ -3032,10 +3065,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "WISE": {
-        "name": "WISE",
-        "scope": "unknown",
-        "synonyms": []
+    "Women Initiative for Society Empowerment (WISE)": {
+        "name": "Women Initiative for Society Empowerment (WISE)",
+        "scope": "local",
+        "url": "http://wisesomalia.org/",
+        "synonyms": [
+            "WISE"
+        ]
     },
     "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ": {
         "name": "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ",
@@ -3049,11 +3085,6 @@
     },
     "WRRS": {
         "name": "WRRS",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "WVI": {
-        "name": "WVI",
         "scope": "unknown",
         "synonyms": []
     },
@@ -3134,6 +3165,7 @@
         "name": "World Vision International",
         "scope": "international",
         "synonyms": [
+            "WVI",
             "World Vision"
         ]
     },
@@ -3209,5 +3241,11 @@
         "synonyms": [
             "Deeg-roor Medical Organization"
         ]
+    },
+    "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016.": {
+        "name": "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016.",
+        "scope": "unknown",
+        "skip": true,
+        "synonyms": []
     }
 }
