@@ -172,15 +172,13 @@
             "AYDA"
         ]
     },
-    "AYUUB": {
-        "name": "AYUUB",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "AYUUB NGO": {
         "name": "AYUUB NGO",
-        "scope": "unknown",
-        "synonyms": []
+        "scope": "local",
+        "url": "http://ayuubngo.org",
+        "synonyms": [
+            "AYUUB"
+        ]
     },
     "Action Against Disasters Somalia": {
         "name": "Action Against Disasters Somalia",
@@ -267,7 +265,8 @@
     },
     "Aid Vision": {
         "name": "Aid Vision",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "http://www.aidvision.org/",
         "synonyms": []
     },
     "Alkowthar Water Supply Company": {
@@ -333,10 +332,12 @@
         "scope": "international",
         "synonyms": []
     },
-    "BRCiS": {
-        "name": "BRCiS",
-        "scope": "unknown",
-        "synonyms": []
+    "Building Resilient Communities in Somalia (BRCiS)": {
+        "name": "Building Resilient Communities in Somalia (BRCiS)",
+        "scope": "international",
+        "synonyms": [
+            "BRCiS"
+        ]
     },
     "BTSC": {
         "name": "BTSC",
@@ -391,10 +392,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CDI": {
-        "name": "CDI",
-        "scope": "unknown",
-        "synonyms": []
+    "Conflict Dynamics International (CDI)": {
+        "name": "Conflict Dynamics International (CDI)",
+        "scope": "international",
+        "synonyms": [
+            "CDI"
+        ]
     },
     "Community Empowerment and Development Action (CEDA)": {
         "name": "Community Empowerment and Development Action (CEDA)",
@@ -411,11 +414,6 @@
     },
     "CERID": {
         "name": "CERID",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "CESVI": {
-        "name": "CESVI",
         "scope": "unknown",
         "synonyms": []
     },
@@ -463,20 +461,18 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "CPD": {
-        "name": "CPD",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "CPR THE GOVERMENT OF KOREA": {
         "name": "CPR THE GOVERMENT OF KOREA",
         "scope": "international",
         "synonyms": []
     },
-    "CRS": {
-        "name": "CRS",
-        "scope": "unknown",
-        "synonyms": []
+    "Catholic Relief Services (CRS)": {
+        "name": "Catholic Relief Services (CRS)",
+        "scope": "international",
+        "synonyms": [
+            "CRS",
+            "Catholic Relief Services"
+        ]
     },
     "Candlelight for Environment Education and Health": {
         "name": "Candlelight for Environment Education and Health",
@@ -498,8 +494,10 @@
         "scope": "local",
         "url": "https://cpd-africa.org",
         "synonyms": [
+            "CPD",
             "Center for Peace and Democracy",
-            "Centre for Peace and Democracy"
+            "Centre for Peace and Democracy",
+            "CPD is a Non-Profit, Non-Government Organization (NGO) founded in 2003 and registered in Somalia with the Federal Government and the various Regional Authorities in the areas it operates. The organization has 5 operational offices namely in Mogadishu city, Baidoatown, Galkaio, Hobyo town, Adado town and a liaison office in Nairobi (Kenya). CPD’s original mandate was to solely build peace, reduce conflicts, promote human rights, advance good governance and democratization. However, in 2007, the organization expanded its scope to include humanitarian assistance, poverty reduction through socio-economic development for the communities it serves and supporting the country’s stabilization initiatives as a measure to respond to the prevailing needs of the communities. The organization is under the overall management of the Board made up of Directors. The organization’s daily management is under the Senior Management Team consisting of 10 members including 9 line Managers and the Executive Director who is in charge of the team. CPD has a diverseand qualified human resource base consisting of 113 staff as of September 2018. 2.0 Vision: CPD envisions a poverty-free and sustainably-developed Africa. 3.0 Mission: To facilitate evidenced-based and participatory approaches to development for the sustained welfare of African communities."
         ]
     },
     "Centers for Disease Control and Prevention (CDC)": {
@@ -551,12 +549,16 @@
     "Consolidated Funds from NatComs": {
         "name": "Consolidated Funds from NatComs",
         "scope": "international",
+        "skip": true,
         "synonyms": []
     },
-    "Cooperazione e Sviluppo": {
-        "name": "Cooperazione e Sviluppo",
-        "scope": "unknown",
-        "synonyms": []
+    "Cooperazione e Sviluppo (Cesvi)": {
+        "name": "Cooperazione e Sviluppo (Cesvi)",
+        "scope": "international",
+        "synonyms": [
+            "Cesvi",
+            "Cooperazione e Sviluppo"
+        ]
     },
     "Crown Agents Bank": {
         "name": "Crown Agents Bank",
@@ -617,29 +619,30 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "DKH": {
-        "name": "DKH",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "DMO": {
-        "name": "DMO",
-        "scope": "unknown",
-        "synonyms": []
+    "Diakonie Katastrophenhilfe (DKH)": {
+        "name": "Diakonie Katastrophenhilfe (DKH)",
+        "scope": "international",
+        "url": "https://www.diakonie-katastrophenhilfe.de/",
+        "synonyms": [
+            "DKH"
+        ]
     },
     "DONORS GROUP": {
         "name": "DONORS GROUP",
         "scope": "unknown",
+        "skip": true,
         "synonyms": []
     },
-    "DPA": {
-        "name": "DPA",
-        "scope": "unknown",
-        "synonyms": []
+    "Disability Protection Association (DPA)": {
+        "name": "Disability Protection Association (DPA)",
+        "scope": "local",
+        "synonyms": [
+            "DPA"
+        ]
     },
-    "DRA": {
-        "name": "DRA",
-        "scope": "unknown",
+    "Dutch Relief Alliance (DRA)": {
+        "name": "Dutch Relief Alliance (DRA)",
+        "scope": "international",
         "synonyms": []
     },
     "Danish Refugee Council (DRC)": {
@@ -649,11 +652,6 @@
             "DRC",
             "Danish Refugee Council"
         ]
-    },
-    "Dawa": {
-        "name": "Dawa",
-        "scope": "unknown",
-        "synonyms": []
     },
     "Denmark Ministry of Foreign Affairs": {
         "name": "Denmark Ministry of Foreign Affairs",
@@ -682,7 +680,7 @@
     },
     "Deutsches Rotes Kreuz e V ": {
         "name": "Deutsches Rotes Kreuz e V ",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "Digital Good": {
@@ -885,7 +883,7 @@
     },
     "Fundaci\u00f3n ACNUR Comit\u00e9 Argentino": {
         "name": "Fundaci\u00f3n ACNUR Comit\u00e9 Argentino",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": []
     },
     "GANNAANE": {
@@ -1311,10 +1309,12 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "IMC": {
-        "name": "IMC",
-        "scope": "unknown",
-        "synonyms": []
+    "International Medical Corps (IMC)": {
+        "name": "International Medical Corps",
+        "scope": "international",
+        "synonyms": [
+            "IMC"
+        ]
     },
     "INDUSTRIALISERINGSFONDEN FOR UDVIKLINGSLANDENE IFU FORENING": {
         "name": "INDUSTRIALISERINGSFONDEN FOR UDVIKLINGSLANDENE IFU FORENING",
@@ -1840,11 +1840,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "NCA": {
-        "name": "NCA",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "NIPPON YUSEN KABUSHIKI KAISHA": {
         "name": "NIPPON YUSEN KABUSHIKI KAISHA",
         "scope": "unknown",
@@ -1865,11 +1860,6 @@
     },
     "NPA": {
         "name": "NPA",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "NRC": {
-        "name": "NRC",
         "scope": "unknown",
         "synonyms": []
     },
@@ -1925,17 +1915,24 @@
     "Norway Ministry of Justice and Public Security": {
         "name": "Norway Ministry of Justice and Public Security",
         "scope": "international",
+        "url": "https://www.nrc.no",
         "synonyms": []
     },
-    "Norwegian Church Aid": {
-        "name": "Norwegian Church Aid",
+    "Norwegian Church Aid (NCA)": {
+        "name": "Norwegian Church Aid (NCA)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "NCA",
+            "Norwegian Church Aid"
+        ]
     },
-    "Norwegian Refugee Council": {
-        "name": "Norwegian Refugee Council",
+    "Norwegian Refugee Council (NRC)": {
+        "name": "Norwegian Refugee Council (NRC)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "NRC",
+            "Norwegian Refugee Council"
+        ]
     },
     "Nutrition International": {
         "name": "Nutrition International",
@@ -2069,6 +2066,7 @@
     "Private donors": {
         "name": "Private donors",
         "scope": "unknown",
+        "skip": true,
         "synonyms": []
     },
     "Private sector institution": {
@@ -2249,11 +2247,6 @@
     },
     "SCC": {
         "name": "SCC",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "SCI": {
-        "name": "SCI",
         "scope": "unknown",
         "synonyms": []
     },
@@ -2520,20 +2513,21 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Save the Children": {
-        "name": "Save the Children",
+    "Save the Children International (SCI)": {
+        "name": "Save the Children International (SCI)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "SCI",
+            "Save the Children",
+            "Save the Children International"
+        ]
     },
-    "Save the Children Deutschland e V ": {
-        "name": "Save the Children Deutschland e V",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Sci": {
-        "name": "Sci",
-        "scope": "unknown",
-        "synonyms": []
+    "Save the Children Germany": {
+        "name": "Save the Children Germany",
+        "scope": "international",
+        "synonyms": [
+            "Save the Children Deutschland e V"
+        ]
     },
     "Shadeedley Org": {
         "name": "Shadeedley Org",
@@ -2839,10 +2833,13 @@
             "UNESCO"
         ]
     },
-    "UNITED NATIONS ENVIRONMENT PROGRAMME": {
-        "name": "UNITED NATIONS ENVIRONMENT PROGRAMME",
+    "UN Environment Programme (UNEP)": {
+        "name": "UN Environment Programme (UNEP)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "UNEP",
+            "United Nations Environment Programme"
+        ]
     },
     "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME": {
         "name": "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME",
@@ -2888,7 +2885,8 @@
             "United States of America",
             "UNITED STATES OF AMERICA THE",
             "United States Department of Commerce",
-            "United States Department of State (USDOS)"
+            "United States Department of State (USDOS)",
+            "Department of State"
         ]
     },
     "United Nations Mine Action Service (UNMAS)": {
@@ -2898,11 +2896,6 @@
         "synonyms": [
             "UNMAS"
         ]
-    },
-    "UNO Fl\u00fcchtlingshilfe": {
-        "name": "UNO Fl\u00fcchtlingshilfe",
-        "scope": "unknown",
-        "synonyms": []
     },
     "UNODC": {
         "name": "UNODC",
@@ -2957,7 +2950,8 @@
             "Sweden for UNHCR",
             "UK for UNHCR",
             "USA for UNHCR",
-            "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES"
+            "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES",
+            "UNO Fl\u00fcchtlingshilfe"
         ]
     },
     "United Nations Industrial Development Organization (UNIDO)": {
@@ -3083,11 +3077,6 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "WRRS": {
-        "name": "WRRS",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "WYG International": {
         "name": "WYG International",
         "scope": "international",
@@ -3103,10 +3092,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Wamo Relief and Rehabilitation Services": {
-        "name": "Wamo Relief and Rehabilitation Services",
-        "scope": "unknown",
-        "synonyms": []
+    "Wamo Relief and Rehabilitation Services (WRRS)": {
+        "name": "Wamo Relief and Rehabilitation Services (WRRS)",
+        "scope": "local",
+        "synonyms": [
+            "WRRS",
+            "Wamo Relief and Rehabilitation Services"
+        ]
     },
     "Wardi": {
         "name": "Wardi",
@@ -3239,6 +3231,7 @@
         "scope": "local",
         "url": "http://www.dmosomalia.org/",
         "synonyms": [
+            "DMO",
             "Deeg-roor Medical Organization"
         ]
     },
@@ -3247,5 +3240,14 @@
         "scope": "unknown",
         "skip": true,
         "synonyms": []
+    },
+    "World Concern": {
+        "name": "World Concern",
+        "scope": "international",
+        "synonyms": []
+    },
+    "Aktion Deutschland Hilft": {
+        "name": "Aktion Deutschland Hilft",
+        "scope": "international"
     }
 }
