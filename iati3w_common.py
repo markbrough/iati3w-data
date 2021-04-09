@@ -52,9 +52,10 @@ def normalise_string (s):
 def make_token (s):
     """ Create a lookup token from a string.
     Normalise space, convert to lowercase, and remove punctuation
+    Use max 64 characters.
 
     """
-    return re.sub(r'\W+', ' ', s).lower().strip()
+    return re.sub(r'\W+', ' ', s).lower().strip()[:64]
 
 def fix_location (s):
     if s:
@@ -113,20 +114,27 @@ def get_lookup_table (path):
     return lookup_tables_loaded[path]
 
 
-def lookup_org (name):
+org_lookup_failures = set()
+""" Org-lookup failures that we've already reported """
+
+def lookup_org (name, show_failures=False):
     """ Look up an org by name """
     if name is None:
         return None
+
     name = str(name)
     if is_empty(name):
         return None
     token = make_token(name)
     table = get_lookup_table("inputs/org-map.json")
+
     if token in table:
         return table[token]
     else:
-        import sys
-        print("Failed lookup |{}|".format(token), file=sys.stderr)
+        if show_failures and token not in org_lookup_failures:
+            import sys
+            print("New org: {}".format(name), file=sys.stderr)
+            org_lookup_failures.add(token)
         return {
             "name": normalise_string(name),
             "scope": "unknown",
@@ -148,36 +156,47 @@ def get_location_lookup_table ():
 
         map = get_dataset("inputs/location-map.json")
 
+        # add the regions
         for name1, info1 in map.items():
-
-            # add the region
-            token1 = make_token(name1)
-            location_lookup_table[token1] = info1
+            data = {
+                "name": info1["name"],
+                "level": "admin1",
+                "synonyms": info1.get("synonyms", []),
+                "pcode": info1.get("pcode", None),
+                "skip": info1.get("skip", False),
+            }            
+            location_lookup_table[make_token(name1)] = data
+            for token in [make_token(s) for s in data["synonyms"]]:
+                location_lookup_table.setdefault(token, data)
 
             # add the districts
             for name2, info2 in info1.get("admin2", {}).items():
-                token2 = make_token(name2)
-                info2["admin1"] = info1["name"]
-                location_lookup_table.setdefault(token2, info2) # only if doesn't exist
+                data = {
+                    "name": info2["name"],
+                    "level": "admin2",
+                    "synonyms": info2.get("synonyms", []),
+                    "pcode": info2.get("pcode", None),
+                    "admin1": info1["name"],
+                    "skip": info2.get("skip", False),
+                }
+                location_lookup_table.setdefault(make_token(name2), data)
+                for token in [make_token(s) for s in data["synonyms"]]:
+                    location_lookup_table.setdefault(token, data)
 
                 # add the unclassified locations
                 for name3, info3 in info2.get("unclassified", {}).items():
-                    token3 = make_token(name3)
-                    info3["admin1"] = info1["name"]
-                    info3["admin2"] = info2["name"]
-                    location_lookup_table.setdefault(token3, info3) # only if doesn't exist
-
-                    # add the synonyms for unclassified locations
-                    for name4 in info3.get("synonyms", []):
-                        location_lookup_table.setdefault(make_token(name4), info3) # only if doesn't exist
-
-                # add the synonyms for the districts
-                for name3 in info2.get("synonyms", []):
-                    location_lookup_table.setdefault(make_token(name3), info2) # only if doesn't exist
-
-            # add the synonyms for the regions
-            for name2 in info1.get("synonyms", []):
-                location_lookup_table.setdefault(make_token(name2), info1) # only if doesn't exist
+                    data = {
+                        "name": info3["name"],
+                        "level": "unclassified",
+                        "synonyms": info3.get("synonyms", []),
+                        "pcode": info3.get("pcode", None),
+                        "admin1": info1["name"],
+                        "admin2": info2["name"],
+                        "skip": info3.get("skip", False),
+                    }
+                    location_lookup_table.setdefault(make_token(name3), data)
+                    for token in [make_token(s) for s in data["synonyms"]]:
+                        location_lookup_table.setdefault(token, data)
 
     return location_lookup_table
 

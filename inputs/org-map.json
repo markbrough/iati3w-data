@@ -643,7 +643,9 @@
     "Dutch Relief Alliance (DRA)": {
         "name": "Dutch Relief Alliance (DRA)",
         "scope": "international",
-        "synonyms": []
+        "synonyms": [
+            "DRA"
+        ]
     },
     "Danish Refugee Council (DRC)": {
         "name": "Danish Refugee Council (DRC)",
@@ -997,7 +999,8 @@
         "url": "https://www.government.nl/ministries/ministry-of-foreign-affairs/",
         "synonyms": [
             "Dutch Ministry of Foreign Affairs",
-            "Ministry of Foreign Affairs NL"
+            "Ministry of Foreign Affairs NL",
+            "Ministry of Foreign Affairs of the Netherlands"
         ]
     },
     "Government of Norway": {
@@ -1026,10 +1029,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "GREDO": {
-        "name": "GREDO",
-        "scope": "unknown",
-        "synonyms": []
+    "Gargaar Relief Development Organization (GREDO)": {
+        "name": "Gargaar Relief Development Organization (GREDO)",
+        "scope": "local",
+        "synonyms": [
+            "GREDO",
+            "Gargaar Relief Development Organization (GREDO) is a local non-profit, non-governmental humanitarian and development organization with its Headquarters in Baidoa and have sub-offices across south central Somalia. GREDO focuses so much on aspects of emergency, humanitarian responses and development/resilience programmes. GREDOs programmatic themes includes education, Health, WASH, livelihoods, Environmental management and governance with a focus on human rights, access to justice, women empowerment andprotection of the vulnerable communities and individuals especially IDPs, refugees and returnees. GREDO has been able to nurture and grow strong and vibrant partnerships and collaboration with a range of stakeholders including the regional states and the Federal government, the local community, international NGOs, UN agencies and Donors. Vision A prosperous, healthy, and happy community where peace presides andpeople live with dignity. Mission To improve the standards of living of the served communities by delivering Effective Emergency Response and Resilience interventions, promoting local capacities and resources; and sustainable development interventions in partnership with local, international, public, private institutions and civil society organizations."
+        ]
     },
     "GREEN CLIMATE FUND": {
         "name": "GREEN CLIMATE FUND",
@@ -2529,6 +2535,16 @@
             "Save the Children Deutschland e V"
         ]
     },
+    "Save the Children Netherlands": {
+        "name": "Save the Children Netherlands",
+        "scope": "international",
+        "synonyms": []
+    },
+    "Save the Children UK": {
+        "name": "Save the Children UK",
+        "scope": "international",
+        "synonyms": []
+    },
     "Shadeedley Org": {
         "name": "Shadeedley Org",
         "scope": "unknown",
@@ -2754,6 +2770,7 @@
         "synonyms": [
             "WFP",
             "UN World Food Programme WFP",
+            "United Nations World Food Programme (WFP)",
             "WFP World Food Programme",
             "World Food Programme WFP",
             "WORLD FOOD PROGRAM",
@@ -2784,7 +2801,8 @@
             "UNDP MDTF",
             "UNDP Multi Partner Trust Fund MPTF",
             "United Nations Development Programme",
-            "United Nations Development Programme UNDP"
+            "United Nations Development Programme UNDP",
+            "UNDP - United Nations Development Programme"
         ]
     },
     "UNDSS Somalia": {
@@ -2797,10 +2815,11 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "UNICEF": {
-        "name": "UNICEF",
+    "United Nations Children's Fund (UNICEF)": {
+        "name": "United Nations Children's Fund (UNICEF)",
         "scope": "international",
         "synonyms": [
+            "UNICEF",
             "Belgian Committee for UNICEF",
             "Canadian UNICEF Committee",
             "German Committee for UNICEF",
@@ -2813,7 +2832,8 @@
             "United Kingdom Committee for UNICEF",
             "United Nations Children's Fund",
             "United Nations Children's Fund UNICEF",
-            "United States Fund for UNICEF"
+            "United States Fund for UNICEF",
+            "UNICEF - United Nations Children's Fund"
         ]
     },
     "United Kingdom of Great Britain and Northern Ireland": {
@@ -2937,7 +2957,8 @@
         "scope": "international",
         "synonyms": [
             "CERF",
-            "Central Emergency Response Fund"
+            "Central Emergency Response Fund",
+            "OCHA Central Emergency Response Fund (CERF)"
         ]
     },
     "United Nations High Commissioner for Refugees (UNHCR)": {
@@ -2975,7 +2996,8 @@
             "OCHA",
             "UNOCHA",
             "UN OCHA",
-            "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS"
+            "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS",
+            "OCHA - United Nations Office for the Coordination of Humanitarian Affairs"
         ]
     },
     "United Nations Population Fund (UNFPA)": {
@@ -3049,10 +3071,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "WASDA": {
-        "name": "WASDA",
+    "Wajir South Development Association (WASDA)": {
+        "name": "Wajir South Development Association (WASDA)",
         "scope": "local",
-        "synonyms": []
+        "url": "https://wasda.or.ke/",
+        "synonyms": [
+            "WASDA",
+            "WASDA was established as a nongovernmental in Somalia in 2001. The organisation strives to supplement the efforts of governments and other development stakeholders in addressing developmental challenges in the Horn of Africa. WASDA is currently implementing development initiatives in North-Eastern Kenya and parts of Southern Somalia. WASDA has been working with pastoral communities in North-Eastern Kenya and Southern Somalia for 23 years. The organisation has, in the process, gained and built a wealth of experience and knowledge that informs its programming. It utilises limited resources to change the lives of millions of people in its geographical areas of operation. In the last 23 years, WASDA has reached over 1.5 million people with livelihood, food security; water; sanitation and hygiene; health and nutrition; education and emergency humanitarian support. VISION Empowered communities in the Horn of Africa that are resilient, innovative and peaceful MISSION To mobilize and engage communities and other stakeholders in creating strategic partnerships for sustainable management of the environment, water resources, livelihoods, and education and public health services in the Horn of Africa."
+        ]
     },
     "WHH": {
         "name": "WHH",

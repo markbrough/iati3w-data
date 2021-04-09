@@ -103,7 +103,7 @@ def make_activity(activity):
             ["1", "funding"]
     ]:
         for org in org_map.get(params[0], []):
-            info = lookup_org(org.name)
+            info = lookup_org(org.name, show_failures=True)
             if info is not None and not info.get("skip", False):
                 add_unique(info["name"], data["orgs"][params[1]])
 
@@ -140,7 +140,7 @@ def make_activity(activity):
     return data
 
 
-def get_activities(files):
+def fetch_activities(files):
 
     result = []
     identifiers_seen = set()
@@ -148,9 +148,7 @@ def get_activities(files):
     for file in files:
         with open(file, "r") as input:
             for activity in diterator.XMLIterator(input):
-                if activity.identifier in identifiers_seen:
-                    print("Skipping duplicate:", activity.identifier, file=sys.stderr)
-                else:
+                if not activity.identifier in identifiers_seen and has_humanitarian_content(activity):
                     result.append(make_activity(activity))
                     identifiers_seen.add(activity.identifier)
 
@@ -160,6 +158,8 @@ def get_activities(files):
 # Script entry point
 #
 if __name__ == "__main__":
-    print(json.dumps(get_activities(sys.argv[1:]), indent=4))
+    data = fetch_activities(sys.argv[1:])
+    print("Found {} IATI activities".format(len(data)), file=sys.stderr)
+    print(json.dumps(data))
 
 # end

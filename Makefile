@@ -76,7 +76,7 @@ $(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py $(MAPS) $(DOWNLOADS
 	. $(VENV) && mkdir -p output && time python fetch-iati-data.py downloads/iati*.xml > $@
 
 $(3W_ACTIVITIES): venv fetch-3w-data.py iati3w_common.py $(MAPS) $(DOWNLOADS)
-	. $(VENV) && mkdir -p output && time python fetch-3w-data.py > $@
+	. $(VENV) && mkdir -p output && time python fetch-3w-data.py downloads/3w*.csv > $@
 
 $(DOWNLOADS): download-data.sh
 	bash download-data.sh

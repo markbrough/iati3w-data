@@ -42,21 +42,16 @@ with open(sys.argv[1], "r") as input:
             #
             # Loop through each location of each type
             #
-            for location in activity["locations"].get(loctype, []):
+            for locname in activity["locations"].get(loctype, []):
 
-                # Skip blank locations
-                if not location:
+                location = lookup_location(locname)
+
+                if not location or location.get("skip", False):
                     continue
 
-                # Clean whitespace
-                location = location.strip()
-
                 # Add a default record if this is the first time we've seen the location
-                index[loctype].setdefault(location, {
-                    "info": {
-                        "name": location,
-                        "level": loctype,
-                    },
+                index[loctype].setdefault(location["name"], {
+                    "info": location,
                     "activities": [],
                     "orgs": {
                         "local": {},
@@ -71,7 +66,7 @@ with open(sys.argv[1], "r") as input:
                 })
 
                 # This is the location index entry we'll be working on
-                entry = index[loctype][location]
+                entry = index[loctype][location["name"]]
 
                 # Add this activity
                 entry["activities"].append(activity["identifier"])
@@ -96,7 +91,6 @@ with open(sys.argv[1], "r") as input:
                         
 
 # Dump the index as JSON to stdout
-print(json.dumps(index))
-
+print(json.dumps(index, indent=4))
 # end
 

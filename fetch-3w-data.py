@@ -1,10 +1,9 @@
 """ Import data from the latest Somalia 3W """
 
-import hxl, hashlib, json
+import hxl, hashlib, json, sys
 
 from iati3w_common import *
 
-from hxl.datatypes import is_empty
 
 #
 # Utility functions
@@ -35,12 +34,9 @@ def fix_cluster_name (name):
 # Read Somalia 3W activities via the HXL Proxy (which adds HXL hashtags)
 #
 
-DATASET = "https://proxy.hxlstandard.org/data/8acb4c"
-
-result = []
-
-for row in hxl.data(DATASET):
-
+def make_activity(row):
+    """ Construct an activity object from the HXL row provided """
+    
     # Rough in the activity object (fill in details later)
     data = {
         "identifier": None,
@@ -81,7 +77,7 @@ for row in hxl.data(DATASET):
     ]:
         org_name = row.get(params[0])
         if org_name:
-            org = lookup_org(org_name)
+            org = lookup_org(org_name, show_failures=True)
             if org is not None and not org.get("skip", False):
                 add_unique(org["name"], data["orgs"][params[1]])
 
@@ -117,14 +113,33 @@ for row in hxl.data(DATASET):
                 data["targeted"][params[1]] = v
         except:
             pass
-                
+
 
     # Generate pseudo-identifier
     data["identifier"] = make_pseudo_identifier(data)
 
-    result.append(data)
+    return data
+
     
-print(json.dumps(result))
+
+def fetch_3w(filenames):
+    """ Fetch 3W data from all the filenames provided """
+
+    result = []
+    for filename in filenames:
+        for row in hxl.data(filename, allow_local=True):
+            data = make_activity(row)
+            result.append(data)
+    return result
+
+
+#
+# Script entry point
+#
+
+if __name__ == "__main__":
+    data = fetch_3w(sys.argv[1:])
+    print("Found {} 3W activities".format(len(data)), file=sys.stderr)
+    print(json.dumps(data))
 
 # end
-
