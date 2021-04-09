@@ -103,7 +103,8 @@
         "url": "http://www.anppcan.org/",
         "synonyms": [
             "ANPPCAN",
-            "ANPPCAN SOM"
+            "ANPPCAN SOM",
+            "African Network for the Prevention and Protection Against Child Abuse and Neglect in Somalia"
         ]
     },
     "APCC": {
@@ -243,11 +244,6 @@
         "scope": "international",
         "synonyms": []
     },
-    "African Network for the Prevention and Protection Against Child Abuse and Neglect in Somalia": {
-        "name": "African Network for the Prevention and Protection Against Child Abuse and Neglect in Somalia",
-        "scope": "unknown",
-        "synonyms": []
-    },
     "African Relief and Development": {
         "name": "African Relief and Development",
         "scope": "unknown",
@@ -279,20 +275,18 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Althani": {
-        "name": "Althani",
-        "scope": "unknown",
-        "synonyms": []
+    "Thani Bin Abdullah Bin Thani Al-Thani Humanitarian Fund": {
+        "name": "Thani Bin Abdullah Bin Thani Al-Thani Humanitarian Fund",
+        "scope": "international",
+        "synonyms": [
+            "Athani",
+            "Althani"
+        ]
     },
     "Assessed Contributions": {
         "name": "Assessed Contributions",
         "scope": "international",
         "skip": true,
-        "synonyms": []
-    },
-    "Athani": {
-        "name": "Athani",
-        "scope": "unknown",
         "synonyms": []
     },
     "Government of Australia": {
@@ -1159,7 +1153,8 @@
     },
     "HALO Trust": {
         "name": "HALO Trust",
-        "scope": "unknown",
+        "scope": "international",
+        "url": "https://www.halotrust.org",
         "synonyms": []
     },
     "HAPEN": {
@@ -1175,15 +1170,12 @@
             "HAVOYOCO was set up in 1992 by a group of young people from Hargeisa in Somaliland The organisation s focus is on education empowerment and creating opportunities for young people and women to provide in their own livelihood HAVOYOCO is involved in a vocational training literacy and numeracy activities for internally displaced IDPs and returnee women and young girls constructing low cost houses for IDPs in Hargeisa b community awareness campaigns on HIV and AIDS prevention and reducing stigmatisation malaria prevention and treatment peace building and human rights awareness mainly through circus and drama shows c pastoral developmentsuch as livelihood support health for people and livestock the capacity building of pastoral organisations in villages restocking and environmental protection and d humanitarian interventions such as the rehabilitation of water sources water trucking and the distribution of pack camels to pastoralist households Its operational areas include all Somaliland regions and the Somali regionof Ethiopia The relationship with Oxfam Novib began in 1997 when Oxfam Novib and its Ethiopian counterpart Circus Ethiopia visitedHargeisa In 1998 Oxfam Novib funded HAVOYOCO s organisation costs and a literacy project for youths Oxfam Novib has also funded asoap making centre management and literacy courses and income generating activities around the soap factory "
         ]
     },
-    "HDC": {
-        "name": "HDC",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "HEAL": {
-        "name": "HEAL",
-        "scope": "unknown",
-        "synonyms": []
+    "One Health for Humans, Environment, Animals and Livelihoods (HEAL)": {
+        "name": "One Health for Humans, Environment, Animals and Livelihoods (HEAL)",
+        "scope": "international",
+        "synonyms": [
+            "HEAL"
+        ]
     },
     "HEAPL": {
         "name": "HEAPL",
@@ -1209,10 +1201,13 @@
             "Himilo Foundation"
         ]
     },
-    "HINNA": {
-        "name": "HINNA",
-        "scope": "unknown",
-        "synonyms": []
+    "HAWEENKA HORSEEDKA NABADDA & NOLOSHA (HINNA)": {
+        "name": "HAWEENKA HORSEEDKA NABADDA & NOLOSHA (HINNA)",
+        "scope": "local",
+        "url": "http://hinnasom.org",
+        "synonyms": [
+            "HINNA"
+        ]
     },
     "Himilo Relief and Development Association (HIRDA)": {
         "name": "Himilo Relief and Development Association (HIRDA)",
@@ -1285,10 +1280,14 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Human Development Concern": {
-        "name": "Human Development Concern",
-        "scope": "unknown",
-        "synonyms": []
+    "Human Development Concern (HDC)": {
+        "name": "Human Development Concern (HDC)",
+        "scope": "local",
+        "url": "https://hdc-som.org/",
+        "synonyms": [
+            "HDC",
+            "Human Development Concern"
+        ]
     },
     "Humanitarian Africa Relief Development Organization": {
         "name": "Humanitarian Africa Relief Development Organization",
