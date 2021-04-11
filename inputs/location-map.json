@@ -1,1377 +1,1386 @@
 {
-    "Banadir": {
+    "Banadir (Mogadishu)": {
         "level": "admin1",
-        "name": "Banadir",
+        "name": "Banadir (Mogadishu)",
         "pcode": "SO22",
-        "synonyms": [],
+        "synonyms": [
+            "Banadir",
+            "Mogadishu"
+        ],
         "admin2": {
-            "Banadir": {
+            "Abdiaziz": {
                 "level": "admin2",
-                "name": "Banadir",
-                "pcode": "SO22",
-                "synonyms": [],
+                "name": "Abdiaziz",
+                "pcode": "",
+                "synonyms": [
+                    "Abdi aziz"
+                ],
                 "unclassified": {
-                    "mogadishu daynile": {
+                    "Abdiaziz Health Center": {
                         "level": "unclassified",
-                        "name": "Mogadishu Daynile",
-                        "synonyms": []
-                    },
-                    "hodan health center": {
-                        "level": "unclassified",
-                        "name": "Hodan Health Center",
-                        "synonyms": []
-                    },
-                    "mogadishu dharkenley": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Dharkenley",
-                        "synonyms": []
-                    },
-                    "kahda hc": {
-                        "level": "unclassified",
-                        "name": "Kahda HC",
-                        "synonyms": []
-                    },
-                    "korsan health center": {
-                        "level": "unclassified",
-                        "name": "Korsan Health Center",
-                        "synonyms": []
-                    },
-                    "lafoole hc": {
-                        "level": "unclassified",
-                        "name": "Lafoole HC",
-                        "synonyms": []
-                    },
-                    "sos hospital": {
-                        "level": "unclassified",
-                        "name": "SOS Hospital",
-                        "synonyms": []
-                    },
-                    "garasbaley hc": {
-                        "level": "unclassified",
-                        "name": "Garasbaley HC",
-                        "synonyms": []
-                    },
-                    "shabelle health center": {
-                        "level": "unclassified",
-                        "name": "Shabelle Health Center",
-                        "synonyms": []
-                    },
-                    "hamar jajab mch": {
-                        "level": "unclassified",
-                        "name": "Hamar Jajab MCH",
-                        "synonyms": []
-                    },
-                    "kurdamac brcis site": {
-                        "level": "unclassified",
-                        "name": "Kurdamac BRCiS Site",
-                        "synonyms": []
-                    },
-                    "abdiaziz health center": {
-                        "level": "unclassified",
-                        "name": "Abdiaziz Health Center",
-                        "synonyms": []
-                    },
-                    "mogadishu": {
-                        "level": "unclassified",
-                        "name": "Mogadishu",
-                        "synonyms": []
-                    },
-                    "elgab health center": {
-                        "level": "unclassified",
-                        "name": "Elgab Health Center",
-                        "synonyms": []
-                    },
-                    "waaberi health center": {
-                        "level": "unclassified",
-                        "name": "Waaberi Health Center",
-                        "synonyms": []
-                    },
-                    "wadajir hc benadir mogadishu": {
-                        "level": "unclassified",
-                        "name": "Wadajir HC Benadir Mogadishu",
-                        "synonyms": []
-                    },
-                    "mogadishu wadajir": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Wadajir",
-                        "synonyms": []
-                    },
-                    "arif health center": {
-                        "level": "unclassified",
-                        "name": "ARIF Health Center",
-                        "synonyms": []
-                    },
-                    "weydow": {
-                        "level": "unclassified",
-                        "name": "Weydow",
-                        "synonyms": []
-                    },
-                    "sinkadeer": {
-                        "level": "unclassified",
-                        "name": "SinkaDeer",
-                        "synonyms": []
-                    },
-                    "wilwaall": {
-                        "level": "unclassified",
-                        "name": "Wilwaall",
-                        "synonyms": []
-                    },
-                    "osibio halane": {
-                        "level": "unclassified",
-                        "name": "Osibio Halane",
-                        "synonyms": []
-                    },
-                    "mogadishu waaberi": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Waaberi",
-                        "synonyms": []
-                    },
-                    "islamic relief bondhere mch": {
-                        "level": "unclassified",
-                        "name": "Islamic Relief Bondhere MCH",
-                        "synonyms": []
-                    },
-                    "mogadishu karaan": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Karaan",
-                        "synonyms": []
-                    },
-                    "mogadishu boondheere": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Boondheere",
-                        "synonyms": []
-                    },
-                    "waxar cade": {
-                        "level": "unclassified",
-                        "name": "Waxar Cade",
-                        "synonyms": []
-                    },
-                    "dharkenley mch": {
-                        "level": "unclassified",
-                        "name": "Dharkenley MCH",
-                        "synonyms": []
-                    },
-                    "bandar wanag": {
-                        "level": "unclassified",
-                        "name": "Bandar Wanag",
-                        "synonyms": []
-                    },
-                    "badbado idp camp": {
-                        "level": "unclassified",
-                        "name": "Badbado IDP Camp",
-                        "synonyms": []
-                    },
-                    "kahda": {
-                        "level": "unclassified",
-                        "name": "Kahda",
-                        "synonyms": []
-                    },
-                    "mogadishu hawl wadaag": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Hawl Wadaag",
-                        "synonyms": []
-                    },
-                    "islamic relief daynile health centre": {
-                        "level": "unclassified",
-                        "name": "Islamic Relief Daynile Health Centre",
-                        "synonyms": []
-                    },
-                    "mogadishu na 3807 z08 001": {
-                        "level": "unclassified",
-                        "name": "Mogadishu NA 3807 Z08 001",
-                        "synonyms": []
-                    },
-                    "kaaraan health center": {
-                        "level": "unclassified",
-                        "name": "Kaaraan Health Center",
-                        "synonyms": []
-                    },
-                    "mogadishu xamar jaabjab": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Xamar Jaabjab",
-                        "synonyms": []
-                    },
-                    "mogadishu wardhiigleey": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Wardhiigleey",
-                        "synonyms": []
-                    },
-                    "mogadishu hodan": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Hodan",
-                        "synonyms": []
-                    },
-                    "nageyle hf caawiye hf": {
-                        "level": "unclassified",
-                        "name": "Nageyle HF Caawiye HF",
-                        "synonyms": []
-                    },
-                    "kahda mch": {
-                        "level": "unclassified",
-                        "name": "Kahda MCH",
-                        "synonyms": []
-                    },
-                    "mogadishu cabdulcasiis": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Cabdulcasiis",
-                        "synonyms": []
-                    },
-                    "daynile na 3807 z08 005": {
-                        "level": "unclassified",
-                        "name": "Daynile NA 3807 Z08 005",
-                        "synonyms": []
-                    },
-                    "kahda and deynille districts": {
-                        "level": "unclassified",
-                        "name": "Kahda and Deynille Districts",
-                        "synonyms": []
-                    },
-                    "mogadishu shangaani": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Shangaani",
-                        "synonyms": []
-                    },
-                    "mogadishu shibis": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Shibis",
-                        "synonyms": []
-                    },
-                    "kalkaal": {
-                        "level": "unclassified",
-                        "name": "Kalkaal",
-                        "synonyms": []
-                    },
-                    "dharkenley na 3807 y07 002": {
-                        "level": "unclassified",
-                        "name": "Dharkenley NA 3807 Y07 002",
-                        "synonyms": []
-                    },
-                    "mogadishu transit centre way station": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Transit Centre Way Station ",
-                        "synonyms": []
-                    },
-                    "15 may warta nabada": {
-                        "level": "unclassified",
-                        "name": "15 May Warta nabada",
-                        "synonyms": []
-                    },
-                    "mogadishu heliwa": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Heliwa",
-                        "synonyms": []
-                    },
-                    "section3": {
-                        "level": "unclassified",
-                        "name": "Section3",
-                        "synonyms": []
-                    },
-                    "section3 cumarfiyasko": {
-                        "level": "unclassified",
-                        "name": "Section3 Cumarfiyasko ",
-                        "synonyms": []
-                    },
-                    "hodan": {
-                        "level": "unclassified",
-                        "name": "Hodan",
-                        "synonyms": []
-                    },
-                    "mogadishu yaaqshiid": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Yaaqshiid",
-                        "synonyms": []
-                    },
-                    "general daud ex unicef sneygab ansaloti danyar": {
-                        "level": "unclassified",
-                        "name": "General Daud EX unicef Sneygab Ansaloti Danyar",
-                        "synonyms": []
-                    },
-                    "daynile": {
-                        "level": "unclassified",
-                        "name": "Daynile",
-                        "synonyms": []
-                    },
-                    "dabadey el ali gcanlibax and jamame": {
-                        "level": "unclassified",
-                        "name": "Dabadey El Ali Gcanlibax and Jamame",
-                        "synonyms": []
-                    },
-                    "arafaat": {
-                        "level": "unclassified",
-                        "name": "Arafaat",
-                        "synonyms": []
-                    },
-                    "wadajir": {
-                        "level": "unclassified",
-                        "name": "Wadajir",
-                        "synonyms": []
-                    },
-                    "dhobley": {
-                        "level": "unclassified",
-                        "name": "dhobley",
-                        "synonyms": []
-                    },
-                    "dharkenley": {
-                        "level": "unclassified",
-                        "name": "Dharkenley",
-                        "synonyms": []
-                    },
-                    "": {
-                        "level": "unclassified",
-                        "name": "",
-                        "synonyms": []
-                    },
-                    "warta nabada and kahda": {
-                        "level": "unclassified",
-                        "name": "warta Nabada and Kahda",
-                        "synonyms": []
-                    },
-                    "waberi primary school": {
-                        "level": "unclassified",
-                        "name": "Waberi Primary School",
-                        "synonyms": []
-                    },
-                    "talex tarabuun hoda": {
-                        "level": "unclassified",
-                        "name": "TALEX TARABUUN HODA",
-                        "synonyms": []
-                    },
-                    "shibis hf": {
-                        "level": "unclassified",
-                        "name": "Shibis HF",
-                        "synonyms": []
-                    },
-                    "macaani": {
-                        "level": "unclassified",
-                        "name": "Macaani",
-                        "synonyms": []
-                    },
-                    "kurdamac": {
-                        "level": "unclassified",
-                        "name": "Kurdamac",
-                        "synonyms": []
-                    },
-                    "jebouti branch": {
-                        "level": "unclassified",
-                        "name": "Jebouti branch",
-                        "synonyms": []
-                    },
-                    "idps": {
-                        "level": "unclassified",
-                        "name": "IDPs",
-                        "synonyms": []
-                    },
-                    "danyar": {
-                        "level": "unclassified",
-                        "name": "Danyar",
-                        "synonyms": []
-                    },
-                    "bondheer hc": {
-                        "level": "unclassified",
-                        "name": "Bondheer HC",
-                        "synonyms": []
-                    },
-                    "bangala idp na 3807 y07 103": {
-                        "level": "unclassified",
-                        "name": "Bangala IDP NA 3807 Y07 103",
-                        "synonyms": []
-                    },
-                    "bangala idp": {
-                        "level": "unclassified",
-                        "name": "Bangala IDP",
-                        "synonyms": []
-                    },
-                    "all daynile": {
-                        "level": "unclassified",
-                        "name": "All Daynile",
-                        "synonyms": []
-                    },
-                    "xamar jaabjab na 3807 y08 006": {
-                        "level": "unclassified",
-                        "name": "Xamar Jaabjab NA 3807 Y08 006",
-                        "synonyms": []
-                    },
-                    "warta nabada mch": {
-                        "level": "unclassified",
-                        "name": "Warta nabada MCH",
-                        "synonyms": []
-                    },
-                    "wardhiigleey na 3807 z07 002": {
-                        "level": "unclassified",
-                        "name": "Wardhiigleey NA 3807 Z07 002",
-                        "synonyms": []
-                    },
-                    "sayidka branch": {
-                        "level": "unclassified",
-                        "name": "Sayidka Branch",
-                        "synonyms": []
-                    },
-                    "sarkus": {
-                        "level": "unclassified",
-                        "name": "Sarkus",
-                        "synonyms": []
-                    },
-                    "roobsuge": {
-                        "level": "unclassified",
-                        "name": "Roobsuge",
-                        "synonyms": []
-                    },
-                    "naftaqur": {
-                        "level": "unclassified",
-                        "name": "Naftaqur",
-                        "synonyms": []
-                    },
-                    "musbah": {
-                        "level": "unclassified",
-                        "name": "Musbah",
-                        "synonyms": []
-                    },
-                    "masul": {
-                        "level": "unclassified",
-                        "name": "Masul",
-                        "synonyms": []
-                    },
-                    "malable": {
-                        "level": "unclassified",
-                        "name": "Malable",
-                        "synonyms": []
-                    },
-                    "mahaday": {
-                        "level": "unclassified",
-                        "name": "Mahaday",
-                        "synonyms": []
-                    },
-                    "jamame": {
-                        "level": "unclassified",
-                        "name": "Jamame",
-                        "synonyms": []
-                    },
-                    "iskaashi": {
-                        "level": "unclassified",
-                        "name": "Iskaashi",
-                        "synonyms": []
-                    },
-                    "dudumole": {
-                        "level": "unclassified",
-                        "name": "Dudumole",
-                        "synonyms": []
-                    },
-                    "deynile": {
-                        "level": "unclassified",
-                        "name": "Deynile",
-                        "synonyms": []
-                    },
-                    "wardhiigleey": {
-                        "level": "unclassified",
-                        "name": "Wardhiigleey",
-                        "synonyms": []
-                    },
-                    "wadajir na 3807 z07 001": {
-                        "level": "unclassified",
-                        "name": "Wadajir NA 3807 Z07 001",
-                        "synonyms": []
-                    },
-                    "waberi": {
-                        "level": "unclassified",
-                        "name": "Waberi",
-                        "synonyms": []
-                    },
-                    "waaberi na 3807 y08 004": {
-                        "level": "unclassified",
-                        "name": "Waaberi NA 3807 Y08 004",
-                        "synonyms": []
-                    },
-                    "towfiq": {
-                        "level": "unclassified",
-                        "name": "Towfiq",
-                        "synonyms": []
-                    },
-                    "taakulo weydow": {
-                        "level": "unclassified",
-                        "name": "Taakulo Weydow",
-                        "synonyms": []
-                    },
-                    "siinka dheer": {
-                        "level": "unclassified",
-                        "name": "Siinka Dheer",
-                        "synonyms": []
-                    },
-                    "shangaani na 3807 y09 001": {
-                        "level": "unclassified",
-                        "name": "Shangaani NA 3807 Y09 001",
-                        "synonyms": []
-                    },
-                    "shabelle": {
-                        "level": "unclassified",
-                        "name": "Shabelle",
-                        "synonyms": []
-                    },
-                    "section3 iftiin": {
-                        "level": "unclassified",
-                        "name": "Section3 Iftiin ",
-                        "synonyms": []
-                    },
-                    "saqadwudiin": {
-                        "level": "unclassified",
-                        "name": "Saqadwudiin",
-                        "synonyms": []
-                    },
-                    "salaama weydow": {
-                        "level": "unclassified",
-                        "name": "Salaama Weydow",
-                        "synonyms": []
-                    },
-                    "ow dhiigle weydow": {
-                        "level": "unclassified",
-                        "name": "Ow dhiigle Weydow",
-                        "synonyms": []
-                    },
-                    "nageyle": {
-                        "level": "unclassified",
-                        "name": "Nageyle",
-                        "synonyms": []
-                    },
-                    "mogadishu xamar weyne": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Xamar Weyne",
-                        "synonyms": []
-                    },
-                    "kuntuwarey sarnan bariyow idp": {
-                        "level": "unclassified",
-                        "name": "Kuntuwarey sarnan Bariyow IDP",
-                        "synonyms": []
-                    },
-                    "karaan": {
-                        "level": "unclassified",
-                        "name": "Karaan",
-                        "synonyms": []
-                    },
-                    "jungal": {
-                        "level": "unclassified",
-                        "name": "Jungal",
-                        "synonyms": []
-                    },
-                    "jidow": {
-                        "level": "unclassified",
-                        "name": "Jidow",
-                        "synonyms": []
-                    },
-                    "jeneral daud": {
-                        "level": "unclassified",
-                        "name": "Jeneral Daud",
-                        "synonyms": []
-                    },
-                    "jabuuti": {
-                        "level": "unclassified",
-                        "name": "Jabuuti",
-                        "synonyms": []
-                    },
-                    "hodman elgaras idps": {
-                        "level": "unclassified",
-                        "name": "Hodman Elgaras IDPs",
-                        "synonyms": []
-                    },
-                    "himilo weydow": {
-                        "level": "unclassified",
-                        "name": "Himilo Weydow",
-                        "synonyms": []
-                    },
-                    "heliwa na 3807 y08 007": {
-                        "level": "unclassified",
-                        "name": "Heliwa NA 3807 Y08 007",
-                        "synonyms": []
-                    },
-                    "hantiwadag": {
-                        "level": "unclassified",
-                        "name": "Hantiwadag",
-                        "synonyms": []
-                    },
-                    "garasballey": {
-                        "level": "unclassified",
-                        "name": "Garasballey",
-                        "synonyms": []
-                    },
-                    "garasbaley": {
-                        "level": "unclassified",
-                        "name": "Garasbaley",
-                        "synonyms": []
-                    },
-                    "dugsilow": {
-                        "level": "unclassified",
-                        "name": "Dugsilow",
-                        "synonyms": []
-                    },
-                    "dalada kulan weydow": {
-                        "level": "unclassified",
-                        "name": "Dalada kulan Weydow",
-                        "synonyms": []
-                    },
-                    "ceel buur2 weydow": {
-                        "level": "unclassified",
-                        "name": "Ceel buur2 Weydow",
-                        "synonyms": []
-                    },
-                    "bondheere": {
-                        "level": "unclassified",
-                        "name": "Bondheere",
-                        "synonyms": []
-                    },
-                    "biladul amin": {
-                        "level": "unclassified",
-                        "name": "Biladul amin",
-                        "synonyms": []
-                    },
-                    "barwaqo": {
-                        "level": "unclassified",
-                        "name": "Barwaqo",
-                        "synonyms": []
-                    },
-                    "barwaaqo": {
-                        "level": "unclassified",
-                        "name": "Barwaaqo",
-                        "synonyms": []
-                    },
-                    "badbado idp": {
-                        "level": "unclassified",
-                        "name": "badbado IDP",
-                        "synonyms": []
-                    },
-                    "alkheyraad weydow": {
-                        "level": "unclassified",
-                        "name": "Alkheyraad Weydow",
-                        "synonyms": []
-                    },
-                    "ahmed gurey": {
-                        "level": "unclassified",
-                        "name": "Ahmed Gurey",
-                        "synonyms": []
-                    },
-                    "xusni weydow": {
-                        "level": "unclassified",
-                        "name": "Xusni Weydow",
-                        "synonyms": []
-                    },
-                    "xawo tako": {
-                        "level": "unclassified",
-                        "name": "Xawo tako",
-                        "synonyms": []
-                    },
-                    "xamar weyne na 3807 z08 002": {
-                        "level": "unclassified",
-                        "name": "Xamar Weyne NA 3807 Z08 002",
-                        "synonyms": []
-                    },
-                    "wiil waal": {
-                        "level": "unclassified",
-                        "name": "Wiil waal",
-                        "synonyms": []
-                    },
-                    "weedow": {
-                        "level": "unclassified",
-                        "name": "WEEDOW",
-                        "synonyms": []
-                    },
-                    "waxarcade": {
-                        "level": "unclassified",
-                        "name": "Waxarcade",
-                        "synonyms": []
-                    },
-                    "warta nabda and kahda": {
-                        "level": "unclassified",
-                        "name": "Warta Nabda And Kahda",
-                        "synonyms": []
-                    },
-                    "warta nabada": {
-                        "level": "unclassified",
-                        "name": "Warta Nabada",
-                        "synonyms": []
-                    },
-                    "warjane weydow": {
-                        "level": "unclassified",
-                        "name": "Warjane Weydow",
-                        "synonyms": []
-                    },
-                    "wardhigley": {
-                        "level": "unclassified",
-                        "name": "Wardhigley",
-                        "synonyms": []
-                    },
-                    "warder": {
-                        "level": "unclassified",
-                        "name": "Warder",
-                        "synonyms": []
-                    },
-                    "warat nabada and kahda": {
-                        "level": "unclassified",
-                        "name": "Warat nabada And Kahda",
-                        "synonyms": []
-                    },
-                    "wahara cade": {
-                        "level": "unclassified",
-                        "name": "Wahara Cade",
-                        "synonyms": []
-                    },
-                    "waberi mch": {
-                        "level": "unclassified",
-                        "name": "Waberi MCH",
-                        "synonyms": []
-                    },
-                    "waaberi": {
-                        "level": "unclassified",
-                        "name": "Waaberi",
-                        "synonyms": []
-                    },
-                    "via roma": {
-                        "level": "unclassified",
-                        "name": "Via Roma",
-                        "synonyms": []
-                    },
-                    "urban": {
-                        "level": "unclassified",
-                        "name": "Urban",
-                        "synonyms": []
-                    },
-                    "togdheer idp": {
-                        "level": "unclassified",
-                        "name": "Togdheer IDP",
-                        "synonyms": []
-                    },
-                    "tawakal": {
-                        "level": "unclassified",
-                        "name": "Tawakal",
-                        "synonyms": []
-                    },
-                    "taleh": {
-                        "level": "unclassified",
-                        "name": "Taleh",
-                        "synonyms": []
-                    },
-                    "taleex": {
-                        "level": "unclassified",
-                        "name": "Taleex",
-                        "synonyms": []
-                    },
-                    "taleeh": {
-                        "level": "unclassified",
-                        "name": "Taleeh",
-                        "synonyms": []
-                    },
-                    "talakeen weydow": {
-                        "level": "unclassified",
-                        "name": "Talakeen Weydow",
-                        "synonyms": []
-                    },
-                    "tabelaha": {
-                        "level": "unclassified",
-                        "name": "Tabelaha",
-                        "synonyms": []
-                    },
-                    "suuqyare": {
-                        "level": "unclassified",
-                        "name": "Suuqyare",
-                        "synonyms": []
-                    },
-                    "suuq yare hanano bulsho": {
-                        "level": "unclassified",
-                        "name": "Suuq Yare Hanano Bulsho",
-                        "synonyms": []
-                    },
-                    "suqa weyn": {
-                        "level": "unclassified",
-                        "name": "Suqa Weyn",
-                        "synonyms": []
-                    },
-                    "sinka dhere": {
-                        "level": "unclassified",
-                        "name": "sinka dhere",
-                        "synonyms": []
-                    },
-                    "siimow": {
-                        "level": "unclassified",
-                        "name": "Siimow",
-                        "synonyms": []
-                    },
-                    "shiniile weydow": {
-                        "level": "unclassified",
-                        "name": "Shiniile Weydow",
-                        "synonyms": []
-                    },
-                    "shimbirale": {
-                        "level": "unclassified",
-                        "name": "Shimbirale",
-                        "synonyms": []
-                    },
-                    "shimbiraale": {
-                        "level": "unclassified",
-                        "name": "Shimbiraale",
-                        "synonyms": []
-                    },
-                    "shangani": {
-                        "level": "unclassified",
-                        "name": "Shangani",
-                        "synonyms": []
-                    },
-                    "section3 iftin": {
-                        "level": "unclassified",
-                        "name": "Section3 Iftin ",
-                        "synonyms": []
-                    },
-                    "sayidka": {
-                        "level": "unclassified",
-                        "name": "Sayidka",
-                        "synonyms": []
-                    },
-                    "saqaawadiin": {
-                        "level": "unclassified",
-                        "name": "Saqaawadiin",
-                        "synonyms": []
-                    },
-                    "safaa weydow": {
-                        "level": "unclassified",
-                        "name": "Safaa Weydow",
-                        "synonyms": []
-                    },
-                    "saciid rooraye": {
-                        "level": "unclassified",
-                        "name": "Saciid Rooraye",
-                        "synonyms": []
-                    },
-                    "sacid rooraye": {
-                        "level": "unclassified",
-                        "name": "Sacid Rooraye",
-                        "synonyms": []
-                    },
-                    "rabi yaasir weydow": {
-                        "level": "unclassified",
-                        "name": "Rabi yaasir Weydow",
-                        "synonyms": []
-                    },
-                    "owliyo weydow": {
-                        "level": "unclassified",
-                        "name": "Owliyo Weydow",
-                        "synonyms": []
-                    },
-                    "omar fiyaska": {
-                        "level": "unclassified",
-                        "name": "Omar Fiyaska",
-                        "synonyms": []
-                    },
-                    "omar fiasko": {
-                        "level": "unclassified",
-                        "name": "Omar Fiasko",
-                        "synonyms": []
-                    },
-                    "odweyne banadir": {
-                        "level": "unclassified",
-                        "name": "Odweyne Banadir ",
-                        "synonyms": []
-                    },
-                    "october": {
-                        "level": "unclassified",
-                        "name": "October",
-                        "synonyms": []
-                    },
-                    "octobar and ahmed gurey": {
-                        "level": "unclassified",
-                        "name": "Octobar and Ahmed gurey",
-                        "synonyms": []
-                    },
-                    "obosibo halane": {
-                        "level": "unclassified",
-                        "name": "Obosibo Halane",
-                        "synonyms": []
-                    },
-                    "nasib bundo": {
-                        "level": "unclassified",
-                        "name": "Nasib bundo",
-                        "synonyms": []
-                    },
-                    "nagayle hf": {
-                        "level": "unclassified",
-                        "name": "Nagayle HF",
-                        "synonyms": []
-                    },
-                    "mogadishu waberi maajo": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Waberi Maajo",
-                        "synonyms": []
-                    },
-                    "mogadishu waberi hantiwadaag": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Waberi Hantiwadaag",
-                        "synonyms": []
-                    },
-                    "mogadishu waberi": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Waberi",
-                        "synonyms": []
-                    },
-                    "mogadishu hamarjajab": {
-                        "level": "unclassified",
-                        "name": "Mogadishu Hamarjajab",
-                        "synonyms": []
-                    },
-                    "maslax weydow": {
-                        "level": "unclassified",
-                        "name": "Maslax weydow",
-                        "synonyms": []
-                    },
-                    "mareeray daadsanay": {
-                        "level": "unclassified",
-                        "name": "Mareeray Daadsanay",
-                        "synonyms": []
-                    },
-                    "manabolyo": {
-                        "level": "unclassified",
-                        "name": "Manabolyo",
-                        "synonyms": []
-                    },
-                    "maanamufo": {
-                        "level": "unclassified",
-                        "name": "Maanamufo",
-                        "synonyms": []
-                    },
-                    "lowiyacade": {
-                        "level": "unclassified",
-                        "name": "Lowiyacade",
-                        "synonyms": []
-                    },
-                    "liqliqito omar fiyasko abaadir": {
-                        "level": "unclassified",
-                        "name": "Liqliqito Omar fiyasko Abaadir",
-                        "synonyms": []
-                    },
-                    "liqliqato": {
-                        "level": "unclassified",
-                        "name": "Liqliqato",
-                        "synonyms": []
-                    },
-                    "lido checkpoint": {
-                        "level": "unclassified",
-                        "name": "Lido checkpoint",
-                        "synonyms": []
-                    },
-                    "km14": {
-                        "level": "unclassified",
-                        "name": "KM14",
-                        "synonyms": []
-                    },
-                    "kheyr suge weydow": {
-                        "level": "unclassified",
-                        "name": "Kheyr suge Weydow",
-                        "synonyms": []
-                    },
-                    "kheyr doon weydow": {
-                        "level": "unclassified",
-                        "name": "Kheyr doon Weydow",
-                        "synonyms": []
-                    },
-                    "kharqaabe daadsanay": {
-                        "level": "unclassified",
-                        "name": "Kharqaabe Daadsanay",
-                        "synonyms": []
-                    },
-                    "kaxda daynile and dharkinley": {
-                        "level": "unclassified",
-                        "name": "Kaxda Daynile and Dharkinley",
-                        "synonyms": []
-                    },
-                    "kaxda idps": {
-                        "level": "unclassified",
-                        "name": "Kaxda IDPs",
-                        "synonyms": []
-                    },
-                    "kawan bari": {
-                        "level": "unclassified",
-                        "name": "Kawan Bari",
-                        "synonyms": []
-                    },
-                    "karaan primary school": {
-                        "level": "unclassified",
-                        "name": "Karaan primary school",
-                        "synonyms": []
-                    },
-                    "kalkal": {
-                        "level": "unclassified",
-                        "name": "Kalkal",
-                        "synonyms": []
-                    },
-                    "kahdaa": {
-                        "level": "unclassified",
-                        "name": "Kahdaa",
-                        "synonyms": []
-                    },
-                    "kabalaawe": {
-                        "level": "unclassified",
-                        "name": "Kabalaawe",
-                        "synonyms": []
-                    },
-                    "kaamil weydow": {
-                        "level": "unclassified",
-                        "name": "Kaamil Weydow",
-                        "synonyms": []
-                    },
-                    "kaafiyo weydow": {
-                        "level": "unclassified",
-                        "name": "Kaafiyo Weydow",
-                        "synonyms": []
-                    },
-                    "jiidow": {
-                        "level": "unclassified",
-                        "name": "Jiidow",
-                        "synonyms": []
-                    },
-                    "jamuriya": {
-                        "level": "unclassified",
-                        "name": "Jamuriya",
-                        "synonyms": []
-                    },
-                    "jamuhuriya": {
-                        "level": "unclassified",
-                        "name": "Jamuhuriya",
-                        "synonyms": []
-                    },
-                    "jamhuriya": {
-                        "level": "unclassified",
-                        "name": "Jamhuriya",
-                        "synonyms": []
-                    },
-                    "jamacadda shabelle": {
-                        "level": "unclassified",
-                        "name": "Jamacadda Shabelle",
-                        "synonyms": []
-                    },
-                    "igadabageey": {
-                        "level": "unclassified",
-                        "name": "Igadabageey",
-                        "synonyms": []
-                    },
-                    "iga dabagey": {
-                        "level": "unclassified",
-                        "name": "Iga dabagey",
-                        "synonyms": []
-                    },
-                    "iftin daadsanay": {
-                        "level": "unclassified",
-                        "name": "Iftin Daadsanay",
-                        "synonyms": []
-                    },
-                    "idman weydow": {
-                        "level": "unclassified",
-                        "name": "Idman Weydow",
-                        "synonyms": []
-                    },
-                    "howlwadag": {
-                        "level": "unclassified",
-                        "name": "Howlwadag",
-                        "synonyms": []
-                    },
-                    "howl wadag": {
-                        "level": "unclassified",
-                        "name": "Howl Wadag",
-                        "synonyms": []
-                    },
-                    "hosh": {
-                        "level": "unclassified",
-                        "name": "Hosh",
-                        "synonyms": []
-                    },
-                    "horseed": {
-                        "level": "unclassified",
-                        "name": "Horseed",
-                        "synonyms": []
-                    },
-                    "hodan ahmed gurey deynile igadabagee": {
-                        "level": "unclassified",
-                        "name": "Hodan Ahmed Gurey Deynile Igadabagee",
-                        "synonyms": []
-                    },
-                    "hodan na 3807 x09 003": {
-                        "level": "unclassified",
-                        "name": "Hodan NA 3807 X09 003",
-                        "synonyms": []
-                    },
-                    "heliwaa": {
-                        "level": "unclassified",
-                        "name": "Heliwaa",
-                        "synonyms": []
-                    },
-                    "heegan": {
-                        "level": "unclassified",
-                        "name": "Heegan",
-                        "synonyms": []
-                    },
-                    "hawl wadaag na 3807 z06 001": {
-                        "level": "unclassified",
-                        "name": "Hawl Wadaag NA 3807 Z06 001",
-                        "synonyms": []
-                    },
-                    "hamarweine": {
-                        "level": "unclassified",
-                        "name": "Hamarweine",
-                        "synonyms": []
-                    },
-                    "hamarjajab hc": {
-                        "level": "unclassified",
-                        "name": "Hamarjajab HC",
-                        "synonyms": []
-                    },
-                    "hamar jajab": {
-                        "level": "unclassified",
-                        "name": "Hamar jajab",
-                        "synonyms": []
-                    },
-                    "halane": {
-                        "level": "unclassified",
-                        "name": "Halane",
-                        "synonyms": []
-                    },
-                    "godey weydow": {
-                        "level": "unclassified",
-                        "name": "Godey Weydow",
-                        "synonyms": []
-                    },
-                    "gobannimo": {
-                        "level": "unclassified",
-                        "name": "Gobannimo",
-                        "synonyms": []
-                    },
-                    "gobanimo": {
-                        "level": "unclassified",
-                        "name": "Gobanimo",
-                        "synonyms": []
-                    },
-                    "general daud": {
-                        "level": "unclassified",
-                        "name": "General Daud",
-                        "synonyms": []
-                    },
-                    "general daa uud": {
-                        "level": "unclassified",
-                        "name": "General Daa Uud",
-                        "synonyms": []
-                    },
-                    "garowe": {
-                        "level": "unclassified",
-                        "name": "Garowe",
-                        "synonyms": []
-                    },
-                    "garisa": {
-                        "level": "unclassified",
-                        "name": "Garisa",
-                        "synonyms": []
-                    },
-                    "garasbaley idps": {
-                        "level": "unclassified",
-                        "name": "Garasbaley IDPs",
-                        "synonyms": []
-                    },
-                    "garasbaley kaxda": {
-                        "level": "unclassified",
-                        "name": "Garasbaley Kaxda ",
-                        "synonyms": []
-                    },
-                    "gaalkacyo": {
-                        "level": "unclassified",
-                        "name": "Gaalkacyo",
-                        "synonyms": []
-                    },
-                    "farsooley weydow": {
-                        "level": "unclassified",
-                        "name": "farsooley Weydow",
-                        "synonyms": []
-                    },
-                    "elgab": {
-                        "level": "unclassified",
-                        "name": "Elgab",
-                        "synonyms": []
-                    },
-                    "duale": {
-                        "level": "unclassified",
-                        "name": "Duale",
-                        "synonyms": []
-                    },
-                    "deynille yaaqle camp igadabagey bacaad alle suge shidane k7 iskaashi walaalaha wanaagsan ramaas taad camps kaxda owbaale 1 bananey waraanle rabisuge and mudan idp camps": {
-                        "level": "unclassified",
-                        "name": "Deynille Yaaqle camp Igadabagey Bacaad Alle suge Shidane k7 Iskaashi walaalaha Wanaagsan Ramaas Taad camps Kaxda Owbaale 1 Bananey Waraanle Rabisuge and Mudan IDP camps ",
-                        "synonyms": []
-                    },
-                    "daynile general hospital": {
-                        "level": "unclassified",
-                        "name": "Daynile General Hospital",
-                        "synonyms": []
-                    },
-                    "dayniile waydow": {
-                        "level": "unclassified",
-                        "name": "Dayniile Waydow",
-                        "synonyms": []
-                    },
-                    "daacad weydow": {
-                        "level": "unclassified",
-                        "name": "Daacad Weydow",
-                        "synonyms": []
-                    },
-                    "curad daadsanay": {
-                        "level": "unclassified",
-                        "name": "Curad Daadsanay",
-                        "synonyms": []
-                    },
-                    "city vilages": {
-                        "level": "unclassified",
-                        "name": "city vilages",
-                        "synonyms": []
-                    },
-                    "center gowen weydow": {
-                        "level": "unclassified",
-                        "name": "Center gowen Weydow",
-                        "synonyms": []
-                    },
-                    "ceel dibir weydow": {
-                        "level": "unclassified",
-                        "name": "Ceel dibir Weydow",
-                        "synonyms": []
-                    },
-                    "cawiye hf": {
-                        "level": "unclassified",
-                        "name": "CAWIYE HF",
-                        "synonyms": []
-                    },
-                    "cawiye": {
-                        "level": "unclassified",
-                        "name": "Cawiye",
-                        "synonyms": []
-                    },
-                    "cariif": {
-                        "level": "unclassified",
-                        "name": "Cariif",
-                        "synonyms": []
-                    },
-                    "cambar weydow": {
-                        "level": "unclassified",
-                        "name": "Cambar Weydow",
-                        "synonyms": []
-                    },
-                    "cabdulcasiis na 3807 y08 005": {
-                        "level": "unclassified",
-                        "name": "Cabdulcasiis NA 3807 Y08 005",
-                        "synonyms": []
-                    },
-                    "buuq laawe weydow": {
-                        "level": "unclassified",
-                        "name": "Buuq laawe Weydow",
-                        "synonyms": []
-                    },
-                    "buulo xuubey": {
-                        "level": "unclassified",
-                        "name": "Buulo Xuubey",
-                        "synonyms": []
-                    },
-                    "buufow janaale daadsanay": {
-                        "level": "unclassified",
-                        "name": "Buufow janaale Daadsanay",
-                        "synonyms": []
-                    },
-                    "bundo labaad": {
-                        "level": "unclassified",
-                        "name": "Bundo Labaad",
-                        "synonyms": []
-                    },
-                    "bondera": {
-                        "level": "unclassified",
-                        "name": "Bondera",
-                        "synonyms": []
-                    },
-                    "beerta qaadka": {
-                        "level": "unclassified",
-                        "name": "Beerta qaadka",
-                        "synonyms": []
-                    },
-                    "bartamaha school": {
-                        "level": "unclassified",
-                        "name": "Bartamaha School",
-                        "synonyms": []
-                    },
-                    "bandarwanag": {
-                        "level": "unclassified",
-                        "name": "Bandarwanag",
-                        "synonyms": []
-                    },
-                    "badbaado idp camps": {
-                        "level": "unclassified",
-                        "name": "Badbaado IDP Camps",
-                        "synonyms": []
-                    },
-                    "axmedgurey": {
-                        "level": "unclassified",
-                        "name": "Axmedgurey",
-                        "synonyms": []
-                    },
-                    "ambulatorio": {
-                        "level": "unclassified",
-                        "name": "Ambulatorio",
-                        "synonyms": []
-                    },
-                    "alimow daadsanay": {
-                        "level": "unclassified",
-                        "name": "Alimow Daadsanay",
-                        "synonyms": []
-                    },
-                    "alcadale": {
-                        "level": "unclassified",
-                        "name": "Alcadale",
-                        "synonyms": []
-                    },
-                    "alasowdheere": {
-                        "level": "unclassified",
-                        "name": "Alasowdheere",
-                        "synonyms": []
-                    },
-                    "al adala": {
-                        "level": "unclassified",
-                        "name": "Al adala",
-                        "synonyms": []
-                    },
-                    "al adaale": {
-                        "level": "unclassified",
-                        "name": "Al Adaale",
-                        "synonyms": []
-                    },
-                    "abdiaziz": {
-                        "level": "unclassified",
-                        "name": "Abdiaziz",
-                        "synonyms": []
-                    },
-                    "abdi aziz": {
-                        "level": "unclassified",
-                        "name": "Abdi aziz",
-                        "synonyms": []
-                    },
-                    "abadir": {
-                        "level": "unclassified",
-                        "name": "Abadir",
-                        "synonyms": []
-                    },
-                    "abaadir": {
-                        "level": "unclassified",
-                        "name": "Abaadir",
-                        "synonyms": []
-                    },
-                    "1da luulyo": {
-                        "level": "unclassified",
-                        "name": "1Da luulyo",
-                        "synonyms": []
-                    },
-                    "deynille al hidaya idp camp kun deeq degan bille kahda sawade osingow ceel hareeri calanfutow": {
-                        "level": "unclassified",
-                        "name": " Deynille Al Hidaya IDP Camp Kun Deeq Degan Bille Kahda Sawade Osingow Ceel Hareeri Calanfutow",
-                        "synonyms": []
-                    },
-                    "5": {
-                        "level": "unclassified",
-                        "name": "5",
-                        "synonyms": []
+                        "name": "Abdiaziz Health Center"
                     }
                 }
+            },
+            "Bondhere": {
+                "level": "admin2",
+                "name": "Bondhere",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Boondheere"
+                ],
+                "unclassified": {
+                    "Islamic Relief Bondhere MCH": {
+                        "level": "unclassified",
+                        "name": "Islamic Relief Bondhere MCH"
+                    }
+                }
+            },
+            "Daynile": {
+                "level": "admin2",
+                "name": "Daynile",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Daynile"
+                ],
+                "unclassified": {
+                }
+            },
+            "Dharkenley": {
+                "level": "admin2",
+                "name": "Dharkenley",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Dharkenley"
+                ],
+                "unclassified": {
+                    "Dharkenley MCH": {
+                        "level": "unclassified",
+                        "name": "Dharkenley MCH"
+                    },
+                    "Dharkenley NA 3807 Y07 002": {
+                        "level": "unclassified",
+                        "name": "Dharkenley NA 3807 Y07 002"
+                    }
+                }
+            },
+            "Hamar-Jajab": {
+                "level": "admin2",
+                "name": "Hamar-Jajab",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Hamarjajab",
+                    "Mogadishu Xamar Jaabjab"
+                ],
+                "unclassified": {
+                    "Hamar Jajab MCH": {
+                        "level": "unclassified",
+                        "name": "Hamar Jajab MCH"
+                    },
+                    "Hamarjajab HC": {
+                        "level": "unclassified",
+                        "name": "Hamarjajab HC"
+                    }
+                }
+            },
+            "Hamar-Weyne": {
+                "level": "admin2",
+                "name": "Hamar-Weyne",
+                "pcode": "",
+                "synonyms": [
+                    "Hamarweine",
+                    "Mogadishu Xamar Weyne"
+                    
+                ],
+                "unclassified": {
+                }
+            },
+            "Hodan": {
+                "level": "admin2",
+                "name": "Hodan",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Hodan"
+                ],
+                "unclassified": {
+                    "Hodan Health Center": {
+                        "level": "unclassified",
+                        "name": "Hodan Health Center"
+                    },
+                    "Hodan Ahmed Gurey Deynile Igadabagee": {
+                        "level": "unclassified",
+                        "name": "Hodan Ahmed Gurey Deynile Igadabagee"
+                    },
+                    "Hodan NA 3807 X09 003": {
+                        "level": "unclassified",
+                        "name": "Hodan NA 3807 X09 003"
+                    }
+                }
+            },
+            "Howl-Wadag": {
+                "level": "admin2",
+                "name": "Howl-Wadag",
+                "pcode": "",
+                "synonyms": [
+                    "Howlwadag",
+                    "Howlwadaag",
+                    "Howl wadag",
+                    "Mogadishu Hawl Wadaag"
+                ],
+                "unclassified": {
+                }
+            },
+            "Huriwa": {
+                "level": "admin2",
+                "name": "Huriwa",
+                "pcode": "",
+                "synonyms": [],
+                "unclassified": {
+                }
+            },
+            "Kaxda": {
+                "level": "admin2",
+                "name": "Kaxda",
+                "pcode": "",
+                "synonyms": [],
+                "unclassified": {
+                    "Kaxda IDPs": {
+                        "level": "unclassified",
+                        "name": "Kaxda IDPs"
+                    }
+                }
+            },
+            "Karan": {
+                "level": "admin2",
+                "name": "Karan",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Karaan"
+                ],
+                "unclassified": {
+                }
+            },
+            "Shangani": {
+                "level": "admin2",
+                "name": "Shangani",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Shangaani"
+                ],
+                "unclassified": {
+                    "Shangaani NA 3807 Y09 001": {
+                        "level": "unclassified",
+                        "name": "Shangaani NA 3807 Y09 001"
+                    }
+                }
+            },
+            "Shibis": {
+                "level": "admin2",
+                "name": "Shibis",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Shibis"
+                ],
+                "unclassified": {
+                    "Shibis HF": {
+                        "level": "unclassified",
+                        "name": "Shibis HF"
+                    }
+                }
+            },
+            "Waberi": {
+                "level": "admin2",
+                "name": "Waberi",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Waberi",
+                    "Mogadishu Waaberi",
+                    "Waaberi"
+                ],
+                "unclassified": {
+                    "Mogadishu Waberi Maajo": {
+                        "level": "unclassified",
+                        "name": "Mogadishu Waberi Maajo"
+                    },
+                    "Mogadishu Waberi Hantiwadaag": {
+                        "level": "unclassified",
+                        "name": "Mogadishu Waberi Hantiwadaag"
+                    },
+                    "Waberi Primary School": {
+                        "level": "unclassified",
+                        "name": "Waberi Primary School"
+                    },
+                    "Waaberi NA 3807 Y08 004": {
+                        "level": "unclassified",
+                        "name": "Waaberi NA 3807 Y08 004"
+                    },
+                    "Waberi MCH": {
+                        "level": "unclassified",
+                        "name": "Waberi MCH"
+                    }
+                }
+            },
+            "Wadajir": {
+                "level": "admin2",
+                "name": "Wadajir",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Wadajir"
+                ],
+                "unclassified": {
+                    "Wadajir HC Benadir Mogadishu": {
+                        "level": "unclassified",
+                        "name": "Wadajir HC Benadir Mogadishu"
+                    }
+                }
+            },
+            "Warta Nabada": {
+                "level": "admin2",
+                "name": "Warta Nabada",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Wardhiigleey",
+                    "Wardhigley"
+                ],
+                "unclassified": {
+                }
+            },
+            "Yaqshid": {
+                "level": "admin2",
+                "name": "Yaqshid",
+                "pcode": "",
+                "synonyms": [
+                    "Mogadishu Yaaqshiid"
+                ],
+                "unclassified": {
+                }
+            }
+        },
+        "unclassified": {
+            "Kahda HC": {
+                "level": "unclassified",
+                "name": "Kahda HC",
+                "synonyms": []
+            },
+            "Korsan Health Center": {
+                "level": "unclassified",
+                "name": "Korsan Health Center",
+                "synonyms": []
+            },
+            "Lafoole HC": {
+                "level": "unclassified",
+                "name": "Lafoole HC",
+                "synonyms": []
+            },
+            "SOS Hospital": {
+                "level": "unclassified",
+                "name": "SOS Hospital",
+                "synonyms": []
+            },
+            "Garasbaley HC": {
+                "level": "unclassified",
+                "name": "Garasbaley HC",
+                "synonyms": []
+            },
+            "Shabelle Health Center": {
+                "level": "unclassified",
+                "name": "Shabelle Health Center",
+                "synonyms": []
+            },
+            "Kurdamac BRCiS Site": {
+                "level": "unclassified",
+                "name": "Kurdamac BRCiS Site",
+                "synonyms": []
+            },
+            "Mogadishu NA 3807 Z08 001": {
+                "level": "unclassified",
+                "name": "Mogadishu NA 3807 Z08 001",
+                "synonyms": []
+            },
+            "Mogadishu Cabdulcasiis": {
+                "level": "unclassified",
+                "name": "Mogadishu Cabdulcassis",
+                "synonyms": []
+            },
+            "Mogadishu Transit Centre Way Station": {
+                "level": "unclassified",
+                "name": "Mogadishu Transit Centre Way Station",
+                "synonyms": []
+            },
+            "Mogadishu Heliwa": {
+                "level": "unclassified",
+                "name": "Mogadishu Heliwa",
+                "synonyms": []
+            },
+            "elgab health center": {
+                "level": "unclassified",
+                "name": "Elgab Health Center",
+                "synonyms": []
+            },
+            "waaberi health center": {
+                "level": "unclassified",
+                "name": "Waaberi Health Center",
+                "synonyms": []
+            },
+            "arif health center": {
+                "level": "unclassified",
+                "name": "ARIF Health Center",
+                "synonyms": []
+            },
+            "weydow": {
+                "level": "unclassified",
+                "name": "Weydow",
+                "synonyms": []
+            },
+            "sinkadeer": {
+                "level": "unclassified",
+                "name": "SinkaDeer",
+                "synonyms": []
+            },
+            "wilwaall": {
+                "level": "unclassified",
+                "name": "Wilwaall",
+                "synonyms": []
+            },
+            "osibio halane": {
+                "level": "unclassified",
+                "name": "Osibio Halane",
+                "synonyms": []
+            },
+            "waxar cade": {
+                "level": "unclassified",
+                "name": "Waxar Cade",
+                "synonyms": []
+            },
+            "bandar wanag": {
+                "level": "unclassified",
+                "name": "Bandar Wanag",
+                "synonyms": []
+            },
+            "badbado idp camp": {
+                "level": "unclassified",
+                "name": "Badbado IDP Camp",
+                "synonyms": []
+            },
+            "kahda": {
+                "level": "unclassified",
+                "name": "Kahda",
+                "synonyms": []
+            },
+            "islamic relief daynile health centre": {
+                "level": "unclassified",
+                "name": "Islamic Relief Daynile Health Centre",
+                "synonyms": []
+            },
+            "kaaraan health center": {
+                "level": "unclassified",
+                "name": "Kaaraan Health Center",
+                "synonyms": []
+            },
+            "nageyle hf caawiye hf": {
+                "level": "unclassified",
+                "name": "Nageyle HF Caawiye HF",
+                "synonyms": []
+            },
+            "kahda mch": {
+                "level": "unclassified",
+                "name": "Kahda MCH",
+                "synonyms": []
+            },
+            "daynile na 3807 z08 005": {
+                "level": "unclassified",
+                "name": "Daynile NA 3807 Z08 005",
+                "synonyms": []
+            },
+            "kahda and deynille districts": {
+                "level": "unclassified",
+                "name": "Kahda and Deynille Districts",
+                "synonyms": []
+            },
+            "kalkaal": {
+                "level": "unclassified",
+                "name": "Kalkaal",
+                "synonyms": []
+            },
+            "15 may warta nabada": {
+                "level": "unclassified",
+                "name": "15 May Warta nabada",
+                "synonyms": []
+            },
+            "section3": {
+                "level": "unclassified",
+                "name": "Section3",
+                "synonyms": []
+            },
+            "section3 cumarfiyasko": {
+                "level": "unclassified",
+                "name": "Section3 Cumarfiyasko ",
+                "synonyms": []
+            },
+            "general daud ex unicef sneygab ansaloti danyar": {
+                "level": "unclassified",
+                "name": "General Daud EX unicef Sneygab Ansaloti Danyar",
+                "synonyms": []
+            },
+            "daynile": {
+                "level": "unclassified",
+                "name": "Daynile",
+                "synonyms": []
+            },
+            "dabadey el ali gcanlibax and jamame": {
+                "level": "unclassified",
+                "name": "Dabadey El Ali Gcanlibax and Jamame",
+                "synonyms": []
+            },
+            "arafaat": {
+                "level": "unclassified",
+                "name": "Arafaat",
+                "synonyms": []
+            },
+            "wadajir": {
+                "level": "unclassified",
+                "name": "Wadajir",
+                "synonyms": []
+            },
+            "dhobley": {
+                "level": "unclassified",
+                "name": "dhobley",
+                "synonyms": []
+            },
+            "warta nabada and kahda": {
+                "level": "unclassified",
+                "name": "warta Nabada and Kahda",
+                "synonyms": []
+            },
+            "talex tarabuun hoda": {
+                "level": "unclassified",
+                "name": "TALEX TARABUUN HODA",
+                "synonyms": []
+            },
+            "macaani": {
+                "level": "unclassified",
+                "name": "Macaani",
+                "synonyms": []
+            },
+            "kurdamac": {
+                "level": "unclassified",
+                "name": "Kurdamac",
+                "synonyms": []
+            },
+            "jebouti branch": {
+                "level": "unclassified",
+                "name": "Jebouti branch",
+                "synonyms": []
+            },
+            "idps": {
+                "level": "unclassified",
+                "name": "IDPs",
+                "synonyms": []
+            },
+            "danyar": {
+                "level": "unclassified",
+                "name": "Danyar",
+                "synonyms": []
+            },
+            "bondheer hc": {
+                "level": "unclassified",
+                "name": "Bondheer HC",
+                "synonyms": []
+            },
+            "bangala idp na 3807 y07 103": {
+                "level": "unclassified",
+                "name": "Bangala IDP NA 3807 Y07 103",
+                "synonyms": []
+            },
+            "bangala idp": {
+                "level": "unclassified",
+                "name": "Bangala IDP",
+                "synonyms": []
+            },
+            "all daynile": {
+                "level": "unclassified",
+                "name": "All Daynile",
+                "synonyms": []
+            },
+            "xamar jaabjab na 3807 y08 006": {
+                "level": "unclassified",
+                "name": "Xamar Jaabjab NA 3807 Y08 006",
+                "synonyms": []
+            },
+            "warta nabada mch": {
+                "level": "unclassified",
+                "name": "Warta nabada MCH",
+                "synonyms": []
+            },
+            "wardhiigleey na 3807 z07 002": {
+                "level": "unclassified",
+                "name": "Wardhiigleey NA 3807 Z07 002",
+                "synonyms": []
+            },
+            "sayidka branch": {
+                "level": "unclassified",
+                "name": "Sayidka Branch",
+                "synonyms": []
+            },
+            "sarkus": {
+                "level": "unclassified",
+                "name": "Sarkus",
+                "synonyms": []
+            },
+            "roobsuge": {
+                "level": "unclassified",
+                "name": "Roobsuge",
+                "synonyms": []
+            },
+            "naftaqur": {
+                "level": "unclassified",
+                "name": "Naftaqur",
+                "synonyms": []
+            },
+            "musbah": {
+                "level": "unclassified",
+                "name": "Musbah",
+                "synonyms": []
+            },
+            "masul": {
+                "level": "unclassified",
+                "name": "Masul",
+                "synonyms": []
+            },
+            "malable": {
+                "level": "unclassified",
+                "name": "Malable",
+                "synonyms": []
+            },
+            "mahaday": {
+                "level": "unclassified",
+                "name": "Mahaday",
+                "synonyms": []
+            },
+            "jamame": {
+                "level": "unclassified",
+                "name": "Jamame",
+                "synonyms": []
+            },
+            "iskaashi": {
+                "level": "unclassified",
+                "name": "Iskaashi",
+                "synonyms": []
+            },
+            "dudumole": {
+                "level": "unclassified",
+                "name": "Dudumole",
+                "synonyms": []
+            },
+            "deynile": {
+                "level": "unclassified",
+                "name": "Deynile",
+                "synonyms": []
+            },
+            "wardhiigleey": {
+                "level": "unclassified",
+                "name": "Wardhiigleey",
+                "synonyms": []
+            },
+            "wadajir na 3807 z07 001": {
+                "level": "unclassified",
+                "name": "Wadajir NA 3807 Z07 001",
+                "synonyms": []
+            },
+            "towfiq": {
+                "level": "unclassified",
+                "name": "Towfiq",
+                "synonyms": []
+            },
+            "taakulo weydow": {
+                "level": "unclassified",
+                "name": "Taakulo Weydow",
+                "synonyms": []
+            },
+            "siinka dheer": {
+                "level": "unclassified",
+                "name": "Siinka Dheer",
+                "synonyms": []
+            },
+            "shabelle": {
+                "level": "unclassified",
+                "name": "Shabelle",
+                "synonyms": []
+            },
+            "section3 iftiin": {
+                "level": "unclassified",
+                "name": "Section3 Iftiin ",
+                "synonyms": []
+            },
+            "saqadwudiin": {
+                "level": "unclassified",
+                "name": "Saqadwudiin",
+                "synonyms": []
+            },
+            "salaama weydow": {
+                "level": "unclassified",
+                "name": "Salaama Weydow",
+                "synonyms": []
+            },
+            "ow dhiigle weydow": {
+                "level": "unclassified",
+                "name": "Ow dhiigle Weydow",
+                "synonyms": []
+            },
+            "nageyle": {
+                "level": "unclassified",
+                "name": "Nageyle",
+                "synonyms": []
+            },
+            "kuntuwarey sarnan bariyow idp": {
+                "level": "unclassified",
+                "name": "Kuntuwarey sarnan Bariyow IDP",
+                "synonyms": []
+            },
+            "karaan": {
+                "level": "unclassified",
+                "name": "Karaan",
+                "synonyms": []
+            },
+            "jungal": {
+                "level": "unclassified",
+                "name": "Jungal",
+                "synonyms": []
+            },
+            "jidow": {
+                "level": "unclassified",
+                "name": "Jidow",
+                "synonyms": []
+            },
+            "jeneral daud": {
+                "level": "unclassified",
+                "name": "Jeneral Daud",
+                "synonyms": []
+            },
+            "jabuuti": {
+                "level": "unclassified",
+                "name": "Jabuuti",
+                "synonyms": []
+            },
+            "hodman elgaras idps": {
+                "level": "unclassified",
+                "name": "Hodman Elgaras IDPs",
+                "synonyms": []
+            },
+            "himilo weydow": {
+                "level": "unclassified",
+                "name": "Himilo Weydow",
+                "synonyms": []
+            },
+            "heliwa na 3807 y08 007": {
+                "level": "unclassified",
+                "name": "Heliwa NA 3807 Y08 007",
+                "synonyms": []
+            },
+            "hantiwadag": {
+                "level": "unclassified",
+                "name": "Hantiwadag",
+                "synonyms": []
+            },
+            "garasballey": {
+                "level": "unclassified",
+                "name": "Garasballey",
+                "synonyms": []
+            },
+            "garasbaley": {
+                "level": "unclassified",
+                "name": "Garasbaley",
+                "synonyms": []
+            },
+            "dugsilow": {
+                "level": "unclassified",
+                "name": "Dugsilow",
+                "synonyms": []
+            },
+            "dalada kulan weydow": {
+                "level": "unclassified",
+                "name": "Dalada kulan Weydow",
+                "synonyms": []
+            },
+            "ceel buur2 weydow": {
+                "level": "unclassified",
+                "name": "Ceel buur2 Weydow",
+                "synonyms": []
+            },
+            "bondheere": {
+                "level": "unclassified",
+                "name": "Bondheere",
+                "synonyms": []
+            },
+            "biladul amin": {
+                "level": "unclassified",
+                "name": "Biladul amin",
+                "synonyms": []
+            },
+            "barwaqo": {
+                "level": "unclassified",
+                "name": "Barwaqo",
+                "synonyms": []
+            },
+            "barwaaqo": {
+                "level": "unclassified",
+                "name": "Barwaaqo",
+                "synonyms": []
+            },
+            "badbado idp": {
+                "level": "unclassified",
+                "name": "badbado IDP",
+                "synonyms": []
+            },
+            "alkheyraad weydow": {
+                "level": "unclassified",
+                "name": "Alkheyraad Weydow",
+                "synonyms": []
+            },
+            "ahmed gurey": {
+                "level": "unclassified",
+                "name": "Ahmed Gurey",
+                "synonyms": []
+            },
+            "xusni weydow": {
+                "level": "unclassified",
+                "name": "Xusni Weydow",
+                "synonyms": []
+            },
+            "xawo tako": {
+                "level": "unclassified",
+                "name": "Xawo tako",
+                "synonyms": []
+            },
+            "xamar weyne na 3807 z08 002": {
+                "level": "unclassified",
+                "name": "Xamar Weyne NA 3807 Z08 002",
+                "synonyms": []
+            },
+            "wiil waal": {
+                "level": "unclassified",
+                "name": "Wiil waal",
+                "synonyms": []
+            },
+            "weedow": {
+                "level": "unclassified",
+                "name": "WEEDOW",
+                "synonyms": []
+            },
+            "waxarcade": {
+                "level": "unclassified",
+                "name": "Waxarcade",
+                "synonyms": []
+            },
+            "warta nabda and kahda": {
+                "level": "unclassified",
+                "name": "Warta Nabda And Kahda",
+                "synonyms": []
+            },
+            "warta nabada": {
+                "level": "unclassified",
+                "name": "Warta Nabada",
+                "synonyms": []
+            },
+            "warjane weydow": {
+                "level": "unclassified",
+                "name": "Warjane Weydow",
+                "synonyms": []
+            },
+            "wardhigley": {
+                "level": "unclassified",
+                "name": "Wardhigley",
+                "synonyms": []
+            },
+            "warder": {
+                "level": "unclassified",
+                "name": "Warder",
+                "synonyms": []
+            },
+            "warat nabada and kahda": {
+                "level": "unclassified",
+                "name": "Warat nabada And Kahda",
+                "synonyms": []
+            },
+            "wahara cade": {
+                "level": "unclassified",
+                "name": "Wahara Cade",
+                "synonyms": []
+            },
+            "via roma": {
+                "level": "unclassified",
+                "name": "Via Roma",
+                "synonyms": []
+            },
+            "urban": {
+                "level": "unclassified",
+                "name": "Urban",
+                "synonyms": []
+            },
+            "togdheer idp": {
+                "level": "unclassified",
+                "name": "Togdheer IDP",
+                "synonyms": []
+            },
+            "tawakal": {
+                "level": "unclassified",
+                "name": "Tawakal",
+                "synonyms": []
+            },
+            "taleh": {
+                "level": "unclassified",
+                "name": "Taleh",
+                "synonyms": []
+            },
+            "taleex": {
+                "level": "unclassified",
+                "name": "Taleex",
+                "synonyms": []
+            },
+            "taleeh": {
+                "level": "unclassified",
+                "name": "Taleeh",
+                "synonyms": []
+            },
+            "talakeen weydow": {
+                "level": "unclassified",
+                "name": "Talakeen Weydow",
+                "synonyms": []
+            },
+            "tabelaha": {
+                "level": "unclassified",
+                "name": "Tabelaha",
+                "synonyms": []
+            },
+            "suuqyare": {
+                "level": "unclassified",
+                "name": "Suuqyare",
+                "synonyms": []
+            },
+            "suuq yare hanano bulsho": {
+                "level": "unclassified",
+                "name": "Suuq Yare Hanano Bulsho",
+                "synonyms": []
+            },
+            "suqa weyn": {
+                "level": "unclassified",
+                "name": "Suqa Weyn",
+                "synonyms": []
+            },
+            "sinka dhere": {
+                "level": "unclassified",
+                "name": "sinka dhere",
+                "synonyms": []
+            },
+            "siimow": {
+                "level": "unclassified",
+                "name": "Siimow",
+                "synonyms": []
+            },
+            "shiniile weydow": {
+                "level": "unclassified",
+                "name": "Shiniile Weydow",
+                "synonyms": []
+            },
+            "shimbirale": {
+                "level": "unclassified",
+                "name": "Shimbirale",
+                "synonyms": []
+            },
+            "shimbiraale": {
+                "level": "unclassified",
+                "name": "Shimbiraale",
+                "synonyms": []
+            },
+            "section3 iftin": {
+                "level": "unclassified",
+                "name": "Section3 Iftin ",
+                "synonyms": []
+            },
+            "sayidka": {
+                "level": "unclassified",
+                "name": "Sayidka",
+                "synonyms": []
+            },
+            "saqaawadiin": {
+                "level": "unclassified",
+                "name": "Saqaawadiin",
+                "synonyms": []
+            },
+            "safaa weydow": {
+                "level": "unclassified",
+                "name": "Safaa Weydow",
+                "synonyms": []
+            },
+            "saciid rooraye": {
+                "level": "unclassified",
+                "name": "Saciid Rooraye",
+                "synonyms": []
+            },
+            "sacid rooraye": {
+                "level": "unclassified",
+                "name": "Sacid Rooraye",
+                "synonyms": []
+            },
+            "rabi yaasir weydow": {
+                "level": "unclassified",
+                "name": "Rabi yaasir Weydow",
+                "synonyms": []
+            },
+            "owliyo weydow": {
+                "level": "unclassified",
+                "name": "Owliyo Weydow",
+                "synonyms": []
+            },
+            "omar fiyaska": {
+                "level": "unclassified",
+                "name": "Omar Fiyaska",
+                "synonyms": []
+            },
+            "omar fiasko": {
+                "level": "unclassified",
+                "name": "Omar Fiasko",
+                "synonyms": []
+            },
+            "odweyne banadir": {
+                "level": "unclassified",
+                "name": "Odweyne Banadir ",
+                "synonyms": []
+            },
+            "october": {
+                "level": "unclassified",
+                "name": "October",
+                "synonyms": []
+            },
+            "octobar and ahmed gurey": {
+                "level": "unclassified",
+                "name": "Octobar and Ahmed gurey",
+                "synonyms": []
+            },
+            "obosibo halane": {
+                "level": "unclassified",
+                "name": "Obosibo Halane",
+                "synonyms": []
+            },
+            "nasib bundo": {
+                "level": "unclassified",
+                "name": "Nasib bundo",
+                "synonyms": []
+            },
+            "nagayle hf": {
+                "level": "unclassified",
+                "name": "Nagayle HF",
+                "synonyms": []
+            },
+            "maslax weydow": {
+                "level": "unclassified",
+                "name": "Maslax weydow",
+                "synonyms": []
+            },
+            "mareeray daadsanay": {
+                "level": "unclassified",
+                "name": "Mareeray Daadsanay",
+                "synonyms": []
+            },
+            "manabolyo": {
+                "level": "unclassified",
+                "name": "Manabolyo",
+                "synonyms": []
+            },
+            "maanamufo": {
+                "level": "unclassified",
+                "name": "Maanamufo",
+                "synonyms": []
+            },
+            "lowiyacade": {
+                "level": "unclassified",
+                "name": "Lowiyacade",
+                "synonyms": []
+            },
+            "liqliqito omar fiyasko abaadir": {
+                "level": "unclassified",
+                "name": "Liqliqito Omar fiyasko Abaadir",
+                "synonyms": []
+            },
+            "liqliqato": {
+                "level": "unclassified",
+                "name": "Liqliqato",
+                "synonyms": []
+            },
+            "lido checkpoint": {
+                "level": "unclassified",
+                "name": "Lido checkpoint",
+                "synonyms": []
+            },
+            "km14": {
+                "level": "unclassified",
+                "name": "KM14",
+                "synonyms": []
+            },
+            "kheyr suge weydow": {
+                "level": "unclassified",
+                "name": "Kheyr suge Weydow",
+                "synonyms": []
+            },
+            "kheyr doon weydow": {
+                "level": "unclassified",
+                "name": "Kheyr doon Weydow",
+                "synonyms": []
+            },
+            "kharqaabe daadsanay": {
+                "level": "unclassified",
+                "name": "Kharqaabe Daadsanay",
+                "synonyms": []
+            },
+            "kaxda daynile and dharkinley": {
+                "level": "unclassified",
+                "name": "Kaxda Daynile and Dharkinley",
+                "synonyms": []
+            },
+            "kawan bari": {
+                "level": "unclassified",
+                "name": "Kawan Bari",
+                "synonyms": []
+            },
+            "karaan primary school": {
+                "level": "unclassified",
+                "name": "Karaan primary school",
+                "synonyms": []
+            },
+            "kalkal": {
+                "level": "unclassified",
+                "name": "Kalkal",
+                "synonyms": []
+            },
+            "kahdaa": {
+                "level": "unclassified",
+                "name": "Kahdaa",
+                "synonyms": []
+            },
+            "kabalaawe": {
+                "level": "unclassified",
+                "name": "Kabalaawe",
+                "synonyms": []
+            },
+            "kaamil weydow": {
+                "level": "unclassified",
+                "name": "Kaamil Weydow",
+                "synonyms": []
+            },
+            "kaafiyo weydow": {
+                "level": "unclassified",
+                "name": "Kaafiyo Weydow",
+                "synonyms": []
+            },
+            "jiidow": {
+                "level": "unclassified",
+                "name": "Jiidow",
+                "synonyms": []
+            },
+            "jamuriya": {
+                "level": "unclassified",
+                "name": "Jamuriya",
+                "synonyms": []
+            },
+            "jamuhuriya": {
+                "level": "unclassified",
+                "name": "Jamuhuriya",
+                "synonyms": []
+            },
+            "jamhuriya": {
+                "level": "unclassified",
+                "name": "Jamhuriya",
+                "synonyms": []
+            },
+            "jamacadda shabelle": {
+                "level": "unclassified",
+                "name": "Jamacadda Shabelle",
+                "synonyms": []
+            },
+            "igadabageey": {
+                "level": "unclassified",
+                "name": "Igadabageey",
+                "synonyms": []
+            },
+            "iga dabagey": {
+                "level": "unclassified",
+                "name": "Iga dabagey",
+                "synonyms": []
+            },
+            "iftin daadsanay": {
+                "level": "unclassified",
+                "name": "Iftin Daadsanay",
+                "synonyms": []
+            },
+            "idman weydow": {
+                "level": "unclassified",
+                "name": "Idman Weydow",
+                "synonyms": []
+            },
+            "hosh": {
+                "level": "unclassified",
+                "name": "Hosh",
+                "synonyms": []
+            },
+            "horseed": {
+                "level": "unclassified",
+                "name": "Horseed",
+                "synonyms": []
+            },
+            "heliwaa": {
+                "level": "unclassified",
+                "name": "Heliwaa",
+                "synonyms": []
+            },
+            "heegan": {
+                "level": "unclassified",
+                "name": "Heegan",
+                "synonyms": []
+            },
+            "hawl wadaag na 3807 z06 001": {
+                "level": "unclassified",
+                "name": "Hawl Wadaag NA 3807 Z06 001",
+                "synonyms": []
+            },
+            "halane": {
+                "level": "unclassified",
+                "name": "Halane",
+                "synonyms": []
+            },
+            "godey weydow": {
+                "level": "unclassified",
+                "name": "Godey Weydow",
+                "synonyms": []
+            },
+            "gobannimo": {
+                "level": "unclassified",
+                "name": "Gobannimo",
+                "synonyms": []
+            },
+            "gobanimo": {
+                "level": "unclassified",
+                "name": "Gobanimo",
+                "synonyms": []
+            },
+            "general daud": {
+                "level": "unclassified",
+                "name": "General Daud",
+                "synonyms": []
+            },
+            "general daa uud": {
+                "level": "unclassified",
+                "name": "General Daa Uud",
+                "synonyms": []
+            },
+            "garowe": {
+                "level": "unclassified",
+                "name": "Garowe",
+                "synonyms": []
+            },
+            "garisa": {
+                "level": "unclassified",
+                "name": "Garisa",
+                "synonyms": []
+            },
+            "garasbaley idps": {
+                "level": "unclassified",
+                "name": "Garasbaley IDPs",
+                "synonyms": []
+            },
+            "garasbaley kaxda": {
+                "level": "unclassified",
+                "name": "Garasbaley Kaxda ",
+                "synonyms": []
+            },
+            "gaalkacyo": {
+                "level": "unclassified",
+                "name": "Gaalkacyo",
+                "synonyms": []
+            },
+            "farsooley weydow": {
+                "level": "unclassified",
+                "name": "farsooley Weydow",
+                "synonyms": []
+            },
+            "elgab": {
+                "level": "unclassified",
+                "name": "Elgab",
+                "synonyms": []
+            },
+            "duale": {
+                "level": "unclassified",
+                "name": "Duale",
+                "synonyms": []
+            },
+            "deynille yaaqle camp igadabagey bacaad alle suge shidane k7 iskaashi walaalaha wanaagsan ramaas taad camps kaxda owbaale 1 bananey waraanle rabisuge and mudan idp camps": {
+                "level": "unclassified",
+                "name": "Deynille Yaaqle camp Igadabagey Bacaad Alle suge Shidane k7 Iskaashi walaalaha Wanaagsan Ramaas Taad camps Kaxda Owbaale 1 Bananey Waraanle Rabisuge and Mudan IDP camps ",
+                "synonyms": []
+            },
+            "daynile general hospital": {
+                "level": "unclassified",
+                "name": "Daynile General Hospital",
+                "synonyms": []
+            },
+            "dayniile waydow": {
+                "level": "unclassified",
+                "name": "Dayniile Waydow",
+                "synonyms": []
+            },
+            "daacad weydow": {
+                "level": "unclassified",
+                "name": "Daacad Weydow",
+                "synonyms": []
+            },
+            "curad daadsanay": {
+                "level": "unclassified",
+                "name": "Curad Daadsanay",
+                "synonyms": []
+            },
+            "city vilages": {
+                "level": "unclassified",
+                "name": "city vilages",
+                "synonyms": []
+            },
+            "center gowen weydow": {
+                "level": "unclassified",
+                "name": "Center gowen Weydow",
+                "synonyms": []
+            },
+            "ceel dibir weydow": {
+                "level": "unclassified",
+                "name": "Ceel dibir Weydow",
+                "synonyms": []
+            },
+            "cawiye hf": {
+                "level": "unclassified",
+                "name": "CAWIYE HF",
+                "synonyms": []
+            },
+            "cawiye": {
+                "level": "unclassified",
+                "name": "Cawiye",
+                "synonyms": []
+            },
+            "cariif": {
+                "level": "unclassified",
+                "name": "Cariif",
+                "synonyms": []
+            },
+            "cambar weydow": {
+                "level": "unclassified",
+                "name": "Cambar Weydow",
+                "synonyms": []
+            },
+            "cabdulcasiis na 3807 y08 005": {
+                "level": "unclassified",
+                "name": "Cabdulcasiis NA 3807 Y08 005",
+                "synonyms": []
+            },
+            "buuq laawe weydow": {
+                "level": "unclassified",
+                "name": "Buuq laawe Weydow",
+                "synonyms": []
+            },
+            "buulo xuubey": {
+                "level": "unclassified",
+                "name": "Buulo Xuubey",
+                "synonyms": []
+            },
+            "buufow janaale daadsanay": {
+                "level": "unclassified",
+                "name": "Buufow janaale Daadsanay",
+                "synonyms": []
+            },
+            "bundo labaad": {
+                "level": "unclassified",
+                "name": "Bundo Labaad",
+                "synonyms": []
+            },
+            "bondera": {
+                "level": "unclassified",
+                "name": "Bondera",
+                "synonyms": []
+            },
+            "beerta qaadka": {
+                "level": "unclassified",
+                "name": "Beerta qaadka",
+                "synonyms": []
+            },
+            "bartamaha school": {
+                "level": "unclassified",
+                "name": "Bartamaha School",
+                "synonyms": []
+            },
+            "bandarwanag": {
+                "level": "unclassified",
+                "name": "Bandarwanag",
+                "synonyms": []
+            },
+            "badbaado idp camps": {
+                "level": "unclassified",
+                "name": "Badbaado IDP Camps",
+                "synonyms": []
+            },
+            "axmedgurey": {
+                "level": "unclassified",
+                "name": "Axmedgurey",
+                "synonyms": []
+            },
+            "ambulatorio": {
+                "level": "unclassified",
+                "name": "Ambulatorio",
+                "synonyms": []
+            },
+            "alimow daadsanay": {
+                "level": "unclassified",
+                "name": "Alimow Daadsanay",
+                "synonyms": []
+            },
+            "alcadale": {
+                "level": "unclassified",
+                "name": "Alcadale",
+                "synonyms": []
+            },
+            "alasowdheere": {
+                "level": "unclassified",
+                "name": "Alasowdheere",
+                "synonyms": []
+            },
+            "al adala": {
+                "level": "unclassified",
+                "name": "Al adala",
+                "synonyms": []
+            },
+            "al adaale": {
+                "level": "unclassified",
+                "name": "Al Adaale",
+                "synonyms": []
+            },
+            "abadir": {
+                "level": "unclassified",
+                "name": "Abadir",
+                "synonyms": []
+            },
+            "abaadir": {
+                "level": "unclassified",
+                "name": "Abaadir",
+                "synonyms": []
+            },
+            "1da luulyo": {
+                "level": "unclassified",
+                "name": "1Da luulyo",
+                "synonyms": []
+            },
+            "deynille al hidaya idp camp kun deeq degan bille kahda sawade osingow ceel hareeri calanfutow": {
+                "level": "unclassified",
+                "name": " Deynille Al Hidaya IDP Camp Kun Deeq Degan Bille Kahda Sawade Osingow Ceel Hareeri Calanfutow",
+                "synonyms": []
+            },
+            "5": {
+                "level": "unclassified",
+                "name": "5",
+                "synonyms": []
             }
         }
     },
@@ -11971,11 +11980,6 @@
                         "name": "wargudud health post",
                         "synonyms": []
                     },
-                    "waberi": {
-                        "level": "unclassified",
-                        "name": "Waberi",
-                        "synonyms": []
-                    },
                     "suban health post": {
                         "level": "unclassified",
                         "name": "Suban health post",
@@ -12977,11 +12981,6 @@
                         "name": "Israac",
                         "synonyms": []
                     },
-                    "howlwadaag": {
-                        "level": "unclassified",
-                        "name": "Howlwadaag",
-                        "synonyms": []
-                    },
                     "horyaal": {
                         "level": "unclassified",
                         "name": "Horyaal",
@@ -13793,11 +13792,6 @@
                         "name": "Jilable NB 3808 Q30 001",
                         "synonyms": []
                     },
-                    "howlwadag": {
-                        "level": "unclassified",
-                        "name": "Howlwadag",
-                        "synonyms": []
-                    },
                     "hobyo town": {
                         "level": "unclassified",
                         "name": "Hobyo town",
@@ -14148,16 +14142,6 @@
                     "dhusmareb hc": {
                         "level": "unclassified",
                         "name": "Dhusmareb HC",
-                        "synonyms": []
-                    },
-                    "hodan": {
-                        "level": "unclassified",
-                        "name": "Hodan",
-                        "synonyms": []
-                    },
-                    "": {
-                        "level": "unclassified",
-                        "name": "",
                         "synonyms": []
                     },
                     "dhuusamarreb hospital": {
@@ -15523,11 +15507,6 @@
                         "name": "Jawil",
                         "synonyms": []
                     },
-                    "howlwadag": {
-                        "level": "unclassified",
-                        "name": "Howlwadag",
-                        "synonyms": []
-                    },
                     "how tako": {
                         "level": "unclassified",
                         "name": "How tako",
@@ -15966,11 +15945,6 @@
                     "idps and hc": {
                         "level": "unclassified",
                         "name": "IDPs and HC",
-                        "synonyms": []
-                    },
-                    "howl wadag": {
-                        "level": "unclassified",
-                        "name": "Howl wadag",
                         "synonyms": []
                     },
                     "hodlei": {
@@ -16728,11 +16702,6 @@
                     "gaashaanle": {
                         "level": "unclassified",
                         "name": "Gaashaanle",
-                        "synonyms": []
-                    },
-                    "dharkenley": {
-                        "level": "unclassified",
-                        "name": "Dharkenley",
                         "synonyms": []
                     },
                     "danyereey": {
@@ -18610,11 +18579,6 @@
                         "name": "Qoryooley Halane",
                         "synonyms": []
                     },
-                    "hodan": {
-                        "level": "unclassified",
-                        "name": "Hodan",
-                        "synonyms": []
-                    },
                     "buulo siidow": {
                         "level": "unclassified",
                         "name": "Buulo Siidow",
@@ -18834,11 +18798,6 @@
                     "karowboore": {
                         "level": "unclassified",
                         "name": "Karowboore",
-                        "synonyms": []
-                    },
-                    "howlwadag": {
-                        "level": "unclassified",
-                        "name": "Howlwadag",
                         "synonyms": []
                     },
                     "hakaba": {
@@ -20327,7 +20286,9 @@
                 "level": "admin2",
                 "name": "Baardheere",
                 "pcode": "SO26",
-                "synonyms": [],
+                "synonyms": [
+                    "Bardhere"
+                ],
                 "unclassified": {
                     "qalaliyoe": {
                         "level": "unclassified",
@@ -20647,11 +20608,6 @@
                     "ben la ooday": {
                         "level": "unclassified",
                         "name": "Ben La ooday",
-                        "synonyms": []
-                    },
-                    "bardhere": {
-                        "level": "unclassified",
-                        "name": "Bardhere",
                         "synonyms": []
                     },
                     "bardheere sec 9": {

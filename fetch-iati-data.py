@@ -127,6 +127,11 @@ def make_activity(activity):
         if location.name is None or is_empty(str(location.name)):
             continue
         info = lookup_location(str(location.name))
+
+        # honour the "skip" flag
+        if info.get("skip", False):
+            continue
+        
         if info["level"] == "admin1":
             add_unique(info["name"], data["locations"]["admin1"])
         elif info["level"] == "admin2":

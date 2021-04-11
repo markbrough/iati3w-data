@@ -57,24 +57,6 @@ def make_token (s):
     """
     return re.sub(r'\W+', ' ', s).lower().strip()[:64]
 
-def fix_location (s):
-    if s:
-        return string.capwords(normalise_string(s))
-    else:
-        return ""
-
-def flatten (map, excludes=[]):
-    """ Flatten a dict of lists into a single list, with duplicates removed """
-    result = []
-    for key in map:
-        if key in excludes:
-            continue
-        for s in map[key]:
-            if not s in result:
-                result.append(s)
-    return result
-
-
 #
 # Look up and manage JSON datasets
 #
@@ -149,54 +131,67 @@ location_lookup_table = None
 
 def get_location_lookup_table ():
     """ Load and transform the location table if needed, then return """
+
     global location_lookup_table
 
-    if location_lookup_table is None:
-        location_lookup_table = {}
+    # if it's already loaded, just return
+    if location_lookup_table is not None:
+        return location_lookup_table
 
-        map = get_dataset("inputs/location-map.json")
+    def add_entry(info, key, admin1=None, admin2=None):
+        """ Construct a single, flat entry for a location, and add it under the name and synonyms """
+        entry = {
+            "name": info["name"],
+            "level": info["level"],
+        }
+        if admin1 is not None:
+            entry["admin1"] = admin1
+        if admin2 is not None:
+            entry["admin2"] = admin2
+        for key in ["synonyms", "pcode", "skip"]:
+            if key in info:
+                entry[key] = info[key]
 
-        # add the regions
-        for name1, info1 in map.items():
-            data = {
-                "name": info1["name"],
-                "level": "admin1",
-                "synonyms": info1.get("synonyms", []),
-                "pcode": info1.get("pcode", None),
-                "skip": info1.get("skip", False),
-            }            
-            location_lookup_table[make_token(name1)] = data
-            for token in [make_token(s) for s in data["synonyms"]]:
-                location_lookup_table.setdefault(token, data)
+        # Add the main name
+        location_lookup_table.setdefault(make_token(key), entry)
+        location_lookup_table.setdefault(make_token(info["name"]), entry)
 
-            # add the districts
-            for name2, info2 in info1.get("admin2", {}).items():
-                data = {
-                    "name": info2["name"],
-                    "level": "admin2",
-                    "synonyms": info2.get("synonyms", []),
-                    "pcode": info2.get("pcode", None),
-                    "admin1": info1["name"],
-                    "skip": info2.get("skip", False),
-                }
-                location_lookup_table.setdefault(make_token(name2), data)
-                for token in [make_token(s) for s in data["synonyms"]]:
-                    location_lookup_table.setdefault(token, data)
+        # Add the synonyms
+        for synonym in info.get("synonyms", []):
+            location_lookup_table.setdefault(make_token(synonym), entry)
 
-                # add the unclassified locations
-                for name3, info3 in info2.get("unclassified", {}).items():
-                    data = {
-                        "name": info3["name"],
-                        "level": "unclassified",
-                        "synonyms": info3.get("synonyms", []),
-                        "pcode": info3.get("pcode", None),
-                        "admin1": info1["name"],
-                        "admin2": info2["name"],
-                        "skip": info3.get("skip", False),
-                    }
-                    location_lookup_table.setdefault(make_token(name3), data)
-                    for token in [make_token(s) for s in data["synonyms"]]:
-                        location_lookup_table.setdefault(token, data)
+    location_lookup_table = {}
+
+    map = get_dataset("inputs/location-map.json")
+
+    # We need to go sort-of breadth-first to make sure that higher levels take priority
+    # Never overwrite an existing entry (except at the region level)
+
+    # pass 1: regions
+    for name, info in map.items():
+        if info["level"] == "admin1":
+            add_entry(info, key=name)
+
+    # pass 2: districts
+    for region_name, region_info in map.items():
+        for name, info in region_info.get("admin2", {}).items():
+            add_entry(info, key=name, admin1=region_name)
+
+    # pass 3: unclassified locations under districts
+    for region_name, region_info in map.items():
+        for district_name, district_info in region_info.get("admin2", {}).items():
+            for name, info in district_info.get("unclassified", {}).items():
+                add_entry(info, key=name, admin1=region_name, admin2=district_name)
+
+    # pass 4: unclassified locations under regions
+    for region_name, region_info in map.items():
+        for name, info in region_info.get("unclassified", {}).items():
+            add_entry(info, key=name, admin1=region_name)
+
+    # pass 5: unclassified locations at the top level
+    for name, info in map.items():
+        if info["level"] == "unclassified":
+            add_entry(info, key=name)
 
     return location_lookup_table
 
@@ -209,8 +204,11 @@ def lookup_location (name, loctype="unclassified"):
         return None
 
     # return the lookup if it exists, or just a cleaned-up name
-    return get_location_lookup_table().get(make_token(name), {
-        "level": loctype,
-        "name": normalise_string(name),
-    });
-
+    token = make_token(name)
+    lookup = get_location_lookup_table()
+    if not token in lookup:
+        lookup[token] = {
+            "level": loctype,
+            "name": normalise_string(name),
+        }
+    return lookup[token]

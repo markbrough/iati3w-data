@@ -90,7 +90,11 @@ def make_activity(row):
             ["#adm2+name", "admin2"],
             ["#loc+name", "unclassified"],
     ]:
-        add_unique(fix_location(row.get(params[0])), data["locations"][params[1]])
+        locname = row.get(params[0])
+        if locname:
+            location = lookup_location(locname)
+            if location and not location.get("skip", False):
+                add_unique(location["name"], data["locations"][location["level"]])
 
     # add modality (e.g. for cash programming)
     modality = normalise_string(row.get("#modality"))

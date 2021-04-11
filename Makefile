@@ -92,6 +92,11 @@ venv: requirements.txt
 	python3 -m venv venv
 	. $(VENV) && pip install -r requirements.txt
 
+tags: TAGS
+
+TAGS: *.py
+	etags *.py
+
 # Clean everything out to force a rebuild
 clean:
 	rm -rfv venv/
