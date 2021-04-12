@@ -93,6 +93,7 @@ def make_activity(row):
         locname = row.get(params[0])
         if locname:
             location = lookup_location(locname)
+            # For 3W, must match the stated admin level
             if location and not location.get("skip", False):
                 add_unique(location["name"], data["locations"][location["level"]])
 
