@@ -96,6 +96,12 @@ def make_activity(row):
             # For 3W, must match the stated admin level
             if location and not location.get("skip", False):
                 add_unique(location["name"], data["locations"][location["level"]])
+                if "admin1" in location:
+                    add_unique(location["admin1"], data["locations"]["admin1"])
+                if "admin2" in location:
+                    add_unique(location["admin2"], data["locations"]["admin2"])
+                if params[1] != location["level"] and params[1] != "unclassified" and locname != "Banadir":
+                    print("Mismatch {}, {}: {}".format(params[1], location["level"], locname), file=sys.stderr)
 
     # add modality (e.g. for cash programming)
     modality = normalise_string(row.get("#modality"))

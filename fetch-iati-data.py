@@ -111,7 +111,7 @@ def make_activity(activity):
     for vocab in ["1", "2"]:
         for sector in activity.sectors_by_vocabulary.get(vocab, []):
             info = lookup_sector(sector.code)
-            if info is not None:
+            if info is not None and not info.get("skip", False):
                 add_unique(info["dac-group"], data["sectors"]["dac"])
                 if "humanitarian-mapping" in info:
                     add_unique(info["humanitarian-mapping"], data["sectors"]["humanitarian"])
@@ -119,7 +119,7 @@ def make_activity(activity):
     # Look up humanitarian clusters by code
     for sector in activity.sectors_by_vocabulary.get("10", []):
         info = lookup_cluster(sector.code)
-        if info is not None:
+        if info is not None and not info.get("skip", False):
             add_unique(info["name"], data["sectors"]["humanitarian"])
 
     # Look up location strings
@@ -142,8 +142,12 @@ def make_activity(activity):
             add_unique(info.get("admin2", None), data["locations"]["admin2"])
             add_unique(info.get("admin1", None), data["locations"]["admin1"])
 
-    return data
-
+    # There must be at list one sector left to count this activity
+    if len(data["sectors"]["humanitarian"]) + len(data["sectors"]["dac"]) > 0:
+        return data
+    else:
+        print("Skipping activity {} (no sectors of interest): {}".format(data["identifier"], data["title"]), file=sys.stderr)
+        return None
 
 def fetch_activities(files):
 
@@ -153,8 +157,10 @@ def fetch_activities(files):
     for file in files:
         with open(file, "r") as input:
             for activity in diterator.XMLIterator(input):
-                if not activity.identifier in identifiers_seen and has_humanitarian_content(activity):
-                    result.append(make_activity(activity))
+                if not activity.identifier in identifiers_seen:
+                    data = make_activity(activity)
+                    if data is not None:
+                        result.append(data)
                     identifiers_seen.add(activity.identifier)
 
     return result

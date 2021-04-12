@@ -46,11 +46,13 @@
     },
     "151": {
         "name": "Government & Civil Society-general",
-        "dac-group": "Government & Civil Society"
+        "dac-group": "Government & Civil Society",
+        "skip": true
     },
     "152": {
         "name": "Conflict, Peace & Security",
-        "dac-group": "Government & Civil Society"
+        "dac-group": "Government & Civil Society",
+        "skip": true
     },
     "160": {
         "name": "Other Social Infrastructure & Services",
@@ -68,39 +70,48 @@
     },
     "230": {
         "name": "ENERGY GENERATION AND SUPPLY",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "231": {
         "name": "Energy Policy",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "232": {
         "name": "Energy generation, renewable sources",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "233": {
         "name": "Energy generation, non-renewable sources",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "234": {
         "name": "Hybrid energy plants",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "235": {
         "name": "Nuclear energy plants",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "236": {
         "name": "Energy distribution",
-        "dac-group": "Energy"
+        "dac-group": "Energy",
+        "skip": true
     },
     "240": {
         "name": "Banking & Financial Services",
-        "dac-group": "Banking & Financial Services"
+        "dac-group": "Banking & Financial Services",
+        "skip": true
     },
     "250": {
         "name": "Business & Other Services",
-        "dac-group": "Business & Other Services"
+        "dac-group": "Business & Other Services",
+        "skip": true
     },
     "311": {
         "name": "Agriculture",
@@ -109,7 +120,8 @@
     },
     "312": {
         "name": "Forestry",
-        "dac-group": "Agriculture, Forestry, Fishing"
+        "dac-group": "Agriculture, Forestry, Fishing",
+        "skip": true
     },
     "313": {
         "name": "Fishing",
@@ -118,11 +130,13 @@
     },
     "321": {
         "name": "Industry",
-        "dac-group": "Industry, Mining, Construction"
+        "dac-group": "Industry, Mining, Construction",
+        "skip": true
     },
     "322": {
         "name": "Mineral Resources & Mining",
-        "dac-group": "Industry, Mining, Construction"
+        "dac-group": "Industry, Mining, Construction",
+        "skip": true
     },
     "323": {
         "name": "Construction",
@@ -131,23 +145,28 @@
     },
     "331": {
         "name": "Trade Policies & Regulations",
-        "dac-group": "Trade Policies & Regulations"
+        "dac-group": "Trade Policies & Regulations",
+        "skip": true
     },
     "332": {
         "name": "Tourism",
-        "dac-group": "Tourism"
+        "dac-group": "Tourism",
+        "skip": true
     },
     "410": {
         "name": "General Environment Protection",
-        "dac-group": "General Environment Protection"
+        "dac-group": "General Environment Protection",
+        "skip": true
     },
     "430": {
         "name": "Other Multisector",
-        "dac-group": "Other Multisector"
+        "dac-group": "Other Multisector",
+        "skip": true
     },
     "510": {
         "name": "General Budget Support",
-        "dac-group": "General Budget Support"
+        "dac-group": "General Budget Support",
+        "skip": true
     },
     "520": {
         "name": "Development Food Assistance",
@@ -161,7 +180,8 @@
     },
     "600": {
         "name": "Action Relating to Debt",
-        "dac-group": "Action Relating to Debt"
+        "dac-group": "Action Relating to Debt",
+        "skip": true
     },
     "720": {
         "name": "Emergency Response",
@@ -178,7 +198,8 @@
     },
     "910": {
         "name": "Administrative Costs of Donors",
-        "dac-group": "Administrative Costs of Donors"
+        "dac-group": "Administrative Costs of Donors",
+        "skip": true
     },
     "930": {
         "name": "Refugees in Donor Countries",
@@ -186,6 +207,7 @@
     },
     "998": {
         "name": "Unallocated / Unspecified",
-        "dac-group": "Unallocated / Unspecified"
+        "dac-group": "Unallocated / Unspecified",
+        "skip": true
     }
 }

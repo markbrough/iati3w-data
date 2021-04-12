@@ -5,7 +5,8 @@
         "pcode": "SO22",
         "synonyms": [
             "Banadir",
-            "Mogadishu"
+            "Mogadishu",
+            "Banadir Region"
         ],
         "admin2": {
             "Abdiaziz": {
@@ -11664,7 +11665,9 @@
                 "level": "admin2",
                 "name": "Garoowe",
                 "pcode": "SO17",
-                "synonyms": []
+                "synonyms": [
+                    "Garowe"
+                ]
             },
             "Burtinle": {
                 "level": "admin2",
@@ -18346,7 +18349,9 @@
                 "level": "admin2",
                 "name": "Baraawe",
                 "pcode": "SO23",
-                "synonyms": [],
+                "synonyms": [
+                    "Barawe"
+                ],
                 "unclassified": {
                     "barawe hc": {
                         "level": "unclassified",
@@ -18737,13 +18742,17 @@
                 "level": "admin2",
                 "name": "Baydhaba",
                 "pcode": "SO24",
-                "synonyms": []
+                "synonyms": [
+                    "Baidoa"
+                ]
             },
             "Buur Hakaba": {
                 "level": "admin2",
                 "name": "Buur Hakaba",
                 "pcode": "SO24",
-                "synonyms": [],
+                "synonyms": [
+                    "Burhakaba"
+                ],
                 "unclassified": {
                     "waberi hc bur hakaba": {
                         "level": "unclassified",
@@ -18861,7 +18870,9 @@
                 "level": "admin2",
                 "name": "Diinsoor",
                 "pcode": "SO24",
-                "synonyms": [],
+                "synonyms": [
+                    "Dinsoor"
+                ],
                 "unclassified": {
                     "october hc dinsor": {
                         "level": "unclassified",
@@ -18994,7 +19005,9 @@
                 "level": "admin2",
                 "name": "Qansax Dheere",
                 "pcode": "SO24",
-                "synonyms": [],
+                "synonyms": [
+                    "Qasadhere"
+                ],
                 "unclassified": {
                     "rural": {
                         "level": "unclassified",
@@ -19100,7 +19113,10 @@
                 "level": "admin2",
                 "name": "Xudur",
                 "pcode": "SO25",
-                "synonyms": [],
+                "synonyms": [
+                    "Hudur",
+                    "Xuddur"
+                ],
                 "unclassified": {
                     "moragabey mch": {
                         "level": "unclassified",
@@ -22366,7 +22382,9 @@
                 "level": "admin2",
                 "name": "Kismaayo",
                 "pcode": "SO28",
-                "synonyms": []
+                "synonyms": [
+                    "Kismayo"
+                ]
             },
             "Afmadow": {
                 "level": "admin2",
