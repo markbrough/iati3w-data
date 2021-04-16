@@ -419,8 +419,8 @@
             "CISP"
         ]
     },
-    "Civil Society Organisation (community based or national, undesignated)": {
-        "name": "Civil Society Organisation (community based or national, undesignated)",
+    "Unspecified local or national NGOs or Civil Society Organisations": {
+        "name": "Unspecified local or national NGOs or Civil Society Organisations",
         "scope": "local",
         "skip": true,
         "synonyms": [
@@ -505,11 +505,6 @@
     },
     "Central Government": {
         "name": "Central Government",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "Cesvi": {
-        "name": "Cesvi",
         "scope": "unknown",
         "synonyms": []
     },
@@ -913,12 +908,13 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Government (undesignated)": {
-        "name": "Government (undesignated)",
+    "Unspecified government actors": {
+        "name": "Unspecified government actors",
         "scope": "unknown",
         "skip": true,
         "synonyms": [
-            "Government"
+            "Government",
+            "Governmental donors of unearmarked and flexible funds"
         ]
     },
     "Government of Belgium": {
@@ -1129,14 +1125,6 @@
         "name": "Government of the United Arab Emirates",
         "scope": "international",
         "synonyms": []
-    },
-    "Governmental donors of unearmarked and flexible funds (undesignated)": {
-        "name": "Governmental donors of unearmarked and flexible funds (undesignated)",
-        "scope": "international",
-        "skip": true,
-        "synonyms": [
-            "Governmental donors of unearmarked and flexible funds"
-        ]
     },
     "Ground Truth Solutions": {
         "name": "Ground Truth Solutions",
@@ -1403,8 +1391,8 @@
         "scope": "international",
         "synonyms": []
     },
-    "International NGO (undesignated)": {
-        "name": "International NGO (undesignated)",
+    "Unspecified international NGOs": {
+        "name": "Unspecified international NGOs",
         "scope": "international",
         "skip": true,
         "synonyms": [
@@ -1665,13 +1653,16 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Multilateral organisations (undesignated)": {
-        "name": "Multilateral organisations (undesignated)",
+    "Unspecified multilateral organisations": {
+        "name": "Unspecified multilateral organisations",
         "scope": "international",
+        "skip": true,
         "synonyms": [
             "Multilateral organizations",
             "Multi lateral organization",
-            "Multilateral organisations"
+            "Multilateral organisations",
+            "UN agency",
+            "United Nations agency, fund, or commission (UN)"
         ]
     },
     "MUSLIM AID": {
@@ -1855,8 +1846,8 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Non Governmental Organisations and Civil Society (undesignated)": {
-        "name": "Non Governmental Organisations and Civil Society (undesignated)",
+    "Unspecified NGOs or and Civil Society": {
+        "name": "Unspecified NGOs or and Civil Society",
         "scope": "unknown",
         "skip": true,
         "synonyms": [
@@ -2080,8 +2071,8 @@
         "skip": true,
         "synonyms": []
     },
-    "Programme Support Costs (undesignated)": {
-        "name": "Programme Support Costs (undesignated)",
+    "Unspecified programme support costs": {
+        "name": "Unspecified programme support costs",
         "scope": "unknown",
         "skip": true,
         "synonyms": [
@@ -2143,9 +2134,9 @@
         "scope": "unknown",
         "synonyms": []
     },
-    "Recipient Government (undesignated)": {
-        "name": "Recipient Government (undesignated)",
-        "scope": "unknown",
+    "Unspecified recipient governments": {
+        "name": "Unspecified recipient governments",
+        "scope": "local",
         "skip": true,
         "synonyms": [
             "Recipient Government"
@@ -2267,11 +2258,6 @@
         "synonyms": [
             "SCODO"
         ]
-    },
-    "SDC": {
-        "name": "SDC",
-        "scope": "unknown",
-        "synonyms": []
     },
     "SDO": {
         "name": "SDO",
@@ -2414,11 +2400,6 @@
     },
     "SOSYO": {
         "name": "SOSYO",
-        "scope": "unknown",
-        "synonyms": []
-    },
-    "SOYDA": {
-        "name": "SOYDA",
         "scope": "unknown",
         "synonyms": []
     },
@@ -2916,11 +2897,6 @@
             "UNMAS"
         ]
     },
-    "UNODC": {
-        "name": "UNODC",
-        "scope": "international",
-        "synonyms": []
-    },
     "URRO": {
         "name": "URRO",
         "scope": "unknown",
@@ -3006,15 +2982,6 @@
             "UNFPA",
             "UNFPA USA",
             "United Nations Population Fund"
-        ]
-    },
-    "United Nations agency, fund, or commission (undesignated)": {
-        "name": "United Nations agency, fund or commission (undesignated)",
-        "scope": "international",
-        "skip": true,
-        "synonyms": [
-            "UN agency",
-            "United Nations agency, fund, or commission (UN)"
         ]
     },
     "United States Agency for International Development (USAID)": {
