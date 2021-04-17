@@ -90,6 +90,8 @@ def get_lookup_table (path):
             result[make_token(key)] = info
             if "name" in info:
                 result.setdefault(make_token(info["name"]), info)
+            if "shortname" in info:
+                result.setdefault(make_token(info["shortname"]), info)
             for synonym in info.get("synonyms", []):
                 result.setdefault(make_token(synonym), info)
         lookup_tables_loaded[path] = result
@@ -119,6 +121,7 @@ def lookup_org (name, show_failures=False):
             org_lookup_failures.add(token)
         return {
             "name": normalise_string(name),
+            "shortname": normalise_string(name),
             "scope": "unknown",
         }
     

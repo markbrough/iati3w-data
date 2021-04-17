@@ -79,7 +79,7 @@ def make_activity(row):
         if org_name:
             org = lookup_org(org_name, show_failures=True)
             if org is not None and not org.get("skip", False):
-                add_unique(org["name"], data["orgs"][params[1]])
+                add_unique(org["shortname"], data["orgs"][params[1]])
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])

@@ -105,7 +105,7 @@ def make_activity(activity):
         for org in org_map.get(params[0], []):
             info = lookup_org(org.name, show_failures=True)
             if info is not None and not info.get("skip", False):
-                add_unique(info["name"], data["orgs"][params[1]])
+                add_unique(info["shortname"], data["orgs"][params[1]])
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:
@@ -146,7 +146,6 @@ def make_activity(activity):
     if len(data["sectors"]["humanitarian"]) + len(data["sectors"]["dac"]) > 0:
         return data
     else:
-        print("Skipping activity {} (no sectors of interest): {}".format(data["identifier"], data["title"]), file=sys.stderr)
         return None
 
 def fetch_activities(files):
