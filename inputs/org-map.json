@@ -723,11 +723,15 @@
         "synonyms": [],
         "shortname": "Denmark Ministry of Foreign Affairs"
     },
-    "Department of Foreign Affairs Trade and Development DFATD Canada": {
-        "name": "Department of Foreign Affairs Trade and Development DFATD Canada",
+    "GAC": {
+        "name": "Global Affairs Canada",
         "scope": "international",
-        "synonyms": [],
-        "shortname": "Department of Foreign Affairs Trade and Development DFATD Canada"
+        "synonyms": [
+            "Department of Foreign Affairs Trade and Development DFATD Canada",
+            "Foreign Affairs Trade and Development Canada",
+            "CANADA DFATD GVT"
+        ],
+        "shortname": "GAC"
     },
     "Department of Foreign Affairs and Trade DFAT Australia": {
         "name": "Department of Foreign Affairs and Trade DFAT Australia",
@@ -958,7 +962,8 @@
             "Food and Agriculture Organization",
             "Food and Agriculture Organization of the United Nations (FAO)",
             "The Food and Agriculture Organization of the United Nations",
-            "United Nations Food and Agriculture Organization"
+            "United Nations Food and Agriculture Organization",
+            "FAO - ORGANIZZAZIONE NAZIONI UNITE PER ALIMENTAZIONE E AGRICOLTURA"
         ],
         "shortname": "FAO"
     },
@@ -967,12 +972,6 @@
         "scope": "unknown",
         "synonyms": [],
         "shortname": "Foore"
-    },
-    "Foreign Affairs Trade and Development Canada": {
-        "name": "Foreign Affairs Trade and Development Canada",
-        "scope": "international",
-        "synonyms": [],
-        "shortname": "Foreign Affairs Trade and Development Canada"
     },
     "FCDO": {
         "name": "Foreign, Commonwealth & Development Office",
@@ -1178,142 +1177,126 @@
         ],
         "shortname": "Government of Australia"
     },
-    "Government of Belgium": {
+    "Belgium": {
         "name": "Government of Belgium",
         "scope": "international",
         "synonyms": [
             "Belgium"
         ],
-        "shortname": "Government of Belgium"
+        "shortname": "Belgium, Government of"
     },
-    "Government of Canada": {
+    "Canada": {
         "name": "Government of Canada",
         "scope": "international",
         "synonyms": [
-            "Canada"
+            "Canada, Government of"
         ],
-        "shortname": "Government of Canada"
+        "shortname": "Canada"
     },
-    "Government of China": {
+    "China": {
         "name": "Government of China",
         "scope": "international",
-        "synonyms": [
-            "China"
-        ],
-        "shortname": "Government of China"
+        "synonyms": [],
+        "shortname": "China"
     },
-    "Government of Denmark": {
+    "Denmark": {
         "name": "Government of Denmark",
         "scope": "international",
         "synonyms": [
-            "Denmark"
+            "Denmark, Government of"
         ],
-        "shortname": "Government of Denmark"
+        "shortname": "Denmark"
     },
-    "Government of France": {
+    "France": {
         "name": "Government of France",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Government of France"
+        "shortname": "France"
     },
-    "Government of Germany": {
+    "Germany": {
         "name": "Government of Germany",
         "scope": "international",
-        "synonyms": [
-            "Germany"
-        ],
-        "shortname": "Government of Germany"
+        "synonyms": [],
+        "shortname": "Germany"
     },
-    "Government of Ireland": {
+    "Ireland": {
         "name": "Government of Ireland",
         "scope": "international",
-        "synonyms": [
-            "Ireland"
-        ],
-        "shortname": "Government of Ireland"
+        "synonyms": [],
+        "shortname": "Ireland"
     },
-    "Government of Italy": {
+    "Italy": {
         "name": "Government of Italy",
         "scope": "international",
-        "synonyms": [
-            "Italy"
-        ],
-        "shortname": "Government of Italy"
+        "synonyms": [],
+        "shortname": "Italy"
     },
-    "Government of Japan": {
+    "Japan": {
         "name": "Government of Japan",
         "scope": "international",
         "synonyms": [
-            "Japan",
             "Japan Ministry of Foreign Affairs"
         ],
-        "shortname": "Government of Japan"
+        "shortname": "Japan"
     },
-    "Government of Kuwait": {
+    "Kuwait": {
         "name": "Government of Kuwait",
         "scope": "international",
-        "synonyms": [
-            "Kuwait"
-        ],
-        "shortname": "Government of Kuwait"
+        "synonyms": [],
+        "shortname": "Kuwait"
     },
-    "Government of Luxembourg": {
+    "Luxembourg": {
         "name": "Government of Luxembourg",
         "scope": "international",
-        "synonyms": [
-            "Luxembourg"
-        ],
-        "shortname": "Government of Luxembourg"
+        "synonyms": [],
+        "shortname": "Luxembourg"
     },
-    "Government of Norway": {
+    "Norway": {
         "name": "Government of Norway",
         "scope": "international",
         "synonyms": [
-            "Norway"
         ],
-        "shortname": "Government of Norway"
+        "shortname": "Norway"
     },
-    "Government of Poland": {
+    "Poland": {
         "name": "Government of Poland",
         "scope": "international",
         "synonyms": [
-            "Poland"
         ],
-        "shortname": "Government of Poland"
+        "shortname": "Poland"
     },
-    "Government of Sweden": {
+    "Sweden": {
         "name": "Government of Sweden",
         "scope": "international",
         "synonyms": [
-            "Sweden"
         ],
-        "shortname": "Government of Sweden"
+        "shortname": "Sweden"
     },
-    "Government of Switzerland": {
+    "Switzerland": {
         "name": "Government of Switzerland",
         "scope": "international",
         "synonyms": [
-            "Switzerland"
         ],
-        "shortname": "Government of Switzerland"
+        "shortname": "Switzerland"
     },
-    "Government of the Netherlands": {
+    "Netherlands": {
         "name": "Government of the Netherlands",
         "scope": "international",
         "synonyms": [
             "Government of Netherlands",
-            "Netherlands",
             "The Netherlands"
         ],
-        "shortname": "Government of the Netherlands"
+        "shortname": "Netherlands"
     },
-    "Government of the United Arab Emirates": {
+    "United Arab Emirates": {
         "name": "Government of the United Arab Emirates",
         "scope": "international",
-        "synonyms": [],
-        "shortname": "Government of the United Arab Emirates"
+        "synonyms": [
+            "UAE"
+        ],
+        "shortname": "United Arab Emirates"
     },
-    "Government of the United States of America": {
+    "United States of America": {
         "name": "Government of the United States of America",
         "scope": "international",
         "synonyms": [
@@ -1323,10 +1306,9 @@
             "USA",
             "United States",
             "United States Department of Commerce",
-            "United States Department of State (USDOS)",
-            "United States of America"
+            "United States Department of State (USDOS)"
         ],
-        "shortname": "Government of the United States of America"
+        "shortname": "United States of America"
     },
     "Ground Truth Solutions": {
         "name": "Ground Truth Solutions",
@@ -1591,9 +1573,49 @@
         "synonyms": [
             "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR",
             "International Committee of the Red Cross",
-            "International Committee of the Red Cross (ICRC)"
+            "International Committee of the Red Cross (ICRC)",
+            "ICRC - International Committee of the Red Cross"
         ],
         "shortname": "ICRC"
+    },
+    "IFRC": {
+        "name": "International Federation of Red Cross and Red Crescent Societies",
+        "scope": "international",
+        "synonyms": [
+        ],
+        "shortname": "IFRC"
+    },
+    "British Red Cross": {
+        "name": "British Red Cross",
+        "scope": "international",
+        "synonyms": [
+        ],
+        "shortname": "British Red Cross"
+    },
+    "Japanese Red Cross": {
+        "name": "Japanese Red Cross",
+        "scope": "international",
+        "synonyms": [
+            "Japan RC"
+        ],
+        "shortname": "Japanese Red Cross"
+    },
+    "Netherlands Red Cross": {
+        "name": "Netherlands Red Cross",
+        "scope": "international",
+        "synonyms": [
+            "The Netherlands Red Cross"
+        ],
+        "shortname": "Netherlands Red Cross"
+    },
+    "Norwegian Red Cross": {
+        "name": "Norwegian Red Cross",
+        "scope": "international",
+        "synonyms": [
+            "Norway RC",
+            "Norges Røde Kors"
+        ],
+        "shortname": "Norwegian Red Cross"
     },
     "International Development Association": {
         "name": "International Development Association",
@@ -1618,7 +1640,8 @@
         "synonyms": [
             "ILO",
             "International Labour Organization",
-            "International Labour Organization (ILO)"
+            "International Labour Organization (ILO)",
+            "ILO - INTERNATIONAL LABOUR ORGANISATION"
         ],
         "shortname": "ILO"
     },
@@ -1746,7 +1769,7 @@
         "synonyms": [],
         "shortname": "KAAH Relief and Development organization"
     },
-    "KAALO Aid and Development": {
+    "KAALO": {
         "name": "KAALO Aid and Development",
         "scope": "local",
         "synonyms": [
@@ -1754,7 +1777,7 @@
             "KAALO Aid Development",
             "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum "
         ],
-        "shortname": "KAALO Aid and Development"
+        "shortname": "KAALO"
     },
     "KANAVA": {
         "name": "KANAVA",
@@ -2388,12 +2411,18 @@
         "synonyms": [],
         "shortname": "Private donors"
     },
-    "Private sector institution": {
-        "name": "Private sector institution",
+    "Unspecified private-sector actors": {
+        "name": "Unspecified private-sector actors",
         "scope": "unknown",
         "skip": true,
-        "synonyms": [],
-        "shortname": "Private sector institution"
+        "synonyms": [
+            "Private sector institution",
+            "To be determined (Contractors)",
+            "Private companies",
+            "Secteur privé d'un pays tiers",
+            "Secteur privé du pays bénéficiaire"
+        ],
+        "shortname": "Private sector"
     },
     "PMWDO": {
         "name": "Puntland Minority Women Development Organisation",
@@ -2405,33 +2434,27 @@
         ],
         "shortname": "PMWDO"
     },
-    "QRCS": {
-        "name": "QRCS",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "QRCS"
-    },
     "Qatar Charity": {
         "name": "Qatar Charity",
         "scope": "international",
         "synonyms": [],
         "shortname": "Qatar Charity"
     },
-    "Qatar Red Crescent Society": {
+    "QRCS": {
         "name": "Qatar Red Crescent Society",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Qatar Red Crescent Society"
+        "shortname": "QRCS"
     },
     "RAAS": {
-        "name": "RAAS",
-        "scope": "unknown",
+        "name": "Rainwater Association of Somalia",
+        "scope": "local",
         "synonyms": [],
         "shortname": "RAAS"
     },
     "RAWA": {
-        "name": "RAWA",
-        "scope": "unknown",
+        "name": "Ras-Awad Welfare Association",
+        "scope": "local",
         "synonyms": [],
         "shortname": "RAWA"
     },
@@ -2483,12 +2506,6 @@
         "synonyms": [],
         "shortname": "Republic of Korea"
     },
-    "Riverine Relief Program": {
-        "name": "Riverine Relief Program",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Riverine Relief Program"
-    },
     "RRP": {
         "name": "Riverine Relief Program",
         "scope": "local",
@@ -2503,12 +2520,6 @@
         "scope": "international",
         "synonyms": [],
         "shortname": "Rotary International"
-    },
-    "Rural Education and Agriculture Development Organization": {
-        "name": "Rural Education and Agriculture Development Organization",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Rural Education and Agriculture Development Organization"
     },
     "READO": {
         "name": "Rural Education and Agriculture Development Organization",
@@ -3016,16 +3027,6 @@
         ],
         "shortname": "MoEWR"
     },
-    "MoH": {
-        "name": "Somalia Ministry of Health",
-        "scope": "local",
-        "url": "https://moh.gov.so/",
-        "synonyms": [
-            "MoH",
-            "Somalia Ministry of Health (MoH)"
-        ],
-        "shortname": "MoH"
-    },
     "Somalia Ministry of Women & Human Rights Development": {
         "name": "Somalia Ministry of Women & Human Rights Development",
         "scope": "local",
@@ -3071,7 +3072,8 @@
             "SIDA Sweden",
             "Sweden through Swedish International Development Cooperation Agency (SIDA)",
             "Swedish International Development Cooperation (SIDA)",
-            "Swedish International Development Cooperation Agency (SIDA)"
+            "Swedish International Development Cooperation Agency (SIDA)",
+            "Sweden, Swedish International Development Cooperation Agency"
         ],
         "shortname": "SIDA"
     },
@@ -3241,6 +3243,7 @@
             "International Organization for Migration",
             "International Organization for Migration INT",
             "International Organization for Migration IOM",
+            "International Organisation for Migration",
             "UN Migration (IOM)"
         ],
         "shortname": "IOM"
@@ -3252,19 +3255,21 @@
         "shortname": "UN POLITICAL OFFICE FOR SOMALI"
     },
     "UN Women": {
-        "name": "UN Women",
+        "name": "United Nations Entity for Gender Equality and the Empowerment of Women",
         "scope": "international",
         "synonyms": [],
         "shortname": "UN Women"
     },
     "UN-Habitat": {
-        "name": "UN-Habitat",
+        "name": "United Nations Human Settlement Programme",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME"
+        ],
         "shortname": "UN-Habitat"
     },
     "UNAIDS": {
-        "name": "UNAIDS",
+        "name": "Joint United Nations Programme on HIV and AIDS",
         "scope": "international",
         "synonyms": [],
         "shortname": "UNAIDS"
@@ -3276,32 +3281,27 @@
         "shortname": "UNDSS Somalia"
     },
     "UNF": {
-        "name": "UNF",
-        "scope": "unknown",
+        "name": "United Nations Foundation",
+        "scope": "international",
         "synonyms": [],
         "shortname": "UNF"
     },
-    "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME": {
-        "name": "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME",
+    "PBF": {
+        "name": "United Nations Peacebuilding Fund",
         "scope": "international",
         "synonyms": [],
-        "shortname": "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME"
+        "shortname": "PBF"
     },
-    "UNITED NATIONS PEACEBUILDING FUND": {
-        "name": "UNITED NATIONS PEACEBUILDING FUND",
+    "UNTHFS": {
+        "name": "United Nations Trust Fund for Human Security",
         "scope": "international",
         "synonyms": [],
-        "shortname": "UNITED NATIONS PEACEBUILDING FUND"
-    },
-    "UNITED NATIONS TRUST FUND FOR HUMAN SECURITY": {
-        "name": "UNITED NATIONS TRUST FUND FOR HUMAN SECURITY",
-        "scope": "international",
-        "synonyms": [],
-        "shortname": "UNITED NATIONS TRUST FUND FOR HUMAN SECURITY"
+        "shortname": "UNTHFS"
     },
     "URRO": {
-        "name": "URRO",
-        "scope": "unknown",
+        "name": "Umbrella for Relief and Rehabilitation Organization",
+        "scope": "local",
+        "url": "https://pt-br.facebook.com/pg/urro.som.org/posts/?ref=page_internal",
         "synonyms": [],
         "shortname": "URRO"
     },
@@ -3317,12 +3317,14 @@
         "synonyms": [],
         "shortname": "USA State BPRM"
     },
-    "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016.": {
-        "name": "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016.",
+    "Unspecified redaction": {
+        "name": "Unspecified redaction",
         "scope": "unknown",
         "skip": true,
-        "synonyms": [],
-        "shortname": "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016."
+        "synonyms": [
+            "USAID redacted this field in accordance with the exceptions outlined in the Foreign Aid Transparency and Accountability Act of 2016."
+        ],
+        "shortname": "Unspecified redaction"
     },
     "UVRDO": {
         "name": "UVRDO",
@@ -3398,7 +3400,8 @@
             "UNDP Multi Partner Trust Fund MPTF",
             "United Nations Development Programme",
             "United Nations Development Programme (UNDP)",
-            "United Nations Development Programme UNDP"
+            "United Nations Development Programme UNDP",
+            "Programme des Nations Unies pour le développement"
         ],
         "shortname": "UNDP"
     },
@@ -3462,7 +3465,8 @@
             "UNITED NATIONS OFFICE FOR PROJECT SERVICES",
             "UNOPS",
             "UNOPS New York",
-            "United Nations Office for Project Services (UNOPS)"
+            "United Nations Office for Project Services (UNOPS)",
+            "UNOPS - UNITED NATIONS OFFICE FOR PROJECT SERVICE"
         ],
         "shortname": "UNOPS"
     },
@@ -3476,7 +3480,8 @@
             "UN OCHA",
             "UNITED NATIONS OFFICE FOR THE COORDINATION OF HUMANITARIAN AFFAIRS",
             "UNOCHA",
-            "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)"
+            "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)",
+            "Bureau des Nations Unies pour la coordination de l'assistance humanitaire"
         ],
         "shortname": "OCHA"
     },
@@ -3542,7 +3547,8 @@
         "scope": "unknown",
         "skip": true,
         "synonyms": [
-            "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY"
+            "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY",
+            "National Red Cross/Red Crescent Society"
         ],
         "shortname": "Unspecified NGOs or and Civil Society"
     },
@@ -3552,7 +3558,9 @@
         "skip": true,
         "synonyms": [
             "Government",
-            "Governmental donors of unearmarked and flexible funds"
+            "Governmental donors of unearmarked and flexible funds",
+            "Ministry for Foreign Affairs",
+            "MINISTRY OF FOREIGN AFFAIRS"
         ],
         "shortname": "Unspecified government actors"
     },
@@ -3563,7 +3571,8 @@
         "synonyms": [
             "CIVIL SOCIETY ORGANIZATION International NGO",
             "International NGO",
-            "iNGO"
+            "iNGO",
+            "ONG basée dans un pays donneur"
         ],
         "shortname": "Unspecified international NGOs"
     },
@@ -3573,7 +3582,9 @@
         "skip": true,
         "synonyms": [
             "CIVIL SOCIETY ORGANIZATION Community based organization",
-            "CIVIL SOCIETY ORGANIZATION National NGO"
+            "CIVIL SOCIETY ORGANIZATION National NGO",
+            "ONG basée dans un pays en développement",
+            "The IFRC always works together with the RCRC Society in the country of operation"
         ],
         "shortname": "Unspecified local or national NGOs or Civil Society Organisations"
     },
@@ -3640,8 +3651,9 @@
         "shortname": "VSF"
     },
     "WARDI": {
-        "name": "WARDI",
-        "scope": "unknown",
+        "name": "WARDI Relief and Development Initiatives",
+        "scope": "local",
+        "url": "https://www.facebook.com/pg/WardiRDI/about/",
         "synonyms": [],
         "shortname": "WARDI"
     },

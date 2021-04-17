@@ -18744,7 +18744,13 @@
                 "pcode": "SO24",
                 "synonyms": [
                     "Baidoa"
-                ]
+                ],
+                "unclassified": {
+                    "Aaminow": {
+                        "name": "Aaminow",
+                        "level": "unclassified"
+                    }
+                }
             },
             "Buur Hakaba": {
                 "level": "admin2",
@@ -20111,6 +20117,12 @@
                         "synonyms": []
                     }
                 }
+            }
+        },
+        "unclassified": {
+            "Aato": {
+                "name": "Aato",
+                "level": "unclassified"
             }
         }
     },
