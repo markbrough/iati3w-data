@@ -63,8 +63,8 @@ with open(sys.argv[1], "r") as input:
                     for org_name in activity["orgs"].get(role, []):
                         if org_name:
                             org = lookup_org(org_name)
-                            entry["orgs"][org["scope"]].setdefault(org["name"], 0)
-                            entry["orgs"][org["scope"]][org["name"]] += 1
+                            entry["orgs"][org["scope"]].setdefault(org["shortname"], 0)
+                            entry["orgs"][org["scope"]][org["shortname"]] += 1
 
                 # locations
                 for loctype in LOCATION_TYPES:

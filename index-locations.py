@@ -77,8 +77,8 @@ with open(sys.argv[1], "r") as input:
                         if not org_name:
                             continue
                         org = lookup_org(org_name)
-                        entry["orgs"][org["scope"]].setdefault(org["name"], 0)
-                        entry["orgs"][org["scope"]][org["name"]] += 1
+                        entry["orgs"][org["scope"]].setdefault(org["shortname"], 0)
+                        entry["orgs"][org["scope"]][org["shortname"]] += 1
 
                 # Add the sectors for each type
                 for type in SECTOR_TYPES:

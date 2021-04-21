@@ -47,6 +47,7 @@ with open(sys.argv[1], "r") as input:
                 # Add a default record if this is the first time we've seen the org
                 index.setdefault(org_name, {
                     "info": lookup_org(org_name),
+                    "sources": [],
                     "humanitarian": False, # change to True if we see a humanitarian activity
                     "activities": {
                         "implementing": [],
@@ -77,6 +78,9 @@ with open(sys.argv[1], "r") as input:
                 # True if we see the org involve in any humanitarian activity
                 if activity["humanitarian"]:
                     entry["humanitarian"] = True
+
+                # Note how we know about the org
+                add_unique(activity["source"], entry["sources"])
 
                 # Count activities
                 entry["total_activities"] += 1;

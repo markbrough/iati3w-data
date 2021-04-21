@@ -171,30 +171,28 @@ def get_location_lookup_table ():
     # Never overwrite an existing entry (except at the region level)
 
     # pass 1: regions
-    for name, info in map.items():
-        if info["level"] == "admin1":
-            add_entry(info, key=name)
+    for name, info in map["admin1"].items():
+        add_entry(info, key=name)
 
     # pass 2: districts
-    for region_name, region_info in map.items():
+    for region_name, region_info in map["admin1"].items():
         for name, info in region_info.get("admin2", {}).items():
             add_entry(info, key=name, admin1=region_name)
 
     # pass 3: unclassified locations under districts
-    for region_name, region_info in map.items():
+    for region_name, region_info in map["admin1"].items():
         for district_name, district_info in region_info.get("admin2", {}).items():
             for name, info in district_info.get("unclassified", {}).items():
                 add_entry(info, key=name, admin1=region_name, admin2=district_name)
 
     # pass 4: unclassified locations under regions
-    for region_name, region_info in map.items():
+    for region_name, region_info in map["admin1"].items():
         for name, info in region_info.get("unclassified", {}).items():
             add_entry(info, key=name, admin1=region_name)
 
     # pass 5: unclassified locations at the top level
-    for name, info in map.items():
-        if info["level"] == "unclassified":
-            add_entry(info, key=name)
+    for name, info in map["unclassified"].items():
+        add_entry(info, key=name)
 
     return location_lookup_table
 

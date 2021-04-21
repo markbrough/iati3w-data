@@ -1775,6 +1775,7 @@
         "synonyms": [
             "KAALO",
             "KAALO Aid Development",
+            "KAALO Aid and Development Organization",
             "KAALO Aid and Development is a non profit humanitarian and development organization established in Somalia in 1991 just after the collapse of the central government KAALO works in Nugal Mudug Bari Sool Sanaag and Karkaar regions and plans to expand services to cover more regions of Somalia KAALO s vision is a Society free of ignorance and poverty and its mission is to improve the livelihoods of communities in Somalia by supporting the provision of basic needs in a sustainable and environmentally sound manner Currently the key program areas for KAALO are education and research democracy human rights governance and rule of law livelihood and community empowerment agriculture and rural infrastructure health water and sanitation Current funding partners for KAALO include UNHCR UNHABITAT National Endowment for Democracy NED Diakonia Danish People s Aid DPA Oxfam Novib and Caritas International Belgium KAALO has been in partnership with Oxfam since 2006 They were an implementing partner with Oxfam Novib for several long term development projects among them the Human rights program 2006 2008 which was funded by the EC they are also currently implementing on two big projects both funded by the EC Strengthening capacity of civil society organisations to provide life skills and vocational training for the youth and Support to Artisanal Fisheries and Coastal Management in Somaliland and Puntland KAALOhas registered the following key achievements to date Undertook the largest program that a Civil Society Organization implemented in Puntland This involved distribution of about 60 tonnes of books journals hospital beds other hospital equipments wheelchairs crutches e t c to Somali communities across Somalia in 2001 Counterpart International in Washington USA contributed the shipment Carried out the first public building relocation program since the collapse of the last Central government in 1993 94 in Nugal region of Somalia Established the first professional training institute Garowe School of Management in Puntland in 1999 Renamed Puntland Community College in 2001 and grew to become Puntland State University in 2004 Implemented the first Puntland administration funded community project Drought Relief Program during the 2003 04 drought in Puntland Developed human rights curriculum and a HIV AIDS curriculum and had them integrated in the Puntland State University curriculum "
         ],
         "shortname": "KAALO"
@@ -2417,8 +2418,10 @@
         "skip": true,
         "synonyms": [
             "Private sector institution",
+            "Personal Services Contractors = USAID",
             "To be determined (Contractors)",
             "Private companies",
+            "Secteur privé du pays donneur",
             "Secteur privé d'un pays tiers",
             "Secteur privé du pays bénéficiaire"
         ],
@@ -3818,14 +3821,14 @@
         "synonyms": [],
         "shortname": "World Vision Canada"
     },
-    "World Vision International": {
+    "World Vision WVI": {
         "name": "World Vision International",
         "scope": "international",
         "synonyms": [
             "WVI",
             "World Vision"
         ],
-        "shortname": "World Vision International"
+        "shortname": "WVI"
     },
     "World Vision Somalia": {
         "name": "World Vision Somalia",
