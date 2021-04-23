@@ -166,6 +166,9 @@ def get_location_lookup_table ():
         for synonym in info.get("synonyms", []):
             location_lookup_table.setdefault(make_token(synonym), entry)
 
+        if "iati_id" in info:
+            locaation_lookup_table.setdefault(make_token(info["iati_id"]), entry)
+
     location_lookup_table = {}
 
     map = get_dataset("inputs/location-map.json")
