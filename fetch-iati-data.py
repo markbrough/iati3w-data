@@ -103,7 +103,7 @@ def make_activity(activity):
             ["1", "funding"]
     ]:
         for org in org_map.get(params[0], []):
-            info = lookup_org(org.name, show_failures=True)
+            info = lookup_org(org.ref, return_default=False) or lookup_org(org.name, show_failures=True)
             if info is not None and not info.get("skip", False):
                 add_unique(info["shortname"], data["orgs"][params[1]])
 

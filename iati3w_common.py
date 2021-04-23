@@ -101,7 +101,7 @@ def get_lookup_table (path):
 org_lookup_failures = set()
 """ Org-lookup failures that we've already reported """
 
-def lookup_org (name, show_failures=False):
+def lookup_org (name, show_failures=False, return_default=True):
     """ Look up an org by name """
     if name is None:
         return None
@@ -119,11 +119,14 @@ def lookup_org (name, show_failures=False):
             import sys
             print("New org: {}".format(name), file=sys.stderr)
             org_lookup_failures.add(token)
-        return {
-            "name": normalise_string(name),
-            "shortname": normalise_string(name),
-            "scope": "unknown",
-        }
+        if return_default:
+            return {
+                "name": normalise_string(name),
+                "shortname": normalise_string(name),
+                "scope": "unknown",
+            }
+        else:
+            return None
     
 
 #
