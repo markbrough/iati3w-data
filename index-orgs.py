@@ -46,7 +46,7 @@ with open(sys.argv[1], "r") as input:
 
                 # Add a default record if this is the first time we've seen the org
                 index.setdefault(org_name, {
-                    "info": lookup_org(org_name),
+                    "info": lookup_org(org_name, create=True),
                     "sources": [],
                     "humanitarian": False, # change to True if we see a humanitarian activity
                     "activities": {
@@ -92,7 +92,7 @@ with open(sys.argv[1], "r") as input:
                 for role in ROLES:
                     for partner in activity["orgs"][role]:
                         if not is_empty(partner) and partner != org_name:
-                            org = lookup_org(partner)
+                            org = lookup_org(partner, create=True)
                             entry["partners"][org["scope"]].setdefault(partner, 0)
                             entry["partners"][org["scope"]][partner] += 1
 

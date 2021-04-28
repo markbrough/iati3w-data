@@ -77,7 +77,7 @@ def make_activity(row):
     ]:
         org_name = row.get(params[0])
         if org_name:
-            org = lookup_org(org_name, show_failures=True)
+            org = lookup_org(org_name, create=True)
             if org is not None and not org.get("skip", False):
                 add_unique(org["shortname"], data["orgs"][params[1]])
 

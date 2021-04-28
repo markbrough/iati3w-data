@@ -14,6 +14,13 @@ SCOPES = ["local", "regional", "international", "unknown",]
 SECTOR_TYPES = ["dac", "humanitarian",]
 LOCATION_TYPES = ["admin1", "admin2", "unclassified",]
 
+#
+# Blocklist of regular-expression patterns for org names (case insensitive)
+#
+ORG_BLOCKLIST = [
+    r'^Allocation \d.*',
+]
+
 
 #
 # Utility functions
@@ -82,51 +89,65 @@ def get_lookup_table (path):
     Keys will be tokenized
 
     """
+
     global lookup_tables_loaded
+
+    def add(name, info, result):
+        """ Add a tokenised name to the map """
+        if is_empty(name):
+            # skip empty strings
+            return
+        else:
+            result.setdefault(make_token(name), info) # don't overwrite
+
     if not path in lookup_tables_loaded:
         result = {}
         map = get_dataset(path)
         for key, info in map.items():
-            result[make_token(key)] = info
+            add(key, info, result)
             if "name" in info:
-                result.setdefault(make_token(info["name"]), info)
+                add(info["name"], info, result)
             if "shortname" in info:
-                result.setdefault(make_token(info["shortname"]), info)
+                add(info["shortname"], info, result)
+                if make_token(info["name"]) != make_token(info["shortname"]):
+                    # construct the "Full name (Acronym)" variant if appropriate
+                    add("{} ({})".format(info["name"], info["shortname"]), info, result)
             for synonym in info.get("synonyms", []):
-                result.setdefault(make_token(synonym), info)
+                add(synonym, info, result)
         lookup_tables_loaded[path] = result
+
     return lookup_tables_loaded[path]
 
 
-org_lookup_failures = set()
-""" Org-lookup failures that we've already reported """
-
-def lookup_org (name, show_failures=False, return_default=True):
+def lookup_org (name, create=False):
     """ Look up an org by name """
     if name is None:
         return None
 
     name = str(name)
+
+    for pattern in ORG_BLOCKLIST:
+        if re.match(pattern, name, flags=re.I):
+            return None
+
     if is_empty(name):
         return None
     token = make_token(name)
     table = get_lookup_table("inputs/org-map.json")
 
     if token in table:
+        # Found
         return table[token]
+    elif create:
+        # Not found, but caller wants a new record
+        return {
+            "name": normalise_string(name),
+            "shortname": normalise_string(name),
+            "scope": "unknown",
+            "unrecognised": True,
+        }
     else:
-        if show_failures and token not in org_lookup_failures:
-            import sys
-            print("New org: {}".format(name), file=sys.stderr)
-            org_lookup_failures.add(token)
-        if return_default:
-            return {
-                "name": normalise_string(name),
-                "shortname": normalise_string(name),
-                "scope": "unknown",
-            }
-        else:
-            return None
+        return None
     
 
 #

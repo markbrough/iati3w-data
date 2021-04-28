@@ -1,4 +1,38 @@
 {
+    "CIRDDOC": {
+        "name": "Civil Resource Development and Documentation Centre (CIRDDOC)",
+        "shortname": "CIRDDOC",
+        "scope": "regional",
+        "url": "http://cirddoc.org/",
+        "synonyms": []
+    },
+    "CESVED": {
+        "name": "Center for Social Value and Early Childhood Development",
+        "shortname": "CESVED",
+        "scope": "regional",
+        "url": "http://www.cesved.org/",
+        "synonyms": []
+    },
+    "AMSOPT": {
+        "name": "Association Malienne pour le Suivi et l'Orientation des Pratiques Traditionnelles",
+        "shortname": "AMSOPT",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "COVAW": {
+        "name": "Coalition on Violence Against Women",
+        "shortname": "COVAW",
+        "scope": "regional",
+        "url": "https://covaw.or.ke/",
+        "synonyms": []
+    },
+    "NAFIS": {
+        "name": "Network Against Female Genital Mutilation/Cutting in Somaliland",
+        "shortname": "NAFIS",
+        "scope": "local",
+        "url": "",
+        "synonyms": []
+    },
     "50 Eight Limited": {
         "name": "50 Eight Limited",
         "scope": "international",
@@ -192,18 +226,8 @@
         ],
         "shortname": "ADEC"
     },
-    "ADRA": {
-        "name": "Adventist Development and Relief Agency",
-        "scope": "international",
-        "url": "https://adrasom.org",
-        "synonyms": [
-            "ADRA",
-            "Adventist Development and Relief Agency (ADRA)"
-        ],
-        "shortname": "ADRA"
-    },
     "ADRA Denmark": {
-        "name": "ADRA Denmark",
+        "name": "Adventist Development and Relief Agency, Denmark",
         "scope": "international",
         "synonyms": [],
         "shortname": "ADRA Denmark",
@@ -218,11 +242,11 @@
         },
         "iati_id": "DK-CVR-20074035"
     },
-    "ADRA-UK": {
-        "name": "ADRA-UK",
+    "ADRA UK": {
+        "name": "Adventist Development and Relief Agency, UK",
         "scope": "international",
         "synonyms": [],
-        "shortname": "ADRA-UK",
+        "shortname": "ADRA UK",
         "iati": {
             "code": "GB-CHC-1074937",
             "name": "ADRA-UK",
@@ -359,7 +383,7 @@
         ],
         "shortname": "AHIO"
     },
-    "ITALY - AICS": {
+    "AICS": {
         "name": "Italian Agency for Cooperation and Development",
         "scope": "international",
         "synonyms": [
@@ -368,7 +392,7 @@
             "AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development",
             "Italy AICS Agenzia Italiana per la Cooperazione allo Sviluppo Italian Agency for Cooperation and Development"
         ],
-        "shortname": "Italy - AICS",
+        "shortname": "AICS",
         "iati": {
             "code": "XM-DAC-6-4",
             "name": "AICS - Agenzia Italiana per la Cooperazione allo Sviluppo / Italian Agency for Cooperation and Development",
@@ -1167,11 +1191,17 @@
         },
         "iati_id": "NL-KVK-09108013"
     },
-    "Adventist Development and Relief Agency (ADRA Somalia)": {
-        "name": "Adventist Development and Relief Agency (ADRA Somalia)",
-        "scope": "local",
-        "synonyms": [],
-        "shortname": "Adventist Development and Relief Agency (ADRA Somalia)",
+    "ADRA Somalia": {
+        "name": "Adventist Development and Relief Agency, Somalia",
+        "scope": "international",
+        "comment": "ADRA synonym works only for Somalia",
+        "synonyms": [
+            "ADRA",
+            "ADRA Somalia",
+            "Adventist Development and Relief Agency (ADRA)",
+            "Adventist Development and Relief Agency (ADRA Somalia)"
+        ],
+        "shortname": "ADRA Somalia",
         "iati": {
             "code": "KE-NGC-663",
             "name": "Adventist Development and Relief Agency (ADRA Somalia)",
@@ -1183,11 +1213,11 @@
         },
         "iati_id": "KE-NGC-663"
     },
-    "Adventist Development and Relief Agency, Nepal": {
+    "ADRA Nepal": {
         "name": "Adventist Development and Relief Agency, Nepal",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Adventist Development and Relief Agency, Nepal",
+        "shortname": "ADRA Nepal",
         "iati": {
             "code": "NP-IRD-302113730",
             "name": "Adventist Development and Relief Agency, Nepal",
@@ -2402,6 +2432,7 @@
         "scope": "international",
         "synonyms": [
             "Australia",
+            "DFAT",
             "Department of Foreign Affairs and Trade DFAT Australia"
         ],
         "shortname": "Australia - DFAT",
@@ -2835,13 +2866,13 @@
         },
         "iati_id": "XM-DAC-2-10"
     },
-    "Belgium - Enabel": {
+    "Enabel": {
         "name": "Belgian development agency",
         "scope": "international",
         "synonyms": [
             "Belgian development agency (Enabel)"
         ],
-        "shortname": "Belgium - Enabel",
+        "shortname": "Enabel",
         "iati": {
             "code": "BE-BCE_KBO-0264814354",
             "name": "Belgian development agency (Enabel)",
@@ -3273,16 +3304,16 @@
         "iati_id": "CA_ON-ONT-1597880"
     },
     "CARE": {
-        "name": "CARE",
+        "name": "CARE International",
         "scope": "international",
         "synonyms": [],
         "shortname": "CARE"
     },
-    "CARE BENIN/TOGO": {
-        "name": "CARE BENIN/TOGO",
+    "CARE Benin/Togo": {
+        "name": "CARE Benin/Togo",
         "scope": "international",
         "synonyms": [],
-        "shortname": "CARE BENIN/TOGO",
+        "shortname": "CARE Benin/Togo",
         "iati": {
             "code": "BJ-IFU-5201000673108",
             "name": "CARE BENIN/TOGO",
@@ -3322,11 +3353,11 @@
         "synonyms": [],
         "shortname": "CARE Deutschland Luxemburg e V"
     },
-    "CARE International Afghanistan": {
+    "CARE Afghanistan": {
         "name": "CARE International Afghanistan",
         "scope": "international",
         "synonyms": [],
-        "shortname": "CARE International Afghanistan",
+        "shortname": "CARE Afghanistan",
         "iati": {
             "code": "AF-MOE-22",
             "name": "CARE International Afghanistan",
@@ -3338,11 +3369,11 @@
         },
         "iati_id": "AF-MOE-22"
     },
-    "CARE International UK": {
+    "CARE UK": {
         "name": "CARE International UK",
         "scope": "international",
         "synonyms": [],
-        "shortname": "CARE International UK",
+        "shortname": "CARE UK",
         "iati": {
             "code": "GB-CHC-292506",
             "name": "CARE International UK",
@@ -3354,11 +3385,11 @@
         },
         "iati_id": "GB-CHC-292506"
     },
-    "CARE International in Zimbabwe": {
+    "CARE Zimbabwe": {
         "name": "CARE International in Zimbabwe",
-        "scope": "regional",
+        "scope": "international",
         "synonyms": [],
-        "shortname": "CARE International in Zimbabwe",
+        "shortname": "CARE Zimbabwe",
         "iati": {
             "code": "ZW-PVO-15/2003",
             "name": "CARE International in Zimbabwe",
@@ -3404,13 +3435,13 @@
         },
         "iati_id": "NP-IRD-302274734"
     },
-    "CARE SOMALIA": {
-        "name": "CARE SOMALIA",
+    "CARE Somalia": {
+        "name": "CARE Somalia",
         "scope": "international",
         "synonyms": [
-            "CARE Somalia"
+            "CARE International Somalia"
         ],
-        "shortname": "CARE SOMALIA",
+        "shortname": "CARE Somalia",
         "iati": {
             "code": "KE-NCB-218/051/9384/74",
             "name": "CARE SOMALIA",
@@ -3555,7 +3586,7 @@
         "shortname": "CERELPA"
     },
     "CERF": {
-        "name": "United Nations Central Emergency Response Fund (CERF)",
+        "name": "United Nations Central Emergency Response Fund",
         "scope": "international",
         "synonyms": [
             "CERF",
@@ -6188,16 +6219,17 @@
         },
         "iati_id": "XI-IATI-DGF"
     },
-    "Denmark - Danida": {
-        "name": "Denmark - Ministry of Foreign Affairs, Danida",
+    "Danida": {
+        "name": "Danish International Development Agency",
         "scope": "international",
         "synonyms": [
             "Denmark",
+            "Denmark - Ministry of Foreign Affairs, Danida",
             "Government of Denmark",
             "Denmark, Government of",
             "Denmark Ministry of Foreign Affairs"
         ],
-        "shortname": "Denmark - Danida",
+        "shortname": "Danida",
         "iati": {
             "code": "XM-DAC-3-1",
             "name": "Denmark - Ministry of Foreign Affairs, Danida",
@@ -7445,10 +7477,11 @@
         "synonyms": [],
         "shortname": "FCA"
     },
-    "UK - FCDO": {
-        "name": "Foreign, Commonwealth & Development Office",
+    "FCDO": {
+        "name": "UK - Foreign, Commonwealth & Development Office",
         "scope": "international",
         "synonyms": [
+            "Foreign, Commonwealth & Development Office",
             "British Government (DFID)",
             "United Kingdom of Great Britain and Northern Ireland",
             "DFID/Department for International Development",
@@ -7459,7 +7492,6 @@
             "DFID",
             "Department for International Development (DFID)",
             "Department for International Development (DFID) United Kingdom",
-            "FCDO",
             "Foreign Commonwealth Development Office",
             "Foreign Commonwealth Development Office FCDO United Kingdom",
             "Foreign Commonwealth Office",
@@ -7468,7 +7500,7 @@
             "UK Department for International Development (DFID)",
             "UK Foreign Commonwealth and Development Office (FCDO)"
         ],
-        "shortname": "UK - FCDO"
+        "shortname": "FCDO"
     },
     "FENPS": {
         "name": "Formal Education Network for Private Schools",
@@ -7883,13 +7915,14 @@
         },
         "iati_id": "GB-CHC-250456"
     },
-    "Finland - Ministry for Foreign Affairs": {
+    "Finland - MFA": {
         "name": "Finland - Ministry for Foreign Affairs",
         "scope": "international",
         "synonyms": [
+            "Finland",
             "Finland Ministry of Foreign Affairs"
         ],
-        "shortname": "Finland - Ministry for Foreign Affairs",
+        "shortname": "Finland - MFA",
         "iati": {
             "code": "FI-3",
             "name": "Finland - Ministry for Foreign Affairs",
@@ -8290,17 +8323,18 @@
         },
         "iati_id": "MZ-NUIT-600000381"
     },
-    "Canada - GAC": {
+    "GAC": {
         "name": "Canada - Global Affairs Canada | Affaires mondiales Canada",
         "scope": "international",
         "synonyms": [
             "CANADA DFATD GVT",
             "Canada",
+            "Canada - GAC",
             "Department of Foreign Affairs Trade and Development DFATD Canada",
             "Foreign Affairs Trade and Development Canada",
             "Global Affairs Canada"
         ],
-        "shortname": "Canada - GAC",
+        "shortname": "GAC",
         "iati": {
             "code": "CA-3",
             "name": "Canada - Global Affairs Canada | Affaires mondiales Canada",
@@ -8464,12 +8498,14 @@
     "GREDO": {
         "name": "Gargaar Relief Development Organization",
         "scope": "local",
+        "url": "https://www.gredosom.org/",
         "synonyms": [
             "GREDO",
             "Gargaar Relief Development Organization (GREDO)",
             "Gargaar Relief Development Organization (GREDO) is a local non-profit, non-governmental humanitarian and development organization with its Headquarters in Baidoa and have sub-offices across south central Somalia. GREDO focuses so much on aspects of emergency, humanitarian responses and development/resilience programmes. GREDOs programmatic themes includes education, Health, WASH, livelihoods, Environmental management and governance with a focus on human rights, access to justice, women empowerment andprotection of the vulnerable communities and individuals especially IDPs, refugees and returnees. GREDO has been able to nurture and grow strong and vibrant partnerships and collaboration with a range of stakeholders including the regional states and the Federal government, the local community, international NGOs, UN agencies and Donors. Vision A prosperous, healthy, and happy community where peace presides andpeople live with dignity. Mission To improve the standards of living of the served communities by delivering Effective Emergency Response and Resilience interventions, promoting local capacities and resources; and sustainable development interventions in partnership with local, international, public, private institutions and civil society organizations."
         ],
-        "shortname": "GREDO"
+        "shortname": "GREDO",
+        "iati_id": "XI-IATI-GREDO"
     },
     "GREEN CLIMATE FUND": {
         "name": "GREEN CLIMATE FUND",
@@ -8543,7 +8579,7 @@
         },
         "iati_id": "CH-FDJP-CHE109506789"
     },
-    "Germany - BMZ": {
+    "BMZ": {
         "name": "Germany - Ministry for Economic Cooperation and Development",
         "scope": "international",
         "synonyms": [
@@ -8554,7 +8590,7 @@
             "Federal Ministry for Economic Cooperation and Development BMZ Germany",
             "Federal Ministry for Economic Cooperation and Development (BMZ)"
         ],
-        "shortname": "Germany - BMZ",
+        "shortname": "BMZ",
         "iati": {
             "code": "DE-1",
             "name": "Germany - Ministry for Economic Cooperation and Development",
@@ -9991,7 +10027,8 @@
         "name": "International Federation of the Red Cross and Red Crescent (IFRC)",
         "scope": "international",
         "synonyms": [
-            "International Federation of the Red Cross and Red Crescent (IFRC)"
+            "International Federation of the Red Cross and Red Crescent (IFRC)",
+            "International Federation of Red Cross and Red Crescent Societies"
         ],
         "shortname": "IFRC",
         "iati": {
@@ -10327,8 +10364,8 @@
         "iati_id": "US-EIN-22-3087809"
     },
     "ISDP": {
-        "name": "ISDP",
-        "scope": "unknown",
+        "name": "Integrated Service for Displaced Population",
+        "scope": "local",
         "synonyms": [],
         "shortname": "ISDP"
     },
@@ -11526,7 +11563,7 @@
         "synonyms": [],
         "shortname": "JRIA"
     },
-    "Japan - JICA": {
+    "JICA": {
         "name": "Japan International Cooperation Agency",
         "scope": "international",
         "synonyms": [
@@ -11535,7 +11572,7 @@
             "Japan Ministry of Foreign Affairs",
             "Japan International Cooperation Agency JICA "
         ],
-        "shortname": "Japan - JICA",
+        "shortname": "JICA",
         "iati": {
             "code": "XM-DAC-701-8",
             "name": "Japan International Cooperation Agency (JICA)",
@@ -12084,11 +12121,13 @@
         },
         "iati_id": "GB-CHC-1101217"
     },
-    "LEAD International": {
-        "name": "LEAD International",
+    "LEAD": {
+        "name": "Leadership for Environment and Development International",
         "scope": "international",
-        "synonyms": [],
-        "shortname": "LEAD International",
+        "synonyms": [
+            "LEAD International"
+        ],
+        "shortname": "LEAD",
         "iati": {
             "code": "GB-COH-4075590",
             "name": "LEAD International",
@@ -14137,15 +14176,12 @@
     },
     "New Ways": {
         "name": "New Ways",
-        "scope": "unknown",
-        "synonyms": [],
+        "scope": "local",
+        "url": "http://www.new-ways.org/",
+        "synonyms": [
+            "New Ways Organization"
+        ],
         "shortname": "New Ways"
-    },
-    "New Ways Organization": {
-        "name": "New Ways Organization",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "New Ways Organization"
     },
     "New Zealand - Ministry of Foreign Affairs and Trade - New Zealand Aid Programme": {
         "name": "New Zealand - Ministry of Foreign Affairs and Trade - New Zealand Aid Programme",
@@ -14229,7 +14265,7 @@
         },
         "iati_id": "SS-RRC-004"
     },
-    "Norway - Norad": {
+    "Norad": {
         "name": "Norad - Norwegian Agency for Development Cooperation",
         "scope": "international",
         "synonyms": [
@@ -14237,7 +14273,7 @@
             "Government of Norway",
             "Norwegian Agency for Development Cooperation"
         ],
-        "shortname": "Norway - Norad",
+        "shortname": "Norad",
         "iati": {
             "code": "NO-BRC-971277882",
             "name": "Norad - Norwegian Agency for Development Cooperation",
@@ -15689,11 +15725,11 @@
         },
         "iati_id": "IN-AR-775"
     },
-    "PricewaterhouseCoopers Private Limited India": {
+    "PwC India": {
         "name": "PricewaterhouseCoopers Private Limited India",
         "scope": "international",
         "synonyms": [],
-        "shortname": "PricewaterhouseCoopers Private Limited India",
+        "shortname": "PwC India",
         "iati": {
             "code": "IN-MCA-U74140WB1983PTC036093",
             "name": "PricewaterhouseCoopers Private Limited India",
@@ -15891,7 +15927,7 @@
         "iati_id": "GB-CHC-1077889"
     },
     "PwC": {
-        "name": "PwC",
+        "name": "PricewaterhouseCoopers",
         "scope": "international",
         "synonyms": [],
         "shortname": "PwC",
@@ -16764,11 +16800,12 @@
         "synonyms": [],
         "shortname": "SAEDO"
     },
-    "SAF UK": {
-        "name": "SAF UK",
-        "scope": "unknown",
+    "SAF-UK": {
+        "name": "Skills Active Forward",
+        "scope": "international",
+        "url": "http://www.safuk.org",
         "synonyms": [],
-        "shortname": "SAF UK"
+        "shortname": "SAF-UK"
     },
     "SAREDO": {
         "name": "SAREDO",
@@ -16782,20 +16819,11 @@
         "synonyms": [],
         "shortname": "SAYS"
     },
-    "SCC": {
-        "name": "SCC",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "SCC"
-    },
     "SCI": {
         "name": "Save the Children International",
         "scope": "international",
         "synonyms": [
-            "SCI",
-            "Save the Children",
-            "Save the Children International",
-            "Save the Children International (SCI)"
+            "Save the Children"
         ],
         "shortname": "SCI",
         "iati": {
@@ -16840,17 +16868,6 @@
             "Solidarity Community Development Org (SCODO)"
         ],
         "shortname": "SCODO"
-    },
-    "SDC": {
-        "name": "Swiss Agency for Development and Cooperation",
-        "scope": "international",
-        "synonyms": [
-            "SDC",
-            "SDC Swiss Agency for Development and Co",
-            "Swiss Agency for Development and Cooperation (SDC)",
-            "Swiss Development Cooperation Agency (SDC DDC)"
-        ],
-        "shortname": "SDC"
     },
     "SDO": {
         "name": "SDO",
@@ -16962,11 +16979,10 @@
         "synonyms": [],
         "shortname": "SHRA"
     },
-    "Sweden - SIDA": {
-        "name": "Sweden, through Swedish International Development Cooperation Agency (Sida)",
+    "SIDA": {
+        "name": "Sweden, through Swedish International Development Cooperation Agency",
         "scope": "international",
         "synonyms": [
-            "SIDA",
             "SIDA Sweden",
             "Sweden",
             "Sweden through Swedish International Development Cooperation Agency (SIDA)",
@@ -16975,7 +16991,7 @@
             "Swedish International Development Cooperation Agency",
             "Swedish International Development Cooperation Agency (SIDA)"
         ],
-        "shortname": "Sweden - SIDA",
+        "shortname": "SIDA",
         "iati": {
             "code": "SE-0",
             "name": "Sweden, through Swedish International Development Cooperation Agency (Sida)",
@@ -18107,23 +18123,19 @@
         },
         "iati_id": "MX-RFC-SLP1412039F3"
     },
-    "Somali AID": {
-        "name": "Somali AID",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Somali AID"
-    },
     "Somali Aid": {
         "name": "Somali Aid",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "https://somali-aid.org",
         "synonyms": [],
         "shortname": "Somali Aid"
     },
-    "Somali Community Concern": {
+    "SCC": {
         "name": "Somali Community Concern",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "https://scc.org.so",
         "synonyms": [],
-        "shortname": "Somali Community Concern"
+        "shortname": "SCC"
     },
     "Somali Development Rehabilitation Organisation": {
         "name": "Somali Development Rehabilitation Organisation",
@@ -18772,15 +18784,19 @@
         },
         "iati_id": "GB-CHC-1188731"
     },
-    "Switzerland - SDC": {
+    "SDC": {
         "name": "Swiss Agency for Development and Cooperation",
         "scope": "international",
         "synonyms": [
             "Switzerland",
             "Government of Switzerland",
-            "Switzerland - Swiss Agency for Development and Cooperation (SDC)"
+            "Swiss Agency for Development and Cooperation",
+            "Switzerland - Swiss Agency for Development and Cooperation (SDC)",
+            "SDC Swiss Agency for Development and Co",
+            "Swiss Agency for Development and Cooperation (SDC)",
+            "Swiss Development Cooperation Agency (SDC DDC)"
         ],
-        "shortname": "Switzerland - SDC",
+        "shortname": "SDC",
         "iati": {
             "code": "CH-4",
             "name": "Switzerland - Swiss Agency for Development and Cooperation (SDC)",
@@ -18859,8 +18875,9 @@
         "shortname": "TASCO"
     },
     "TASS": {
-        "name": "TASS",
-        "scope": "unknown",
+        "name": "Tadamun Social Society",
+        "scope": "local",
+        "url": "https://tadamun.org/",
         "synonyms": [],
         "shortname": "TASS"
     },
@@ -18934,11 +18951,14 @@
         },
         "iati_id": "GB-CHC-1135156"
     },
-    "TROCAIRE": {
-        "name": "TROCAIRE",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "TROCAIRE"
+    "Trócaire": {
+        "name": "Trócaire",
+        "scope": "international",
+        "url": "https://www.trocaire.org",
+        "synonyms": [
+            "Trocaire"
+        ],
+        "shortname": "Trócaire"
     },
     "TSCO": {
         "name": "TSCO",
@@ -20932,7 +20952,7 @@
         "synonyms": [],
         "shortname": "USA State BPRM"
     },
-    "US - USAID": {
+    "USAID": {
         "name": "United States Agency for International Development (USAID)",
         "scope": "international",
         "synonyms": [
@@ -20947,7 +20967,7 @@
             "United States Agency for International Development",
             "United States Agency for International Development (USAID)"
         ],
-        "shortname": "US - USAID",
+        "shortname": "USAID",
         "iati": {
             "code": "US-GOV-1",
             "name": "United States Agency for International Development (USAID)",
@@ -21456,7 +21476,7 @@
         "skip": true,
         "synonyms": [
             "NON GOVERNMENTAL ORGANISATIONS NGOs AND CIVIL SOCIETY",
-            "National Red Cross/Red Crescent Society"
+            "National NGO"
         ],
         "shortname": "Unspecified NGOs or and Civil Society"
     },
@@ -21923,11 +21943,12 @@
         "shortname": "WAAPO"
     },
     "WARDI": {
-        "name": "WARDI Relief and Development Initiatives",
+        "name": "Wardi Relief and Development Initiatives",
         "scope": "local",
         "url": "https://www.facebook.com/pg/WardiRDI/about/",
         "synonyms": [],
-        "shortname": "WARDI"
+        "shortname": "WARDI",
+        "iati_id": "XI-IATI-WARDI"
     },
     "WASDA": {
         "name": "Wajir South Development Association",
@@ -22280,12 +22301,6 @@
             "status": "active"
         },
         "iati_id": "GB-COH-NI011322"
-    },
-    "Wardi": {
-        "name": "Wardi",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Wardi"
     },
     "WasteAid UK": {
         "name": "WasteAid UK",
@@ -23788,10 +23803,34 @@
         },
         "iati_id": "CO-CCB-S0052181"
     },
-    "Somali Red Crescent Society": {
+    "SRCS": {
         "name": "Somali Red Crescent Society",
         "scope": "local",
+        "comment": "Synonym works only for Somalia",
+        "synonyms": [
+            "National Red Cross/Red Crescent Society"
+        ],
+        "shortname": "SRCS"
+    },
+    "DAF": {
+        "name": "Disability Aid Foundation",
+        "scope": "local",
         "synonyms": [],
-        "shortname": "Somali Red Crescent Society"
+        "shortname": "DAF"
+    },
+    "UCES": {
+        "name": "Umbrella for Community Education in Somalia",
+        "scope": "local",
+        "synonyms": [],
+        "shortname": "UCES",
+        "iati_id": "XI-IATI-UCES"
+    },
+    "SWSC": {
+        "name": "Somali Women Study Centre",
+        "scope": "local",
+        "url": "https://www.somaliwomenstudiescentre.org/",
+        "synonyms": [],
+        "shortname": "SWSC",
+        "iati_id": "XI-IATI-SWSC"
     }
 }

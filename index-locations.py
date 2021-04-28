@@ -76,7 +76,7 @@ with open(sys.argv[1], "r") as input:
                     for org_name in activity["orgs"].get(role, []):
                         if not org_name:
                             continue
-                        org = lookup_org(org_name)
+                        org = lookup_org(org_name, create=True)
                         entry["orgs"][org["scope"]].setdefault(org["shortname"], 0)
                         entry["orgs"][org["scope"]][org["shortname"]] += 1
 
