@@ -79,7 +79,7 @@ def make_activity(row):
         if org_name:
             org = lookup_org(org_name, create=True)
             if org is not None and not org.get("skip", False):
-                add_unique(org["shortname"], data["orgs"][params[1]])
+                add_unique(org["stub"], data["orgs"][params[1]])
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
@@ -95,7 +95,7 @@ def make_activity(row):
             location = lookup_location(locname)
             # For 3W, must match the stated admin level
             if location and not location.get("skip", False):
-                add_unique(location["name"], data["locations"][location["level"]])
+                add_unique(location["stub"], data["locations"][location["level"]])
                 if "admin1" in location:
                     add_unique(location["admin1"], data["locations"]["admin1"])
                 if "admin2" in location:
@@ -151,6 +151,6 @@ def fetch_3w(filenames):
 if __name__ == "__main__":
     data = fetch_3w(sys.argv[1:])
     print("Found {} 3W activities".format(len(data)), file=sys.stderr)
-    print(json.dumps(data))
+    json.dump(data, sys.stdout, indent=4)
 
 # end

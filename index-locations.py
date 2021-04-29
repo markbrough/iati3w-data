@@ -50,7 +50,7 @@ with open(sys.argv[1], "r") as input:
                     continue
 
                 # Add a default record if this is the first time we've seen the location
-                index[loctype].setdefault(location["name"], {
+                index[loctype].setdefault(location["stub"], {
                     "info": location,
                     "activities": [],
                     "orgs": {
@@ -66,7 +66,7 @@ with open(sys.argv[1], "r") as input:
                 })
 
                 # This is the location index entry we'll be working on
-                entry = index[loctype][location["name"]]
+                entry = index[loctype][location["stub"]]
 
                 # Add this activity
                 entry["activities"].append(activity["identifier"])
@@ -77,8 +77,8 @@ with open(sys.argv[1], "r") as input:
                         if not org_name:
                             continue
                         org = lookup_org(org_name, create=True)
-                        entry["orgs"][org["scope"]].setdefault(org["shortname"], 0)
-                        entry["orgs"][org["scope"]][org["shortname"]] += 1
+                        entry["orgs"][org["scope"]].setdefault(org["stub"], 0)
+                        entry["orgs"][org["scope"]][org["stub"]] += 1
 
                 # Add the sectors for each type
                 for type in SECTOR_TYPES:
@@ -91,6 +91,6 @@ with open(sys.argv[1], "r") as input:
                         
 
 # Dump the index as JSON to stdout
-print(json.dumps(index, indent=4))
+json.dump(index, sys.stdout, indent=4)
 # end
 

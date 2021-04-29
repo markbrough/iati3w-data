@@ -62,7 +62,7 @@ def make_token (s):
     Use max 64 characters.
 
     """
-    return re.sub(r'\W+', ' ', s).lower().strip()[:64]
+    return re.sub(r'\W+', ' ', s.lower().strip())[:64].replace(' ', '-')
 
 #
 # Look up and manage JSON datasets
@@ -137,7 +137,10 @@ def lookup_org (name, create=False):
 
     if token in table:
         # Found
-        return table[token]
+        info = table[token]
+        # add a stub if it doesn't exist already
+        info.setdefault("stub", make_token(info.get("shortname", info["name"])))
+        return info
     elif create:
         # Not found, but caller wants a new record
         return {
@@ -145,6 +148,8 @@ def lookup_org (name, create=False):
             "shortname": normalise_string(name),
             "scope": "unknown",
             "unrecognised": True,
+            "synonyms": [],
+            "stub": make_token(name),
         }
     else:
         return None
@@ -172,12 +177,13 @@ def get_location_lookup_table ():
             "level": info["level"],
         }
         if admin1 is not None:
-            entry["admin1"] = admin1
+            entry["admin1"] = make_token(admin1)
         if admin2 is not None:
-            entry["admin2"] = admin2
-        for key in ["synonyms", "pcode", "skip"]:
-            if key in info:
-                entry[key] = info[key]
+            entry["admin2"] = make_token(admin2)
+        for key in info:
+            if key not in ["admin1", "admin2", "unclassified"]:
+                entry.setdefault(key, info[key])
+        entry.setdefault("stub", make_token(info["name"]))
 
         # Add the main name
         location_lookup_table.setdefault(make_token(key), entry)
@@ -238,5 +244,7 @@ def lookup_location (name, loctype="unclassified"):
         lookup[token] = {
             "level": loctype,
             "name": normalise_string(name),
+            "stub": token,
         }
+    lookup[token].setdefault("stub", token)
     return lookup[token]

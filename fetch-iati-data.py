@@ -45,10 +45,10 @@ def has_humanitarian_content (activity):
     return False
 
 
-def seen_org (shortname, data):
+def seen_org (stub, data):
     """ Return true if we've already seen an org """
     for info in data["orgs"].values():
-        if shortname in info:
+        if stub in info:
             return True
     return False
 
@@ -113,7 +113,7 @@ def make_activity(activity):
         for org in org_map.get(params[0], []):
             info = lookup_org(org.ref) or lookup_org(org.name, create=True)
             if info is not None and not info.get("skip", False):
-                add_unique(info["shortname"], data["orgs"][params[1]])
+                add_unique(info["stub"], data["orgs"][params[1]])
 
     # Add any extra orgs from transactions
     for transaction in activity.transactions:
@@ -123,15 +123,15 @@ def make_activity(activity):
             info = lookup_org(org.ref) or lookup_org(org.name, create=True)
             if info is None:
                 return
-            shortname = info["shortname"]
+            stub = info["stub"]
             if is_receiver:
-                if shortname not in data["orgs"]["implementing"] and shortname not in data["orgs"]["programming"] and not info.get("skip", False):
+                if stub not in data["orgs"]["implementing"] and stub not in data["orgs"]["programming"] and not info.get("skip", False):
                     # if we haven't seen the org as an implementer or funder, assume implementer
-                    add_unique(info["shortname"], data["orgs"]["implementing"])
+                    add_unique(info["stub"], data["orgs"]["implementing"])
             else:
-                if shortname not in data["orgs"]["funding"] and not info.get("skip", False):
+                if stub not in data["orgs"]["funding"] and not info.get("skip", False):
                     # if they're providing money, assume funder
-                    add_unique(info["shortname"], data["orgs"]["funding"])
+                    add_unique(info["stub"], data["orgs"]["funding"])
         try_org(transaction.receiver_org, True)
         try_org(transaction.provider_org, False)
 
@@ -161,12 +161,12 @@ def make_activity(activity):
             continue
         
         if info["level"] == "admin1":
-            add_unique(info["name"], data["locations"]["admin1"])
+            add_unique(info["stub"], data["locations"]["admin1"])
         elif info["level"] == "admin2":
-            add_unique(info["name"], data["locations"]["admin2"])
+            add_unique(info["stub"], data["locations"]["admin2"])
             add_unique(info.get("admin1", None), data["locations"]["admin1"])
         elif info["level"] == "unclassified":
-            add_unique(info["name"], data["locations"]["unclassified"])
+            add_unique(info["stub"], data["locations"]["unclassified"])
             add_unique(info.get("admin2", None), data["locations"]["admin2"])
             add_unique(info.get("admin1", None), data["locations"]["admin1"])
 
@@ -198,6 +198,6 @@ def fetch_activities(files):
 if __name__ == "__main__":
     data = fetch_activities(sys.argv[1:])
     print("Found {} IATI activities".format(len(data)), file=sys.stderr)
-    print(json.dumps(data))
+    json.dump(data, sys.stdout, indent=4)
 
 # end

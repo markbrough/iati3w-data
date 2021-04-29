@@ -111,6 +111,6 @@ with open(sys.argv[1], "r") as input:
                             entry["locations"][type][location] += 1
 
 # Dump the index to stdout
-print(json.dumps(index))
+json.dump(index, sys.stdout, indent=4)
 
 # end
