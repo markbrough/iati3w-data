@@ -10319,15 +10319,15 @@
         "iati_id": "IN-MCA-U74140DL1998PLC097579"
     },
     "IRC": {
-        "name": "IRC",
+        "name": "International Rescue Committee",
         "scope": "international",
         "synonyms": [
             "IRC",
-            "International Rescue Committee",
-            "International Rescue Committee (IRC)",
             "International Rescue Committee IRC Deutschland gGmbH",
             "International Rescue Committee Inc.",
-            "International Rescue Committee, The"
+            "International Rescue Committee, The",
+            "IRC/International Rescue Committee",
+            "IRC Inc."
         ],
         "shortname": "IRC",
         "iati": {
