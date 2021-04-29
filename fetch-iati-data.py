@@ -113,7 +113,11 @@ def make_activity(activity):
         for org in org_map.get(params[0], []):
             info = lookup_org(org.ref) or lookup_org(org.name, create=True)
             if info is not None and not info.get("skip", False):
-                add_unique(info["stub"], data["orgs"][params[1]])
+                # Add the name here instead of the stub if the org isn't in the map
+                # lookup_org() will recreate the record for index-orgs.py, which
+                # will switch to the stub
+                key = "name" if info.get("unrecognised", False) else "stub"
+                add_unique(info[key], data["orgs"][params[1]])
 
     # Add any extra orgs from transactions
     for transaction in activity.transactions:
@@ -157,18 +161,20 @@ def make_activity(activity):
         info = lookup_location(str(location.name))
 
         # honour the "skip" flag
-        if info.get("skip", False):
+        if info is None or info.get("skip", False):
             continue
-        
-        if info["level"] == "admin1":
-            add_unique(info["stub"], data["locations"]["admin1"])
-        elif info["level"] == "admin2":
-            add_unique(info["stub"], data["locations"]["admin2"])
-            add_unique(info.get("admin1", None), data["locations"]["admin1"])
-        elif info["level"] == "unclassified":
-            add_unique(info["stub"], data["locations"]["unclassified"])
-            add_unique(info.get("admin2", None), data["locations"]["admin2"])
-            add_unique(info.get("admin1", None), data["locations"]["admin1"])
+
+        # Add the name here instead of the stub if the org isn't in the map
+        # lookup_org() will recreate the record for index-orgs.py, which
+        # will switch to the stub
+        key = "name" if info.get("unrecognised", False) else "stub"
+        add_unique(info[key], data["locations"][info["level"]])
+
+        #
+        # Add the ancestor admin1 and admin2 if they exist
+        for level in ["admin1", "admin2"]:
+            if level in info:
+                add_unique(info[level], data["locations"][level])
 
     # There must be at list one sector left to count this activity
     if len(data["sectors"]["humanitarian"]) + len(data["sectors"]["dac"]) > 0:

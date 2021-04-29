@@ -79,7 +79,11 @@ def make_activity(row):
         if org_name:
             org = lookup_org(org_name, create=True)
             if org is not None and not org.get("skip", False):
-                add_unique(org["stub"], data["orgs"][params[1]])
+                # Add the name here instead of the stub if the org isn't in the map
+                # lookup_org() will recreate the record for index-orgs.py, which
+                # will switch to the stub
+                key = "name" if org.get("unrecognised", False) else "stub"
+                add_unique(org[key], data["orgs"][params[1]])
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
@@ -95,11 +99,14 @@ def make_activity(row):
             location = lookup_location(locname)
             # For 3W, must match the stated admin level
             if location and not location.get("skip", False):
-                add_unique(location["stub"], data["locations"][location["level"]])
-                if "admin1" in location:
-                    add_unique(location["admin1"], data["locations"]["admin1"])
-                if "admin2" in location:
-                    add_unique(location["admin2"], data["locations"]["admin2"])
+                # Add the name here instead of the stub if the org isn't in the map
+                # lookup_org() will recreate the record for index-orgs.py, which
+                # will switch to the stub
+                key = "name" if location.get("unrecognised", False) else "stub"
+                add_unique(location[key], data["locations"][location["level"]])
+                for level in ["admin1", "admin2"]:
+                    if level in location:
+                        add_unique(location[level], data["locations"][level])
                 if params[1] != location["level"] and params[1] != "unclassified" and locname != "Banadir":
                     print("Mismatch {}, {}: {}".format(params[1], location["level"], locname), file=sys.stderr)
 

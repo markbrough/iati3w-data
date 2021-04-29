@@ -244,6 +244,7 @@ def lookup_location (name, loctype="unclassified"):
         lookup[token] = {
             "level": loctype,
             "name": normalise_string(name),
+            "unrecognised": True,
             "stub": token,
         }
     lookup[token].setdefault("stub", token)
