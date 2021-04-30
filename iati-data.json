@@ -2841,7 +2841,6 @@
                 "sdc",
                 "finland-mfa",
                 "sida",
-                "unspecified-government-actors",
                 "Somalia MultiPartner Fund 2"
             ]
         },
@@ -11261,9 +11260,7 @@
             ],
             "funding": [
                 "girls-education-challenge-fund-manager-pwc",
-                "unspecified-ngos-or-and-civil-society",
-                "lead",
-                "unspecified-international-ngos"
+                "lead"
             ]
         },
         "sectors": {
@@ -11313,9 +11310,7 @@
             ],
             "funding": [
                 "fcdo",
-                "lead",
-                "unspecified-ngos-or-and-civil-society",
-                "unspecified-international-ngos"
+                "lead"
             ]
         },
         "sectors": {
@@ -12462,7 +12457,6 @@
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
                 "usaid",
-                "unspecified-government-actors",
                 "Somalia MultiPartner Fund Parallel Trust Fund of TF072283"
             ]
         },
@@ -20523,8 +20517,7 @@
                 "belgian-development-cooperation",
                 "kuwait",
                 "ocha",
-                "echo",
-                "consolidated-funds-from-natcoms"
+                "echo"
             ]
         },
         "sectors": {
@@ -20988,8 +20981,7 @@
                 "unaids",
                 "gavi",
                 "cdc",
-                "bmz",
-                "consolidated-funds-from-natcoms"
+                "bmz"
             ]
         },
         "sectors": {
@@ -21443,7 +21435,6 @@
                 "UN Other Funds and Agencies (excl. CERF)",
                 "european-commission-service-for-foreign-policy-instruments",
                 "UN CERF",
-                "private-donors",
                 "Multilateral",
                 "republic-of-korea"
             ]
@@ -21502,7 +21493,6 @@
                 "Russian Federation",
                 "UN Other Funds and Agencies (excl. CERF)",
                 "aics",
-                "private-donors",
                 "UN CERF",
                 "european-commission-service-for-foreign-policy-instruments",
                 "South Africa"
@@ -21861,8 +21851,7 @@
                 "cdc",
                 "gavi",
                 "unaids",
-                "echo",
-                "consolidated-funds-from-natcoms"
+                "echo"
             ]
         },
         "sectors": {
@@ -24774,8 +24763,7 @@
             "funding": [
                 "undp",
                 "ministerio-de-energia",
-                "united-nations-multi-partner-trust-fund-for-somalia",
-                "donors-group"
+                "united-nations-multi-partner-trust-fund-for-somalia"
             ]
         },
         "sectors": {
