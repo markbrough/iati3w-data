@@ -7,9 +7,9 @@ from iati3w_common import make_token
 ORG_INDEX = "output/org-index.json"
 
 GROUPS = {
-    "local": 1,
+    "local": 3,
     "regional": 2,
-    "international": 3,
+    "international": 1,
     "unknown": 4,
 }
 
