@@ -6,6 +6,8 @@ import json, re, string
 
 from hxl.datatypes import is_empty
 
+from unidecode import unidecode
+
 #
 # Keys for classifying things
 #
@@ -62,7 +64,7 @@ def make_token (s):
     Use max 64 characters.
 
     """
-    return re.sub(r'\W+', ' ', s.lower().strip())[:64].replace(' ', '-')
+    return re.sub(r'\W+', ' ', unidecode(s))[:64].lower().strip().replace(' ', '-')
 
 #
 # Look up and manage JSON datasets
