@@ -44,13 +44,15 @@ def has_humanitarian_content (activity):
         
     return False
 
-def add_org (org, org_type, data):
+def add_org (org, role, data):
     """ Add an org to the appropriate list """
     #  the name here instead of the stub if the org isn't in the org map
     # lookup_org() will recreate the record for index-orgs.py, which
     # will switch to the stub
+    if org is None or org.get("skip", False):
+        return
     key = "name" if org.get("unrecognised", False) else "stub"
-    add_unique(org[key], data["orgs"][org_type])
+    add_unique(org[key], data["orgs"][role])
 
 
 #
