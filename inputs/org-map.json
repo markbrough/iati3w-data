@@ -1,4 +1,10 @@
 {
+    "AMODEFA": {
+        "name": "Associação Moçambicana para Desenvolvimento da Família",
+        "shortname": "AMODEFA",
+        "scope": "regional",
+        "synonyms": []
+    },
     "CIRDDOC": {
         "name": "Civil Resource Development and Documentation Centre",
         "shortname": "CIRDDOC",
@@ -1191,14 +1197,19 @@
         },
         "iati_id": "NL-KVK-09108013"
     },
+    "ADRA": {
+        "name": "Adventist Development and Relief Agency",
+        "scope": "international",
+        "synonyms": [
+            "ADRA/Adventist Development and Relief Agency"
+        ],
+        "shortname": "ADRA"
+    },
     "ADRA Somalia": {
         "name": "Adventist Development and Relief Agency, Somalia",
         "scope": "international",
-        "comment": "ADRA synonym works only for Somalia",
         "synonyms": [
-            "ADRA",
             "ADRA Somalia",
-            "Adventist Development and Relief Agency (ADRA)",
             "Adventist Development and Relief Agency (ADRA Somalia)"
         ],
         "shortname": "ADRA Somalia",
