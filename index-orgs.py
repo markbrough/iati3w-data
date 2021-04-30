@@ -44,9 +44,13 @@ with open(sys.argv[1], "r") as input:
                 if is_empty(org_name):
                     continue
 
+                org = lookup_org(org_name, create=True)
+                if org is None:
+                    continue
+
                 # Add a default record if this is the first time we've seen the org
-                index.setdefault(org_name, {
-                    "info": lookup_org(org_name, create=True),
+                index.setdefault(org["stub"], {
+                    "info": lookup_org(org["stub"], create=True),
                     "sources": [],
                     "humanitarian": False, # change to True if we see a humanitarian activity
                     "activities": {
@@ -73,7 +77,7 @@ with open(sys.argv[1], "r") as input:
                 })
 
                 # This is the org index entry we'll be working on
-                entry = index[org_name]
+                entry = index[org["stub"]]
 
                 # True if we see the org involve in any humanitarian activity
                 if activity["humanitarian"]:
@@ -90,11 +94,11 @@ with open(sys.argv[1], "r") as input:
 
                 # Add the other orgs as partners (don't track roles here)
                 for role in ROLES:
-                    for partner in activity["orgs"][role]:
-                        if not is_empty(partner) and partner != org_name:
-                            org = lookup_org(partner, create=True)
-                            entry["partners"][org["scope"]].setdefault(partner, 0)
-                            entry["partners"][org["scope"]][partner] += 1
+                    for partner_name in activity["orgs"][role]:
+                        partner = lookup_org(partner_name, True)
+                        if partner is not None and partner["stub"] != org["stub"]:
+                            entry["partners"][partner["scope"]].setdefault(partner["stub"], 0)
+                            entry["partners"][partner["scope"]][partner["stub"]] += 1
 
                 # Add the sectors (DAC and Humanitarian)
                 for type in SECTOR_TYPES:
