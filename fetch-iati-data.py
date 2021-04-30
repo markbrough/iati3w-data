@@ -44,13 +44,13 @@ def has_humanitarian_content (activity):
         
     return False
 
-
-def seen_org (stub, data):
-    """ Return true if we've already seen an org """
-    for info in data["orgs"].values():
-        if stub in info:
-            return True
-    return False
+def add_org (org, org_type, data):
+    """ Add an org to the appropriate list """
+    #  the name here instead of the stub if the org isn't in the org map
+    # lookup_org() will recreate the record for index-orgs.py, which
+    # will switch to the stub
+    key = "name" if org.get("unrecognised", False) else "stub"
+    add_unique(org[key], data["orgs"][org_type])
 
 
 #
@@ -75,7 +75,7 @@ def make_activity(activity):
     data = {
         "identifier": activity.identifier,
         "source": "IATI",
-        "reported_by": str(activity.reporting_org.name), # don't normalise
+        "reported_by": None,
         "humanitarian": has_humanitarian_content(activity),
         "title": str(activity.title),
         "description": str(activity.description),
@@ -103,6 +103,11 @@ def make_activity(activity):
         "targeted": {}, # TODO
     }
 
+    reporting_org = lookup_org(activity.reporting_org.ref, create=False) or lookup_org(str(activity.reporting_org.name), create=True)
+    if reporting_org is not None:
+        key = "name" if reporting_org.get("unrecognised", False) else "stub"
+        data["reported_by"] = reporting_org[key]
+
     # Add orgs
     for params in [
             ["4", "implementing"],
@@ -113,31 +118,17 @@ def make_activity(activity):
         for org in org_map.get(params[0], []):
             info = lookup_org(org.ref) or lookup_org(org.name, create=True)
             if info is not None and not info.get("skip", False):
-                # Add the name here instead of the stub if the org isn't in the map
-                # lookup_org() will recreate the record for index-orgs.py, which
-                # will switch to the stub
-                key = "name" if info.get("unrecognised", False) else "stub"
-                add_unique(info[key], data["orgs"][params[1]])
+                add_org(info, params[1], data)
 
     # Add any extra orgs from transactions
     for transaction in activity.transactions:
-        def try_org (org, is_receiver):
-            if org is None or is_empty(str(org.name)):
-                return
-            info = lookup_org(org.ref) or lookup_org(org.name, create=True)
-            if info is None:
-                return
-            stub = info["stub"]
-            if is_receiver:
-                if stub not in data["orgs"]["implementing"] and stub not in data["orgs"]["programming"] and not info.get("skip", False):
-                    # if we haven't seen the org as an implementer or funder, assume implementer
-                    add_unique(info["stub"], data["orgs"]["implementing"])
-            else:
-                if stub not in data["orgs"]["funding"] and not info.get("skip", False):
-                    # if they're providing money, assume funder
-                    add_unique(info["stub"], data["orgs"]["funding"])
-        try_org(transaction.receiver_org, True)
-        try_org(transaction.provider_org, False)
+        def try_org (org, type):
+            if org is not None:
+                info = lookup_org(org.ref) or lookup_org(org.name, create=True)
+                if info is not None:
+                    add_org(info, type, data)
+        try_org(transaction.receiver_org, "implementing")
+        try_org(transaction.provider_org, "funding")
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:
