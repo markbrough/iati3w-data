@@ -41,7 +41,7 @@ def make_activity(row):
     data = {
         "identifier": None,
         "source": "3W",
-        "reported_by": "OCHA Somalia",
+        "reported_by": None,
         "humanitarian": True,
         "title": row.get("#activity+programme", default=row.get("#activity+project")),
         "description": row.get("#activity+project"),
@@ -84,6 +84,10 @@ def make_activity(row):
                 # will switch to the stub
                 key = "name" if org.get("unrecognised", False) else "stub"
                 add_unique(org[key], data["orgs"][params[1]])
+
+                # for the Somalia 3W, the programming org is the reporter
+                if params[1] == "programming":
+                    data["reported_by"] = org[key]
 
     # add the clusters
     add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
