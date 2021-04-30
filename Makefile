@@ -25,6 +25,7 @@ ACTIVITIES=output/activities.json
 ORG_INDEX=output/org-index.json
 SECTOR_INDEX=output/sector-index.json
 LOCATION_INDEX=output/location-index.json
+NETWORK=output/network.json
 
 # Supporting map files
 MAPS=inputs/dac3-sector-map.json inputs/humanitarian-cluster-map.json inputs/location-map.json inputs/org-map.json
@@ -41,7 +42,9 @@ all: index
 push-update: index
 	cd output && git add . && git commit -m "Data update" && git push origin
 
-index: index-orgs index-sectors index-locations
+index: index-orgs index-sectors index-locations gen-network
+
+gen-network: $(NETWORK)
 
 index-orgs: $(ORG_INDEX)
 
@@ -59,6 +62,9 @@ fetch-3w: $(3W_ACTIVITIES)
 #
 # File targets
 #
+
+$(NETWORK): venv $(ACTIVITIES) $(ORG_INDEX) gen-network.py iati3w_common.py
+	. $(VENV) && time python gen-network.py > $@
 
 $(ORG_INDEX): venv $(ACTIVITIES) index-orgs.py
 	. $(VENV) && time python index-orgs.py $(ACTIVITIES) > $@

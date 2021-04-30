@@ -1,8 +1,9 @@
+""" Generate a network diagram of connections among orgs """
+
 import json, sys
 
 from iati3w_common import make_token
 
-ACTIVITIES = "output/activities.json"
 ORG_INDEX = "output/org-index.json"
 
 GROUPS = {
@@ -12,19 +13,9 @@ GROUPS = {
     "unknown": 4,
 }
 
-with open(ACTIVITIES, "r") as input:
-    activities = json.load(input)
-
 with open(ORG_INDEX, "r") as input:
     org_index = json.load(input)
 
-def get_org_stubs (activity):
-    result = set()
-    for role in activity["orgs"]:
-        for stub in activity["orgs"][role]:
-            result.add(stub)
-    return result
-    
 def make_node (org):
     return (org["info"]["shortname"][:32], GROUPS[org["info"]["scope"]],)
 
@@ -36,17 +27,22 @@ nodes = set()
 
 links = {}
     
-for activity in activities.values():
+for org in org_index.values():
 
-    org_names = sorted(list(get_org_stubs(activity)))
-    for i in range(0, len(org_names)):
-        org1 = org_index[make_token(org_names[i])]
-        for j in range(i + 1, len(org_names)):
-            org2 = org_index[make_token(org_names[j])]
-            key = make_link_key(org1, org2)
-            links[key] = links.get(key, 0) + 1
-            nodes.add(make_node(org1))
-            nodes.add(make_node(org2))
+    if org["info"].get("skip", False):
+        continue
+
+    for scope in org["partners"].keys():
+        for stub in org["partners"][scope]:
+            if stub > org["info"]["stub"]:
+                partner = org_index[stub]
+                if partner is None or partner["info"].get("skip", False):
+                    continue
+                key = make_link_key(org, partner)
+                links[key] = links.get(key, 0) + 1
+                nodes.add(make_node(org))
+                nodes.add(make_node(partner))
+
 
 result = {
     "nodes": [],
