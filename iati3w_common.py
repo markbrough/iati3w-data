@@ -28,25 +28,14 @@ ORG_BLOCKLIST = [
 # Utility functions
 #
 
-def add_unique (element, l, key=None):
+def add_unique (element, l):
     """ Add an element to a list if it's not already in a list and isn't falsey
     If key is not None, assume the value to add is a dict and use the key for uniqueness.
     """
-
-    if not element:
-        # don't add if the item is falsely
-        pass
-    elif key is None:
-        # if there's no key, assume a string or something that can be forced to one
+    if element:
         s = str(element)
-        if not is_empty(s) and not s in l:
+        if (not is_empty(s)) and (s not in l):
             l.append(element)
-    else:
-        s = str(element.get(key, ""))
-        if not is_empty(s) and not s in [str(v1.get(key, None)) for v1 in l]:
-            l.append(element)
-
-    return l
 
 def normalise_string (s):
     """ Normalise whitespace in a string.

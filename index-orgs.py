@@ -8,13 +8,72 @@ Started 2021-03 by David Megginson
 
 """
 
-import json, sys
+import copy, json, sys
 from iati3w_common import * # common variables and functions
+
+TEMPLATE = {
+    "info": None,
+    "sources": [],
+    "humanitarian": False,
+    "activities": {
+        "implementing": [],
+        "programming": [],
+        "funding": [],
+    },
+    "partners": {
+        "local": {},
+        "regional": {},
+        "international": {},
+        "unknown": {},
+    },
+    "sectors": {
+        "humanitarian": {},
+        "dac": {},
+    },
+    "locations": {
+        "admin1": {},
+        "admin2": {},
+        "unclassified": {},
+    },
+    "total_activities": 0,
+}
 
 
 index = {}
 """ The index that we will export as JSON """
 
+#
+# Utility functions
+#
+
+def get_entry (org):
+    """ Return the index entry for an org, creating the entry if necessary """
+    global index
+
+    if org is None:
+        return None
+
+    stub = org["stub"]
+    if not stub in index:
+        index[stub] = copy.deepcopy(TEMPLATE)
+        index[stub]["info"] = org
+
+    return index[stub]
+
+def add_partner (org, partner):
+    """ Record one org as a partner of another
+    The function works only one way, so you need to call it twice
+    """
+    
+    global index
+
+    # we need two different orgs
+    if org is None or partner is None or org["stub"] == partner["stub"] or org.get("skip", False) or partner.get("skip", False):
+        return
+
+    stub = partner["stub"]
+    basedata = get_entry(org)["partners"][partner["scope"]]
+    basedata[stub] = 1 + basedata.get(stub, 0)
 
 #
 # Check command-line usage
@@ -30,6 +89,10 @@ with open(sys.argv[1], "r") as input:
     activities = json.load(input)
     for identifier, activity in activities.items():
 
+        # Make sure we have an entry for the reporting org
+        reporting_org = lookup_org(activity["reported_by"], create=True)
+        get_entry(reporting_org)
+
         #
         # Loop through the activity roles
         #
@@ -40,46 +103,15 @@ with open(sys.argv[1], "r") as input:
             #
             for org_name in activity["orgs"].get(role, []):
 
-                # Skip blank orgs
-                if is_empty(org_name):
-                    continue
-
+                # The org we're working on
                 org = lookup_org(org_name, create=True)
-                if org is None:
+                if org is None or org.get("skip", False):
                     continue
-
-                # Add a default record if this is the first time we've seen the org
-                index.setdefault(org["stub"], {
-                    "info": lookup_org(org["stub"], create=True),
-                    "sources": [],
-                    "humanitarian": False, # change to True if we see a humanitarian activity
-                    "activities": {
-                        "implementing": [],
-                        "programming": [],
-                        "funding": [],
-                    },
-                    "partners": {
-                        "local": {},
-                        "regional": {},
-                        "international": {},
-                        "unknown": {},
-                    },
-                    "sectors": {
-                        "humanitarian": {},
-                        "dac": {},
-                    },
-                    "locations": {
-                        "admin1": {},
-                        "admin2": {},
-                        "unclassified": {},
-                    },
-                    "total_activities": 0,
-                })
 
                 # This is the org index entry we'll be working on
-                entry = index[org["stub"]]
+                entry = get_entry(org)
 
-                # True if we see the org involve in any humanitarian activity
+                # True if we see the org involved in any humanitarian activity
                 if activity["humanitarian"]:
                     entry["humanitarian"] = True
 
@@ -90,15 +122,11 @@ with open(sys.argv[1], "r") as input:
                 entry["total_activities"] += 1;
 
                 # Add this activity to the org's index
-                entry["activities"][role].append(activity["identifier"])
+                add_unique(activity["identifier"], entry["activities"][role])
 
-                # Add the other orgs as partners (don't track roles here)
-                for role in ROLES:
-                    for partner_name in activity["orgs"][role]:
-                        partner = lookup_org(partner_name, True)
-                        if partner is not None and partner["stub"] != org["stub"]:
-                            entry["partners"][partner["scope"]].setdefault(partner["stub"], 0)
-                            entry["partners"][partner["scope"]][partner["stub"]] += 1
+                # Add the reporting org as a partner
+                add_partner(org, reporting_org)
+                add_partner(reporting_org, org)
 
                 # Add the sectors (DAC and Humanitarian)
                 for type in SECTOR_TYPES:
