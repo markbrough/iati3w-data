@@ -129,8 +129,9 @@ def make_activity(activity):
                 info = lookup_org(org.ref) or lookup_org(org.name, create=True)
                 if info is not None:
                     add_org(info, type, data)
-        try_org(transaction.receiver_org, "implementing")
-        try_org(transaction.provider_org, "funding")
+        if transaction.type in ("1", "2", "3", "11"):
+            try_org(transaction.receiver_org, "implementing")
+            try_org(transaction.provider_org, "funding")
 
     # Look up DAC sectors and humanitarian equivalents
     for vocab in ["1", "2"]:
