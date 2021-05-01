@@ -6241,7 +6241,8 @@
             "Denmark Ministry of Foreign Affairs",
             "Danida -Denmark Ministry of Foreign Affairs",
             "Danida CIV (Civil Society Development) - Ministry of Foreign Affairs of Denmark",
-            "Danida HUM (Humanitarian Action) - Ministry of Foreign Affairs of Denmark"
+            "Danida HUM (Humanitarian Action) - Ministry of Foreign Affairs of Denmark",
+            "Ministry of Foreign Affairs, Denmark"
         ],
         "shortname": "Danida",
         "iati": {
@@ -6509,11 +6510,11 @@
         },
         "iati_id": "DK-CVR-14766383"
     },
-    "Disasters Emergency Committee": {
+    "DEC": {
         "name": "Disasters Emergency Committee",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Disasters Emergency Committee",
+        "shortname": "DEC",
         "iati": {
             "code": "GB-CHC-1062638",
             "name": "Disasters Emergency Committee",
@@ -7471,7 +7472,8 @@
             "Food and Agriculture Organization of the United Nations",
             "Food and Agriculture Organization of the United Nations (FAO)",
             "The Food and Agriculture Organization of the United Nations",
-            "United Nations Food and Agriculture Organization"
+            "United Nations Food and Agriculture Organization",
+            "The Food And Agriculture Organization Of The United Nations*Organisation Des Nations Unies Pour L'Alimentation Et L'Agriculture"
         ],
         "shortname": "FAO",
         "iati": {
@@ -7512,7 +7514,9 @@
             "Foreign Commonwealth and Development Office",
             "Foreign, Commonwealth & Development Office (FCDO)",
             "UK Department for International Development (DFID)",
-            "UK Foreign Commonwealth and Development Office (FCDO)"
+            "UK Foreign Commonwealth and Development Office (FCDO)",
+            "UK - Foreign, Commonwealth and Development Office",
+            "UK - Foreign & Commonwealth Office"
         ],
         "shortname": "FCDO"
     },
@@ -7934,7 +7938,8 @@
         "scope": "international",
         "synonyms": [
             "Finland",
-            "Finland Ministry of Foreign Affairs"
+            "Finland Ministry of Foreign Affairs",
+            "Ministry for Foreign Affairs of Finland"
         ],
         "shortname": "Finland - MFA",
         "iati": {
@@ -13662,12 +13667,6 @@
         "synonyms": [],
         "shortname": "N/A"
     },
-    "NAPAD": {
-        "name": "NAPAD",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "NAPAD"
-    },
     "NARDO": {
         "name": "NARDO",
         "scope": "unknown",
@@ -14252,16 +14251,18 @@
         "shortname": "Nippon Foundation"
     },
     "NoFYL": {
-        "name": "NoFYL",
-        "scope": "unknown",
+        "name": "Northern Frontier Youth League",
+        "scope": "local",
+        "url": "https://www.nofyl.org",
         "synonyms": [],
         "shortname": "NoFYL"
     },
-    "Nomadic Assistance for Peace and Development": {
+    "NAPAD": {
         "name": "Nomadic Assistance for Peace and Development",
-        "scope": "unknown",
+        "scope": "international",
+        "url": "https://www.napad-int.org",
         "synonyms": [],
-        "shortname": "Nomadic Assistance for Peace and Development"
+        "shortname": "NAPAD"
     },
     "Nonviolent Peaceforce South Sudan": {
         "name": "Nonviolent Peaceforce South Sudan",
@@ -14298,12 +14299,6 @@
             "status": "active"
         },
         "iati_id": "NO-BRC-971277882"
-    },
-    "Northern Frontier Youth League": {
-        "name": "Northern Frontier Youth League",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Northern Frontier Youth League"
     },
     "Northern Ireland Cooperation Overseas Ltd": {
         "name": "Northern Ireland Cooperation Overseas Ltd",
@@ -14889,7 +14884,8 @@
         "synonyms": [
             "In 2004 Oxfam Novib set up a Liaison Office in Nairobi Kenya in order to support the Strengthening Somali Civil Society Program at the request of the EU This request was based on Oxfam Novib s work in Somalia to date but intended to be more widely directed atthe entire civil society sector and the specific context in which it is operating in a post conflict country The program started with consulting local organisations in Somalia and Somaliland to get a complete picture of the sectors and regions where they are active the challenges they face and the relationship between civil society local political structures and the private sector A program was then developed to strengthen the institutional development of Oxfam Novib s partners and those of other Oxfams as well as a range of new NGOs In the first year local consultants were trained in Somalia They were then seconded to civil society organisations to build their capacity in financial and organisational management Furthermore workshops were organised on specific themes suchas human rights and the role of civil society in the Somali context The Liaison Office is now going to support the expansion of the program focussing on strengthening both organisation and project management while facilitating more training in the fields of civic education governance human rights and women s rights HIV and AIDS and child protection Over the years the Somalia Country Office has expanded its intervention on short term humanitarian response as well as development development interventions In 2015 2016 a decision was reached to move the Country Programme operation which was largely in Nairobi from Nairobi to Hargeisa The country office has a small office in Nairobi Kenya and large operations office in Hargeisa Somaliland",
             "Oxfam Netherlands Novib",
-            "Stichting Oxfam Novib"
+            "Stichting Oxfam Novib",
+            "Oxfam Novib was founded in 1956 as the Netherlands Organisation for International Assistance (Novib), and joined forces with Oxfam in 1994. Oxfam Novib is member of the Oxfam International confederation. Working together in the confederation, the Oxfam affiliates can speak with one clear and compelling voice on issues of global concern: climate change, health and education for all, agriculture, trade, and conflicts and emergencies. Oxfam Novib's main office is based in The Netherlands, it supports the work of a network of local offices, the implementation of global projects, fundraising, campaigning and advocacy. Oxfam Novibs the Hague office contributes towards this projects implementation."
         ],
         "shortname": "Oxfam Novib",
         "iati": {
@@ -16817,8 +16813,9 @@
         "shortname": "SAREDO"
     },
     "SAYS": {
-        "name": "SAYS",
-        "scope": "unknown",
+        "name": "Somali Association for Youth Salvation",
+        "scope": "local",
+        "url": "https://sayssom.org/",
         "synonyms": [],
         "shortname": "SAYS"
     },
@@ -16931,8 +16928,8 @@
         "shortname": "SEDO"
     },
     "SERDO": {
-        "name": "SERDO",
-        "scope": "unknown",
+        "name": "Social Empowerment, Rehabilitation and Development Organization",
+        "scope": "local",
         "synonyms": [],
         "shortname": "SERDO"
     },
@@ -17098,23 +17095,25 @@
         "synonyms": [],
         "shortname": "SOS"
     },
-    "SOS CV": {
-        "name": "SOS CV",
+    "SOS-CV": {
+        "name": "SOS Children's Villages",
         "scope": "unknown",
-        "synonyms": [],
-        "shortname": "SOS CV"
+        "synonyms": [
+            "SOS Kinderdorf"
+        ],
+        "shortname": "SOS-CV"
     },
-    "SOS Children s Villages Somalia": {
-        "name": "SOS Children s Villages Somalia",
+    "SOS-CV Somalia": {
+        "name": "SOS Children's Villages Somalia",
         "scope": "international",
         "synonyms": [],
-        "shortname": "SOS Children s Villages Somalia"
+        "shortname": "SOS-CV Somalia"
     },
-    "SOS Children's Villages Kenya": {
+    "SOS-CV Kenya": {
         "name": "SOS Children's Villages Kenya",
-        "scope": "regional",
+        "scope": "international",
         "synonyms": [],
-        "shortname": "SOS Children's Villages Kenya",
+        "shortname": "SOS-CV Kenya",
         "iati": {
             "code": "KE-NGCB-149",
             "name": "SOS Children's Villages Kenya",
@@ -17126,11 +17125,13 @@
         },
         "iati_id": "KE-NGCB-149"
     },
-    "SOS Children's Villages The Netherlands": {
+    "SOS-CV Netherlands": {
         "name": "SOS Children's Villages The Netherlands",
         "scope": "international",
-        "synonyms": [],
-        "shortname": "SOS Children's Villages The Netherlands",
+        "synonyms": [
+            "SOS Children#s Villages Netherlands has been part of SOS Children#s Villages International, a global federation working to protect and care for children who have lost parental care or who stand at risk of losing it, since 1965. SOS Children#s Villages work with communities, states and partners to ensure that the rights of children are fulfilled and to provide children with loving and supportive alternative care. The organisation works in 135 countries and territories all around the world. Each year, hundreds of thousands of children are supported with alternative care, education, health care, family strengthening and emergency assistance."
+        ],
+        "shortname": "SOS-CV Netherlands",
         "iati": {
             "code": "NL-KVK-41197577",
             "name": "SOS Children's Villages The Netherlands",
@@ -17158,17 +17159,11 @@
         },
         "iati_id": "BE-BCE_KBO-0425410524"
     },
-    "SOS Kinderdorf": {
-        "name": "SOS Kinderdorf",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "SOS Kinderdorf"
-    },
-    "SOS Kinderdorpen Belgi\u00eb / SOS Villages d'Enfants Belgique": {
+    "SOS-CV Belgium": {
         "name": "SOS Kinderdorpen Belgi\u00eb / SOS Villages d'Enfants Belgique",
         "scope": "international",
         "synonyms": [],
-        "shortname": "SOS Kinderdorpen Belgi\u00eb / SOS Villages d'Enfants Belgique",
+        "shortname": "SOS-CV Belgium",
         "iati": {
             "code": "BE-BCE_KBO-0408628435",
             "name": "SOS Kinderdorpen Belgi\u00eb / SOS Villages d'Enfants Belgique",
@@ -17315,9 +17310,12 @@
         "shortname": "STS"
     },
     "SVDG": {
-        "name": "SVDG",
-        "scope": "unknown",
-        "synonyms": [],
+        "name": "Somali Vision Development Group",
+        "scope": "local",
+        "url": "http://svdg.so",
+        "synonyms": [
+            "Somali Vision Development"
+        ],
         "shortname": "SVDG"
     },
     "SWDC": {
@@ -18146,12 +18144,6 @@
         "synonyms": [],
         "shortname": "Somali Development Rehabilitation Organisation"
     },
-    "Somali Vision Development": {
-        "name": "Somali Vision Development",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Somali Vision Development"
-    },
     "Somalia Ministry of Women & Human Rights Development": {
         "name": "Somalia Ministry of Women & Human Rights Development",
         "scope": "local",
@@ -18582,7 +18574,9 @@
     "Stichting Red een Kind": {
         "name": "Stichting Red een Kind",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Help a Child (in Dutch: Red een Kind) is a Christian, international relief and development organization, founded in 1968 in The Netherlands. Help a Child provides a future for children in need, their family and their entire community.By empowering vulnerable communities Help a Child supports them to change their own living conditions and opportunities in a sustainable way. Help a Child works in areas with a high incidence of poverty or in places where children and families are extra vulnerable due to disasters or (imminent) conflicts."
+        ],
         "shortname": "Stichting Red een Kind",
         "iati": {
             "code": "NL-KVK-41022454",
@@ -18865,16 +18859,13 @@
         "synonyms": [],
         "shortname": "TAADO"
     },
-    "TAAKULO": {
-        "name": "TAAKULO",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "TAAKULO"
-    },
     "TASCO": {
-        "name": "TASCO",
-        "scope": "unknown",
-        "synonyms": [],
+        "name": "Taakulo Somali Community",
+        "scope": "local",
+        "url": "https://www.taakulo.org/",
+        "synonyms": [
+            "Taakulo"
+        ],
         "shortname": "TASCO"
     },
     "TASS": {
@@ -19804,11 +19795,14 @@
         },
         "iati_id": "US-EIN-941655673"
     },
-    "The World Bank": {
-        "name": "The World Bank",
+    "World Bank": {
+        "name": "World Bank",
         "scope": "unknown",
-        "synonyms": [],
-        "shortname": "The World Bank",
+        "synonyms": [
+            "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT",
+            "The World Bank"
+        ],
+        "shortname": "World Bank",
         "iati": {
             "code": "44000",
             "name": "The World Bank",
@@ -20604,7 +20598,9 @@
         "scope": "international",
         "synonyms": [
             "United Nations Joint Programme on HIV and AIDS Secretariat (UNAIDS)",
-            "Joint United Nations Programme on HIV/AIDS"
+            "Joint United Nations Programme on HIV/AIDS",
+            "The Joint United Nations Programme on HIV and AIDS (UNAIDS) Secretariat",
+            "The Joint United Nations Programme on HIV/AIDS (UNAIDS)"
         ],
         "shortname": "UNAIDS",
         "iati": {
@@ -21491,7 +21487,8 @@
             "Government",
             "Governmental donors of unearmarked and flexible funds",
             "MINISTRY OF FOREIGN AFFAIRS",
-            "Ministry for Foreign Affairs"
+            "Ministry for Foreign Affairs",
+            "Gouvernement du donneur"
         ],
         "shortname": "Unspecified government actors"
     },
@@ -22101,12 +22098,6 @@
             "Women and Child Care Organization (WOCCA)"
         ],
         "shortname": "WOCCA"
-    },
-    "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ": {
-        "name": "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT ",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT "
     },
     "WPPL": {
         "name": "WPPL",
@@ -22858,16 +22849,6 @@
         },
         "iati_id": "GB-COH-2082273"
     },
-    "World Bank": {
-        "name": "World Bank",
-        "scope": "international",
-        "synonyms": [
-            "World Bank Group WB",
-            "World Bank The",
-            "World Bank Washington D C"
-        ],
-        "shortname": "World Bank"
-    },
     "World Bank Trust Funds": {
         "name": "World Bank Trust Funds",
         "scope": "international",
@@ -23147,7 +23128,8 @@
         "scope": "international",
         "synonyms": [
             "WVI",
-            "World Vision"
+            "World Vision",
+            "World Vision is a Christian humanitarian organization dedicated to working with children, families, and their communities worldwideto reach their full potential by tackling the causes of poverty and injustice. World Vision works in nearly 100 countries, servingall people, regardless of religion, race, ethnicity, or gender."
         ],
         "shortname": "WVI",
         "iati": {
@@ -23453,7 +23435,8 @@
     },
     "Zamzam Foundation": {
         "name": "Zamzam Foundation",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "https://zamzamsom.org/",
         "synonyms": [],
         "shortname": "Zamzam Foundation"
     },
