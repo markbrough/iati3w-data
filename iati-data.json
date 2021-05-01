@@ -16,8 +16,7 @@
                 "islamic-relief-worldwide"
             ],
             "funding": [
-                "dec",
-                "islamic-relief-worldwide"
+                "dec"
             ]
         },
         "sectors": {
@@ -2545,8 +2544,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Non-CCM Somalia",
-                "the-global-fund-to-fight-aids-tuberculosis-and-malaria"
+                "Non-CCM Somalia"
             ],
             "programming": [
                 "Non-CCM Somalia"
@@ -2589,8 +2587,7 @@
         "orgs": {
             "implementing": [
                 "unicef",
-                "Non-CCM Somalia",
-                "the-global-fund-to-fight-aids-tuberculosis-and-malaria"
+                "Non-CCM Somalia"
             ],
             "programming": [
                 "unicef",
@@ -2634,8 +2631,7 @@
         "orgs": {
             "implementing": [
                 "unicef",
-                "Non-CCM Somalia",
-                "the-global-fund-to-fight-aids-tuberculosis-and-malaria"
+                "Non-CCM Somalia"
             ],
             "programming": [
                 "unicef",
@@ -4213,9 +4209,7 @@
         "orgs": {
             "implementing": [],
             "programming": [],
-            "funding": [
-                "ifrc"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -4249,9 +4243,7 @@
         "orgs": {
             "implementing": [],
             "programming": [],
-            "funding": [
-                "ifrc"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -4285,9 +4277,7 @@
         "orgs": {
             "implementing": [],
             "programming": [],
-            "funding": [
-                "ifrc"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -4575,8 +4565,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -4616,8 +4605,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -4660,8 +4648,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -4703,8 +4690,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -4744,8 +4730,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -4785,8 +4770,7 @@
                 "concern-worldwide"
             ],
             "funding": [
-                "concern-worldwide-uk",
-                "concern-worldwide"
+                "concern-worldwide-uk"
             ]
         },
         "sectors": {
@@ -12850,10 +12834,7 @@
             ],
             "funding": [
                 "netherlands-mfa",
-                "stichting-beheer-subsidiegelden-dra",
-                "cordaid",
-                "oxfam",
-                "Stichting World Vision Nederland"
+                "stichting-beheer-subsidiegelden-dra"
             ]
         },
         "sectors": {
@@ -13526,9 +13507,7 @@
         "description": "Global objective:The overall objective of this assignment is to enhance the visibility and communication of the European Union in Somalia and improve awareness and recognition of the EU-Somalia partnership in all relevant sectors of cooperation (political, economic, development and other major policy areas of common interest, in line with EU visibility guidelines ). Specific objectives:-#61656;Specific objective 1: Support the staff of the EU Delegation to Somalia to review its work o",
         "active": true,
         "orgs": {
-            "implementing": [
-                "Particip Gmbh"
-            ],
+            "implementing": [],
             "programming": [
                 "european-development-fund"
             ],
@@ -13610,9 +13589,7 @@
         "description": "To conduct independent and objective monitoring activities of EU Priority projects implemented in various regions in Somalia funded under the EUTF and the EDF funding instruments.n provides enough details to be clear and fully understandable. Pay attention to typo's and avoid using acronyms nor mention natural persons.",
         "active": true,
         "orgs": {
-            "implementing": [
-                "Particip Gmbh"
-            ],
+            "implementing": [],
             "programming": [
                 "european-development-fund"
             ],
@@ -13778,9 +13755,7 @@
         "description": "The overall objective of the project of which this contract will be a part is as follows:To strengthen capacity at federal and member state levels to shape and implement sound education policies and programmes that enhance provision of equitable and inclusive quality education for Somali children, youth and adults.  (Refer to the Organisation and Methodology)",
         "active": true,
         "orgs": {
-            "implementing": [
-                "Adam Smith Europe Bv"
-            ],
+            "implementing": [],
             "programming": [
                 "european-development-fund"
             ],
@@ -13822,9 +13797,7 @@
         "description": "Procurement for airline tickets for two experts to travel to Somaliland to carry out a scoping study on the Las Geel Heritage Site to inform on potential future EU support to the site in relation to EU support to the culture and youth sectors in Somalia/Somaliland.",
         "active": false,
         "orgs": {
-            "implementing": [
-                "Elite Travel Services Limited"
-            ],
+            "implementing": [],
             "programming": [
                 "european-development-fund"
             ],
@@ -17616,7 +17589,6 @@
         "orgs": {
             "implementing": [
                 "king-s-college-london",
-                "GB-COH-RC000297",
                 "GB-COH-03580586"
             ],
             "programming": [],
@@ -28326,21 +28298,13 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "irc",
-                "International Rescue Committee Inc. (2SS-South Sudan)"
+                "irc"
             ],
             "programming": [
                 "irc"
             ],
             "funding": [
                 "international-planned-parenthood-federation",
-                "irc",
-                "Ethiopia",
-                "government-of-somalia",
-                "International Rescue Committee Inc. (2ET-Ethiopia)",
-                "International Rescue Committee Inc. (2SO-Somalia)",
-                "International Rescue Committee Inc. (2UA-Uganda)",
-                "International Rescue Committee Inc. (U.S.)",
                 "international-rescue-committee-uk"
             ]
         },
@@ -28948,7 +28912,6 @@
             "funding": [
                 "fcdo",
                 "cowater-international-inc",
-                "mercy-corps",
                 "CoWater"
             ]
         },
@@ -29036,40 +28999,18 @@
             "implementing": [
                 "relief-international",
                 "cisp",
-                "Fees - local",
-                "Grants or bursaries",
-                "IT and Office equipment",
-                "Overheads",
-                "Hotel accommodation and subsistence costs",
-                "Support costs",
-                "Training material costs",
-                "Travel - International",
-                "Travel - local",
-                "Education supplies",
-                "Expenses relating to assets",
-                "Fees - international",
-                "Q10 Funds received from FM",
-                "26526",
                 "RELIEF INTERNATIONAL- SOMALIA",
                 "Relief International- Somalia",
                 "Mobilization funds ADRA",
                 "Mobilization funds CISP",
-                "RI -Q1 and Q2 EGEP -T Reimbursement",
                 "EGEP-T -CISP Q1& Q2 disbursement",
                 "EGEP-T ADRA Q1&Q2 Disbursement",
                 "EGEP-T CISP Q3 Disbursement",
-                "EGEP-T RI Q3 reimbursement",
                 "EGEP-T CISP Q4 Disbursement",
-                "EGEP T RI Q4 Reimbursement",
                 "EGEP TQ3 ADRA Disbursement",
                 "Relief International -Somalia",
-                "Relief International - Somalia",
-                "Travel Local",
-                "Vehicles",
                 "Q8 funds disbursed to ADRA",
-                "Incoming funds from PWC",
                 "Q8 Funds disbursed to CISP.",
-                "Q9 Funds received from PWC",
                 "Q9 Funds disbursed to ADRA.",
                 "Q9 Funds disbursed to CISP.",
                 "Q13 Reimbursement.",
@@ -29081,21 +29022,14 @@
             ],
             "funding": [
                 "girls-education-challenge-fund-manager-pwc",
-                "Girls Education Cahallenge- Fund Manager PWC",
                 "EGEP-T Fund manager - PWC",
                 "EGEP T \u2013 Fund Manager PwC",
                 "Mobilization funds CISP",
-                "RI -Q1 and Q2 EGEP -T Reimbursement",
                 "EGEP-T CISP Q3 Disbursement",
-                "EGEP-T RI Q3 reimbursement",
                 "EGEP-T CISP Q4 Disbursement",
-                "EGEP T RI Q4 Reimbursement",
                 "EGEP TQ3 ADRA Disbursement",
                 "EGEP T- Fund manager- PWC",
-                "EGEPT- Fund Manager PWC",
-                "Girls Education Challenge - PWC fund manager",
-                "Girls Education Challenge- PWC Fund manager",
-                "Girls Education Challenge"
+                "EGEPT- Fund Manager PWC"
             ]
         },
         "sectors": {
@@ -29131,15 +29065,13 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "international-medical-corps-uk",
-                "IMC UK"
+                "international-medical-corps-uk"
             ],
             "programming": [
                 "international-medical-corps-uk"
             ],
             "funding": [
-                "action-against-hunger-uk",
-                "international-medical-corps-uk"
+                "action-against-hunger-uk"
             ]
         },
         "sectors": {
