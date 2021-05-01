@@ -570,7 +570,7 @@
         "shortname": "ASEP"
     },
     "ASK Nepal": {
-        "name": "Aapasi Sahayog Kendra Syangja Nepal (ASK Nepal)",
+        "name": "Aapasi Sahayog Kendra Syangja Nepal",
         "scope": "international",
         "synonyms": [
             "Aapasi Sahayog Kendra Syangja Nepal (ASK Nepal)"
@@ -781,11 +781,11 @@
         },
         "iati_id": "GB-COH-10633588"
     },
-    "Academy for Health Development (AHEAD)": {
-        "name": "Academy for Health Development (AHEAD)",
+    "AHEAD": {
+        "name": "Academy for Health Development",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Academy for Health Development (AHEAD)",
+        "shortname": "AHEAD",
         "iati": {
             "code": "NG-CAC-692943",
             "name": "Academy for Health Development (AHEAD)",
@@ -1028,11 +1028,11 @@
         },
         "iati_id": "BD-NAB-0210"
     },
-    "ActionAid Denmark (Mellemfolkeligt Samvirke)": {
-        "name": "ActionAid Denmark (Mellemfolkeligt Samvirke)",
+    "ActionAid Denmark - Mellemfolkeligt Samvirke": {
+        "name": "ActionAid Denmark - Mellemfolkeligt Samvirke",
         "scope": "international",
         "synonyms": [],
-        "shortname": "ActionAid Denmark (Mellemfolkeligt Samvirke)",
+        "shortname": "ActionAid Denmark - Mellemfolkeligt Samvirke",
         "iati": {
             "code": "DK-CVR-18243717",
             "name": "ActionAid Denmark (Mellemfolkeligt Samvirke)",
@@ -1272,22 +1272,6 @@
         },
         "iati_id": "GB-CHC-1045348"
     },
-    "Afghanistan Public Policy Research Organization (APPRO)": {
-        "name": "Afghanistan Public Policy Research Organization (APPRO)",
-        "scope": "international",
-        "synonyms": [],
-        "shortname": "Afghanistan Public Policy Research Organization (APPRO)",
-        "iati": {
-            "code": "AF-MOE-1212",
-            "name": "Afghanistan Public Policy Research Organization (APPRO)",
-            "codeforiati:organisation-type-code": "80",
-            "codeforiati:organisation-type": "Academic, Training and Research",
-            "codeforiati:hq-country-or-region": "Afghanistan",
-            "codeforiati:registry-identifier": "appro-af",
-            "status": "active"
-        },
-        "iati_id": "AF-MOE-1212"
-    },
     "Afghanistan and Central Asian Association": {
         "name": "Afghanistan and Central Asian Association",
         "scope": "international",
@@ -1358,11 +1342,11 @@
         },
         "iati_id": "BE-BCE_KBO-0474198059"
     },
-    "African Center for Economic Transformation (ACET)": {
-        "name": "African Center for Economic Transformation (ACET)",
+    "ACET": {
+        "name": "African Center for Economic Transformation",
         "scope": "international",
         "synonyms": [],
-        "shortname": "African Center for Economic Transformation (ACET)",
+        "shortname": "ACET",
         "iati": {
             "code": "US-EIN-11-3803281",
             "name": "African Center for Economic Transformation (ACET)",
@@ -20788,7 +20772,7 @@
         "iati_id": "XM-DAC-41121"
     },
     "UNICEF": {
-        "name": "United Nations Children's Fund (UNICEF)",
+        "name": "United Nations Children's Fund",
         "scope": "international",
         "synonyms": [
             "Belgian Committee for UNICEF",
@@ -20838,13 +20822,9 @@
         "iati_id": "NL-KVK-27102631"
     },
     "UNIDO": {
-        "name": "United Nations Industrial Development Organization (UNIDO)",
+        "name": "United Nations Industrial Development Organization",
         "scope": "international",
-        "synonyms": [
-            "UNIDO",
-            "United Nations Industrial Development Organization",
-            "United Nations Industrial Development Organization (UNIDO)"
-        ],
+        "synonyms": [],
         "shortname": "UNIDO",
         "iati": {
             "code": "XM-DAC-41123",
