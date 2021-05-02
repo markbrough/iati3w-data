@@ -15870,7 +15870,6 @@
                 "sos-children-s-village": 3,
                 "har-hub-was-founded-after-realizing-that-the-unemployment-rate-a": 1,
                 "hargeisa-hub": 1,
-                "gargaar-relief-and-development-organization": 1,
                 "save-the-children-has-worked-in-somalia-somaliland-since-1951-wh": 1
             }
         },
@@ -21181,7 +21180,7 @@
             "url": "https://www.gredosom.org/",
             "synonyms": [
                 "GREDO",
-                "Gargaar Relief Development Organization (GREDO)",
+                "Gargaar Relief and Development Organization",
                 "Gargaar Relief Development Organization (GREDO) is a local non-profit, non-governmental humanitarian and development organization with its Headquarters in Baidoa and have sub-offices across south central Somalia. GREDO focuses so much on aspects of emergency, humanitarian responses and development/resilience programmes. GREDOs programmatic themes includes education, Health, WASH, livelihoods, Environmental management and governance with a focus on human rights, access to justice, women empowerment andprotection of the vulnerable communities and individuals especially IDPs, refugees and returnees. GREDO has been able to nurture and grow strong and vibrant partnerships and collaboration with a range of stakeholders including the regional states and the Federal government, the local community, international NGOs, UN agencies and Donors. Vision A prosperous, healthy, and happy community where peace presides andpeople live with dignity. Mission To improve the standards of living of the served communities by delivering Effective Emergency Response and Resilience interventions, promoting local capacities and resources; and sustainable development interventions in partnership with local, international, public, private institutions and civil society organizations."
             ],
             "shortname": "GREDO",
@@ -21361,47 +21360,6 @@
             }
         },
         "total_activities": 73
-    },
-    "gargaar-relief-and-development-organization": {
-        "info": {
-            "name": "GARGAAR RELIEF AND DEVELOPMENT ORGANIZATION",
-            "shortname": "GARGAAR RELIEF AND DEVELOPMENT ORGANIZATION",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "gargaar-relief-and-development-organization"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "NL-KVK-27108436-A-06571-10:SO"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "oxfam-novib": 1
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {},
-            "dac": {
-                "Other Social Infrastructure & Services": 1
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 1
     },
     "wasda": {
         "info": {

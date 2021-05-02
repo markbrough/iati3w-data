@@ -3692,23 +3692,6 @@
             ]
         },
         {
-            "stub": "gargaar-relief-and-development-organization",
-            "name": "GARGAAR RELIEF AND DEVELOPMENT ORGANIZATION",
-            "shortname": "GARGAAR RELIEF AND DEVELOPMENT ORGANIZATION",
-            "humanitarian": true,
-            "sources": [
-                "IATI"
-            ],
-            "scope": "unknown",
-            "sectors": {
-                "humanitarian": [],
-                "dac": [
-                    "Other Social Infrastructure & Services"
-                ]
-            },
-            "admin1": []
-        },
-        {
             "stub": "wasda",
             "name": "Wajir South Development Association",
             "shortname": "WASDA",
@@ -17052,11 +17035,6 @@
         {
             "source": "gredo",
             "target": "sci",
-            "value": 1
-        },
-        {
-            "source": "gargaar-relief-and-development-organization",
-            "target": "oxfam-novib",
             "value": 1
         },
         {
