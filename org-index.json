@@ -38635,7 +38635,7 @@
             "local": {},
             "regional": {
                 "amodefa": 1,
-                "chama-cha-uzazi-na-malezi-bora-tanzania-umati": 1
+                "umati": 1
             },
             "international": {
                 "irc": 2,
@@ -41644,12 +41644,12 @@
         },
         "total_activities": 1
     },
-    "chama-cha-uzazi-na-malezi-bora-tanzania-umati": {
+    "umati": {
         "info": {
-            "name": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
+            "name": "Chama cha Uzazi na Malezi Bora Tanzania",
             "scope": "regional",
             "synonyms": [],
-            "shortname": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
+            "shortname": "UMATI",
             "iati": {
                 "code": "TZ-TRA-101-304-795",
                 "name": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
@@ -41660,7 +41660,7 @@
                 "status": "active"
             },
             "iati_id": "TZ-TRA-101-304-795",
-            "stub": "chama-cha-uzazi-na-malezi-bora-tanzania-umati"
+            "stub": "umati"
         },
         "sources": [
             "IATI"
