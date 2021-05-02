@@ -14690,7 +14690,10 @@
         },
         "partners": {
             "local": {
-                "waapo": 1
+                "waapo": 1,
+                "jmac": 2,
+                "smac": 3,
+                "bmac": 1
             },
             "regional": {},
             "international": {
@@ -14698,11 +14701,7 @@
                 "unhcr": 10,
                 "wfp": 1
             },
-            "unknown": {
-                "jmac": 2,
-                "smac": 3,
-                "bmac": 1
-            }
+            "unknown": {}
         },
         "sectors": {
             "humanitarian": {
@@ -59594,14 +59593,14 @@
             "funding": []
         },
         "partners": {
-            "local": {},
+            "local": {
+                "jmac": 13
+            },
             "regional": {},
             "international": {
                 "ukroboronservice": 166
             },
-            "unknown": {
-                "jmac": 13
-            }
+            "unknown": {}
         },
         "sectors": {
             "humanitarian": {
@@ -60224,8 +60223,8 @@
     },
     "jmac": {
         "info": {
-            "name": "JMAC",
-            "scope": "unknown",
+            "name": "Jubaland Mine Action Center",
+            "scope": "local",
             "synonyms": [],
             "shortname": "JMAC",
             "stub": "jmac"
@@ -60418,8 +60417,8 @@
     },
     "smac": {
         "info": {
-            "name": "SMAC",
-            "scope": "unknown",
+            "name": "South Mine Action Center",
+            "scope": "local",
             "synonyms": [],
             "shortname": "SMAC",
             "stub": "smac"
@@ -60468,8 +60467,8 @@
     },
     "bmac": {
         "info": {
-            "name": "BMAC",
-            "scope": "unknown",
+            "name": "Banadir Mine Action Center",
+            "scope": "local",
             "synonyms": [],
             "shortname": "BMAC",
             "stub": "bmac"
