@@ -2541,8 +2541,8 @@
         "iati_id": "GB-COH-OC305127"
     },
     "BMAC": {
-        "name": "BMAC",
-        "scope": "unknown",
+        "name": "Banadir Mine Action Center",
+        "scope": "local",
         "synonyms": [],
         "shortname": "BMAC"
     },
@@ -4498,11 +4498,11 @@
         },
         "iati_id": "IT-CF-95008730160"
     },
-    "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)": {
-        "name": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
+    "Chama cha Uzazi na Malezi Bora Tanzania": {
+        "name": "Chama cha Uzazi na Malezi Bora Tanzania",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
+        "shortname": "UMATI",
         "iati": {
             "code": "TZ-TRA-101-304-795",
             "name": "Chama cha Uzazi na Malezi Bora Tanzania (UMATI)",
@@ -11555,8 +11555,8 @@
         "shortname": "JIRA"
     },
     "JMAC": {
-        "name": "JMAC",
-        "scope": "unknown",
+        "name": "Jubaland Mine Action Center",
+        "scope": "local",
         "synonyms": [],
         "shortname": "JMAC"
     },
@@ -11697,11 +11697,13 @@
         "synonyms": [],
         "shortname": "Juba Foundation"
     },
-    "Jubbaland Mine action network JUMAN ": {
-        "name": "Jubbaland Mine action network JUMAN ",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Jubbaland Mine action network JUMAN "
+    "JUMAN": {
+        "name": "Jubaland Mine Action Network",
+        "scope": "local",
+        "synonyms": [
+            "Jubbaland Mine Action Network"
+        ],
+        "shortname": "JUMAN"
     },
     "Just Associates": {
         "name": "Just Associates",
@@ -17000,8 +17002,8 @@
         "shortname": "SIR"
     },
     "SMAC": {
-        "name": "SMAC",
-        "scope": "unknown",
+        "name": "South Mine Action Center",
+        "scope": "local",
         "synonyms": [],
         "shortname": "SMAC"
     },
