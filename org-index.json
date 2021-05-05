@@ -57582,13 +57582,13 @@
         },
         "partners": {
             "local": {},
-            "regional": {},
+            "regional": {
+                "sadag": 1
+            },
             "international": {
                 "mrgi": 2
             },
-            "unknown": {
-                "sadag": 1
-            }
+            "unknown": {}
         },
         "sectors": {
             "humanitarian": {
@@ -65305,8 +65305,8 @@
     },
     "sadag": {
         "info": {
-            "name": "SADAG",
-            "scope": "unknown",
+            "name": "South African Depression and Anxiety Group",
+            "scope": "regional",
             "synonyms": [],
             "shortname": "SADAG",
             "stub": "sadag"

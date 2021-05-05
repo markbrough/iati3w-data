@@ -14111,13 +14111,13 @@
         },
         {
             "stub": "sadag",
-            "name": "SADAG",
+            "name": "South African Depression and Anxiety Group",
             "shortname": "SADAG",
             "humanitarian": true,
             "sources": [
                 "3W"
             ],
-            "scope": "unknown",
+            "scope": "regional",
             "sectors": {
                 "humanitarian": [
                     "Water Sanitation Hygiene"
@@ -19124,12 +19124,12 @@
         },
         {
             "source": "lrdo",
-            "target": "mrgi",
+            "target": "sadag",
             "value": 1
         },
         {
             "source": "lrdo",
-            "target": "sadag",
+            "target": "mrgi",
             "value": 1
         },
         {
