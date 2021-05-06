@@ -107,10 +107,9 @@ Location-matching map: [inputs/location-map.json](inputs/location-map.json)
 
 The scripts map all DAC3 and DAC5 purpose codes in IATI data to the higher-level OECD DAC groups, using [inputs/dac3-sector-map.json](inputs/dac3-sector-map.json). That table also includes mappings from DAC sectors to humanitarian clusters, so that we can assign more IATI activities to the same clusters as 3W activities. You can find all of the mappings in the file.
 
+## Credits
 
-## Author
-
-Started by David Megginson.
+Started by David Megginson, on behalf of Development Initiatives. Thank you to the Netherlands Ministry of Foreign Affairs for their generous support.
 
 ## License
 
