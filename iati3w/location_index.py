@@ -2,7 +2,7 @@
 
 Usage:
 
-python3 index-locations.py output/activities.json > output/location-index.json
+    python3 -m iati3w.location_index output/3w-data.json output/iati-data.json > output/location-index.json
 
 Started 2021-03 by David Megginson
 
@@ -10,7 +10,7 @@ Started 2021-03 by David Megginson
 
 import json, sys
 
-from iati3w_common import * # common variables and functions
+from .common import * # common variables and functions
 
 index = {}
 """ The index that we will export as JSON """

@@ -1,8 +1,14 @@
-""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward """
+""" Print a JSON summary of all IATI activities for Somalia from 2020-01-01 forward 
+
+Usage:
+
+    python3 -m iati3w.activities_iati downloads/iati-*.xml > outputs/iati-data.json
+
+"""
 
 import diterator, json, sys
 
-from iati3w_common import *
+from .common import *
 
 #
 # Utility functions

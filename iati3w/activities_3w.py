@@ -1,8 +1,14 @@
-""" Import data from the latest Somalia 3W """
+""" Import data from the latest Somalia 3W 
+
+Usage:
+
+    python3 -m iati3w.activities_3w downloads/3w-*.csv > output/3w-data.json
+
+"""
 
 import hxl, hashlib, json, sys
 
-from iati3w_common import *
+from .common import *
 
 
 #

@@ -25,7 +25,6 @@ ACTIVITIES=output/activities.json
 ORG_INDEX=output/org-index.json
 SECTOR_INDEX=output/sector-index.json
 LOCATION_INDEX=output/location-index.json
-NETWORK=output/network.json
 
 # Supporting map files
 MAPS=inputs/dac3-sector-map.json inputs/humanitarian-cluster-map.json inputs/location-map.json inputs/org-map.json
@@ -42,9 +41,7 @@ all: index
 push-update: index
 	cd output && git add . && git commit -m "Data update" && git push origin
 
-index: index-orgs index-sectors index-locations merge-activities gen-network
-
-gen-network: $(NETWORK)
+index: index-orgs index-sectors index-locations merge-activities
 
 index-orgs: $(ORG_INDEX)
 
@@ -58,31 +55,30 @@ fetch-iati: $(IATI_ACTIVITIES)
 
 fetch-3w: $(3W_ACTIVITIES)
 
+.DELETE_ON_ERROR:
+
 
 #
 # File targets
 #
 
-$(NETWORK): venv $(ACTIVITIES) $(ORG_INDEX) gen-network.py iati3w_common.py
-	. $(VENV) && time python gen-network.py > $@
+$(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) iati3w/merge.py iati3w/common.py
+	. $(VENV) && time python -m iati3w.merge $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py iati3w_common.py
-	. $(VENV) && time python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+$(ORG_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) iati3w/org_index.py
+	. $(VENV) && time python -m iati3w.org_index $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(ORG_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-orgs.py
-	. $(VENV) && time python index-orgs.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+$(SECTOR_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) iati3w/sector_index.py iati3w/common.py
+	. $(VENV) && time python -m iati3w.sector_index $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(SECTOR_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-sectors.py iati3w_common.py
-	. $(VENV) && time python index-sectors.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+$(LOCATION_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) iati3w/location_index.py iati3w/common.py
+	. $(VENV) && time python -m iati3w.location_index $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
-$(LOCATION_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-locations.py iati3w_common.py
-	. $(VENV) && time python index-locations.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+$(IATI_ACTIVITIES): venv iati3w/activities_iati.py iati3w/common.py $(MAPS) $(DOWNLOADS)
+	. $(VENV) && mkdir -p output && time python -m iati3w.activities_iati downloads/iati*.xml > $@
 
-$(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py $(MAPS) $(DOWNLOADS)
-	. $(VENV) && mkdir -p output && time python fetch-iati-data.py downloads/iati*.xml > $@
-
-$(3W_ACTIVITIES): venv fetch-3w-data.py iati3w_common.py $(MAPS) $(DOWNLOADS)
-	. $(VENV) && mkdir -p output && time python fetch-3w-data.py downloads/3w*.csv > $@
+$(3W_ACTIVITIES): venv iati3w/activities_3w.py iati3w/common.py $(MAPS) $(DOWNLOADS)
+	. $(VENV) && mkdir -p output && time python -m iati3w.activities_3w downloads/3w*.csv > $@
 
 $(DOWNLOADS): download-data.sh
 	bash download-data.sh

@@ -2,14 +2,14 @@
 
 Usage:
 
-python3 index-sectors.py output/activities.json > output/sector-index.json
+    python3 -m iati3w.sector_index output/3w-data.json output/iati-data.json > output/sector-index.json
 
 Started 2021-03 by David Megginson
 
 """
 
 import json, sys
-from iati3w_common import * # common variables and functions
+from .common import * # common variables and functions
 
 
 index = {}
