@@ -42,7 +42,7 @@ all: index
 push-update: index
 	cd output && git add . && git commit -m "Data update" && git push origin
 
-index: index-orgs index-sectors index-locations gen-network
+index: index-orgs index-sectors index-locations merge-activities gen-network
 
 gen-network: $(NETWORK)
 
@@ -66,17 +66,17 @@ fetch-3w: $(3W_ACTIVITIES)
 $(NETWORK): venv $(ACTIVITIES) $(ORG_INDEX) gen-network.py iati3w_common.py
 	. $(VENV) && time python gen-network.py > $@
 
-$(ORG_INDEX): venv $(ACTIVITIES) index-orgs.py
-	. $(VENV) && time python index-orgs.py $(ACTIVITIES) > $@
-
-$(SECTOR_INDEX): venv $(ACTIVITIES) index-sectors.py iati3w_common.py
-	. $(VENV) && time python index-sectors.py $(ACTIVITIES) > $@
-
-$(LOCATION_INDEX): venv $(ACTIVITIES) index-locations.py iati3w_common.py
-	. $(VENV) && time python index-locations.py $(ACTIVITIES) > $@
-
 $(ACTIVITIES): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) merge-activities.py iati3w_common.py
 	. $(VENV) && time python merge-activities.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+
+$(ORG_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-orgs.py
+	. $(VENV) && time python index-orgs.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+
+$(SECTOR_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-sectors.py iati3w_common.py
+	. $(VENV) && time python index-sectors.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
+
+$(LOCATION_INDEX): venv $(IATI_ACTIVITIES) $(3W_ACTIVITIES) index-locations.py iati3w_common.py
+	. $(VENV) && time python index-locations.py $(IATI_ACTIVITIES) $(3W_ACTIVITIES) > $@
 
 $(IATI_ACTIVITIES): venv fetch-iati-data.py iati3w_common.py $(MAPS) $(DOWNLOADS)
 	. $(VENV) && mkdir -p output && time python fetch-iati-data.py downloads/iati*.xml > $@

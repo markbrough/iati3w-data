@@ -78,69 +78,73 @@ def add_partner (org, partner):
 #
 # Check command-line usage
 #
-if len(sys.argv) != 2:
-    print("Usage: {} <activity-file>".format(sys.argv[0]), file=sys.stderr)
+if len(sys.argv) < 2:
+    print("Usage: {} <activity-file...>".format(sys.argv[0]), file=sys.stderr)
     sys.exit(2)
     
 #
 # Loop through all the activities in the JSON file specified
 #
-with open(sys.argv[1], "r") as input:
-    activities = json.load(input)
-    for identifier, activity in activities.items():
+for filename in sys.argv[1:]:
+    with open(filename, "r") as input:
+        activities = json.load(input)
+        for activity in activities:
 
-        # Make sure we have an entry for the reporting org
-        reporting_org = lookup_org(activity["reported_by"], create=True)
-        get_entry(reporting_org)
+            identifier = activity["identifier"]
 
-        #
-        # Loop through the activity roles
-        #
-        for role in ROLES:
+            # Make sure we have an entry for the reporting org
+            reporting_org = lookup_org(activity["reported_by"], create=True)
+            get_entry(reporting_org)
 
             #
-            # Loop through each org and index it
+            # Loop through the activity roles
             #
-            for org_name in activity["orgs"].get(role, []):
+            for role in ROLES:
 
-                # The org we're working on
-                org = lookup_org(org_name, create=True)
-                if org is None or org.get("skip", False):
-                    continue
+                #
+                # Loop through each org and index it
+                #
+                for org_name in activity["orgs"].get(role, []):
 
-                # This is the org index entry we'll be working on
-                entry = get_entry(org)
+                    # The org we're working on
+                    org = lookup_org(org_name, create=True)
+                    if org is None or org.get("skip", False):
+                        continue
 
-                # True if we see the org involved in any humanitarian activity
-                if activity["humanitarian"]:
-                    entry["humanitarian"] = True
+                    # This is the org index entry we'll be working on
+                    entry = get_entry(org)
 
-                # Note how we know about the org
-                add_unique(activity["source"], entry["sources"])
+                    # True if we see the org involved in any humanitarian activity
+                    if activity["humanitarian"]:
+                        entry["humanitarian"] = True
 
-                # Count activities
-                entry["total_activities"] += 1;
+                    # Note how we know about the org
+                    add_unique(activity["source"], entry["sources"])
 
-                # Add this activity to the org's index
-                add_unique(activity["identifier"], entry["activities"][role])
+                    # Count activities
+                    entry["total_activities"] += 1;
 
-                # Add the reporting org as a partner
-                add_partner(org, reporting_org)
-                add_partner(reporting_org, org)
+                    # Add this activity to the org's index
+                    add_unique(activity["identifier"], entry["activities"][role])
 
-                # Add the sectors (DAC and Humanitarian)
-                for type in SECTOR_TYPES:
-                    for sector in activity["sectors"].get(type, []):
-                        if sector:
-                            entry["sectors"][type].setdefault(sector, 0)
-                            entry["sectors"][type][sector] += 1
+                    # Add the reporting org as a partner
+                    add_partner(org, reporting_org)
+                    add_partner(reporting_org, org)
 
-                # Add the subnational locations
-                for type in LOCATION_TYPES:
-                    for location in activity["locations"].get(type, []):
-                        if location:
-                            entry["locations"][type].setdefault(location, 0)
-                            entry["locations"][type][location] += 1
+                    # Add the sectors (DAC and Humanitarian)
+                    for type in SECTOR_TYPES:
+                        for sector in activity["sectors"].get(type, []):
+                            stub = make_token(sector)
+                            if sector:
+                                entry["sectors"][type].setdefault(stub, 0)
+                                entry["sectors"][type][stub] += 1
+
+                    # Add the subnational locations
+                    for type in LOCATION_TYPES:
+                        for location in activity["locations"].get(type, []):
+                            if location:
+                                entry["locations"][type].setdefault(location, 0)
+                                entry["locations"][type][location] += 1
 
 # Dump the index to stdout
 json.dump(index, sys.stdout, indent=4)
