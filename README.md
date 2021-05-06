@@ -91,6 +91,8 @@ Sample output: https://davidmegginson.github.io/iati3w-data/activities.json
 
 ## Methodology notes
 
+### Name matching
+
 IATI data sometimes has organisation identifiers, but almost never has subnational location codes.
 
 3W data usually has subnational location codes (though, strangely, not in the case of the Somalia 3W), but never has organisation identifiers.
@@ -100,6 +102,10 @@ As a result, there's a large amount of string-matching necessary to come up with
 Organisation-matching map: [inputs/org-map.json](inputs/org-map.json)
 
 Location-matching map: [inputs/location-map.json](inputs/location-map.json)
+
+### Sector mapping
+
+The scripts map all DAC3 and DAC5 purpose codes in IATI data to the higher-level OECD DAC groups, using [inputs/dac3-sector-map.json](inputs/dac3-sector-map.json). That table also includes mappings from DAC sectors to humanitarian clusters, so that we can assign more IATI activities to the same clusters as 3W activities. You can find all of the mappings in the file.
 
 
 ## Author
