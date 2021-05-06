@@ -87,7 +87,7 @@ Merge the raw extracted activities into a single file, and resolve unknown orgs/
 (venv)$ python3 -m iati3w.
 ```
 
-Sample output: https://davidmegginson.github.io/iati3w-data/location-index.json
+Sample output: https://davidmegginson.github.io/iati3w-data/activities.json
 
 ## Methodology notes
 
@@ -97,9 +97,9 @@ IATI data sometimes has organisation identifiers, but almost never has subnation
 
 As a result, there's a large amount of string-matching necessary to come up with useable data about aid organisations in Somalia, and the sectors and locations where they work. The code uses these two maps to look up synonyms, and uses a string-matching algorithm that ignores character case, whitespace, and puncutation.
 
-Organisation-matching map: [data/org-map.json](data/org-map.json)
+Organisation-matching map: [inputs/org-map.json](inputs/org-map.json)
 
-Location-matching map: [data/location-map.json](data/location-map.json)
+Location-matching map: [inputs/location-map.json](inputs/location-map.json)
 
 
 ## Author
