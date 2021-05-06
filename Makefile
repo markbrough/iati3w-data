@@ -80,8 +80,8 @@ $(IATI_ACTIVITIES): venv iati3w/activities_iati.py iati3w/common.py $(MAPS) $(DO
 $(3W_ACTIVITIES): venv iati3w/activities_3w.py iati3w/common.py $(MAPS) $(DOWNLOADS)
 	. $(VENV) && mkdir -p output && time python -m iati3w.activities_3w downloads/3w*.csv > $@
 
-$(DOWNLOADS): download-data.sh
-	bash download-data.sh
+$(DOWNLOADS): admin-scripts/download-data.sh
+	bash admin-scripts/download-data.sh
 
 
 #
@@ -100,7 +100,10 @@ TAGS: *.py
 	etags *.py
 
 # Clean everything out to force a rebuild
+
 clean:
+	rm -fv output/*
+
+real-clean: clean
 	rm -rfv venv/
 	rm -rfv downloads/
-	rm -fv output/*
