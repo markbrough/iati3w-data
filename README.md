@@ -109,7 +109,7 @@ The scripts map all DAC3 and DAC5 purpose codes in IATI data to the higher-level
 
 ## Credits
 
-Started by David Megginson, on behalf of Development Initiatives. Thank you to the Netherlands Ministry of Foreign Affairs for their generous support.
+Started by David Megginson, on behalf of Development Initiatives. Thank you to the Netherlands Ministry of Foreign Affairs for their generous support. This work is part of the Grand Bargain Transparency Workstream, with a special focus on how aid transparency can support the Grand Bargain's Localisation commitments.
 
 ## License
 
