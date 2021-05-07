@@ -9196,12 +9196,6 @@
         "synonyms": [],
         "shortname": "HIDA"
     },
-    "HIDIG": {
-        "name": "HIDIG",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "HIDIG"
-    },
     "HIMFO": {
         "name": "Himilo Foundation",
         "scope": "local",
@@ -9584,9 +9578,10 @@
     },
     "Hidig Relief And Development Organization": {
         "name": "Hidig Relief And Development Organization",
-        "scope": "unknown",
+        "scope": "local",
+        "url": "https://hidig.org",
         "synonyms": [],
-        "shortname": "Hidig Relief And Development Organization"
+        "shortname": "HIDIG"
     },
     "HiiL innovating Justice": {
         "name": "HiiL innovating Justice",
@@ -15189,8 +15184,9 @@
         "iati_id": "NL-KVK-41160229"
     },
     "PWDA": {
-        "name": "PWDA",
-        "scope": "unknown",
+        "name": "Puntland Water Development Agency",
+        "scope": "local",
+        "url": "https://pwda.pl.so/",
         "synonyms": [],
         "shortname": "PWDA"
     },
@@ -16856,9 +16852,11 @@
         "shortname": "SCODO"
     },
     "SDO": {
-        "name": "SDO",
-        "scope": "unknown",
-        "synonyms": [],
+        "name": "Shadeedley Development Organization",
+        "scope": "local",
+        "synonyms": [
+            "Shadeedley Org"
+        ],
         "shortname": "SDO"
     },
     "SDPBI": {
@@ -17233,8 +17231,9 @@
         "shortname": "SRCS"
     },
     "SRDA": {
-        "name": "SRDA",
-        "scope": "unknown",
+        "name": "Somalia Relief and Development Action",
+        "scope": "local",
+        "url": "http://www.srdaorganization.org/",
         "synonyms": [],
         "shortname": "SRDA"
     },
@@ -17661,12 +17660,6 @@
             "status": "active"
         },
         "iati_id": "BE-BCE_KBO-0431955945"
-    },
-    "Shadeedley Org": {
-        "name": "Shadeedley Org",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Shadeedley Org"
     },
     "Shaqodoon": {
         "name": "Shaqodoon",
