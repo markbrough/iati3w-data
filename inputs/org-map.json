@@ -8517,8 +8517,8 @@
         "shortname": "GREEN CLIMATE FUND"
     },
     "GRRN": {
-        "name": "GRRN",
-        "scope": "unknown",
+        "name": "Golweyne Relief and Rehabilitation NGO",
+        "scope": "local",
         "synonyms": [],
         "shortname": "GRRN"
     },
@@ -11752,8 +11752,9 @@
         "shortname": "KAWASAKI KISEN KAISHA LIMITED"
     },
     "KDO": {
-        "name": "KDO",
-        "scope": "unknown",
+        "name": "Kulmiye Development Organization",
+        "scope": "local",
+        "url": "http://kulmiyengo.com/",
         "synonyms": [],
         "shortname": "KDO"
     },
@@ -13649,8 +13650,9 @@
         "shortname": "N/A"
     },
     "NARDO": {
-        "name": "NARDO",
-        "scope": "unknown",
+        "name": "Nasib Relief and Development Organization",
+        "scope": "local",
+        "url": "https://nardo-so.org",
         "synonyms": [],
         "shortname": "NARDO"
     },
@@ -16789,8 +16791,8 @@
         "shortname": "SAF-UK"
     },
     "SAREDO": {
-        "name": "SAREDO",
-        "scope": "unknown",
+        "name": "Somali Action for Relief and Development Organisation",
+        "scope": "local",
         "synonyms": [],
         "shortname": "SAREDO"
     },
@@ -16900,8 +16902,9 @@
         "iati_id": "FR-SIRET-77566669600015"
     },
     "SEDHURO": {
-        "name": "SEDHURO",
-        "scope": "unknown",
+        "name": "Socio-Economic Development and Human Rights Organization",
+        "scope": "local",
+        "url": "https://www.facebook.com/pages/category/Charity-Organization/Socio-Economic-Development-and-Human-Rights-Organization-Sedhuro-119438556108261/",
         "synonyms": [],
         "shortname": "SEDHURO"
     },
@@ -17316,8 +17319,9 @@
         "shortname": "SWSCRI"
     },
     "SYPD": {
-        "name": "SYPD",
-        "scope": "unknown",
+        "name": "Sustainable Development and Peace Building Initiatives",
+        "scope": "local",
+        "url": "https://sypd.org/",
         "synonyms": [],
         "shortname": "SYPD"
     },
@@ -21991,12 +21995,6 @@
         },
         "iati_id": "XM-DAC-41140"
     },
-    "WHH": {
-        "name": "WHH",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "WHH"
-    },
     "WHO": {
         "name": "World Health Organization",
         "scope": "international",
@@ -22466,11 +22464,11 @@
         },
         "iati_id": "GB-CHC-1110434"
     },
-    "Welthungerhilfe": {
+    "WHH": {
         "name": "Welthungerhilfe",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Welthungerhilfe",
+        "shortname": "WHH",
         "iati": {
             "code": "DE-CR-RA000220-VR3810",
             "name": "Welthungerhilfe",
