@@ -12599,10 +12599,17 @@
         "shortname": "MINISTERIO DE ENERGIA"
     },
     "MOH": {
-        "name": "MOH",
-        "scope": "unknown",
+        "name": "Somalia Ministry of Health",
+        "scope": "local",
+        "url": "https://moh.gov.so/en/",
         "synonyms": [],
         "shortname": "MOH"
+    },
+    "MOH-XS": {
+        "name": "Somaliland Ministry of Health",
+        "scope": "local",
+        "synonyms": [],
+        "shortname": "MOH-XS"
     },
     "MORDA": {
         "name": "MORDA",
