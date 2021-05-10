@@ -10,6 +10,24 @@ import hxl, hashlib, json, sys
 
 from .common import *
 
+#
+# Constants
+#
+
+AMBIGUOUS_ORGS = set([
+    "moh",
+])
+""" Orgs that differ between Somalia proper and Somaliland """
+
+SOMALILAND_REGIONS = set([
+    "awdal",
+    "sanaag",
+    "sool",
+    "togdheer",
+    "woqooyi-galbeed",
+])
+""" Regions of Somaliland (tokenised) """
+
 
 #
 # Utility functions
@@ -35,7 +53,18 @@ def fix_cluster_name (name):
     else:
         return normalise_string(name)
 
+def adjust_org (org_name, region_name):
+    """ Adjust government ministries for Somaliland """
+    if make_token(org_name) in AMBIGUOUS_ORGS:
+        if make_token(region_name) in SOMALILAND_REGIONS:
+            org_name = org_name + "-XS"
+    return org_name
     
+def get_entity_key (entity):
+    """ At this stage, we want to use the entity stub if it's recognised, but keep the entity name if it's not """
+    key = "name" if entity.get("unrecognised", False) else "stub"
+    return entity[key]
+
 #
 # Read Somalia 3W activities via the HXL Proxy (which adds HXL hashtags)
 #
@@ -75,6 +104,36 @@ def make_activity(row):
         "targeted": {},
     }
 
+    # add the clusters
+    add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
+
+    # add the locations
+    admin1 =  lookup_location(row.get("#adm1+name"))
+    admin2 = lookup_location(row.get("#adm2+name"))
+    loc = lookup_location(row.get("#loc+name"))
+
+    if (admin2 is None or admin2["level"] != "admin2") and loc is not None:
+        if loc["level"] == "admin2":
+            # For Banadir, especially, the loc can really be the admin2
+            admin2 = loc
+            loc = None
+        elif loc.get("admin2", None) is not None:
+            # Or else the loc can imply the admin2
+            admin2 = lookup_location(loc["admin2"])
+
+    if "admin1" in admin2 and admin2["admin1"] != make_token(admin1["name"]):
+        # Trust the district over the region for 3W (if they conflict)
+        admin1 = lookup_location(admin2["admin1"])
+
+    if admin1 is not None and admin1["level"] == "admin1":
+        add_unique(get_entity_key(admin1), data["locations"]["admin1"])
+
+    if admin2 is not None and admin2["level"] == "admin2":
+        add_unique(get_entity_key(admin2), data["locations"]["admin2"])
+
+    if loc is not None and loc["level"] == "unclassified":
+        add_unique(get_entity_key(admin2), data["locations"]["admin2"])
+
     # add the participating organisations
     for params in [
             ["#org+impl", "implementing"],
@@ -83,42 +142,18 @@ def make_activity(row):
     ]:
         org_name = row.get(params[0])
         if org_name:
+            # adjust some names contextually for Somaliland vs the rest of Somalia
+            org_name = adjust_org(org_name, admin1["name"])
             org = lookup_org(org_name, create=True)
             if org is not None and not org.get("skip", False):
                 # Add the name here instead of the stub if the org isn't in the map
                 # lookup_org() will recreate the record for index-orgs.py, which
                 # will switch to the stub
-                key = "name" if org.get("unrecognised", False) else "stub"
-                add_unique(org[key], data["orgs"][params[1]])
+                add_unique(get_entity_key(org), data["orgs"][params[1]])
 
                 # for the Somalia 3W, the programming org is the reporter
                 if params[1] == "programming":
-                    data["reported_by"] = org[key]
-
-    # add the clusters
-    add_unique(fix_cluster_name(row.get("#sector")), data["sectors"]["humanitarian"])
-
-    # add the locations
-    for params in [
-            ["#adm1+name", "admin1"],
-            ["#adm2+name", "admin2"],
-            ["#loc+name", "unclassified"],
-    ]:
-        locname = row.get(params[0])
-        if locname:
-            location = lookup_location(locname)
-            # For 3W, must match the stated admin level
-            if location and not location.get("skip", False):
-                # Add the name here instead of the stub if the org isn't in the map
-                # lookup_org() will recreate the record for index-orgs.py, which
-                # will switch to the stub
-                key = "name" if location.get("unrecognised", False) else "stub"
-                add_unique(location[key], data["locations"][location["level"]])
-                for level in ["admin1", "admin2"]:
-                    if level in location:
-                        add_unique(location[level], data["locations"][level])
-                if params[1] != location["level"] and params[1] != "unclassified" and locname != "Banadir":
-                    print("Mismatch {}, {}: {}".format(params[1], location["level"], locname), file=sys.stderr)
+                    data["reported_by"] = get_entity_key(org)
 
     # add modality (e.g. for cash programming)
     modality = normalise_string(row.get("#modality"))
