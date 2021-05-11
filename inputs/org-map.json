@@ -3972,6 +3972,7 @@
         "scope": "local",
         "url": "http://www.candlelightsomal.org/",
         "synonyms": [
+            "CANDLELIGHT FOR ENV .EDU AND HEALTH",
             "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved"
         ],
         "shortname": "Candlelight for Environment Education and Health"
@@ -7563,12 +7564,6 @@
         },
         "iati_id": "NL-KVK-27078545"
     },
-    "FMOEWR": {
-        "name": "FMOEWR",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "FMOEWR"
-    },
     "FONCABA ASBL KBA VZW": {
         "name": "FONCABA ASBL KBA VZW",
         "scope": "international",
@@ -7600,12 +7595,6 @@
             "status": "active"
         },
         "iati_id": "GB-CHC-1121273"
-    },
-    "FRS MoEWR": {
-        "name": "FRS MoEWR",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "FRS MoEWR"
     },
     "Fair Wear Foundation": {
         "name": "Fair Wear Foundation",
@@ -9862,13 +9851,12 @@
         "iati_id": "GB-COH-04161656"
     },
     "ICRC": {
-        "name": "International Committee of the Red Cross (ICRC)",
+        "name": "International Committee of the Red Cross",
         "scope": "international",
         "synonyms": [
             "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR",
             "ICRC - International Committee of the Red Cross",
-            "International Committee of the Red Cross",
-            "International Committee of the Red Cross (ICRC)"
+            "Comité international de la Croix-Rouge"
         ],
         "shortname": "ICRC",
         "iati": {
@@ -10022,10 +10010,9 @@
         "iati_id": "DE-CR-BonnVR8726"
     },
     "IFRC": {
-        "name": "International Federation of the Red Cross and Red Crescent (IFRC)",
+        "name": "International Federation of the Red Cross and Red Crescent",
         "scope": "international",
         "synonyms": [
-            "International Federation of the Red Cross and Red Crescent (IFRC)",
             "International Federation of Red Cross and Red Crescent Societies"
         ],
         "shortname": "IFRC",
@@ -13258,12 +13245,6 @@
         "synonyms": [],
         "shortname": "Ministerium f\u00fcr Inneres"
     },
-    "Ministry of Energy and Water Resources MoEWR ": {
-        "name": "Ministry of Energy and Water Resources MoEWR ",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Ministry of Energy and Water Resources MoEWR "
-    },
     "Ministry of Finance": {
         "name": "Ministry of Finance",
         "scope": "unknown",
@@ -13355,18 +13336,6 @@
         "synonyms": [],
         "shortname": "Ministry of Public Works Housing Transportation"
     },
-    "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau": {
-        "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau",
-        "scope": "local",
-        "synonyms": [],
-        "shortname": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau"
-    },
-    "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland": {
-        "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
-        "scope": "local",
-        "synonyms": [],
-        "shortname": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland"
-    },
     "Minist\u00e8re de l'Economie et des Finances du B\u00e9nin": {
         "name": "Minist\u00e8re de l'Economie et des Finances du B\u00e9nin",
         "scope": "regional",
@@ -13428,8 +13397,9 @@
         "shortname": "Mitsui CO Ltd"
     },
     "MoESAF": {
-        "name": "MoESAF",
-        "scope": "unknown",
+        "name": "Somaliland Ministry of Employment, Social Affairs and Family",
+        "scope": "local",
+        "url": "https://slmesaf.com/",
         "synonyms": [],
         "shortname": "MoESAF"
     },
@@ -13438,10 +13408,21 @@
         "scope": "local",
         "url": "https://moewr.gov.so/",
         "synonyms": [
-            "MoEWR",
-            "Somalia Ministry of Energy and Water Resources (MoEWR)"
+            "FMOEWR",
+            "FRS MoEWR",
+            "Ministry of Energy and Water Resources (MoEWR)",
+            "Ministère de l Énergie et des Ressources en Eau"
         ],
         "shortname": "MoEWR"
+    },
+    "MoEWR-XS": {
+        "name": "Somalialand Ministry of Energy and Water Resources",
+        "scope": "local",
+        "synonyms": [
+            "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
+            "Ministère de l Énergie et des Ressources en Eau du Somaliland"
+        ],
+        "shortname": "MoEWR-XS"
     },
     "MoW": {
         "name": "MoW",
@@ -16814,7 +16795,8 @@
         "name": "Save the Children International",
         "scope": "international",
         "synonyms": [
-            "Save the Children"
+            "Save the Children",
+            "Save the Children has worked in Somalia/Somaliland since 1951 when set up a vocational school for orphaned boys in Somaliland. From the early 1970s They went a step further and began providing emergency assistance to communities in Somalia For nearly 65 years,They have been there whenever a crisis has hit. In 2017, their work in Somalia/Somaliland reached 2,814,381 people - 1,717,809 being children with Health, Nutrition, Water, Sanitation and Hygiene (WASH), Education, Food Security and Livelihoods (FSL) and Child Protection services. As Well as long-term development work, They scaled up to respond to humanitarian spikes caused by drought, floods and cholera outbreaks. They have worked closely with the Government and supported policy makers and communities across Somalia and Somaliland to develop and approve policies and systems that will ensure a protective environment for children. They believe in building resilience amongst communities in Somalia/Somaliland and are committed to doing so through: • Provision of basic social services in education, health, and protection • Strengthening of government capacity to deliver such services • Working with communities and children to promote their rights. For the past 60 years They have delivered life-saving humanitarian services to children, and promoted the delivery of basic services to children through longer-term development programs"
         ],
         "shortname": "SCI",
         "iati": {

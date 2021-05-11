@@ -16,6 +16,7 @@ from .common import *
 
 AMBIGUOUS_ORGS = set([
     "moh",
+    "moewr"
 ])
 """ Orgs that differ between Somalia proper and Somaliland """
 

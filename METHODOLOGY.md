@@ -23,7 +23,7 @@ Methodology notes
 
 * 3W activities will always have a maximum of 1 region and district
 
-* assume that "MOH" refers to the Somaliland Ministry of Health in the regions that make up Somaliland, and to the Somalia Ministry of Health in other regions.
+* assume that "MoH" and "MoEWR" refer to the Ministry of Health and the Ministry of Energy and Water Resources (respectively) for Somaliland in the regions that make up Somaliland, and for Somalia in other regions.
 
 * the Somalia 3W data only rarely and inconsistently identifies local actors, so ignore that field.
 
