@@ -697,6 +697,7 @@
                 "european-union": 2,
                 "nrc": 1,
                 "care-nederland": 10,
+                "sci": 1,
                 "oxfam-quebec": 1,
                 "actionaid": 3
             },
@@ -722,7 +723,6 @@
                 "oxfam-canada": 2,
                 "har-hub-was-founded-after-realizing-that-the-unemployment-rate-a": 1,
                 "hargeisa-hub": 1,
-                "save-the-children-has-worked-in-somalia-somaliland-since-1951-wh": 1,
                 "sos-children-s-village": 3,
                 "taakulo-somali-community-commonly-known-by-the-acronym-tasco-tas": 1
             }
@@ -16530,7 +16530,8 @@
             "name": "Save the Children International",
             "scope": "international",
             "synonyms": [
-                "Save the Children"
+                "Save the Children",
+                "Save the Children has worked in Somalia/Somaliland since 1951 when set up a vocational school for orphaned boys in Somaliland. From the early 1970s They went a step further and began providing emergency assistance to communities in Somalia For nearly 65 years,They have been there whenever a crisis has hit. In 2017, their work in Somalia/Somaliland reached 2,814,381 people - 1,717,809 being children with Health, Nutrition, Water, Sanitation and Hygiene (WASH), Education, Food Security and Livelihoods (FSL) and Child Protection services. As Well as long-term development work, They scaled up to respond to humanitarian spikes caused by drought, floods and cholera outbreaks. They have worked closely with the Government and supported policy makers and communities across Somalia and Somaliland to develop and approve policies and systems that will ensure a protective environment for children. They believe in building resilience amongst communities in Somalia/Somaliland and are committed to doing so through: \u2022 Provision of basic social services in education, health, and protection \u2022 Strengthening of government capacity to deliver such services \u2022 Working with communities and children to promote their rights. For the past 60 years They have delivered life-saving humanitarian services to children, and promoted the delivery of basic services to children through longer-term development programs"
             ],
             "shortname": "SCI",
             "iati": {
@@ -16555,6 +16556,7 @@
                 "NL-KVK-41201463-PSONO004",
                 "GB-CHC-1047501-SHARPBRCiS",
                 "GB-CHC-1047501-BRCiS2021",
+                "NL-KVK-27108436-A-06571-12:SO",
                 "4868f6aa",
                 "21cd1daf",
                 "25d9788d",
@@ -17282,6 +17284,7 @@
             "international": {
                 "save-the-children-netherlands": 1,
                 "action-contre-la-faim": 2,
+                "oxfam-novib": 1,
                 "brcis": 132,
                 "thani-bin-abdullah-bin-thani-al-thani-humanitarian-fund": 87,
                 "dra": 10,
@@ -17307,7 +17310,8 @@
                 "disaster-prevention-preparedness": 2,
                 "agriculture-forestry-fishing": 2,
                 "health": 2,
-                "water-supply-sanitation": 2
+                "water-supply-sanitation": 2,
+                "other-social-infrastructure-services": 1
             }
         },
         "locations": {
@@ -17380,7 +17384,7 @@
             },
             "unclassified": {}
         },
-        "total_activities": 7565
+        "total_activities": 7566
     },
     "sos-children-s-villages-netherlands": {
         "info": {
@@ -22467,47 +22471,6 @@
             "unclassified": {}
         },
         "total_activities": 70
-    },
-    "save-the-children-has-worked-in-somalia-somaliland-since-1951-wh": {
-        "info": {
-            "name": "Save the Children has worked in Somalia/Somaliland since 1951 when set up a vocational school for orphaned boys in Somaliland. From the early 1970s They went a step further and began providing emergency assistance to communities in Somalia For nearly 65 years,They have been there whenever a crisis has hit. In 2017, their work in Somalia/Somaliland reached 2,814,381 people - 1,717,809 being children with Health, Nutrition, Water, Sanitation and Hygiene (WASH), Education, Food Security and Livelihoods (FSL) and Child Protection services. As Well as long-term development work, They scaled up to respond to humanitarian spikes caused by drought, floods and cholera outbreaks. They have worked closely with the Government and supported policy makers and communities across Somalia and Somaliland to develop and approve policies and systems that will ensure a protective environment for children. They believe in building resilience amongst communities in Somalia/Somaliland and are committed to doing so through: \u2022 Provision of basic social services in education, health, and protection \u2022 Strengthening of government capacity to deliver such services \u2022 Working with communities and children to promote their rights. For the past 60 years They have delivered life-saving humanitarian services to children, and promoted the delivery of basic services to children through longer-term development programs",
-            "shortname": "Save the Children has worked in Somalia/Somaliland since 1951 when set up a vocational school for orphaned boys in Somaliland. From the early 1970s They went a step further and began providing emergency assistance to communities in Somalia For nearly 65 years,They have been there whenever a crisis has hit. In 2017, their work in Somalia/Somaliland reached 2,814,381 people - 1,717,809 being children with Health, Nutrition, Water, Sanitation and Hygiene (WASH), Education, Food Security and Livelihoods (FSL) and Child Protection services. As Well as long-term development work, They scaled up to respond to humanitarian spikes caused by drought, floods and cholera outbreaks. They have worked closely with the Government and supported policy makers and communities across Somalia and Somaliland to develop and approve policies and systems that will ensure a protective environment for children. They believe in building resilience amongst communities in Somalia/Somaliland and are committed to doing so through: \u2022 Provision of basic social services in education, health, and protection \u2022 Strengthening of government capacity to deliver such services \u2022 Working with communities and children to promote their rights. For the past 60 years They have delivered life-saving humanitarian services to children, and promoted the delivery of basic services to children through longer-term development programs",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "save-the-children-has-worked-in-somalia-somaliland-since-1951-wh"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "NL-KVK-27108436-A-06571-12:SO"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "oxfam-novib": 1
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {},
-            "dac": {
-                "other-social-infrastructure-services": 1
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 1
     },
     "oxfam-quebec": {
         "info": {
@@ -37826,8 +37789,9 @@
     },
     "moesaf": {
         "info": {
-            "name": "MoESAF",
-            "scope": "unknown",
+            "name": "Somaliland Ministry of Employment, Social Affairs and Family",
+            "scope": "local",
+            "url": "https://slmesaf.com/",
             "synonyms": [],
             "shortname": "MoESAF",
             "stub": "moesaf"
