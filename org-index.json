@@ -924,10 +924,9 @@
     },
     "ifrc": {
         "info": {
-            "name": "International Federation of the Red Cross and Red Crescent (IFRC)",
+            "name": "International Federation of the Red Cross and Red Crescent",
             "scope": "international",
             "synonyms": [
-                "International Federation of the Red Cross and Red Crescent (IFRC)",
                 "International Federation of Red Cross and Red Crescent Societies"
             ],
             "shortname": "IFRC",
