@@ -21446,7 +21446,7 @@
         "partners": {
             "local": {
                 "government-of-somalia": 11,
-                "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
+                "moewr-xs": 1,
                 "moewr": 1
             },
             "regional": {},
@@ -21592,13 +21592,16 @@
         },
         "total_activities": 7
     },
-    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": {
+    "moewr-xs": {
         "info": {
-            "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
+            "name": "Somalialand Ministry of Energy and Water Resources",
             "scope": "local",
-            "synonyms": [],
-            "shortname": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
-            "stub": "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland"
+            "synonyms": [
+                "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
+                "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland"
+            ],
+            "shortname": "MoEWR-XS",
+            "stub": "moewr-xs"
         },
         "sources": [
             "IATI"
