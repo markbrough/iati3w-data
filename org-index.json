@@ -1379,9 +1379,7 @@
             "funding": [
                 "GB-CHC-1092236-BG190",
                 "GB-CHC-1092236-BG200",
-                "GB-CHC-1092236-BG207",
-                "GB-CHC-1065972-DF203",
-                "GB-CHC-1065972-DF213"
+                "GB-CHC-1092236-BG207"
             ]
         },
         "partners": {
@@ -1407,7 +1405,6 @@
                 "wfp": 52
             },
             "unknown": {
-                "irc-uk": 2,
                 "international-organisation-of-migration-iom": 1,
                 "tuos": 5,
                 "ksr": 17
@@ -1415,9 +1412,9 @@
         },
         "sectors": {
             "humanitarian": {
-                "health": 5,
+                "health": 3,
                 "food-security": 54,
-                "water-sanitation-hygiene": 108,
+                "water-sanitation-hygiene": 107,
                 "shelter-nfi": 31,
                 "education": 248,
                 "nutrition": 17,
@@ -1425,10 +1422,10 @@
             },
             "dac": {
                 "emergency-response": 8,
-                "health": 5,
+                "health": 3,
                 "disaster-prevention-preparedness": 3,
                 "agriculture-forestry-fishing": 2,
-                "water-supply-sanitation": 4
+                "water-supply-sanitation": 3
             }
         },
         "locations": {
@@ -1490,7 +1487,7 @@
             },
             "unclassified": {}
         },
-        "total_activities": 529
+        "total_activities": 527
     },
     "fcdo": {
         "info": {
@@ -1550,7 +1547,6 @@
                 "GB-CHC-1047501-SHINE",
                 "GB-CHC-1047501-SHARPBRCiS",
                 "GB-CHC-1047501-BRCiS2021",
-                "GB-CHC-1065972-DF203",
                 "XM-OCHA-CBPF-CHF/13645/HSO10/3-2021/7595",
                 "NO-BRC-977538319-SOFM1834",
                 "NO-BRC-977538319-SOFM1838",
@@ -1623,7 +1619,6 @@
             },
             "unknown": {
                 "conflict-stability-and-security-fund-cssf": 2,
-                "irc-uk": 1,
                 "mott-macdonald-group-limited": 2
             }
         },
@@ -1635,7 +1630,7 @@
                 "emergency-telecommunications": 3,
                 "early-recovery": 7,
                 "food-security": 4,
-                "health": 22,
+                "health": 21,
                 "protection": 4,
                 "nutrition": 2
             },
@@ -1649,7 +1644,7 @@
                 "other-social-infrastructure-services": 16,
                 "agriculture-forestry-fishing": 4,
                 "population-policies-programmes-reproductive-health": 11,
-                "health": 16,
+                "health": 15,
                 "disaster-prevention-preparedness": 8
             }
         },
@@ -1676,7 +1671,7 @@
                 "Somalia Desk": 12
             }
         },
-        "total_activities": 69
+        "total_activities": 68
     },
     "british-council": {
         "info": {
@@ -3349,7 +3344,6 @@
                 "XM-DAC-5-7-6614851",
                 "XM-DAC-5-7-6615123",
                 "GB-CHC-229476-WISH2ACTION",
-                "GB-CHC-1065972-DF203",
                 "6be0a176",
                 "c5aa9515",
                 "5636e13d",
@@ -3502,13 +3496,11 @@
                 "germany-federal-foreign-office": 2,
                 "international-planned-parenthood-federation": 1
             },
-            "unknown": {
-                "irc-uk": 1
-            }
+            "unknown": {}
         },
         "sectors": {
             "humanitarian": {
-                "health": 340,
+                "health": 339,
                 "water-sanitation-hygiene": 112,
                 "child-protection": 1,
                 "emergency-shelter-and-nfi": 1,
@@ -3519,7 +3511,7 @@
             },
             "dac": {
                 "emergency-response": 3,
-                "health": 3,
+                "health": 2,
                 "population-policies-programmes-reproductive-health": 1
             }
         },
@@ -3550,7 +3542,7 @@
                 "Reg. Entw.L\u00e4nder nicht aufteilbar (n.a.)": 1
             }
         },
-        "total_activities": 567
+        "total_activities": 566
     },
     "acf-action-contre-la-faim-france": {
         "info": {
@@ -18285,12 +18277,9 @@
         "activities": {
             "implementing": [
                 "GB-CHC-1047501-SHARPBRCiS",
-                "GB-CHC-1047501-BRCiS2021",
-                "GB-CHC-1065972-DF213"
+                "GB-CHC-1047501-BRCiS2021"
             ],
-            "programming": [
-                "GB-CHC-1065972-DF203"
-            ],
+            "programming": [],
             "funding": []
         },
         "partners": {
@@ -18299,21 +18288,19 @@
             "international": {
                 "action-contre-la-faim": 2
             },
-            "unknown": {
-                "irc-uk": 2
-            }
+            "unknown": {}
         },
         "sectors": {
             "humanitarian": {
                 "food-security": 2,
-                "health": 4,
-                "water-sanitation-hygiene": 3
+                "health": 2,
+                "water-sanitation-hygiene": 2
             },
             "dac": {
                 "disaster-prevention-preparedness": 2,
                 "agriculture-forestry-fishing": 2,
-                "health": 4,
-                "water-supply-sanitation": 3
+                "health": 2,
+                "water-supply-sanitation": 2
             }
         },
         "locations": {
@@ -18321,7 +18308,7 @@
             "admin2": {},
             "unclassified": {}
         },
-        "total_activities": 4
+        "total_activities": 2
     },
     "population-service-international": {
         "info": {
@@ -19951,105 +19938,6 @@
         },
         "total_activities": 1
     },
-    "irc-uk": {
-        "info": {
-            "name": "IRC-UK",
-            "shortname": "IRC-UK",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "irc-uk"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "GB-CHC-1065972-DF203",
-                "GB-CHC-1065972-DF213"
-            ],
-            "programming": [],
-            "funding": [
-                "GB-CHC-1065972-DF203",
-                "GB-CHC-1065972-DF213"
-            ]
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "irc": 1,
-                "international-rescue-committee-uk": 2,
-                "nrc": 2,
-                "fcdo": 1
-            },
-            "unknown": {
-                "norwegian-refugee-committee": 1
-            }
-        },
-        "sectors": {
-            "humanitarian": {
-                "health": 4,
-                "water-sanitation-hygiene": 2
-            },
-            "dac": {
-                "health": 4,
-                "water-supply-sanitation": 2
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 4
-    },
-    "norwegian-refugee-committee": {
-        "info": {
-            "name": "Norwegian Refugee Committee",
-            "shortname": "Norwegian Refugee Committee",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "norwegian-refugee-committee"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [],
-            "programming": [],
-            "funding": [
-                "GB-CHC-1065972-DF213"
-            ]
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {},
-            "unknown": {
-                "irc-uk": 1
-            }
-        },
-        "sectors": {
-            "humanitarian": {
-                "water-sanitation-hygiene": 1,
-                "health": 1
-            },
-            "dac": {
-                "water-supply-sanitation": 1,
-                "health": 1
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 1
-    },
     "havoyoco": {
         "info": {
             "name": "Horn of Africa Voluntary Youth Committee",
@@ -20400,88 +20288,6 @@
             "unclassified": {}
         },
         "total_activities": 7
-    },
-    "office-for-government-policy-coordination": {
-        "info": {
-            "name": "Office for Government Policy Coordination",
-            "shortname": "Office for Government Policy Coordination",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "office-for-government-policy-coordination"
-        },
-        "sources": [],
-        "humanitarian": false,
-        "activities": {
-            "implementing": [],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {},
-            "unknown": {
-                "korea-international-cooperation-agency": 3
-            }
-        },
-        "sectors": {
-            "humanitarian": {},
-            "dac": {}
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 0
-    },
-    "korea-international-cooperation-agency": {
-        "info": {
-            "name": "Korea International Cooperation Agency",
-            "shortname": "Korea International Cooperation Agency",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "korea-international-cooperation-agency"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": false,
-        "activities": {
-            "implementing": [
-                "KR-GOV-051-2019090105293"
-            ],
-            "programming": [
-                "KR-GOV-051-2019090105293"
-            ],
-            "funding": [
-                "KR-GOV-051-2019090105293"
-            ]
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {},
-            "unknown": {
-                "office-for-government-policy-coordination": 3
-            }
-        },
-        "sectors": {
-            "humanitarian": {
-                "education": 3
-            },
-            "dac": {
-                "education": 3
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 3
     },
     "world-vision-germany": {
         "info": {
