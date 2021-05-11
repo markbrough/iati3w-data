@@ -719,7 +719,6 @@
                 "the-norwegian-refugee-council-is-an-independent-humanitarian-org": 1,
                 "oxfam-usa": 5,
                 "oxfam-spain-intermon": 1,
-                "candlelight-for-env-edu-and-health": 3,
                 "oxfam-canada": 2,
                 "har-hub-was-founded-after-realizing-that-the-unemployment-rate-a": 1,
                 "hargeisa-hub": 1,
@@ -22006,58 +22005,11 @@
             "scope": "local",
             "url": "http://www.candlelightsomal.org/",
             "synonyms": [
+                "CANDLELIGHT FOR ENV .EDU AND HEALTH",
                 "Candle Light for Health and Education CLHE works in the Toghdeer region of Somalia and was founded in 1995 Its mandate is to contribute to setting up sustainable structures in education and healthcare Its most important target group consists of women and other marginalised groups such as returning refugees CHLE is also working with former militia members and tries to integrate them in society CLHE works closely with the local authorities leaders and others Its work includes formal and informaleducation training preventive healthcare rehabilitating small school buildings and small scale income generating activities CLHE also works on the environment It is of the opinion that deforestation has a negative impact on cattle which has negative consequences for people s health and nutrition Not enough good grazing land and a lack of water increase people s mobility disrupting education programs Therelationship between Oxfam Novib and CLHE began in 1996 CLHE s organisation capacities havesince improved"
             ],
             "shortname": "Candlelight for Environment Education and Health",
             "stub": "candlelight-for-environment-education-and-health"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "NL-KVK-27108436-A-05346-03:SO",
-                "NL-KVK-27108436-A-06662-03:SO",
-                "NL-KVK-27108436-A-06392-04:SO"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "oxfam-novib": 3
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {
-                "food-security": 2,
-                "water-sanitation-hygiene": 1
-            },
-            "dac": {
-                "emergency-response": 2,
-                "agriculture-forestry-fishing": 1,
-                "water-supply-sanitation": 1
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 3
-    },
-    "candlelight-for-env-edu-and-health": {
-        "info": {
-            "name": "CANDLELIGHT FOR ENV .EDU AND HEALTH",
-            "shortname": "CANDLELIGHT FOR ENV .EDU AND HEALTH",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "candlelight-for-env-edu-and-health"
         },
         "sources": [
             "IATI"
