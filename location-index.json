@@ -3048,7 +3048,7 @@
                 "3712bf66",
                 "3712bf66",
                 "18998e0e",
-                "bf3681ec",
+                "a95bc7bd",
                 "5028ac43",
                 "06cc3438",
                 "8765ebc7",
@@ -3571,6 +3571,7 @@
                     "urro": 2,
                     "smac": 3,
                     "grrn": 19,
+                    "moewr": 1,
                     "sypd": 54
                 },
                 "regional": {
@@ -3648,7 +3649,6 @@
                     "sosyo": 8,
                     "kanava": 2,
                     "mow": 11,
-                    "fmoewr": 1,
                     "taado": 45,
                     "sedo": 14,
                     "vrd": 12,
@@ -7426,7 +7426,7 @@
             "orgs": {
                 "local": {
                     "government-of-somalia": 9,
-                    "ministere-de-l-energie-et-des-ressources-en-eau": 1,
+                    "moewr": 1,
                     "sado": 146,
                     "juba-foundation": 5,
                     "somali-aid": 369,
@@ -8651,7 +8651,7 @@
                 "785582df",
                 "ba074eb1",
                 "5950e334",
-                "87dfe9ec",
+                "4d3c0162",
                 "35205a1c",
                 "b6eef61d",
                 "0ef80042",
@@ -9016,7 +9016,8 @@
                     "cpd": 46,
                     "gsa": 45,
                     "pmwdo": 115,
-                    "pwda": 13
+                    "pwda": 13,
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -9069,7 +9070,6 @@
                     "npa": 6,
                     "yme": 7,
                     "islamic-development-bank": 1,
-                    "frs-moewr": 1,
                     "sdro": 3,
                     "secco": 8,
                     "idil": 3,
@@ -12314,7 +12314,7 @@
                 "388024eb",
                 "c90e1b3a",
                 "e16ccee4",
-                "74f5e245",
+                "3f971835",
                 "3833b97d",
                 "5335919b",
                 "5335919b",
@@ -12331,7 +12331,7 @@
                 "dee01886",
                 "38f2dd91",
                 "dee01886",
-                "3efa9ac9",
+                "413b6a30",
                 "ea46ef83",
                 "5a2a53b0",
                 "ccd3d0b9",
@@ -12797,6 +12797,7 @@
                     "nardo": 45,
                     "asep": 6,
                     "sado": 15,
+                    "moewr": 2,
                     "hirda": 24,
                     "ard": 20,
                     "raas": 1
@@ -12864,8 +12865,6 @@
                     "mow": 11,
                     "codhnet": 6,
                     "shra": 27,
-                    "fmoewr": 1,
-                    "frs-moewr": 1,
                     "arche-nova": 3,
                     "gewdo": 1
                 }
@@ -15942,7 +15941,7 @@
                 "f8a1e11d",
                 "0a814714",
                 "0a814714",
-                "f3d092f5",
+                "2a6b6488",
                 "1c62b4a3",
                 "31c8e3b4",
                 "9835afc8",
@@ -16089,9 +16088,9 @@
                 "ab4a217a",
                 "e1ae0b94",
                 "efd1c723",
-                "6809043a",
-                "bd363b05",
-                "bd363b05",
+                "550367ec",
+                "5e6e36f3",
+                "5e6e36f3",
                 "9835afc8",
                 "de7e7ed8",
                 "ff0945a9",
@@ -16353,7 +16352,8 @@
                     "scc": 20,
                     "jmac": 5,
                     "bmac": 1,
-                    "gsa": 1
+                    "gsa": 1,
+                    "moewr": 4
                 },
                 "regional": {
                     "afrah-construction-company": 3,
@@ -16457,10 +16457,8 @@
                     "saafi-company": 2,
                     "awale-driling-com": 7,
                     "nasdo": 2,
-                    "frs-moewr": 1,
                     "direct-aid": 6,
                     "idil": 6,
-                    "fmoewr": 3,
                     "secco": 7,
                     "youthlink": 2,
                     "sogpa": 1,
@@ -17295,8 +17293,8 @@
                 "afa8a216",
                 "1f18bd7d",
                 "6b0cdff1",
-                "b99573d7",
-                "86cc7815",
+                "b0baa810",
+                "4ce87cce",
                 "d0f4751c",
                 "0a2d6c2d",
                 "355f157d",
@@ -17381,7 +17379,8 @@
                     "wocca": 316,
                     "nofyl": 3,
                     "gsa": 5,
-                    "scc": 38
+                    "scc": 38,
+                    "moewr": 2
                 },
                 "regional": {},
                 "international": {
@@ -17417,7 +17416,6 @@
                     "mow": 2,
                     "evso": 18,
                     "lta-safa": 1,
-                    "fmoewr": 2,
                     "rew": 7,
                     "sir": 6,
                     "onkod": 9,
@@ -22013,7 +22011,7 @@
                 "f0ebf108",
                 "b12db097",
                 "16fcc6cf",
-                "bd42dc66",
+                "686e3018",
                 "ebab8231",
                 "f81c52ca",
                 "8fbd50e0",
@@ -22153,7 +22151,7 @@
                 "cde2bfdd",
                 "cde2bfdd",
                 "cde2bfdd",
-                "0dfa616c",
+                "686e3018",
                 "9cecda1e",
                 "9cecda1e",
                 "9cecda1e",
@@ -22368,7 +22366,8 @@
                     "dpa": 5,
                     "zamzam-foundation": 14,
                     "sypd": 35,
-                    "gsa": 1
+                    "gsa": 1,
+                    "moewr": 2
                 },
                 "regional": {},
                 "international": {
@@ -22400,8 +22399,6 @@
                     "soado": 10,
                     "mcan": 2,
                     "lta-safa": 2,
-                    "frs-moewr": 1,
-                    "fmoewr": 1,
                     "pda": 15,
                     "hrec": 4,
                     "sdpbi": 9
@@ -23592,8 +23589,8 @@
                 "29d3a2b8",
                 "0de90082",
                 "4e4e937e",
-                "0ec47fe4",
-                "2628fc66",
+                "7f38346c",
+                "f6f9496c",
                 "b1a8f476",
                 "b1a8f476",
                 "6b0ed1b3",
@@ -23721,7 +23718,7 @@
                     "wardi": 5,
                     "scc": 6,
                     "saredo": 67,
-                    "moewr": 4,
+                    "moewr": 6,
                     "ard": 16
                 },
                 "regional": {},
@@ -23754,7 +23751,6 @@
                     "ospad": 4,
                     "sdro": 22,
                     "mow": 7,
-                    "fmoewr": 2,
                     "kaah": 4,
                     "mudro": 10,
                     "badef": 7,
@@ -34346,7 +34342,7 @@
                 "dee01886",
                 "38f2dd91",
                 "dee01886",
-                "3efa9ac9",
+                "413b6a30",
                 "ea46ef83",
                 "9cf0ab6f",
                 "9cf0ab6f",
@@ -34508,6 +34504,7 @@
                     "jmac": 17,
                     "nardo": 11,
                     "srda": 7,
+                    "moewr": 1,
                     "hirda": 1
                 },
                 "regional": {},
@@ -34545,8 +34542,7 @@
                 "unknown": {
                     "hapen": 8,
                     "codhnet": 4,
-                    "shra": 2,
-                    "frs-moewr": 1
+                    "shra": 2
                 }
             },
             "sectors": {
@@ -37379,8 +37375,8 @@
                 "507f7344",
                 "42a61e5b",
                 "efd1c723",
-                "bd363b05",
-                "bd363b05",
+                "5e6e36f3",
+                "5e6e36f3",
                 "9835afc8",
                 "de7e7ed8",
                 "5e70176e",
@@ -37409,7 +37405,8 @@
                     "wardi": 2,
                     "scc": 5,
                     "soyda": 20,
-                    "lrdo": 1
+                    "lrdo": 1,
+                    "moewr": 2
                 },
                 "regional": {},
                 "international": {
@@ -37432,8 +37429,7 @@
                 },
                 "unknown": {
                     "mc": 1,
-                    "sophpa": 1,
-                    "fmoewr": 2
+                    "sophpa": 1
                 }
             },
             "sectors": {
@@ -39196,7 +39192,7 @@
                 "f0ebf108",
                 "b12db097",
                 "16fcc6cf",
-                "bd42dc66",
+                "686e3018",
                 "ebab8231",
                 "8fbd50e0",
                 "3440f409",
@@ -39333,7 +39329,7 @@
                 "cde2bfdd",
                 "cde2bfdd",
                 "cde2bfdd",
-                "0dfa616c",
+                "686e3018",
                 "9cecda1e",
                 "9cecda1e",
                 "9cecda1e",
@@ -39522,7 +39518,8 @@
                     "kaalo": 5,
                     "dpa": 5,
                     "sypd": 35,
-                    "gsa": 1
+                    "gsa": 1,
+                    "moewr": 2
                 },
                 "regional": {},
                 "international": {
@@ -39552,8 +39549,6 @@
                     "hirdo": 11,
                     "mcan": 2,
                     "lta-safa": 2,
-                    "frs-moewr": 1,
-                    "fmoewr": 1,
                     "pda": 15,
                     "hrec": 1,
                     "sdpbi": 9
@@ -42022,7 +42017,7 @@
                 "cf83832e",
                 "413a728b",
                 "f1bbc4b3",
-                "74f5e245",
+                "3f971835",
                 "ff80b469",
                 "d6bf80bc",
                 "ff80b469",
@@ -42123,6 +42118,7 @@
                     "jmac": 8,
                     "nardo": 8,
                     "asep": 4,
+                    "moewr": 1,
                     "hirda": 21
                 },
                 "regional": {},
@@ -42143,7 +42139,6 @@
                 "unknown": {
                     "llg": 8,
                     "codhnet": 2,
-                    "fmoewr": 1,
                     "arche-nova": 1
                 }
             },
@@ -42578,7 +42573,7 @@
                 "0d425c40",
                 "e6f1844d",
                 "0de90082",
-                "2628fc66",
+                "f6f9496c",
                 "0cce3a58",
                 "d8076b49",
                 "cdb516ad",
@@ -42619,7 +42614,7 @@
                     "soyda": 21,
                     "scc": 6,
                     "saredo": 22,
-                    "moewr": 4
+                    "moewr": 5
                 },
                 "regional": {},
                 "international": {
@@ -42644,7 +42639,6 @@
                     "elman": 4,
                     "sdro": 22,
                     "mow": 7,
-                    "fmoewr": 1,
                     "kaah": 4
                 }
             },
@@ -43399,7 +43393,7 @@
                 "5e1cc236",
                 "a9729e79",
                 "5e1cc236",
-                "87dfe9ec",
+                "4d3c0162",
                 "35205a1c",
                 "b6eef61d",
                 "0ef80042",
@@ -43484,7 +43478,8 @@
                     "wise": 4,
                     "deh-relief-somalia": 27,
                     "cpd": 39,
-                    "gsa": 25
+                    "gsa": 25,
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -43504,7 +43499,6 @@
                     "mercy-usa": 3
                 },
                 "unknown": {
-                    "frs-moewr": 1,
                     "secco": 8,
                     "idil": 3,
                     "sdro": 1,
@@ -45079,7 +45073,7 @@
                 "0a2b8878",
                 "7b797ed9",
                 "0a2b8878",
-                "bf3681ec",
+                "a95bc7bd",
                 "06cc3438",
                 "b431cb66",
                 "ef972a6b",
@@ -45095,7 +45089,8 @@
             ],
             "orgs": {
                 "local": {
-                    "gredo": 3
+                    "gredo": 3,
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -45111,8 +45106,7 @@
                     "pasos": 9,
                     "btsc": 8,
                     "mcan": 2,
-                    "socwrh": 2,
-                    "fmoewr": 1
+                    "socwrh": 2
                 }
             },
             "sectors": {
@@ -45347,7 +45341,7 @@
                 "fb9a4a91",
                 "d0f4751c",
                 "f6d65b69",
-                "b99573d7",
+                "b0baa810",
                 "d0f4751c",
                 "0a2d6c2d",
                 "62f076ef",
@@ -45381,7 +45375,8 @@
                     "aamin": 18,
                     "wocca": 92,
                     "nofyl": 3,
-                    "gsa": 5
+                    "gsa": 5,
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -45401,7 +45396,6 @@
                     "swdc": 2,
                     "sos-cv": 24,
                     "mow": 2,
-                    "fmoewr": 1,
                     "rew": 7,
                     "irdo": 5
                 }
@@ -45737,7 +45731,7 @@
                 "352024a4",
                 "d23f5274",
                 "29d3a2b8",
-                "0ec47fe4",
+                "7f38346c",
                 "b1a8f476",
                 "b1a8f476",
                 "d2b4bcc7",
@@ -45788,6 +45782,7 @@
                     "juba-foundation": 22,
                     "soyda": 96,
                     "saredo": 24,
+                    "moewr": 1,
                     "ard": 16
                 },
                 "regional": {},
@@ -45805,7 +45800,6 @@
                 "unknown": {
                     "sts": 10,
                     "mcan": 2,
-                    "fmoewr": 1,
                     "mudro": 10,
                     "badef": 3
                 }
@@ -49413,7 +49407,7 @@
                 "c68efc98",
                 "2f617a56",
                 "f8a1e11d",
-                "f3d092f5",
+                "2a6b6488",
                 "9a874869",
                 "5d5518a3",
                 "665a3d7e",
@@ -49439,7 +49433,7 @@
                 "9a874869",
                 "bc7a2ee5",
                 "e1ae0b94",
-                "6809043a",
+                "550367ec",
                 "7ce057bf",
                 "4f0cfd2a",
                 "d091a627",
@@ -49490,6 +49484,7 @@
                     "zamzam-foundation": 5,
                     "scc": 13,
                     "soyda": 12,
+                    "moewr": 2,
                     "lrdo": 1
                 },
                 "regional": {
@@ -49517,9 +49512,7 @@
                     "baniadam": 9,
                     "saafi-company": 1,
                     "sophpa": 1,
-                    "frs-moewr": 1,
                     "idil": 4,
-                    "fmoewr": 1,
                     "secco": 7
                 }
             },
@@ -51723,7 +51716,7 @@
                 "64f4cbc1",
                 "5f26f486",
                 "15676c4c",
-                "86cc7815",
+                "4ce87cce",
                 "7493ab28",
                 "381277bf",
                 "64f4cbc1",
@@ -51737,7 +51730,8 @@
                     "somali-aid": 5,
                     "al-dawa": 11,
                     "wocca": 38,
-                    "saacid": 4
+                    "saacid": 4,
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -51750,7 +51744,6 @@
                     "wfp": 2
                 },
                 "unknown": {
-                    "fmoewr": 1,
                     "onkod": 2
                 }
             },
@@ -55825,7 +55818,7 @@
             "orgs": {
                 "local": {
                     "government-of-somalia": 5,
-                    "ministere-de-l-energie-et-des-ressources-en-eau": 1
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {
@@ -55865,7 +55858,7 @@
             "orgs": {
                 "local": {
                     "government-of-somalia": 6,
-                    "ministere-de-l-energie-et-des-ressources-en-eau": 1
+                    "moewr": 1
                 },
                 "regional": {},
                 "international": {

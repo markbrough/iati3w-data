@@ -4186,8 +4186,8 @@
                 "18998e0e",
                 "30217575",
                 "03bb92e1",
-                "bf3681ec",
-                "74f5e245",
+                "a95bc7bd",
+                "3f971835",
                 "5028ac43",
                 "2345d1ff",
                 "778e6ddf",
@@ -4241,10 +4241,10 @@
                 "ba074eb1",
                 "41fddd6c",
                 "5950e334",
-                "bd42dc66",
-                "87dfe9ec",
-                "3efa9ac9",
-                "f3d092f5",
+                "686e3018",
+                "4d3c0162",
+                "413b6a30",
+                "2a6b6488",
                 "1c62b4a3",
                 "3ab63f4a",
                 "82f1e829",
@@ -4386,10 +4386,9 @@
                 "6303e6bd",
                 "39fdfb0b",
                 "facaedef",
-                "b99573d7",
-                "86cc7815",
-                "0ec47fe4",
-                "2628fc66",
+                "b0baa810",
+                "4ce87cce",
+                "7f38346c",
                 "d66a12dd",
                 "1a653c10",
                 "1f680cb0",
@@ -4398,8 +4397,8 @@
                 "51904707",
                 "b2a9eb42",
                 "73db874a",
-                "6809043a",
-                "bd363b05",
+                "550367ec",
+                "5e6e36f3",
                 "ae16c38b",
                 "00bae297",
                 "211bd972",
@@ -4457,7 +4456,6 @@
                 "69624796",
                 "d6dd4546",
                 "9a8132d4",
-                "0dfa616c",
                 "fcc02b37",
                 "bfa22a03",
                 "7a23114f",
@@ -4557,9 +4555,9 @@
                 "tasco": 26,
                 "pwda": 50,
                 "hidig": 13,
+                "moewr": 18,
                 "wocca": 11,
-                "hirda": 23,
-                "moewr": 4
+                "hirda": 23
             },
             "regional": {
                 "afrah-construction-company": 5
@@ -4622,8 +4620,6 @@
                 "sro": 16,
                 "saafi-company": 5,
                 "lta-safa": 3,
-                "fmoewr": 10,
-                "frs-moewr": 4,
                 "ada": 1,
                 "idil": 14,
                 "secco": 15
@@ -21451,7 +21447,7 @@
             "local": {
                 "government-of-somalia": 11,
                 "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
-                "ministere-de-l-energie-et-des-ressources-en-eau": 1
+                "moewr": 1
             },
             "regional": {},
             "international": {
@@ -21686,21 +21682,40 @@
         },
         "total_activities": 1
     },
-    "ministere-de-l-energie-et-des-ressources-en-eau": {
+    "moewr": {
         "info": {
-            "name": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau",
+            "name": "Somalia Ministry of Energy and Water Resources",
             "scope": "local",
-            "synonyms": [],
-            "shortname": "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau",
-            "stub": "ministere-de-l-energie-et-des-ressources-en-eau"
+            "url": "https://moewr.gov.so/",
+            "synonyms": [
+                "FMOEWR",
+                "FRS MoEWR",
+                "Ministry of Energy and Water Resources (MoEWR)",
+                "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau"
+            ],
+            "shortname": "MoEWR",
+            "stub": "moewr"
         },
         "sources": [
-            "IATI"
+            "IATI",
+            "3W"
         ],
-        "humanitarian": false,
+        "humanitarian": true,
         "activities": {
             "implementing": [
-                "46002-P-SO-E00-002"
+                "46002-P-SO-E00-002",
+                "a95bc7bd",
+                "3f971835",
+                "686e3018",
+                "4d3c0162",
+                "413b6a30",
+                "2a6b6488",
+                "f6f9496c",
+                "b0baa810",
+                "4ce87cce",
+                "7f38346c",
+                "550367ec",
+                "5e6e36f3"
             ],
             "programming": [],
             "funding": []
@@ -21708,14 +21723,16 @@
         "partners": {
             "local": {},
             "regional": {},
-            "international": {},
+            "international": {
+                "unicef": 18
+            },
             "unknown": {
                 "african-development-bank-group": 1
             }
         },
         "sectors": {
             "humanitarian": {
-                "water-sanitation-hygiene": 1
+                "water-sanitation-hygiene": 19
             },
             "dac": {
                 "water-supply-sanitation": 1
@@ -21723,15 +21740,34 @@
         },
         "locations": {
             "admin1": {
-                "lower-juba": 1
+                "lower-juba": 1,
+                "bay": 1,
+                "gedo": 2,
+                "hiraan": 2,
+                "mudug": 1,
+                "banadir-mogadishu": 4,
+                "lower-shabelle": 6,
+                "middle-shabelle": 2
             },
-            "admin2": {},
+            "admin2": {
+                "buur-hakaba": 1,
+                "belet-xaawo": 1,
+                "belet-weyne": 2,
+                "hobyo": 1,
+                "doolow": 1,
+                "daynile": 2,
+                "afgooye": 5,
+                "balcad": 1,
+                "cadale": 1,
+                "marka": 1,
+                "dharkenley": 2
+            },
             "unclassified": {
                 "Galmudug": 1,
                 "Puntland": 1
             }
         },
-        "total_activities": 1
+        "total_activities": 19
     },
     "african-water-facility": {
         "info": {
@@ -42182,71 +42218,6 @@
         },
         "total_activities": 2
     },
-    "fmoewr": {
-        "info": {
-            "name": "FMOEWR",
-            "scope": "unknown",
-            "synonyms": [],
-            "shortname": "FMOEWR",
-            "stub": "fmoewr"
-        },
-        "sources": [
-            "3W"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "bf3681ec",
-                "74f5e245",
-                "b99573d7",
-                "86cc7815",
-                "0ec47fe4",
-                "2628fc66",
-                "6809043a",
-                "bd363b05",
-                "0dfa616c"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "unicef": 10
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {
-                "water-sanitation-hygiene": 10
-            },
-            "dac": {}
-        },
-        "locations": {
-            "admin1": {
-                "bay": 1,
-                "gedo": 1,
-                "middle-shabelle": 2,
-                "lower-shabelle": 2,
-                "banadir-mogadishu": 3,
-                "hiraan": 1
-            },
-            "admin2": {
-                "buur-hakaba": 1,
-                "belet-xaawo": 1,
-                "balcad": 1,
-                "cadale": 1,
-                "marka": 1,
-                "afgooye": 1,
-                "daynile": 1,
-                "dharkenley": 2,
-                "belet-weyne": 1
-            },
-            "unclassified": {}
-        },
-        "total_activities": 10
-    },
     "hirda": {
         "info": {
             "name": "Himilo Relief and Development Association",
@@ -42362,59 +42333,6 @@
             "unclassified": {}
         },
         "total_activities": 2
-    },
-    "frs-moewr": {
-        "info": {
-            "name": "FRS MoEWR",
-            "scope": "unknown",
-            "synonyms": [],
-            "shortname": "FRS MoEWR",
-            "stub": "frs-moewr"
-        },
-        "sources": [
-            "3W"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "bd42dc66",
-                "87dfe9ec",
-                "3efa9ac9",
-                "f3d092f5"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "unicef": 4
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {
-                "water-sanitation-hygiene": 4
-            },
-            "dac": {}
-        },
-        "locations": {
-            "admin1": {
-                "hiraan": 1,
-                "mudug": 1,
-                "gedo": 1,
-                "banadir-mogadishu": 1
-            },
-            "admin2": {
-                "belet-weyne": 1,
-                "hobyo": 1,
-                "doolow": 1,
-                "daynile": 1
-            },
-            "unclassified": {}
-        },
-        "total_activities": 4
     },
     "direct-aid": {
         "info": {
@@ -42729,54 +42647,6 @@
             "unclassified": {}
         },
         "total_activities": 1
-    },
-    "moewr": {
-        "info": {
-            "name": "Somalia Ministry of Energy and Water Resources",
-            "scope": "local",
-            "url": "https://moewr.gov.so/",
-            "synonyms": [
-                "MoEWR",
-                "Somalia Ministry of Energy and Water Resources (MoEWR)"
-            ],
-            "shortname": "MoEWR",
-            "stub": "moewr"
-        },
-        "sources": [
-            "3W"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "f6f9496c"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "unicef": 4
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {
-                "water-sanitation-hygiene": 4
-            },
-            "dac": {}
-        },
-        "locations": {
-            "admin1": {
-                "lower-shabelle": 4
-            },
-            "admin2": {
-                "afgooye": 4
-            },
-            "unclassified": {}
-        },
-        "total_activities": 4
     },
     "vsf": {
         "info": {
