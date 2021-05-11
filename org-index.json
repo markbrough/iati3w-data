@@ -871,6 +871,7 @@
                 "world-bank-trust-funds": 6,
                 "undp": 10,
                 "who": 1,
+                "icrc": 1,
                 "ocha": 3,
                 "unaids": 5,
                 "wfp": 17
@@ -879,7 +880,6 @@
                 "fonds-des-nations-unies-pour-la-population": 5,
                 "organisation-des-nations-unies-pour-l-alimentation-et-l-agricult": 1,
                 "programme-alimentaire-mondial": 3,
-                "comite-international-de-la-croix-rouge": 1,
                 "other-non-financial-corporations-in-recipient-country": 1
             }
         },
@@ -3601,13 +3601,12 @@
     },
     "icrc": {
         "info": {
-            "name": "International Committee of the Red Cross (ICRC)",
+            "name": "International Committee of the Red Cross",
             "scope": "international",
             "synonyms": [
                 "COMITE INTERNATIONAL DE LA CROIX ROUGE CICR",
                 "ICRC - International Committee of the Red Cross",
-                "International Committee of the Red Cross",
-                "International Committee of the Red Cross (ICRC)"
+                "Comit\u00e9 international de la Croix-Rouge"
             ],
             "shortname": "ICRC",
             "iati": {
@@ -3632,7 +3631,8 @@
                 "SE-0-SE-6-11781A0101-SOM-72040",
                 "SE-0-SE-6-11781A0101-SOM-72050",
                 "SE-0-SE-6-11781A0101-SOM-73010",
-                "XM-DAC-5-7-6609395"
+                "XM-DAC-5-7-6609395",
+                "CH-4-2020000939"
             ],
             "programming": [],
             "funding": []
@@ -3642,7 +3642,8 @@
             "regional": {},
             "international": {
                 "sida": 4,
-                "germany-federal-foreign-office": 1
+                "germany-federal-foreign-office": 1,
+                "sdc": 1
             },
             "unknown": {}
         },
@@ -3654,7 +3655,7 @@
                 "camp-coordination-management": 1
             },
             "dac": {
-                "emergency-response": 4,
+                "emergency-response": 5,
                 "reconstruction-relief-rehabilitation": 1
             }
         },
@@ -3665,7 +3666,7 @@
                 "Somalia": 1
             }
         },
-        "total_activities": 5
+        "total_activities": 6
     },
     "icrc-international-committee-of-the-red-cross-roda-korset": {
         "info": {
@@ -9241,47 +9242,6 @@
             "unclassified": {}
         },
         "total_activities": 3
-    },
-    "comite-international-de-la-croix-rouge": {
-        "info": {
-            "name": "Comit\u00e9 international de la Croix-Rouge",
-            "shortname": "Comit\u00e9 international de la Croix-Rouge",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "comite-international-de-la-croix-rouge"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "CH-4-2020000939"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "local": {},
-            "regional": {},
-            "international": {
-                "sdc": 1
-            },
-            "unknown": {}
-        },
-        "sectors": {
-            "humanitarian": {},
-            "dac": {
-                "emergency-response": 1
-            }
-        },
-        "locations": {
-            "admin1": {},
-            "admin2": {},
-            "unclassified": {}
-        },
-        "total_activities": 1
     },
     "echo": {
         "info": {
