@@ -1,4 +1,120 @@
 {
+    "Har-Hub": {
+        "name": "Har-Hub",
+        "shortname": "Har-Hub",
+        "scope": "local",
+        "synonyms": [
+            "Har-Hub was founded , after realizing that the unemployment rate among those under 30 in Somaliland, who comprise 70% of the population, is 67% they have decided to identify ways they can help young people access opportunities and create jobs for the one another, Now they have programs and services tailored that allow young innovators and entrepreneurs to create, build, scale and sustain social ventures that tackle the communities most pressing issues such as unemployment."
+        ]
+    },
+    "Innovate Ventures": {
+        "name": "Innovate Ventures",
+        "shortname": "Innovate Ventures",
+        "scope": "local",
+        "synonyms": [
+            "Innovate Ventures is the leading start-up accelerator and technology fund in Somaliland and Somalia. Innovate Ventures mission is to develop tech-based businesses in Somalia and Somaliland, support the next wave of Somali entrepreneurs, and grow the nascent start-up ecosystem in the country. Innovate Ventures is the leading Somali startup accelerator and early-stage startup fund supporting ambitious startups who use technology to change the world. Through our accelerator programme we invest in and support great teams withcool ideas to help build a world-class business through an intensive three-month programme."
+        ]
+    },
+    "WAHD-SL": {
+        "name": "Women’s Action for Human Dignity–Sierra Leone",
+        "shortname": "WAHD-SL",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "WISH": {
+        "name": "Women Initiative for Self Help",
+        "shortname": "WISH",
+        "scope": "regional",
+        "url": "https://wishlbr.org",
+        "synonyms": []
+    },
+    "HADMA": {
+        "name": "Human Affairs and Disaster Management Agency",
+        "shortname": "HADMA",
+        "scope": "local",
+        "synonyms": [
+            "The Puntland authorities established HADMA (Humanitarian Affairs and Disaster Management Agency) in 2005 to lead the coordination of humanitarian interventions in Puntland on a monthly basis. HADMA, with the support of OCHA currently coordinates and organizes sectoral meetings on: Health, Education, Water and Sanitation, Environment, Infrastructure and Shelter, Food Security and Fisheries. The Puntland Ministry of Planning and International Cooperation also do some coordination in terms of development programmes."
+        ]
+    },
+    "One Earth Foundation": {
+        "name": "One Earth Foundation",
+        "shortname": "One Earth Foundation",
+        "scope": "regional",
+        "synonyms": [
+            "The One Earth Future Foundation is a self-funded private operating foundation that seeks to create a more peaceful world through collaborative, data-driven initiatives. Key programs include: 1. Enhancing cooperation to solve maritime piracy; Oceans Beyond Piracy addresses maritime piracy and violence at sea by mobilizing stakeholders from across the maritime community and promoting long-term solutions at sea and on shore. 2. Advancing sustainable fisheries through science-based analysis: Secure Fisheries collects, analyzes and shares data about fisheries in the Somali and Lake Victoria regions and coordinates with regional stakeholders to fight IUU fishing in the Indian Ocean. 3. Creating sustainable jobs in fragile economies: Shuraako facilitatesinvestment in promising Somali-based businesses, fostering a marketplace that encourages economic development and stability throughout the country. 4. Building sustainable peace through collaboration: PASO Colombia provides multi-sector coalitions withstronger systems of collaboration and information to promote sustainable peace in Colombia. 5. Contributing to thought leadership on good governance: OEF Research collects and analyzes data on the role of good governance in support of sustainable peaceglobally and convenes academics and practitioners in support of evidence-based practice. The Foundation has its head quarters in USA and operations in Somalia, with offices in Hargeisain Somaliland and Garowe in Puntland."
+        ]
+    },
+    "SFPA": {
+        "name": "Sudan Family Planning Association",
+        "shortname": "SFPA",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "NADFOR": {
+        "name": "Somaliland National Disaster Preparedness and Food Reserve Authority",
+        "shortname": "NADFOR",
+        "scope": "local",
+        "synonyms": [
+            "Somaliland National Disaster Preparedness and Food Reserve Authority( NADFOR) was established in 2003 but legally passed in June 2007 through parliament, house of elders and signed by the President of Somaliland , Nafor's goal is to prevent frequent occurrence ofdisasters, droughts and reduce vulnerability of communities by improving sustainable coping capacities to decrease overall impact to disasters on lives and livelihoods of Somaliland communities. NADFOR's Strategic Objective to become effective and efficient institution managing early warning systems, information sharing and dissemination advocating for disasters and related environmental crisis for strategic decision making and action in the country."
+        ]
+    },
+    "Intermon": {
+        "name": "Oxfam Spain",
+        "shortname": "Intermon",
+        "scope": "international",
+        "synonyms": []
+    },
+    "OSPE": {
+        "name": "ONG Sainte Philomène, l'Espérance",
+        "shortname": "OSPE",
+        "url": "https://www.ospe225.com",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "KDLK": {
+        "name": "Keep the Drums Lose the Knife",
+        "shortname": "KDLK",
+        "scope": "international",
+        "url": "https://www.keepthedrumsandlosetheknife.org",
+        "synonyms": []
+    },
+    "G2G": {
+        "name": "Girl2Girl Empowerment Movement",
+        "shortname": "G2G",
+        "scope": "regional",
+        "url": "http://www.girl2girlngo.org/",
+        "synonyms": []
+    },
+    "FPAM": {
+        "name": "Family Planning Association of Malawi",
+        "shortname": "FPAM",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "FGAE": {
+        "name": "Family Guidance Association of Ethiopia",
+        "shortname": "FGAE",
+        "scope": "regional",
+        "synonyms": []
+    },
+    "ABUBEF": {
+        "name": "Association Burundaise pour le Bien-Etre Familial",
+        "scope": "regional",
+        "synonyms": [],
+        "shortname": "ABUBEF"
+    },
+    "CSSF": {
+        "name": "Conflict, Stability and Security Fund",
+        "shortname": "CSSF",
+        "scope": "international",
+        "synonyms": []
+    },
+    "COFGIRLS": {
+        "name": "Covenant Foundation For Girls",
+        "shortname": "COFGIRLS",
+        "scope": "unknown",
+        "synonyms": []
+    },
     "AMODEFA": {
         "name": "Associação Moçambicana para Desenvolvimento da Família",
         "shortname": "AMODEFA",
@@ -1574,11 +1690,11 @@
         },
         "iati_id": "XI-IATI-AGR"
     },
-    "Aga Khan Foundation (United Kingdom)": {
-        "name": "Aga Khan Foundation (United Kingdom)",
+    "Aga Khan Foundation - United Kingdom": {
+        "name": "Aga Khan Foundation - United Kingdom",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Aga Khan Foundation (United Kingdom)",
+        "shortname": "Aga Khan Foundation - United Kingdom",
         "iati": {
             "code": "GB-COH-1100897",
             "name": "Aga Khan Foundation (United Kingdom)",
@@ -1590,11 +1706,11 @@
         },
         "iati_id": "GB-COH-1100897"
     },
-    "Aga Khan Foundation Afghanistan": {
-        "name": "Aga Khan Foundation Afghanistan",
+    "Aga Khan Foundation - Afghanistan": {
+        "name": "Aga Khan Foundation - Afghanistan",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Aga Khan Foundation Afghanistan",
+        "shortname": "Aga Khan Foundation - Afghanistan",
         "iati": {
             "code": "AF-MOE-138",
             "name": "Aga Khan Foundation Afghanistan",
@@ -1622,11 +1738,11 @@
         },
         "iati_id": "BJ-IFU-4201710182326"
     },
-    "Agency for Cooperation and Research in Development (ACORD)": {
-        "name": "Agency for Cooperation and Research in Development (ACORD)",
+    "ACORD": {
+        "name": "Agency for Cooperation and Research in Development",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Agency for Cooperation and Research in Development (ACORD)",
+        "shortname": "ACORD",
         "iati": {
             "code": "GB-CHC-283302",
             "name": "Agency for Cooperation and Research in Development (ACORD)",
@@ -1725,11 +1841,11 @@
         },
         "iati_id": "NL-KVK-41207989"
     },
-    "Ajuda de Desenvolvimento de Povo para Povo (ADPP)": {
-        "name": "Ajuda de Desenvolvimento de Povo para Povo (ADPP)",
+    "ADPP": {
+        "name": "Ajuda de Desenvolvimento de Povo para Povo",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Ajuda de Desenvolvimento de Povo para Povo (ADPP)",
+        "shortname": "ADPP",
         "iati": {
             "code": "mz-moj-64vq1",
             "name": "Ajuda de Desenvolvimento de Povo para Povo (ADPP)",
@@ -1833,11 +1949,12 @@
         "synonyms": [],
         "shortname": "Alkowthar Water Supply Company"
     },
-    "All We Can (formerly Methodist Relief and Development Fund)": {
-        "name": "All We Can (formerly Methodist Relief and Development Fund)",
+    "All We Can": {
+        "name": "All We Can",
         "scope": "international",
         "synonyms": [],
-        "shortname": "All We Can (formerly Methodist Relief and Development Fund)",
+        "notes": "Formerly Methodist Relief and Development Fund)",
+        "shortname": "All We Can",
         "iati": {
             "code": "GB-CHC-291691",
             "name": "All We Can (formerly Methodist Relief and Development Fund)",
@@ -2063,11 +2180,11 @@
         },
         "iati_id": "UG-NGB-5914-252"
     },
-    "Ananda Marga Universal Relief Team (AMURT) Africa": {
-        "name": "Ananda Marga Universal Relief Team (AMURT) Africa",
+    "AMURT": {
+        "name": "Ananda Marga Universal Relief Team - Africa",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Ananda Marga Universal Relief Team (AMURT) Africa",
+        "shortname": "AMURT",
         "iati": {
             "code": "KE-NCB-OP21805193101154",
             "name": "Ananda Marga Universal Relief Team (AMURT) Africa",
@@ -2262,11 +2379,11 @@
         },
         "iati_id": "ML-NIF-086108989R"
     },
-    "Association de solidarit\u00e9 internationale, Agriculteurs fran\u00e7ais et d\u00e9veloppement international (Afdi) France": {
-        "name": "Association de solidarit\u00e9 internationale, Agriculteurs fran\u00e7ais et d\u00e9veloppement international (Afdi) France",
+    "Afdi": {
+        "name": "Association de solidarit\u00e9 internationale, Agriculteurs fran\u00e7ais et d\u00e9veloppement international - France",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Association de solidarit\u00e9 internationale, Agriculteurs fran\u00e7ais et d\u00e9veloppement international (Afdi) France",
+        "shortname": "Afdi",
         "iati": {
             "code": "FR-INSEE-31827645800037",
             "name": "Association de solidarit\u00e9 internationale, Agriculteurs fran\u00e7ais et d\u00e9veloppement international (Afdi) France",
@@ -2278,11 +2395,11 @@
         },
         "iati_id": "FR-INSEE-31827645800037"
     },
-    "Association for Cultural Technical and Educational Cooperation (ACTEC)": {
-        "name": "Association for Cultural Technical and Educational Cooperation (ACTEC)",
+    "ACTEC": {
+        "name": "Association for Cultural Technical and Educational Cooperation",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Association for Cultural Technical and Educational Cooperation (ACTEC)",
+        "shortname": "ACTEC",
         "iati": {
             "code": "BE-BCE_KBO-0424198222",
             "name": "Association for Cultural Technical and Educational Cooperation (ACTEC)",
@@ -2326,11 +2443,11 @@
         },
         "iati_id": "NG-CAC-5938"
     },
-    "Association for Women's Rights in Development (AWID)": {
-        "name": "Association for Women's Rights in Development (AWID)",
+    "AWID": {
+        "name": "Association for Women's Rights in Development",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Association for Women's Rights in Development (AWID)",
+        "shortname": "AWID",
         "iati": {
             "code": "US-EIN-521291786",
             "name": "Association for Women's Rights in Development (AWID)",
@@ -2685,11 +2802,11 @@
         },
         "iati_id": "TZ-TRA-116315386"
     },
-    "Backward Society Education (BASE)": {
-        "name": "Backward Society Education (BASE)",
+    "BASE": {
+        "name": "Backward Society Education",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Backward Society Education (BASE)",
+        "shortname": "BASE",
         "iati": {
             "code": "NP-DAO-DANG-18-046/47",
             "name": "Backward Society Education (BASE)",
@@ -3585,6 +3702,7 @@
         "scope": "international",
         "synonyms": [
             "CERF",
+            "UN CERF",
             "Central Emergency Response Fund",
             "OCHA Central Emergency Response Fund (CERF)",
             "United Nations Central Emergency Response Fund",
@@ -3800,11 +3918,11 @@
         "synonyms": [],
         "shortname": "COHOPE"
     },
-    "COMMISSION JUSTICE ET PAIX ASBL (cjp)": {
-        "name": "COMMISSION JUSTICE ET PAIX ASBL (cjp)",
+    "CJP": {
+        "name": "Commission Justice et Paix ASBL",
         "scope": "international",
         "synonyms": [],
-        "shortname": "COMMISSION JUSTICE ET PAIX ASBL (cjp)",
+        "shortname": "CJP",
         "iati": {
             "code": "BE-BCE_KBO-0418399305",
             "name": "COMMISSION JUSTICE ET PAIX ASBL (cjp)",
@@ -4057,11 +4175,11 @@
         },
         "iati_id": "GB-CHC-1150214"
     },
-    "Caribbean Development Bank (CDB)": {
-        "name": "Caribbean Development Bank (CDB)",
+    "CDB": {
+        "name": "Caribbean Development Bank",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "Caribbean Development Bank (CDB)",
+        "shortname": "CDB",
         "iati": {
             "code": "XM-DAC-46009",
             "name": "Caribbean Development Bank (CDB)",
@@ -4137,11 +4255,11 @@
         },
         "iati_id": "RS-APR-17062603"
     },
-    "Catholic Agency For Overseas Development (CAFOD)": {
-        "name": "Catholic Agency For Overseas Development (CAFOD)",
+    "CAFOD": {
+        "name": "Catholic Agency For Overseas Development",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Catholic Agency For Overseas Development (CAFOD)",
+        "shortname": "CAFOD",
         "iati": {
             "code": "GB-CHC-285776",
             "name": "Catholic Agency For Overseas Development (CAFOD)",
@@ -4201,11 +4319,11 @@
         },
         "iati_id": "US-EIN-75-3130860"
     },
-    "Center for International Legal Cooperation (CILC)": {
-        "name": "Center for International Legal Cooperation (CILC)",
+    "CILC": {
+        "name": "Center for International Legal Cooperation",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Center for International Legal Cooperation (CILC)",
+        "shortname": "CILC",
         "iati": {
             "code": "NL-KVK-41166983",
             "name": "Center for International Legal Cooperation (CILC)",
@@ -4233,11 +4351,11 @@
         },
         "iati_id": "CA-CRA_ACR-118846575"
     },
-    "Center for Research on Environment Health and Population Activities (CREHPA)": {
-        "name": "Center for Research on Environment Health and Population Activities (CREHPA)",
+    "CREHPA": {
+        "name": "Center for Research on Environment Health and Population Activities",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Center for Research on Environment Health and Population Activities (CREHPA)",
+        "shortname": "CREHPA",
         "iati": {
             "code": "NP-SWC-1844",
             "name": "Center for Research on Environment Health and Population Activities (CREHPA)",
@@ -4287,11 +4405,11 @@
         },
         "iati_id": "FR-RCS-78049888700022"
     },
-    "Centre National de Coop\u00e9ration au D\u00e9veloppement (CNCD-11.11.11)": {
-        "name": "Centre National de Coop\u00e9ration au D\u00e9veloppement (CNCD-11.11.11)",
+    "CNCD-11.11.11": {
+        "name": "Centre National de Coop\u00e9ration au D\u00e9veloppement",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Centre National de Coop\u00e9ration au D\u00e9veloppement (CNCD-11.11.11)",
+        "shortname": "CNCD-11.11.11",
         "iati": {
             "code": "BE-BCE_KBO-0421207751",
             "name": "Centre National de Coop\u00e9ration au D\u00e9veloppement (CNCD-11.11.11)",
@@ -4367,11 +4485,11 @@
         },
         "iati_id": "NG-CAC-19258"
     },
-    "Centre for Humanitarian Dialogue (HD Centre)": {
-        "name": "Centre for Humanitarian Dialogue (HD Centre)",
+    "HD Centre": {
+        "name": "Centre for Humanitarian Dialogue",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Centre for Humanitarian Dialogue (HD Centre)",
+        "shortname": "HD Centre",
         "iati": {
             "code": "CH-FDJP-CHE-105181636",
             "name": "Centre for Humanitarian Dialogue (HD Centre)",
@@ -4399,11 +4517,11 @@
         },
         "iati_id": "ciks"
     },
-    "Centre for Injury Prevention and Research, Bangladesh (CIPRB)": {
-        "name": "Centre for Injury Prevention and Research, Bangladesh (CIPRB)",
+    "CIPRB": {
+        "name": "Centre for Injury Prevention and Research, Bangladesh",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Centre for Injury Prevention and Research, Bangladesh (CIPRB)",
+        "shortname": "CIPRB",
         "iati": {
             "code": "BD-NAB-2004",
             "name": "Centre for Injury Prevention and Research, Bangladesh (CIPRB)",
@@ -4531,11 +4649,11 @@
         },
         "iati_id": "GB-CHC-1013587"
     },
-    "Charity Projects Ltd (Comic Relief)": {
-        "name": "Charity Projects Ltd (Comic Relief)",
+    "Comic Relief": {
+        "name": "Charity Projects Ltd",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Charity Projects Ltd (Comic Relief)",
+        "shortname": "Comic Relief",
         "iati": {
             "code": "GB-CHC-326568",
             "name": "Charity Projects Ltd (Comic Relief)",
@@ -5500,11 +5618,11 @@
         },
         "iati_id": "GB-CHC-1046579"
     },
-    "Construction Sector Transparency Initiative (CoST)": {
-        "name": "Construction Sector Transparency Initiative (CoST)",
+    "CoST": {
+        "name": "Construction Sector Transparency Initiative",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "Construction Sector Transparency Initiative (CoST)",
+        "shortname": "CoST",
         "iati": {
             "code": "GB-COH-8159144",
             "name": "Construction Sector Transparency Initiative (CoST)",
@@ -5801,6 +5919,7 @@
             "DEVCO",
             "DG for International Cooperation and Development DEVCO European Commission",
             "EC_DEVCO",
+            "EC (European Commission)",
             "European Commission Directorate General for International Cooperation and Development",
             "European Commission Directorate General for International Cooperation and Development (DEVCO)",
             "European Commission Directorate General for International Partnerships DEVCO"
@@ -5876,11 +5995,11 @@
         ],
         "shortname": "DMO"
     },
-    "DNH Mali (Direction Nationale de l\u2019Hydraulique du Mali)": {
-        "name": "DNH Mali (Direction Nationale de l\u2019Hydraulique du Mali)",
+    "DNH Mali": {
+        "name": "Direction Nationale de l\u2019Hydraulique du Mali",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "DNH Mali (Direction Nationale de l\u2019Hydraulique du Mali)",
+        "shortname": "DNH Mali",
         "iati": {
             "code": "ML-NIF-400100027H",
             "name": "DNH Mali (Direction Nationale de l\u2019Hydraulique du Mali)",
@@ -6017,11 +6136,11 @@
         },
         "iati_id": "DK-CVR-20700211"
     },
-    "Danish Trade Union Development Agency (Ulandssekretariatet)": {
-        "name": "Danish Trade Union Development Agency (Ulandssekretariatet)",
+    "Ulandssekretariatet": {
+        "name": "Danish Trade Union Development Agency",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Danish Trade Union Development Agency (Ulandssekretariatet)",
+        "shortname": "Ulandssekretariatet",
         "iati": {
             "code": "DK-CVR-20453672",
             "name": "Danish Trade Union Development Agency (Ulandssekretariatet)",
@@ -6291,11 +6410,11 @@
         "synonyms": [],
         "shortname": "Deutsches Rotes Kreuz e V "
     },
-    "Development Aid from People to People (DAPP) Malawi": {
-        "name": "Development Aid from People to People (DAPP) Malawi",
+    "DAPP": {
+        "name": "Development Aid from People to People Malawi",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Development Aid from People to People (DAPP) Malawi",
+        "shortname": "DAPP",
         "iati": {
             "code": "GPAF-IMP-031",
             "name": "Development Aid from People to People (DAPP) Malawi",
@@ -6841,11 +6960,11 @@
         },
         "iati_id": "XI-IATI-ESFD"
     },
-    "Economic and Social Research Foundation (ESRF)": {
-        "name": "Economic and Social Research Foundation (ESRF)",
+    "ESRF": {
+        "name": "Economic and Social Research Foundation",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Economic and Social Research Foundation (ESRF)",
+        "shortname": "ESRF",
         "iati": {
             "code": "TZ-TRA-101-091-759",
             "name": "Economic and Social Research Foundation (ESRF)",
@@ -7148,11 +7267,11 @@
         },
         "iati_id": "BE-BCE_KBO-0418015461"
     },
-    "Environmental Centre for Oil Spills and Gas Flaring (NACGOND)": {
-        "name": "Environmental Centre for Oil Spills and Gas Flaring (NACGOND)",
+    "NACGOND": {
+        "name": "Environmental Centre for Oil Spills and Gas Flaring",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Environmental Centre for Oil Spills and Gas Flaring (NACGOND)",
+        "shortname": "NACGOND",
         "iati": {
             "code": "NG-CAC-57289",
             "name": "Environmental Centre for Oil Spills and Gas Flaring (NACGOND)",
@@ -7218,11 +7337,11 @@
         },
         "iati_id": "GB-CHC-802353"
     },
-    "Ethiopian Horticulture Producer Exporters Association (EHPEA)": {
-        "name": "Ethiopian Horticulture Producer Exporters Association (EHPEA)",
+    "EHPEA": {
+        "name": "Ethiopian Horticulture Producer Exporters Association",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Ethiopian Horticulture Producer Exporters Association (EHPEA)",
+        "shortname": "EHPEA",
         "iati": {
             "code": "ET-MOT-020/4/007",
             "name": "Ethiopian Horticulture Producer Exporters Association (EHPEA)",
@@ -7442,7 +7561,7 @@
         "shortname": "FAIDO"
     },
     "FAO": {
-        "name": "Food and Agriculture Organization of the United Nations (FAO)",
+        "name": "Food and Agriculture Organization of the United Nations",
         "scope": "international",
         "synonyms": [
             "FAO",
@@ -7926,11 +8045,11 @@
         },
         "iati_id": "FI-3"
     },
-    "Finn Church Aid (Kirkon Ulkomaanapu sr)": {
-        "name": "Finn Church Aid (Kirkon Ulkomaanapu sr)",
+    "Kirkon Ulkomaanapu sr": {
+        "name": "Finn Church Aid",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Finn Church Aid (Kirkon Ulkomaanapu sr)",
+        "shortname": "Kirkon Ulkomaanapu sr",
         "iati": {
             "code": "FI-PRO-0998454-4",
             "name": "Finn Church Aid (Kirkon Ulkomaanapu sr)",
@@ -8299,11 +8418,11 @@
         },
         "iati_id": "CO-RUE-860049972"
     },
-    "Fundo de Investimento e Patrimonio do Abastecimento de \u00c1gua (FIPAG)": {
-        "name": "Fundo de Investimento e Patrimonio do Abastecimento de \u00c1gua (FIPAG)",
+    "FIPAG": {
+        "name": "Fundo de Investimento e Patrimonio do Abastecimento de \u00c1gua",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Fundo de Investimento e Patrimonio do Abastecimento de \u00c1gua (FIPAG)",
+        "shortname": "FIPAG",
         "iati": {
             "code": "MZ-NUIT-600000381",
             "name": "Fundo de Investimento e Patrimonio do Abastecimento de \u00c1gua (FIPAG)",
@@ -8322,6 +8441,7 @@
             "CANADA DFATD GVT",
             "Canada",
             "Canada - GAC",
+            "Foreign Affairs, Trade and Development Canada (DFATD)",
             "Department of Foreign Affairs Trade and Development DFATD Canada",
             "Foreign Affairs Trade and Development Canada",
             "Global Affairs Canada"
@@ -8644,11 +8764,11 @@
         },
         "iati_id": "GB-COH-03580586-GEC"
     },
-    "Giro555 (Stichting Samenwerkende Hulporganisaties)": {
-        "name": "Giro555 (Stichting Samenwerkende Hulporganisaties)",
+    "Giro555": {
+        "name": "Stichting Samenwerkende Hulporganisaties",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Giro555 (Stichting Samenwerkende Hulporganisaties)",
+        "shortname": "Giro555",
         "iati": {
             "code": "NL-KVK-27302841",
             "name": "Giro555 (Stichting Samenwerkende Hulporganisaties)",
@@ -8792,11 +8912,11 @@
         "synonyms": [],
         "shortname": "Global Fund to Fight AIDS Tuberculosis and Malaria GFATM "
     },
-    "Global Green Growth Institute (GGGI)": {
-        "name": "Global Green Growth Institute (GGGI)",
+    "GGGI": {
+        "name": "Global Green Growth Institute",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "Global Green Growth Institute (GGGI)",
+        "shortname": "GGGI",
         "iati": {
             "code": "XM-DAC-47136",
             "name": "Global Green Growth Institute (GGGI)",
@@ -8840,11 +8960,11 @@
         },
         "iati_id": "GB-CHC-1171353"
     },
-    "Global Network of People Living with HIV (GNP+)": {
-        "name": "Global Network of People Living with HIV (GNP+)",
+    "GNP+": {
+        "name": "Global Network of People Living with HIV",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Global Network of People Living with HIV (GNP+)",
+        "shortname": "GNP+",
         "iati": {
             "code": "NL-KVK-41214768",
             "name": "Global Network of People Living with HIV (GNP+)",
@@ -8856,11 +8976,11 @@
         },
         "iati_id": "NL-KVK-41214768"
     },
-    "Global Network of Sex Work Projects (NSWP)": {
-        "name": "Global Network of Sex Work Projects (NSWP)",
+    "NSWP": {
+        "name": "Global Network of Sex Work Projects",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Global Network of Sex Work Projects (NSWP)",
+        "shortname": "NSWP",
         "iati": {
             "code": "GB-COH-SC349355",
             "name": "Global Network of Sex Work Projects (NSWP)",
@@ -8928,14 +9048,14 @@
         },
         "iati_id": "XM-DAC-7-PPR-4000002938"
     },
-    "Global Water Sanitation Hygiene (WASH) Cluster": {
-        "name": "Global Water Sanitation Hygiene (WASH) Cluster",
+    "WASH": {
+        "name": "Global Water Sanitation Hygiene Cluster",
         "scope": "international",
         "synonyms": [
             "Global Water Sanitation Hygiene",
             "WASH"
         ],
-        "shortname": "Global Water Sanitation Hygiene (WASH) Cluster"
+        "shortname": "WASH"
     },
     "Global Witness": {
         "name": "Global Witness",
@@ -9925,14 +10045,10 @@
         "shortname": "IDIL"
     },
     "IDLO": {
-        "name": "International Development Law Organization (IDLO)",
+        "name": "International Development Law Organization",
         "scope": "international",
         "url": "https://www.idlo.int",
-        "synonyms": [
-            "IDLO",
-            "International Development Law Organization",
-            "International Development Law Organization (IDLO)"
-        ],
+        "synonyms": [],
         "shortname": "IDLO",
         "iati": {
             "code": "XM-DAC-47059",
@@ -10044,15 +10160,14 @@
         "iati_id": "NL-KVK-41146484"
     },
     "ILO": {
-        "name": "International Labour Organization (ILO)",
+        "name": "International Labour Organization",
         "scope": "international",
         "synonyms": [
             "ILO",
             "ILO - INTERNATIONAL LABOUR ORGANISATION",
             "ILO/International Labour Organization",
-            "International Labour Organization",
-            "International Labour Organization (ILO)",
-            "International Labour Organisation"
+            "International Labour Organisation",
+            "International Labour Orgamization (ILO)"
         ],
         "shortname": "ILO",
         "iati": {
@@ -10262,18 +10377,20 @@
         "iati_id": "GB-COH-03613839"
     },
     "IOM": {
-        "name": "International Organization for Migration (IOM)",
+        "name": "International Organization for Migration",
         "scope": "international",
         "url": "https://www.iom.int",
         "synonyms": [
             "IOM",
             "IOM Development Fund",
             "International Organisation for Migration",
-            "International Organization for Migration",
             "International Organization for Migration INT",
             "International Organization for Migration IOM",
+            "International Organisation of Migration (IOM)",
             "UN Migration",
-            "UN Migration (IOM)"
+            "UN Migration (IOM)",
+            "International Organisation for Migration (IOM)",
+            "IOM (International Organization for Migration)"
         ],
         "shortname": "IOM",
         "iati": {
@@ -10312,7 +10429,8 @@
             "International Rescue Committee Inc.",
             "International Rescue Committee, The",
             "IRC/International Rescue Committee",
-            "IRC Inc."
+            "IRC Inc.",
+            "Stichting Vluchteling / IRC"
         ],
         "shortname": "IRC",
         "iati": {
@@ -10332,11 +10450,11 @@
         "synonyms": [],
         "shortname": "IRDO"
     },
-    "IREX (International Research and Exchange Board)": {
-        "name": "IREX (International Research and Exchange Board)",
+    "IREX": {
+        "name": "International Research and Exchange Board",
         "scope": "international",
         "synonyms": [],
-        "shortname": "IREX (International Research and Exchange Board)",
+        "shortname": "IREX",
         "iati": {
             "code": "US-EIN-22-3087809",
             "name": "IREX (International Research and Exchange Board)",
@@ -10552,11 +10670,11 @@
         },
         "iati_id": "BE-BCE_KBO-0445412518"
     },
-    "Institute for Policy Research and Advocacy (ELSAM)": {
-        "name": "Institute for Policy Research and Advocacy (ELSAM)",
+    "ELSAM": {
+        "name": "Institute for Policy Research and Advocacy",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Institute for Policy Research and Advocacy (ELSAM)",
+        "shortname": "ELSAM",
         "iati": {
             "code": "ID-KHH-AHU17AH0107",
             "name": "Institute for Policy Research and Advocacy (ELSAM)",
@@ -10745,8 +10863,9 @@
         "iati_id": "GB-COH-06587734"
     },
     "InterSOM": {
-        "name": "InterSOM",
-        "scope": "unknown",
+        "name": "Intersom Relief & Development Organization",
+        "scope": "local",
+        "url": "https://www.facebook.com/Intersom-Relief-Development-Organization-103914211188987/",
         "synonyms": [],
         "shortname": "InterSOM"
     },
@@ -10766,11 +10885,11 @@
         },
         "iati_id": "GB-CHC-1001698"
     },
-    "International Aids Vaccine Initiative (IAVI)": {
-        "name": "International Aids Vaccine Initiative (IAVI)",
+    "IAVI": {
+        "name": "International Aids Vaccine Initiative",
         "scope": "international",
         "synonyms": [],
-        "shortname": "International Aids Vaccine Initiative (IAVI)",
+        "shortname": "IAVI",
         "iati": {
             "code": "US-EIN-13-3870223",
             "name": "International Aids Vaccine Initiative (IAVI)",
@@ -10798,11 +10917,11 @@
         },
         "iati_id": "GB-COH-2153193"
     },
-    "International Bureau of Fiscal Documentation (IBFD)": {
-        "name": "International Bureau of Fiscal Documentation (IBFD)",
+    "IBFD": {
+        "name": "International Bureau of Fiscal Documentation",
         "scope": "international",
         "synonyms": [],
-        "shortname": "International Bureau of Fiscal Documentation (IBFD)",
+        "shortname": "IBFD",
         "iati": {
             "code": "NL-KVK-41197411",
             "name": "International Bureau of Fiscal Documentation (IBFD)",
@@ -10862,11 +10981,11 @@
         },
         "iati_id": "US-EIN-11-3580024"
     },
-    "International Centre of Insect Physiology and Ecology (icipe)": {
-        "name": "International Centre of Insect Physiology and Ecology (icipe)",
+    "ICIPE": {
+        "name": "International Centre of Insect Physiology and Ecology",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "International Centre of Insect Physiology and Ecology (icipe)",
+        "shortname": "ICIPE",
         "iati": {
             "code": "KE-KRA-P051097200R",
             "name": "International Centre of Insect Physiology and Ecology (icipe)",
@@ -10996,11 +11115,11 @@
         },
         "iati_id": "XI-GRID-grid.419346.d"
     },
-    "International Fund for Agricultural Development (IFAD)": {
-        "name": "International Fund for Agricultural Development (IFAD)",
+    "IFAD": {
+        "name": "International Fund for Agricultural Development",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "International Fund for Agricultural Development (IFAD)",
+        "shortname": "IFAD",
         "iati": {
             "code": "XM-DAC-41108",
             "name": "International Fund for Agricultural Development (IFAD)",
@@ -11144,11 +11263,11 @@
         },
         "iati_id": "GB-CHC-1106349"
     },
-    "International Network for Bamboo and Rattan (INBAR)": {
-        "name": "International Network for Bamboo and Rattan (INBAR)",
+    "INBAR": {
+        "name": "International Network for Bamboo and Rattan",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "International Network for Bamboo and Rattan (INBAR)",
+        "shortname": "INBAR",
         "iati": {
             "code": "XM-DAC-47064",
             "name": "International Network for Bamboo and Rattan (INBAR)",
@@ -11160,11 +11279,11 @@
         },
         "iati_id": "XM-DAC-47064"
     },
-    "International Network of People who Use Drugs (INPUD)": {
-        "name": "International Network of People who Use Drugs (INPUD)",
+    "INPUD": {
+        "name": "International Network of People who Use Drugs",
         "scope": "international",
         "synonyms": [],
-        "shortname": "International Network of People who Use Drugs (INPUD)",
+        "shortname": "INPUD",
         "iati": {
             "code": "GB-COH-08828458",
             "name": "International Network of People who Use Drugs (INPUD)",
@@ -11256,11 +11375,11 @@
         },
         "iati_id": "GB-CHC-1069182"
     },
-    "International Trade Centre (ITC)": {
-        "name": "International Trade Centre (ITC)",
+    "ITC": {
+        "name": "International Trade Centre",
         "scope": "international",
         "synonyms": [],
-        "shortname": "International Trade Centre (ITC)",
+        "shortname": "ITC",
         "iati": {
             "code": "XM-DAC-45001",
             "name": "International Trade Centre (ITC)",
@@ -11272,11 +11391,11 @@
         },
         "iati_id": "XM-DAC-45001"
     },
-    "International Treatment Preparedness Coalition (ITPC)": {
-        "name": "International Treatment Preparedness Coalition (ITPC)",
+    "ITPC": {
+        "name": "International Treatment Preparedness Coalition",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "International Treatment Preparedness Coalition (ITPC)",
+        "shortname": "ITPC",
         "iati": {
             "code": "BW-CIPA-CO20151011",
             "name": "International Treatment Preparedness Coalition (ITPC)",
@@ -13541,12 +13660,23 @@
     "Multi Donor Trust Fund Office": {
         "name": "Multi Donor Trust Fund Office",
         "scope": "unknown",
-        "synonyms": [],
+        "skip": true,
+        "synonyms": [
+            "Somalia Multi-Partner Fund",
+            "Somalia Multi-Partner Fund 2",
+            "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
+            "Somalia MultiPartner Fund 2",
+            "Somalia MultiPartner Fund Parallel Trust Fund of TF072283",
+            "State- and Peace- Building Multi Donor Trust Fund",
+            "State- and Peace- Building Trust Fund",
+            "Multi Partner Trust Fund Office, UNDP"
+        ],
         "shortname": "Multi Donor Trust Fund Office"
     },
     "Multilateral Investment Fund": {
         "name": "Multilateral Investment Fund",
         "scope": "international",
+        "skip": true,
         "synonyms": [],
         "shortname": "Multilateral Investment Fund",
         "iati": {
@@ -13764,7 +13894,10 @@
         "synonyms": [
             "NRC",
             "Norwegian Refugee Council",
-            "Norwegian Refugee Council (NRC)"
+            "Norwegian Refugee Council (NRC)",
+            "Norwegian Refugee Council Flüchtlingshilfe Deutschland",
+            "Norwegian Refugee Council, Norway",
+            "The Norwegian Refugee Council is an independent humanitarian organization helping people forced to flee, tarted their relief efforts after World War Two, humanitarian needs were critical. They still are # and NRC still there, protecting people forced toflee and supporting them as they build a new future. Today, NRC work in both new and protracted crises across 31 countries NRC provide camp management, food assistance, clean water, shelter, legal aid, and education. displaced people's rights and dignityin local communities, with national governments and in the international arena. NRC#s Internal Displacement Monitoring Centre in Geneva is a global leader in monitoring, reporting on and advocating for people displaced within their own country."
         ],
         "shortname": "NRC",
         "iati": {
@@ -13842,11 +13975,11 @@
         "synonyms": [],
         "shortname": "National Philanthropic Trust NPT "
     },
-    "Natural Resource Governance Institute (NRGI)": {
-        "name": "Natural Resource Governance Institute (NRGI)",
+    "NRGI": {
+        "name": "Natural Resource Governance Institute",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Natural Resource Governance Institute (NRGI)",
+        "shortname": "NRGI",
         "iati": {
             "code": "US-EIN-20-4451390",
             "name": "Natural Resource Governance Institute (NRGI)",
@@ -13890,11 +14023,11 @@
         },
         "iati_id": "GH-RGD-CG077262013"
     },
-    "Near East Foundation (NEF USA)": {
-        "name": "Near East Foundation (NEF USA)",
+    "NEF USA": {
+        "name": "Near East Foundation USA",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Near East Foundation (NEF USA)",
+        "shortname": "NEF USA",
         "iati": {
             "code": "US-EIN-13-1624114",
             "name": "Near East Foundation (NEF USA)",
@@ -13906,11 +14039,11 @@
         },
         "iati_id": "US-EIN-13-1624114"
     },
-    "Near East Foundation Mali (NEF Mali)": {
-        "name": "Near East Foundation Mali (NEF Mali)",
+    "NEF Mali": {
+        "name": "Near East Foundation Mali",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Near East Foundation Mali (NEF Mali)",
+        "shortname": "NEF Mali",
         "iati": {
             "code": "ML-NIF-055000335T",
             "name": "Near East Foundation Mali (NEF Mali)",
@@ -13922,11 +14055,11 @@
         },
         "iati_id": "ML-NIF-055000335T"
     },
-    "Near East Foundation UK (NEF UK)": {
-        "name": "Near East Foundation UK (NEF UK)",
+    "NEF UK": {
+        "name": "Near East Foundation UK",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Near East Foundation UK (NEF UK)",
+        "shortname": "NEF UK",
         "iati": {
             "code": "GB-CHC-1150993",
             "name": "Near East Foundation UK (NEF UK)",
@@ -14018,11 +14151,11 @@
         },
         "iati_id": "NL-KVK-27378529"
     },
-    "Netherlands Institute for Multiparty Democracy (NIMD)": {
-        "name": "Netherlands Institute for Multiparty Democracy (NIMD)",
+    "NIMD": {
+        "name": "Netherlands Institute for Multiparty Democracy",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Netherlands Institute for Multiparty Democracy (NIMD)",
+        "shortname": "NIMD",
         "iati": {
             "code": "NL-KVK-27189542",
             "name": "Netherlands Institute for Multiparty Democracy (NIMD)",
@@ -14046,7 +14179,8 @@
             "Dutch Ministry of Foreign Affairs",
             "Ministry of Foreign Affairs NL",
             "Ministry of Foreign Affairs of the Netherlands",
-            "Netherlands Ministry of Foreign Affairs"
+            "Netherlands Ministry of Foreign Affairs",
+            "Ministerie van Buitenlandse Zaken (BuZa)"
         ],
         "shortname": "Netherlands - MFA",
         "iati": {
@@ -14060,11 +14194,11 @@
         },
         "iati_id": "XM-DAC-7"
     },
-    "Netherlands Organisation for Scientific Research (NWO)": {
-        "name": "Netherlands Organisation for Scientific Research (NWO)",
+    "NWO": {
+        "name": "Netherlands Organisation for Scientific Research",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Netherlands Organisation for Scientific Research (NWO)",
+        "shortname": "NWO",
         "iati": {
             "code": "NL-KVK-27367015",
             "name": "Netherlands Organisation for Scientific Research (NWO)",
@@ -14183,11 +14317,11 @@
         },
         "iati_id": "NZ-1"
     },
-    "Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)": {
-        "name": "Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)",
+    "Ngo-federatie": {
+        "name": "Vlaamse federatie van ngo's voor ontwikkelingssamenwerking",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)",
+        "shortname": "Ngo-federatie",
         "iati": {
             "code": "BE-BCE_KBO-0449400604",
             "name": "Ngo-federatie (Vlaamse federatie van ngo's voor ontwikkelingssamenwerking)",
@@ -14413,7 +14547,8 @@
             "United Nations Office for the Coordination of Humanitarian Affairs",
             "United Nations Office for the Coordination of Humanitarian Affairs (OCHA)",
             "United Nations Office of Co-ordination of Humanitarian Affairs",
-            "XM-DAC-41127"
+            "XM-DAC-41127",
+            "United Nations Office of Co-ordination of Humanitarian Affairs (UNOCHA)"
         ],
         "shortname": "OCHA",
         "iati_id": "XM-DAC-41127"
@@ -14488,17 +14623,26 @@
         "synonyms": [],
         "shortname": "OSPAD"
     },
-    "OXFAM": {
-        "name": "OXFAM",
+    "OXFAM International": {
+        "name": "OXFAM International",
         "scope": "international",
-        "synonyms": [],
-        "shortname": "OXFAM"
+        "synonyms": [
+            "OXFAM",
+            "OXFAM International Affiliates"
+        ],
+        "shortname": "OXFAM International"
     },
-    "OXFAM GERMANY": {
-        "name": "OXFAM GERMANY",
+    "OXFAM Germany": {
+        "name": "OXFAM Germany",
         "scope": "international",
         "synonyms": [],
-        "shortname": "OXFAM GERMANY"
+        "shortname": "OXFAM Germany"
+    },
+    "OXFAM USA": {
+        "name": "OXFAM USA",
+        "scope": "international",
+        "synonyms": [],
+        "shortname": "OXFAM USA"
     },
     "Okapi Consulting": {
         "name": "Okapi Consulting",
@@ -14902,11 +15046,11 @@
         },
         "iati_id": "BE-BCE_KBO-0415365777"
     },
-    "Oxfam-Magasins du monde (omdm)": {
-        "name": "Oxfam-Magasins du monde (omdm)",
+    "OMDM": {
+        "name": "Oxfam-Magasins du monde",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Oxfam-Magasins du monde (omdm)",
+        "shortname": "OMDM",
         "iati": {
             "code": "BE-BCE_KBO-0416486821",
             "name": "Oxfam-Magasins du monde (omdm)",
@@ -15039,11 +15183,11 @@
         "synonyms": [],
         "shortname": "PDO"
     },
-    "PEAS (Promoting Equality in African Schools)": {
-        "name": "PEAS (Promoting Equality in African Schools)",
+    "PEAS": {
+        "name": "Promoting Equality in African Schools",
         "scope": "international",
         "synonyms": [],
-        "shortname": "PEAS (Promoting Equality in African Schools)",
+        "shortname": "PEAS",
         "iati": {
             "code": "GB-CHC-1126550",
             "name": "PEAS (Promoting Equality in African Schools)",
@@ -15272,11 +15416,11 @@
         "synonyms": [],
         "shortname": "Pandemic Emergency Financing PEF "
     },
-    "Panos Institute West Africa (PIWA)": {
-        "name": "Panos Institute West Africa (PIWA)",
+    "PIWA": {
+        "name": "Panos Institute West Africa",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Panos Institute West Africa (PIWA)",
+        "shortname": "PIWA",
         "iati": {
             "code": "SN-NINEA-621108990A0",
             "name": "Panos Institute West Africa (PIWA)",
@@ -15408,8 +15552,11 @@
     },
     "Plan International": {
         "name": "Plan International",
-        "scope": "unknown",
-        "synonyms": [],
+        "scope": "international",
+        "synonyms": [
+            "Plan",
+            "Plan International Inc. (Ethiopia Country Office)"
+        ],
         "shortname": "Plan International"
     },
     "Plan International Belgium": {
@@ -15447,7 +15594,9 @@
     "Plan International Netherlands": {
         "name": "Plan International Netherlands",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Plan International Nederland"
+        ],
         "shortname": "Plan International Netherlands",
         "iati": {
             "code": "NL-KVK-41198890",
@@ -15524,11 +15673,11 @@
         },
         "iati_id": "DK-CVR-20356731"
     },
-    "Plataforma Mo\u00e7ambicana da \u00c1gua (PLAMA)": {
-        "name": "Plataforma Mo\u00e7ambicana da \u00c1gua (PLAMA)",
+    "PLAMA": {
+        "name": "Plataforma Mo\u00e7ambicana da \u00c1gua",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Plataforma Mo\u00e7ambicana da \u00c1gua (PLAMA)",
+        "shortname": "PLAMA",
         "iati": {
             "code": "MZ-NUIT-700179850",
             "name": "Plataforma Mo\u00e7ambicana da \u00c1gua (PLAMA)",
@@ -15610,11 +15759,11 @@
         },
         "iati_id": "KE-NCB-2180511304359047"
     },
-    "Population Services and Training Centre (PSTC)": {
-        "name": "Population Services and Training Centre (PSTC)",
+    "PSTC": {
+        "name": "Population Services and Training Centre",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Population Services and Training Centre (PSTC)",
+        "shortname": "PSTC",
         "iati": {
             "code": "BD-NAB-1102",
             "name": "Population Services and Training Centre (PSTC)",
@@ -15749,7 +15898,10 @@
         "scope": "unknown",
         "skip": true,
         "synonyms": [
-            "Private donations outside UN Foundation (under $10,000)"
+            "Private donations outside UN Foundation (under $10,000)",
+            "Private Donor(s)",
+            "Private donors in Italy",
+            "Private donors in the United States of America"
         ],
         "shortname": "Private donors"
     },
@@ -15768,22 +15920,6 @@
             "status": "active"
         },
         "iati_id": "NL-KVK-74064800"
-    },
-    "Progressio (closed)": {
-        "name": "Progressio (closed)",
-        "scope": "international",
-        "synonyms": [],
-        "shortname": "Progressio (closed)",
-        "iati": {
-            "code": "GB-CHC-294329",
-            "name": "Progressio (closed)",
-            "codeforiati:organisation-type-code": "21",
-            "codeforiati:organisation-type": "International NGO",
-            "codeforiati:hq-country-or-region": "United Kingdom",
-            "codeforiati:registry-identifier": "progressio",
-            "status": "active"
-        },
-        "iati_id": "GB-CHC-294329"
     },
     "Project Harar": {
         "name": "Project Harar",
@@ -16080,11 +16216,11 @@
         },
         "iati_id": "NL-KVK-34176587"
     },
-    "Rahnuma-Family Planning Assocation of Pakistan": {
+    "Rahnuma-FPAP": {
         "name": "Rahnuma-Family Planning Assocation of Pakistan",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Rahnuma-Family Planning Assocation of Pakistan",
+        "shortname": "Rahnuma-FPAP",
         "iati": {
             "code": "PK-MSW-633-1965",
             "name": "Rahnuma-Family Planning Assocation of Pakistan",
@@ -16274,11 +16410,11 @@
         "synonyms": [],
         "shortname": "Regional Development Bank"
     },
-    "Rehabilitation, Education and Community Health (REACH)": {
-        "name": "Rehabilitation, Education and Community Health (REACH)",
+    "REACH": {
+        "name": "Rehabilitation, Education and Community Health",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Rehabilitation, Education and Community Health (REACH)",
+        "shortname": "REACH",
         "iati": {
             "code": "IQ-NGO-1Z2634",
             "name": "Rehabilitation, Education and Community Health (REACH)",
@@ -16574,11 +16710,11 @@
         "synonyms": [],
         "shortname": "Rotary International"
     },
-    "Royal College of General Practitioners (RCGP)": {
-        "name": "Royal College of General Practitioners (RCGP)",
+    "RCGP": {
+        "name": "Royal College of General Practitioners",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Royal College of General Practitioners (RCGP)",
+        "shortname": "RCGP",
         "iati": {
             "code": "GB-CHC-223106",
             "name": "Royal College of General Practitioners (RCGP)",
@@ -16638,11 +16774,11 @@
         },
         "iati_id": "GB-CHC-208223"
     },
-    "Royal National Lifeboat Institution (RNLI)": {
-        "name": "Royal National Lifeboat Institution (RNLI)",
+    "RNLI": {
+        "name": "Royal National Lifeboat Institution",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Royal National Lifeboat Institution (RNLI)",
+        "shortname": "RNLI",
         "iati": {
             "code": "GB-CHC-209603",
             "name": "Royal National Lifeboat Institution (RNLI)",
@@ -16796,6 +16932,8 @@
         "scope": "international",
         "synonyms": [
             "Save the Children",
+            "Save the Children - donor country office",
+            "Save the Children Federation, Inc.",
             "Save the Children has worked in Somalia/Somaliland since 1951 when set up a vocational school for orphaned boys in Somaliland. From the early 1970s They went a step further and began providing emergency assistance to communities in Somalia For nearly 65 years,They have been there whenever a crisis has hit. In 2017, their work in Somalia/Somaliland reached 2,814,381 people - 1,717,809 being children with Health, Nutrition, Water, Sanitation and Hygiene (WASH), Education, Food Security and Livelihoods (FSL) and Child Protection services. As Well as long-term development work, They scaled up to respond to humanitarian spikes caused by drought, floods and cholera outbreaks. They have worked closely with the Government and supported policy makers and communities across Somalia and Somaliland to develop and approve policies and systems that will ensure a protective environment for children. They believe in building resilience amongst communities in Somalia/Somaliland and are committed to doing so through: • Provision of basic social services in education, health, and protection • Strengthening of government capacity to deliver such services • Working with communities and children to promote their rights. For the past 60 years They have delivered life-saving humanitarian services to children, and promoted the delivery of basic services to children through longer-term development programs"
         ],
         "shortname": "SCI",
@@ -17073,9 +17211,12 @@
     },
     "SOS-CV": {
         "name": "SOS Children's Villages",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": [
-            "SOS Kinderdorf"
+            "SOS Kinderdorf",
+            "SOS Kinderdorpen",
+            "SOS Children's Village",
+            "SOS Kinderdörfer weltweit, Hermann-Gmeiner-Fonds Deutschland e.V."
         ],
         "shortname": "SOS-CV"
     },
@@ -17084,6 +17225,14 @@
         "scope": "international",
         "synonyms": [],
         "shortname": "SOS-CV Somalia"
+    },
+    "SOS-CV Somalialand": {
+        "name": "SOS Children's Villages Somaliland",
+        "scope": "international",
+        "synonyms": [
+            "SOS Children's Villages Somaliland"
+        ],
+        "shortname": "SOS-CV Somaliland"
     },
     "SOS-CV Kenya": {
         "name": "SOS Children's Villages Kenya",
@@ -17105,7 +17254,8 @@
         "name": "SOS Children's Villages The Netherlands",
         "scope": "international",
         "synonyms": [
-            "SOS Children#s Villages Netherlands has been part of SOS Children#s Villages International, a global federation working to protect and care for children who have lost parental care or who stand at risk of losing it, since 1965. SOS Children#s Villages work with communities, states and partners to ensure that the rights of children are fulfilled and to provide children with loving and supportive alternative care. The organisation works in 135 countries and territories all around the world. Each year, hundreds of thousands of children are supported with alternative care, education, health care, family strengthening and emergency assistance."
+            "SOS Children#s Villages Netherlands has been part of SOS Children#s Villages International, a global federation working to protect and care for children who have lost parental care or who stand at risk of losing it, since 1965. SOS Children#s Villages work with communities, states and partners to ensure that the rights of children are fulfilled and to provide children with loving and supportive alternative care. The organisation works in 135 countries and territories all around the world. Each year, hundreds of thousands of children are supported with alternative care, education, health care, family strengthening and emergency assistance.",
+            "SOS Children's villages Netherlands"
         ],
         "shortname": "SOS-CV Netherlands",
         "iati": {
@@ -17426,14 +17576,23 @@
         "name": "Save the Children Germany",
         "scope": "international",
         "synonyms": [
-            "Save the Children Deutschland e V"
+            "Save the Children Deutschland e V",
+            "Save the Children Deutschlan e.v."
         ],
         "shortname": "Save the Children Germany"
     },
+    "Save the Children Sweden": {
+        "name": "Save the Children Sweden",
+        "scope": "international",
+        "synonyms": [],
+        "shortname": "Save the Children Sweden"
+    },    
     "Save the Children Netherlands": {
         "name": "Save the Children Netherlands",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Save the Children Nederland"
+        ],
         "shortname": "Save the Children Netherlands",
         "iati": {
             "code": "NL-KVK-41201463",
@@ -17478,11 +17637,11 @@
         },
         "iati_id": "GB-SC-SC035314"
     },
-    "Scottish Catholic International Aid Fund (SCIAF)": {
-        "name": "Scottish Catholic International Aid Fund (SCIAF)",
+    "SCIAF": {
+        "name": "Scottish Catholic International Aid Fund",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Scottish Catholic International Aid Fund (SCIAF)",
+        "shortname": "SCIAF",
         "iati": {
             "code": "GB-SC-SC012302",
             "name": "Scottish Catholic International Aid Fund (SCIAF)",
@@ -17494,11 +17653,11 @@
         },
         "iati_id": "GB-SC-SC012302"
     },
-    "Search for Common Ground (SFCG)": {
-        "name": "Search for Common Ground (SFCG)",
+    "SFCG": {
+        "name": "Search for Common Ground",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Search for Common Ground (SFCG)",
+        "shortname": "SFCG",
         "iati": {
             "code": "BE-BCE_KBO-0453475391",
             "name": "Search for Common Ground (SFCG)",
@@ -17936,11 +18095,11 @@
         "synonyms": [],
         "shortname": "Socio Economic Development and Human Rights Organization"
     },
-    "Soci\u00e9t\u00e9 Nationale des eaux du B\u00e9nin (SONEB)": {
-        "name": "Soci\u00e9t\u00e9 Nationale des eaux du B\u00e9nin (SONEB)",
+    "SONEB": {
+        "name": "Soci\u00e9t\u00e9 Nationale des eaux du B\u00e9nin",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "Soci\u00e9t\u00e9 Nationale des eaux du B\u00e9nin (SONEB)",
+        "shortname": "SONEB",
         "iati": {
             "code": "BJ-IFU-3200700033415",
             "name": "Soci\u00e9t\u00e9 Nationale des eaux du B\u00e9nin (SONEB)",
@@ -18243,11 +18402,11 @@
         },
         "iati_id": "ES-DIR3-E04585801"
     },
-    "Spanish Agency for International Development Cooperation (AECID)": {
-        "name": "Spanish Agency for International Development Cooperation (AECID)",
+    "AECID": {
+        "name": "Spanish Agency for International Development Cooperation",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Spanish Agency for International Development Cooperation (AECID)",
+        "shortname": "AECID",
         "iati": {
             "code": "ES-DIR3-EA0035768",
             "name": "Spanish Agency for International Development Cooperation (AECID)",
@@ -18527,11 +18686,11 @@
         },
         "iati_id": "NL-KVK-41152832"
     },
-    "Stichting Onderzoek Multinationale Ondernemingen (SOMO)": {
-        "name": "Stichting Onderzoek Multinationale Ondernemingen (SOMO)",
+    "SOMO": {
+        "name": "Stichting Onderzoek Multinationale Ondernemingen",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Stichting Onderzoek Multinationale Ondernemingen (SOMO)",
+        "shortname": "SOMO",
         "iati": {
             "code": "NL-KVK-41223308",
             "name": "Stichting Onderzoek Multinationale Ondernemingen (SOMO)",
@@ -18705,11 +18864,11 @@
         },
         "iati_id": "BE-BCE_KBO-0479866027"
     },
-    "Support Trust for Africa Development (STAD)": {
-        "name": "Support Trust for Africa Development (STAD)",
+    "STAD": {
+        "name": "Support Trust for Africa Development",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Support Trust for Africa Development (STAD)",
+        "shortname": "STAD",
         "iati": {
             "code": "NL-KVK-27251823",
             "name": "Support Trust for Africa Development (STAD)",
@@ -18721,11 +18880,11 @@
         },
         "iati_id": "NL-KVK-27251823"
     },
-    "Survivors Fund (SURF)": {
-        "name": "Survivors Fund (SURF)",
+    "SURF": {
+        "name": "Survivors Fund",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Survivors Fund (SURF)",
+        "shortname": "SURF",
         "iati": {
             "code": "GB-CHC-1065705",
             "name": "Survivors Fund (SURF)",
@@ -18836,7 +18995,8 @@
         "scope": "local",
         "url": "https://www.taakulo.org/",
         "synonyms": [
-            "Taakulo"
+            "Taakulo",
+            "Taakulo Somali Community Commonly known by the acronym #TASCO#. TASCO is a multifaceted non-governmental, non-profit making, non-political and non-partisan development and humanitarian aid organization established in 2007 and headquartered in Hargeisa, Somaliland. Taakulo is a Somali word meaning #helping/aiding#. Working in partnership with UN, international, and National organizations, TASCO is dedicated to helping the disadvantaged people and communities throughout Somali by engaging in development and related activities and also providing relief support and assistance, facilitating and promoting participatory local community activities and programs that emphasize human dignity and self-reliance."
         ],
         "shortname": "TASCO"
     },
@@ -19020,11 +19180,11 @@
         },
         "iati_id": "GB-CHC-265464"
     },
-    "Tearfund VZW (TFBE)": {
-        "name": "Tearfund VZW (TFBE)",
+    "TFBE": {
+        "name": "Tearfund VZW",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Tearfund VZW (TFBE)",
+        "shortname": "TFBE",
         "iati": {
             "code": "BE-BCE_KBO-0419872616",
             "name": "Tearfund VZW (TFBE)",
@@ -19289,11 +19449,11 @@
         },
         "iati_id": "US-EIN-14-1945286"
     },
-    "The Global Forum on MSM & HIV (MSMGF)": {
-        "name": "The Global Forum on MSM & HIV (MSMGF)",
+    "MSMGF": {
+        "name": "The Global Forum on MSM & HIV",
         "scope": "international",
         "synonyms": [],
-        "shortname": "The Global Forum on MSM & HIV (MSMGF)",
+        "shortname": "MSMGF",
         "iati": {
             "code": "US-EIN-471065461",
             "name": "The Global Forum on MSM & HIV (MSMGF)",
@@ -19527,11 +19687,11 @@
         },
         "iati_id": "XI-BRIDGE-1812689272"
     },
-    "The National Association of Municipalities of Benin (ANCB)": {
-        "name": "The National Association of Municipalities of Benin (ANCB)",
+    "ANCB": {
+        "name": "The National Association of Municipalities of Benin",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "The National Association of Municipalities of Benin (ANCB)",
+        "shortname": "ANCB",
         "iati": {
             "code": "BJ-IFU-6201408024805",
             "name": "The National Association of Municipalities of Benin (ANCB)",
@@ -19543,11 +19703,11 @@
         },
         "iati_id": "BJ-IFU-6201408024805"
     },
-    "The OPEC Fund for International Development (OFID)": {
-        "name": "The OPEC Fund for International Development (OFID)",
+    "OFID": {
+        "name": "The OPEC Fund for International Development)",
         "scope": "international",
         "synonyms": [],
-        "shortname": "The OPEC Fund for International Development (OFID)",
+        "shortname": "OFID",
         "iati": {
             "code": "XI-IATI-OFID",
             "name": "The OPEC Fund for International Development (OFID)",
@@ -19671,11 +19831,11 @@
         },
         "iati_id": "GB-CHC-214779"
     },
-    "The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)": {
-        "name": "The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)",
+    "UNRWA": {
+        "name": "The United Nations Relief and Works Agency for Palestine Refugees in the Near East",
         "scope": "unknown",
         "synonyms": [],
-        "shortname": "The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)",
+        "shortname": "UNRWA",
         "iati": {
             "code": "XM-DAC-41130",
             "name": "The United Nations Relief and Works Agency for Palestine Refugees in the Near East (UNRWA)",
@@ -19687,11 +19847,11 @@
         },
         "iati_id": "XM-DAC-41130"
     },
-    "The University of Dodoma (UDOM), Tanzania": {
-        "name": "The University of Dodoma (UDOM), Tanzania",
+    "UDOM": {
+        "name": "The University of Dodoma, Tanzania",
         "scope": "regional",
         "synonyms": [],
-        "shortname": "The University of Dodoma (UDOM), Tanzania",
+        "shortname": "UDOM",
         "iati": {
             "code": "XI-GRID-grid.442459.a",
             "name": "The University of Dodoma (UDOM), Tanzania",
@@ -19769,10 +19929,12 @@
     },
     "World Bank": {
         "name": "World Bank",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": [
             "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT",
-            "The World Bank"
+            "The World Bank",
+            "World Bank Group (WB)",
+            "World Bank - Washington D.C."
         ],
         "shortname": "World Bank",
         "iati": {
@@ -20252,11 +20414,11 @@
         },
         "iati_id": "KE-RCO-201036685"
     },
-    "UK - Department for Business, Energy and Industrial Strategy (BEIS)": {
-        "name": "UK - Department for Business, Energy and Industrial Strategy (BEIS)",
+    "UK-BEIS": {
+        "name": "UK - Department for Business, Energy and Industrial Strategy",
         "scope": "international",
         "synonyms": [],
-        "shortname": "UK - Department for Business, Energy and Industrial Strategy (BEIS)",
+        "shortname": "UK-BEIS",
         "iati": {
             "code": "GB-GOV-13",
             "name": "UK - Department for Business, Energy and Industrial Strategy (BEIS)",
@@ -20316,11 +20478,11 @@
         },
         "iati_id": "GB-9"
     },
-    "UK - Department of Health and Social Care (DHSC)": {
-        "name": "UK - Department of Health and Social Care (DHSC)",
+    "UK-DHSC": {
+        "name": "UK - Department of Health and Social Care",
         "scope": "international",
         "synonyms": [],
-        "shortname": "UK - Department of Health and Social Care (DHSC)",
+        "shortname": "UK-DHSC",
         "iati": {
             "code": "GB-GOV-10",
             "name": "UK - Department of Health and Social Care (DHSC)",
@@ -20477,11 +20639,13 @@
         "synonyms": [],
         "shortname": "UN Action Against Sexual Violence in Conflict"
     },
-    "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS": {
-        "name": "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS"
+    "DESA": {
+        "name": "UN Department of Economic and Social Affairs",
+        "scope": "international",
+        "synonyms": [
+            "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS"
+        ],
+        "shortname": "DESA"
     },
     "UN Global Compact Local Network UK": {
         "name": "UN Global Compact Local Network UK",
@@ -20505,15 +20669,17 @@
         "synonyms": [],
         "shortname": "UN INDUSTRIAL DEVELOPMENT ORGANIZATION"
     },
-    "UN POLITICAL OFFICE FOR SOMALI": {
-        "name": "UN POLITICAL OFFICE FOR SOMALI",
-        "scope": "unknown",
+    "UNPOS": {
+        "name": "UN Political Office for Somali",
+        "scope": "international",
         "synonyms": [],
-        "shortname": "UN POLITICAL OFFICE FOR SOMALI"
+        "shortname": "UNPOS"
     },
     "UN Pooled Funds": {
         "name": "UN Pooled Funds",
-        "scope": "unknown",
+        "scope": "international",
+        "skip": true,
+        "note": "Doesn't specify CERF or CBPF",
         "synonyms": [],
         "shortname": "UN Pooled Funds",
         "iati": {
@@ -20551,7 +20717,8 @@
         "synonyms": [
             "UNITED NATIONS HUMAN SETTLEMENTS PROGRAMME",
             "United Nations Human Settlement Programme",
-            "UN-Habitat/United Nations Human Settlements Programme"
+            "UN-Habitat/United Nations Human Settlements Programme",
+            "United Nations Human Settlements Programme*Programme Des Nations Unies Pour Les Etablissements Humains"
         ],
         "shortname": "UN-Habitat",
         "iati": {
@@ -20619,7 +20786,7 @@
         "iati_id": "XM-DAC-41149"
     },
     "UNDP": {
-        "name": "United Nations Development Programme (UNDP)",
+        "name": "United Nations Development Programme",
         "scope": "international",
         "synonyms": [
             "Programme des Nations Unies pour le d\u00e9veloppement",
@@ -20672,7 +20839,7 @@
         "iati_id": "XM-DAC-41116"
     },
     "UNESCO": {
-        "name": "United Nations Educational, Scientific and Cultural Organization (UNESCO)",
+        "name": "United Nations Educational, Scientific and Cultural Organization",
         "scope": "international",
         "url": "https://unesco.org",
         "synonyms": [
@@ -20714,9 +20881,11 @@
         "synonyms": [
             "UNFPA",
             "UNFPA USA",
+            "UN Fund for Population",
             "UNFPA/United Nations Population Fund",
             "United Nations Population Fund",
-            "United Nations Population Fund (UNFPA)"
+            "United Nations Population Fund (UNFPA)",
+            "Fonds des Nations Unies pour la population"
         ],
         "shortname": "UNFPA",
         "iati": {
@@ -20734,15 +20903,10 @@
         "name": "United Nations High Commissioner for Refugees",
         "scope": "international",
         "synonyms": [
-            "Australia for UNHCR",
-            "Japan for UNHCR",
-            "Sweden for UNHCR",
-            "UK for UNHCR",
             "UNHCR",
             "UNHCR/United Nations High Commissioner for Refugees",
             "UNITED NATIONS HIGH COMMISSIONER FOR REFUGEES",
             "UNO Fl\u00fcchtlingshilfe",
-            "USA for UNHCR",
             "United Nations High Commissioner for Refugees",
             "United Nations High Commissioner for Refugees (UNHCR)",
             "United Nations Office of the United Nations High Commissioner for Refugees"
@@ -20759,27 +20923,59 @@
         },
         "iati_id": "XM-DAC-41121"
     },
+    "UNHCR Australia": {
+        "name": "UNHCR Australia",
+        "shortname": "UNHCR Australia",
+        "scope": "international",
+        "synonyms": [
+            "Australia for UNHCR"
+        ]
+    },
+    "UNHCR Japan": {
+        "name": "UNHCR Japan",
+        "shortname": "UNHCR Japan",
+        "scope": "international",
+        "synonyms": [
+            "Japan for UNHCR"
+        ]
+    },
+    "UNHCR Sweden": {
+        "name": "UNHCR Sweden",
+        "shortname": "UNHCR Sweden",
+        "scope": "international",
+        "synonyms": [
+            "Sweden for UNHCR"
+        ]
+    },
+    "UNHCR UK": {
+        "name": "UNHCR UK",
+        "shortname": "UNHCR UK",
+        "scope": "international",
+        "synonyms": [
+            "UK for UNHCR"
+        ]
+    },
+    "UNHCR USA": {
+        "name": "UNHCR USA",
+        "shortname": "UNHCR USA",
+        "scope": "international",
+        "synonyms": [
+            "USA for UNHCR"
+        ]
+    },
     "UNICEF": {
         "name": "United Nations Children's Fund",
         "scope": "international",
         "synonyms": [
-            "Belgian Committee for UNICEF",
-            "Canadian UNICEF Committee",
-            "German Committee for UNICEF",
-            "Hong Kong Committee for UNICEF",
-            "Swedish Committee for UNICEF",
             "UNICEF",
             "UNICEF - United Nations Children's Fund",
             "UNICEF FOR GR ALLOCATIONS ONLY ",
-            "UNICEF Mexico",
-            "UNICEF QATAR",
-            "UNICEF Saudi Arabia",
-            "United Kingdom Committee for UNICEF",
             "United Nations Children's Fund",
             "United Nations Children's Fund (UNICEF)",
             "United Nations Children's Fund UNICEF",
-            "United States Fund for UNICEF",
-            "Global Thematic Humanitarian Resp"
+            "Global Thematic Humanitarian Resp",
+            "UNICEF - Children's Fund - PRT",
+            "United Nations Childrens' Fund"
         ],
         "shortname": "UNICEF",
         "iati": {
@@ -20793,10 +20989,50 @@
         },
         "iati_id": "XM-DAC-41122"
     },
-    "UNICEF Netherlands National Committee": {
-        "name": "UNICEF Netherlands National Committee",
+    "UNICEF Belgium": {
+        "name": "UNICEF Belgium",
+        "shortname": "UNICEF Belgium",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Belgian Committee for UNICEF"
+        ]
+    },
+    "UNICEF Canada": {
+        "name": "UNICEF Canada",
+        "shortname": "UNICEF Canada",
+        "scope": "international",
+        "synonyms": [
+            "Canadian UNICEF Committee"
+        ]
+    },
+    "UNICEF Germany": {
+        "name": "UNICEF Germany",
+        "shortname": "UNICEF Germany",
+        "scope": "international",
+        "synonyms": [
+            "German Committee for UNICEF"
+        ]
+    },
+    "UNICEF Hong Kong": {
+        "name": "UNICEF Hong Kong",
+        "shortname": "UNICEF Hong Kong",
+        "scope": "international",
+        "synonyms": [
+            "Hong Kong Committee for UNICEF"
+        ]
+    },
+    "UNICEF Mexico": {
+        "name": "UNICEF Mexico",
+        "shortname": "UNICEF Mexico",
+        "scope": "international",
+        "synonyms": []
+    },
+    "UNICEF Netherlands": {
+        "name": "UNICEF Netherlands",
+        "scope": "international",
+        "synonyms": [
+            "UNICEF Netherlands National Committee"
+        ],
         "shortname": "UNICEF Netherlands National Committee",
         "iati": {
             "code": "NL-KVK-27102631",
@@ -20808,6 +21044,43 @@
             "status": "active"
         },
         "iati_id": "NL-KVK-27102631"
+    },
+    "UNICEF Qatar": {
+        "name": "UNICEF Qatar",
+        "shortname": "UNICEF Qatar",
+        "scope": "international",
+        "synonyms": []
+    },
+    "UNICEF Saudi Arabia": {
+        "name": "UNICEF Saudi Arabia",
+        "shortname": "UNICEF Saudi Arabia",
+        "scope": "international",
+        "synonyms": []
+    },
+    "UNICEF Sweden": {
+        "name": "UNICEF Sweden",
+        "shortname": "UNICEF Sweden",
+        "scope": "international",
+        "synonyms": [
+            "Swedish Committee for UNICEF"
+        ]
+    },
+    "UNICEF UK": {
+        "name": "UNICEF UK",
+        "shortname": "UNICEF UK",
+        "scope": "international",
+        "synonyms": [
+            "United Kingdom Committee for UNICEF"
+        ]
+    },
+    "UNICEF USA": {
+        "name": "UNICEF USA",
+        "shortname": "UNICEF USA",
+        "scope": "international",
+        "synonyms": [
+            "United States Committee for UNICEF",
+            "United States Fund for UNICEF"
+        ]
     },
     "UNIDO": {
         "name": "United Nations Industrial Development Organization",
@@ -20863,7 +21136,7 @@
         "shortname": "UNODC"
     },
     "UNOPS": {
-        "name": "United Nations Office for Project Services (UNOPS)",
+        "name": "United Nations Office for Project Services",
         "scope": "international",
         "synonyms": [
             "UN Office for Project Services",
@@ -20873,7 +21146,8 @@
             "UNOPS New York",
             "UNOPS/United Nations Office for Project Services",
             "United Nations Office for Project Services",
-            "United Nations Office for Project Services (UNOPS)"
+            "United Nations Office for Project Services (UNOPS)",
+            "United Nations Office For Project Services*Bureau Des Nations Unies Pour Les Services D'Appui Aux Projets"
         ],
         "shortname": "UNOPS",
         "iati": {
@@ -20920,7 +21194,7 @@
         "shortname": "USA State BPRM"
     },
     "USAID": {
-        "name": "United States Agency for International Development (USAID)",
+        "name": "United States Agency for International Development",
         "scope": "international",
         "synonyms": [
             "Food for Peace",
@@ -21038,11 +21312,11 @@
         },
         "iati_id": "NL-KVK-40407706"
     },
-    "Union des Villes et Communes de Wallonie (UVCW)": {
-        "name": "Union des Villes et Communes de Wallonie (UVCW)",
+    "UVCW": {
+        "name": "Union des Villes et Communes de Wallonie",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Union des Villes et Communes de Wallonie (UVCW)",
+        "shortname": "UVCW",
         "iati": {
             "code": "BE-BCE_KBO-0451461655",
             "name": "Union des Villes et Communes de Wallonie (UVCW)",
@@ -21468,7 +21742,8 @@
             "CIVIL SOCIETY ORGANIZATION International NGO",
             "International NGO",
             "ONG bas\u00e9e dans un pays donneur",
-            "iNGO"
+            "iNGO",
+            "Donor country-based NGO"
         ],
         "shortname": "Unspecified international NGOs"
     },
@@ -21489,10 +21764,14 @@
         "scope": "international",
         "skip": true,
         "synonyms": [
+            "Multilateral",
+            "UN ORGANISATIONS",
             "Multi lateral organization",
             "Multilateral organisations",
             "Multilateral organizations",
             "UN agency",
+            "United Nations Organisation*Organisation Des Nations Unies",
+            "UN Other Funds and Agencies (excl. CERF)",
             "United Nations agency, fund, or commission (UN)"
         ],
         "shortname": "Unspecified multilateral organisations"
@@ -21609,11 +21888,11 @@
         "synonyms": [],
         "shortname": "VAD"
     },
-    "VEI (Vitens-Evides International)": {
-        "name": "VEI (Vitens-Evides International)",
+    "VEI": {
+        "name": "Vitens-Evides International",
         "scope": "international",
         "synonyms": [],
-        "shortname": "VEI (Vitens-Evides International)",
+        "shortname": "VEI",
         "iati": {
             "code": "NL-KVK-08134161",
             "name": "VEI (Vitens-Evides International)",
@@ -21852,11 +22131,11 @@
         },
         "iati_id": "BE-BCE_KBO-0418282311"
     },
-    "Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)": {
-        "name": "Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)",
+    "VLIR-UOS": {
+        "name": "Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)",
+        "shortname": "VLIR-UOS",
         "iati": {
             "code": "BE-BCE_KBO-0418766123",
             "name": "Vlaamse Interuniversitaire Raad voor Universitaire Ontwikkelingssamenwerking (VLIR-UOS)",
@@ -21884,11 +22163,11 @@
         },
         "iati_id": "IN-MHA-231650063"
     },
-    "Voluntary Service Overseas (VSO)": {
-        "name": "Voluntary Service Overseas (VSO)",
+    "VSO": {
+        "name": "Voluntary Service Overseas",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Voluntary Service Overseas (VSO)",
+        "shortname": "VSO",
         "iati": {
             "code": "GB-CHC-313757",
             "name": "Voluntary Service Overseas (VSO)",
@@ -21992,7 +22271,8 @@
             "World Health Organization",
             "World Health Organisation",
             "World Health Organization (WHO)",
-            "Organisation mondiale de la santé - compte de contributions volontaires sans objet désigné"
+            "Organisation mondiale de la santé - compte de contributions volontaires sans objet désigné",
+            "World Health Organization Regional Office for the Eastern Mediterranean"
         ],
         "shortname": "WHO",
         "iati": {
@@ -22271,11 +22551,11 @@
         },
         "iati_id": "GB-CHC-1160263"
     },
-    "Water & Sanitation for the Urban Poor (WSUP)": {
-        "name": "Water & Sanitation for the Urban Poor (WSUP)",
+    "WSUP": {
+        "name": "Water & Sanitation for the Urban Poor",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Water & Sanitation for the Urban Poor (WSUP)",
+        "shortname": "WSUP",
         "iati": {
             "code": "GB-COH-5419428",
             "name": "Water & Sanitation for the Urban Poor (WSUP)",
@@ -22485,11 +22765,11 @@
         },
         "iati_id": "NL-KVK-41201644"
     },
-    "Wereldsolidariteit-Solidarit\u00e9 Mondiale (WSM)": {
-        "name": "Wereldsolidariteit-Solidarit\u00e9 Mondiale (WSM)",
+    "WSM": {
+        "name": "Wereldsolidariteit-Solidarit\u00e9 Mondiale",
         "scope": "international",
         "synonyms": [],
-        "shortname": "Wereldsolidariteit-Solidarit\u00e9 Mondiale (WSM)",
+        "shortname": "WSM",
         "iati": {
             "code": "BE-BCE_KBO-0413986102",
             "name": "Wereldsolidariteit-Solidarit\u00e9 Mondiale (WSM)",
@@ -23034,7 +23314,9 @@
     "World Vision Netherlands": {
         "name": "World Vision Netherlands",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Stichting World Vision Nederland"
+        ],
         "shortname": "World Vision Netherlands",
         "iati": {
             "code": "NL-KVK-41179943",
@@ -23091,7 +23373,8 @@
         "synonyms": [
             "WVI",
             "World Vision",
-            "World Vision is a Christian humanitarian organization dedicated to working with children, families, and their communities worldwideto reach their full potential by tackling the causes of poverty and injustice. World Vision works in nearly 100 countries, servingall people, regardless of religion, race, ethnicity, or gender."
+            "World Vision is a Christian humanitarian organization dedicated to working with children, families, and their communities worldwideto reach their full potential by tackling the causes of poverty and injustice. World Vision works in nearly 100 countries, servingall people, regardless of religion, race, ethnicity, or gender.",
+            "Since 1993, World Vision has been working in areas of Somalia with the highest levels of child poverty. Our goal is to achieve long-lasting benefits in the quality of life for vulnerable children and their families, displaced persons, and communities using a development approach that increases participation, understanding and unity among people of different cultures while promoting the rightsand interests of Somali children. In response to the humanitarian needs of the Somali people, World Vision designs and delivers programs coordinated at regional and country levels by dedicated staff that provides strategic and operational support. Our program offices are located close to communities so our teams can be responsive to the needs of local children and their families at the community level. Following the 2011 famine and more than 20 years since the collapse of the central government, strong signs of hope areemerging for sustained peace, and the opportunity for families to live healthy, prosperous lives. World Vision is committed to walking with communities from emergency through rehabilitative programming in order to bring about sustainable and long-term change overthe coming years."
         ],
         "shortname": "WVI",
         "iati": {
@@ -23153,11 +23436,11 @@
         },
         "iati_id": "21-PK-WWF"
     },
-    "World Wide Fund for Nature Belgium (WWF-BE)": {
+    "WWF-BE": {
         "name": "World Wide Fund for Nature Belgium (WWF-BE)",
         "scope": "international",
         "synonyms": [],
-        "shortname": "World Wide Fund for Nature Belgium (WWF-BE)",
+        "shortname": "WWF-BE",
         "iati": {
             "code": "BE-BCE_KBO-0408656248",
             "name": "World Wide Fund for Nature Belgium (WWF-BE)",
@@ -23266,16 +23549,10 @@
         "iati_id": "YE-MSAL-80/295"
     },
     "Yme": {
-        "name": "Yme",
-        "scope": "unknown",
+        "name": "Yme Foundation",
+        "scope": "international",
         "synonyms": [],
         "shortname": "Yme"
-    },
-    "Yme Foundation": {
-        "name": "Yme Foundation",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Yme Foundation"
     },
     "Young Africa International HUB": {
         "name": "Young Africa International HUB",
@@ -23756,6 +24033,14 @@
             "National Red Cross/Red Crescent Society"
         ],
         "shortname": "SRCS"
+    },
+    "Swedish Red Cross": {
+        "name": "Swedish Red Cross",
+        "shortname": "Swedish Red Cross",
+        "scope": "international",
+        "synonyms": [
+            "Svenska Röda Korset"
+        ]
     },
     "DAF": {
         "name": "Disability Aid Foundation",
