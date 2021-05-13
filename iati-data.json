@@ -451,7 +451,7 @@
             ],
             "funding": [
                 "netherlands-red-cross",
-                "Ministerie van Buitenlandse Zaken (BuZa)"
+                "netherlands-mfa"
             ]
         },
         "sectors": {
@@ -547,7 +547,7 @@
             ],
             "funding": [
                 "netherlands-red-cross",
-                "Ministerie van Buitenlandse Zaken (BuZa)"
+                "netherlands-mfa"
             ]
         },
         "sectors": {
@@ -623,11 +623,11 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Save the Children - donor country office"
+                "sci"
             ],
             "programming": [
                 "sida",
-                "Save the Children, Sweden"
+                "save-the-children-sweden"
             ],
             "funding": [
                 "sida"
@@ -1031,7 +1031,7 @@
             "implementing": [],
             "programming": [
                 "sida",
-                "Svenska R\u00f6da Korset"
+                "swedish-red-cross"
             ],
             "funding": [
                 "sida"
@@ -1067,9 +1067,7 @@
         "description": "The proposed programme by the Swedish Mission Council (SMC) is humanitarian and aims at meeting the humanitarian needs of affected populations in the short- and medium-term by providing emergency humanitarian support such as clean water and sanitation. In this appraisal, Sida makes the assessment that the proposed programme is relevant in relation to the Strategy for Sweden\u00b4s Humanitarian Assistance provided through Sida 2017 - 2020, and that a three-year agreement on strategic partnership should be entered into between Sida and SMC for the period 1 April 2017 - 31 March 2020.\n\nIn its proposal for 2017, SMC has applied for a total amount of 46,5 million SEK which includes 1) work in six countries (35,5 million SEK); 2) interventions through the Rapid Response Mechanism (10 million SEK); and 3) capacity development support (1 million SEK). During 2017 SMC proposes to work with four member organizations which are ADRA (Adventist Development and Relief Agency), IAS (International Aid Services), CCS (Christian Council of Sweden) and PMU (Pingsmissionens utvecklingssamarbete). \n\nSMC, founded in 1912, is an ecumenical membership-based organization with 35 member organizations who are active in 46 countries. The organization is engaged in both development work and humanitarian assistance and became a framework organization for Sida/CIVSAM already in 1980, while the strategic partnership with Sida in terms of humanitarian assistance was initiated as late as 2014. The 35 members are Swedish churches and Christian organizations with long histories of international work - the role of SMC is generally to support, facilitate and coordinate these partner organizations and their local partners\u00b4 work.",
         "active": true,
         "orgs": {
-            "implementing": [
-                "Donor country-based NGO"
-            ],
+            "implementing": [],
             "programming": [
                 "sida",
                 "SMR/Svenska Missionsr\u00e5det"
@@ -1560,11 +1558,11 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "OXFAM International"
+                "oxfam-international"
             ],
             "programming": [
                 "sida",
-                "Oxfam International"
+                "oxfam-international"
             ],
             "funding": [
                 "sida"
@@ -1601,7 +1599,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Childrens' Fund"
+                "unicef"
             ],
             "programming": [
                 "sida",
@@ -1642,7 +1640,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Childrens' Fund"
+                "unicef"
             ],
             "programming": [
                 "sida",
@@ -1683,7 +1681,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Childrens' Fund"
+                "unicef"
             ],
             "programming": [
                 "sida",
@@ -2309,9 +2307,7 @@
         "description": "Framework support to Swedish Mission Council for programmes that      relates to Sida's mandate to support in developing countries civil    society organisations that, with a rights-based approach contributes  to poverty reduction.",
         "active": false,
         "orgs": {
-            "implementing": [
-                "Donor country-based NGO"
-            ],
+            "implementing": [],
             "programming": [
                 "sida",
                 "SMR/Svenska Missionsr\u00e5det"
@@ -2352,9 +2348,7 @@
         "description": "Framework support to Swedish Mission Council for programmes that      relates to Sida's mandate to support in developing countries civil    society organisations that, with a rights-based approach contributes  to poverty reduction.",
         "active": false,
         "orgs": {
-            "implementing": [
-                "Donor country-based NGO"
-            ],
+            "implementing": [],
             "programming": [
                 "sida",
                 "SMR/Svenska Missionsr\u00e5det"
@@ -2395,9 +2389,7 @@
         "description": "Framework support to Swedish Mission Council for programmes that      relates to Sida's mandate to support in developing countries civil    society organisations that, with a rights-based approach contributes  to poverty reduction.",
         "active": false,
         "orgs": {
-            "implementing": [
-                "Donor country-based NGO"
-            ],
+            "implementing": [],
             "programming": [
                 "sida",
                 "SMR/Svenska Missionsr\u00e5det"
@@ -2478,7 +2470,6 @@
         "orgs": {
             "implementing": [
                 "world-bank-trust-funds",
-                "Somalia MultiPartner Fund Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2490,8 +2481,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "usaid",
-                "Somalia MultiPartner Fund Parallel Trust Fund of TF072283"
+                "usaid"
             ]
         },
         "sectors": {
@@ -2536,9 +2526,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
-                "Somalia Multi-Partner Fund 2",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2551,11 +2538,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "State- and Peace- Building Trust Fund",
                 "usaid",
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
-                "Somalia Multi-Partner Fund 2",
                 "world-bank-trust-funds"
             ]
         },
@@ -2590,8 +2573,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2604,10 +2585,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "State- and Peace- Building Trust Fund",
                 "usaid",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
-                "Somalia Multi-Partner Fund",
                 "world-bank-trust-funds"
             ]
         },
@@ -2646,8 +2624,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2660,10 +2636,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "State- and Peace- Building Trust Fund",
                 "usaid",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
-                "Somalia Multi-Partner Fund",
                 "world-bank-trust-funds"
             ]
         },
@@ -2700,9 +2673,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "State- and Peace- Building Multi Donor Trust Fund",
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2719,11 +2689,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "State- and Peace- Building Trust Fund",
                 "usaid",
-                "Somalia Multi-Partner Fund",
-                "State- and Peace- Building Multi Donor Trust Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "world-bank-trust-funds"
             ]
         },
@@ -2762,8 +2728,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2776,10 +2740,7 @@
                 "Norway - Ministry of Foreign Affairs",
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
-                "State- and Peace- Building Trust Fund",
                 "usaid",
-                "Somalia Multi-Partner Fund",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "world-bank-trust-funds"
             ]
         },
@@ -2814,7 +2775,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2827,7 +2787,6 @@
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
                 "usaid",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "world-bank-trust-funds"
             ]
         },
@@ -2864,7 +2823,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "government-of-somalia"
             ],
             "programming": [],
@@ -2877,7 +2835,6 @@
                 "Italy - Ministry of Foreign Affairs International Cooperation",
                 "EU-Commission of the European Communities",
                 "usaid",
-                "Somalia Multi-Partner Fund - Parallel Trust Fund of TF072283",
                 "world-bank-trust-funds"
             ]
         },
@@ -3046,7 +3003,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Office of Co-ordination of Humanitarian Affairs (UNOCHA)"
+                "ocha"
             ],
             "programming": [
                 "germany-federal-foreign-office"
@@ -3090,7 +3047,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "SOS Kinderd\u00f6rfer weltweit, Hermann-Gmeiner-Fonds Deutschland e.V."
+                "sos-cv"
             ],
             "programming": [
                 "germany-federal-foreign-office"
@@ -3462,7 +3419,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Save the Children Deutschlan e.v."
+                "save-the-children-germany"
             ],
             "programming": [
                 "germany-federal-foreign-office"
@@ -4028,7 +3985,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Norwegian Refugee Council Fl\u00fcchtlingshilfe Deutschland"
+                "nrc"
             ],
             "programming": [
                 "germany-federal-foreign-office"
@@ -4317,7 +4274,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Fonds des Nations Unies pour la population"
+                "unfpa"
             ],
             "programming": [],
             "funding": [
@@ -4358,7 +4315,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Fonds des Nations Unies pour la population"
+                "unfpa"
             ],
             "programming": [],
             "funding": [
@@ -4399,7 +4356,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Fonds des Nations Unies pour la population"
+                "unfpa"
             ],
             "programming": [],
             "funding": [
@@ -4440,7 +4397,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Fonds des Nations Unies pour la population"
+                "unfpa"
             ],
             "programming": [],
             "funding": [
@@ -4481,7 +4438,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Fonds des Nations Unies pour la population"
+                "unfpa"
             ],
             "programming": [],
             "funding": [
@@ -5066,9 +5023,14 @@
                 "unhcr"
             ],
             "funding": [
-                "unhcr",
+                "unhcr-australia",
                 "espana-con-acnur",
                 "fundacion-acnur-comite-argentino",
+                "unhcr-japan",
+                "unhcr-sweden",
+                "unhcr-uk",
+                "unhcr",
+                "unhcr-usa",
                 "cerf",
                 "france-mefa",
                 "republic-of-korea",
@@ -5432,7 +5394,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Plan International Inc. (Ethiopia Country Office)",
+                "plan-international",
                 "relief-international-uk",
                 "University of Sussex",
                 "plan-international-uk"
@@ -5441,8 +5403,7 @@
                 "plan-international-uk"
             ],
             "funding": [
-                "EC (European Commission)",
-                "Private Donor(s)",
+                "devco",
                 "plan-international-uk"
             ]
         },
@@ -6667,7 +6628,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -6992,12 +6953,12 @@
                 "irc",
                 "Marie Stopes International",
                 "options-consultancy-services",
-                "Association Burundaise pour le Bien-Etre Familial (ABUBEF)",
-                "Family Guidance Association of Ethiopia (FGAE)",
-                "Family Planning Association of Malawi (FPAM)",
+                "abubef",
+                "fgae",
+                "fpam",
                 "Rahnuma - Family Planning Association of Pakistan (Rahnuma-FPAP)",
                 "Reproductive Health Uganda (RHU)",
-                "Sudan Family Planning Association (SFPA)",
+                "sfpa",
                 "amodefa",
                 "Planned Parenthood Association of Zambia (PPAZ)",
                 "umati",
@@ -7516,7 +7477,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -8207,8 +8168,9 @@
                 "oxfam-novib",
                 "save-the-children-netherlands",
                 "cordaid",
-                "SOS Children's Villages Somaliland",
-                "dorcas-aid-international"
+                "sos-cv-somaliland",
+                "dorcas-aid-international",
+                "sos-cv"
             ],
             "programming": [
                 "sos-cv-netherlands"
@@ -8254,14 +8216,14 @@
                 "cesved",
                 "Keep the Drum Lose the Knife",
                 "The Girls' Agenda",
-                "ONG Sainte Philom\u00e8ne, l'Esp\u00e9rance (OSPE)",
+                "ospe",
                 "Compassion Community Based Organisation",
                 "Youth Network Against Female Genital Mutilation/Cutting",
                 "Kenya Council of Imams and Ulamaa",
                 "Fondation Djigui La Grande Esperance",
                 "Circuit Pointe",
-                "Covenant Foundation for Girls",
-                "Girl2Girl Empowerment Movement",
+                "cofgirls",
+                "g2g",
                 "Women's Action for Human Diginity Sierra Leone",
                 "nafis",
                 "amsopt",
@@ -8269,16 +8231,13 @@
                 "Reproductive Health Rights Institute",
                 "cirddoc",
                 "Women Initiative for Self Help Liberia Incorporated",
-                "Keep the Drums Lose the Knife (KDLK)",
+                "kdlk",
                 "Youth Network for Community and Sustainable Development",
-                "ONG Sainte Philom\u00e8ne l'Esp\u00e9rance(OSPE)",
-                "Women\u2019s Action for Human Dignity\u2013Sierra Leone (WAHD-SL)",
+                "wahd-sl",
                 "Centre for Social Value and Early Childhood development",
                 "The Girls\u2019 Agenda",
-                "Covenant Foundation For Girls(COFGIRLS)",
-                "Women Initiative for Self Help (WISH)",
+                "wish",
                 "manniondaniels",
-                "Girl2Girl Empowerment Movement (G2G)",
                 "Institute for Reproductive Health & Rights Institute"
             ],
             "programming": [
@@ -8371,7 +8330,7 @@
                 "concern-worldwide-uk"
             ],
             "funding": [
-                "IOM (International Organization for Migration)",
+                "iom",
                 "concern-worldwide-uk"
             ]
         },
@@ -8615,7 +8574,7 @@
     {
         "identifier": "GB-GOV-52-CSSF-03-000026",
         "source": "IATI",
-        "reported_by": "Conflict, Stability and Security Fund (CSSF)",
+        "reported_by": "cssf",
         "humanitarian": true,
         "title": "Somalia Counter Extremism Programme",
         "description": "This programme aims to support the Federal Government of Somalia to implement its National Programme for treatment and handling of disengaged combatants, designed to incentivise defections from Al Shabaab by providing alternative paths and viable rehabilitation options.",
@@ -8626,7 +8585,7 @@
                 "fcdo"
             ],
             "funding": [
-                "Conflict, Stability and Security Fund (CSSF)"
+                "cssf"
             ]
         },
         "sectors": {
@@ -8743,7 +8702,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "International Organisation for Migration (IOM)"
+                "iom"
             ],
             "programming": [],
             "funding": [
@@ -8816,23 +8775,23 @@
     {
         "identifier": "XM-DAC-45001-B864",
         "source": "IATI",
-        "reported_by": "international-trade-centre-itc",
+        "reported_by": "itc",
         "humanitarian": false,
         "title": "Refugee Employment and Skills Initiative: Building Solutions for Somali Refugees in a Fragile Protracted Displacement Scenario (RESI Dadaab II)",
         "description": "RESI deploys innovative ways to address self-reliance and economic resilience in protracted humanitarian situations. The RESI Dadaab project will provide support to entrepreneurship and business development for income generation to address the rapid phasing out of humanitarian assistance in the Dadaab camps and support Somali refugees to be able to maintain their well-being in the immediate future, including by supporting returnees in Somalia.",
         "active": true,
         "orgs": {
             "implementing": [
-                "international-trade-centre-itc",
+                "itc",
                 "Shaqodoon Organization, Somalia"
             ],
             "programming": [
-                "international-trade-centre-itc"
+                "itc"
             ],
             "funding": [
                 "Danish Refugee Council, Denmark",
                 "Ministry of Foreign Affairs of Japan, Japan",
-                "Norwegian Refugee Council, Norway"
+                "nrc"
             ]
         },
         "sectors": {
@@ -9128,8 +9087,7 @@
                 "save-the-children-netherlands"
             ],
             "funding": [
-                "sos-cv-netherlands",
-                "SOS Children's villages Netherlands"
+                "sos-cv-netherlands"
             ]
         },
         "sectors": {
@@ -9164,15 +9122,13 @@
         "orgs": {
             "implementing": [
                 "world-bank-trust-funds",
-                "Somalia MultiPartner Fund 2",
                 "government-of-somalia"
             ],
             "programming": [],
             "funding": [
                 "sdc",
                 "finland-mfa",
-                "sida",
-                "Somalia MultiPartner Fund 2"
+                "sida"
             ]
         },
         "sectors": {
@@ -9340,7 +9296,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Save the Children Federation, Inc."
+                "sci"
             ],
             "programming": [],
             "funding": [
@@ -10132,7 +10088,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "KIRKON ULKOMAANAPU SR"
+                "kirkon-ulkomaanapu-sr"
             ],
             "programming": [],
             "funding": [
@@ -10318,12 +10274,9 @@
                 "war-child-holland",
                 "world-vision-netherlands",
                 "Stichting ZOA",
-                "Plan International Nederland",
                 "stichting-beheer-subsidiegelden-dra",
-                "Stichting Vluchteling / IRC",
-                "Stichting World Vision Nederland",
-                "SOS Kinderdorpen",
-                "Save the Children Nederland"
+                "irc",
+                "sos-cv"
             ],
             "programming": [
                 "stichting-beheer-subsidiegelden-dra"
@@ -10425,9 +10378,7 @@
         "description": "The action aims to enhance peace and stability by building local capacities to mitigate security and safety risks posed by explosive hazards. It will take a two-pronged approach, focused at both community and central level. At community level, the action will engage with the affected local populations, with the aim to increase their capacity to address explosive hazards found in their communities. It will also scale up the capacity of the Somali Explosive Management Authority (SEMA)",
         "active": true,
         "orgs": {
-            "implementing": [
-                "United Nations Organisation*Organisation Des Nations Unies"
-            ],
+            "implementing": [],
             "programming": [
                 "european-commission-service-for-foreign-policy-instruments"
             ],
@@ -11013,7 +10964,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "The One Earth Future Foundation is a self-funded private operating foundation that seeks to create a more peaceful world through collaborative, data-driven initiatives. Key programs include: 1. Enhancing cooperation to solve maritime piracy; Oceans Beyond Piracy addresses maritime piracy and violence at sea by mobilizing stakeholders from across the maritime community and promoting long-term solutions at sea and on shore. 2. Advancing sustainable fisheries through science-based analysis: Secure Fisheries collects, analyzes and shares data about fisheries in the Somali and Lake Victoria regions and coordinates with regional stakeholders to fight IUU fishing in the Indian Ocean. 3. Creating sustainable jobs in fragile economies: Shuraako facilitatesinvestment in promising Somali-based businesses, fostering a marketplace that encourages economic development and stability throughout the country. 4. Building sustainable peace through collaboration: PASO Colombia provides multi-sector coalitions withstronger systems of collaboration and information to promote sustainable peace in Colombia. 5. Contributing to thought leadership on good governance: OEF Research collects and analyzes data on the role of good governance in support of sustainable peaceglobally and convenes academics and practitioners in support of evidence-based practice. The Foundation has its head quarters in USA and operations in Somalia, with offices in Hargeisain Somaliland and Garowe in Puntland.",
+                "one-earth-foundation",
                 "ONE EARTH FUTURE FOUNDATION"
             ],
             "programming": [
@@ -11056,7 +11007,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Innovate Ventures is the leading start-up accelerator and technology fund in Somaliland and Somalia. Innovate Ventures mission is to develop tech-based businesses in Somalia and Somaliland, support the next wave of Somali entrepreneurs, and grow the nascent start-up ecosystem in the country. Innovate Ventures is the leading Somali startup accelerator and early-stage startup fund supporting ambitious startups who use technology to change the world. Through our accelerator programme we invest in and support great teams withcool ideas to help build a world-class business through an intensive three-month programme.",
+                "innovate-ventures",
                 "INNOVATE VENTURE"
             ],
             "programming": [
@@ -11143,7 +11094,7 @@
         "orgs": {
             "implementing": [
                 "sos-cv-netherlands",
-                "SOS Kinderdorpen"
+                "sos-cv"
             ],
             "programming": [
                 "oxfam-novib"
@@ -11187,7 +11138,7 @@
         "orgs": {
             "implementing": [
                 "wvi",
-                "Stichting World Vision Nederland"
+                "world-vision-netherlands"
             ],
             "programming": [
                 "oxfam-novib"
@@ -11311,7 +11262,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Somaliland National Disaster Preparedness and Food Reserve Authority( NADFOR) was established in 2003 but legally passed in June 2007 through parliament, house of elders and signed by the President of Somaliland , Nafor's goal is to prevent frequent occurrence ofdisasters, droughts and reduce vulnerability of communities by improving sustainable coping capacities to decrease overall impact to disasters on lives and livelihoods of Somaliland communities. NADFOR's Strategic Objective to become effective and efficient institution managing early warning systems, information sharing and dissemination advocating for disasters and related environmental crisis for strategic decision making and action in the country.",
+                "nadfor",
                 "Somaliland National Disaster Prepar and Food Reserve Authority"
             ],
             "programming": [
@@ -11352,7 +11303,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "The Puntland authorities established HADMA (Humanitarian Affairs and Disaster Management Agency) in 2005 to lead the coordination of humanitarian interventions in Puntland on a monthly basis. HADMA, with the support of OCHA currently coordinates and organizes sectoral meetings on: Health, Education, Water and Sanitation, Environment, Infrastructure and Shelter, Food Security and Fisheries. The Puntland Ministry of Planning and International Cooperation also do some coordination in terms of development programmes.",
+                "hadma",
                 "Humanitarian Affairs and Disaster Management Agency"
             ],
             "programming": [
@@ -11399,7 +11350,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "OXFAM International Affiliates",
+                "oxfam-international",
                 "oxfam-novib"
             ]
         },
@@ -11483,7 +11434,6 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "UN ORGANISATIONS",
                 "oxfam-novib"
             ]
         },
@@ -11518,7 +11468,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Since 1993, World Vision has been working in areas of Somalia with the highest levels of child poverty. Our goal is to achieve long-lasting benefits in the quality of life for vulnerable children and their families, displaced persons, and communities using a development approach that increases participation, understanding and unity among people of different cultures while promoting the rightsand interests of Somali children. In response to the humanitarian needs of the Somali people, World Vision designs and delivers programs coordinated at regional and country levels by dedicated staff that provides strategic and operational support. Our program offices are located close to communities so our teams can be responsive to the needs of local children and their families at the community level. Following the 2011 famine and more than 20 years since the collapse of the central government, strong signs of hope areemerging for sustained peace, and the opportunity for families to live healthy, prosperous lives. World Vision is committed to walking with communities from emergency through rehabilitative programming in order to bring about sustainable and long-term change overthe coming years.",
+                "wvi",
                 "world-vision-somalia"
             ],
             "programming": [
@@ -11849,7 +11799,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "The Norwegian Refugee Council is an independent humanitarian organization helping people forced to flee, tarted their relief efforts after World War Two, humanitarian needs were critical. They still are # and NRC still there, protecting people forced toflee and supporting them as they build a new future. Today, NRC work in both new and protracted crises across 31 countries NRC provide camp management, food assistance, clean water, shelter, legal aid, and education. displaced people's rights and dignityin local communities, with national governments and in the international arena. NRC#s Internal Displacement Monitoring Centre in Geneva is a global leader in monitoring, reporting on and advocating for people displaced within their own country.",
                 "nrc"
             ],
             "programming": [
@@ -11899,7 +11848,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "OXFAM USA"
+                "oxfam-usa"
             ]
         },
         "sectors": {
@@ -12190,7 +12139,7 @@
                 "iom"
             ],
             "funding": [
-                "International Organisation of Migration (IOM)"
+                "iom"
             ]
         },
         "sectors": {
@@ -12641,8 +12590,8 @@
             "funding": [
                 "oxfam-gb",
                 "oxfam-novib",
-                "OXFAM USA",
-                "OXFAM SPAIN (Intermon)"
+                "oxfam-usa",
+                "intermon"
             ]
         },
         "sectors": {
@@ -12766,7 +12715,7 @@
             ],
             "funding": [
                 "oxfam-gb",
-                "OXFAM USA",
+                "oxfam-usa",
                 "oxfam-novib"
             ]
         },
@@ -13187,7 +13136,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Har-Hub was founded , after realizing that the unemployment rate among those under 30 in Somaliland, who comprise 70% of the population, is 67% they have decided to identify ways they can help young people access opportunities and create jobs for the one another, Now they have programs and services tailored that allow young innovators and entrepreneurs to create, build, scale and sustain social ventures that tackle the communities most pressing issues such as unemployment.",
+                "har-hub",
                 "HARGEISA HUB"
             ],
             "programming": [
@@ -13228,7 +13177,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Innovate Ventures is the leading start-up accelerator and technology fund in Somaliland and Somalia. Innovate Ventures mission is to develop tech-based businesses in Somalia and Somaliland, support the next wave of Somali entrepreneurs, and grow the nascent start-up ecosystem in the country. Innovate Ventures is the leading Somali startup accelerator and early-stage startup fund supporting ambitious startups who use technology to change the world. Through our accelerator programme we invest in and support great teams withcool ideas to help build a world-class business through an intensive three-month programme.",
+                "innovate-ventures",
                 "INNOVATE VENTURE"
             ],
             "programming": [
@@ -14138,7 +14087,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "SOS Children's Village",
+                "sos-cv",
                 "oxfam-novib"
             ]
         },
@@ -14183,7 +14132,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "SOS Children's Village"
+                "sos-cv"
             ]
         },
         "sectors": {
@@ -14227,7 +14176,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "SOS Children's Village"
+                "sos-cv"
             ]
         },
         "sectors": {
@@ -14446,7 +14395,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "OXFAM International Affiliates",
+                "oxfam-international",
                 "oxfam-novib"
             ]
         },
@@ -14621,7 +14570,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "OXFAM USA"
+                "oxfam-usa"
             ]
         },
         "sectors": {
@@ -14665,7 +14614,7 @@
                 "oxfam-novib"
             ],
             "funding": [
-                "OXFAM USA"
+                "oxfam-usa"
             ]
         },
         "sectors": {
@@ -14703,7 +14652,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Taakulo Somali Community Commonly known by the acronym #TASCO#. TASCO is a multifaceted non-governmental, non-profit making, non-political and non-partisan development and humanitarian aid organization established in 2007 and headquartered in Hargeisa, Somaliland. Taakulo is a Somali word meaning #helping/aiding#. Working in partnership with UN, international, and National organizations, TASCO is dedicated to helping the disadvantaged people and communities throughout Somali by engaging in development and related activities and also providing relief support and assistance, facilitating and promoting participatory local community activities and programs that emphasize human dignity and self-reliance."
+                "tasco"
             ],
             "programming": [
                 "oxfam-novib"
@@ -14757,7 +14706,8 @@
                 "global-partnership-for-education",
                 "global-education-cluster",
                 "education-cannot-wait-fund",
-                "Saudi Arabia"
+                "Saudi Arabia",
+                "unicef-canada"
             ]
         },
         "sectors": {
@@ -14973,12 +14923,15 @@
                 "unicef"
             ],
             "funding": [
-                "unicef",
+                "unicef-usa",
+                "unicef-mexico",
                 "usaid",
                 "nutrition-international",
                 "jica",
                 "fcdo",
                 "sida",
+                "unicef-germany",
+                "unicef",
                 "gac",
                 "echo",
                 "belgian-development-cooperation",
@@ -15112,8 +15065,9 @@
                 "netherlands-mfa",
                 "norad",
                 "jica",
+                "unicef-belgium",
+                "wash",
                 "unicef",
-                "global-water-sanitation-hygiene-wash-cluster",
                 "echo",
                 "gac",
                 "unops",
@@ -15122,6 +15076,7 @@
                 "usaid",
                 "fcdo",
                 "bmz",
+                "unicef-germany",
                 "kfw-germany",
                 "ocha"
             ]
@@ -15607,9 +15562,10 @@
                 "netherlands-mfa",
                 "education-cannot-wait-fund",
                 "bmz",
-                "unicef",
+                "unicef-canada",
                 "global-partnership-for-education",
-                "global-education-cluster"
+                "global-education-cluster",
+                "unicef"
             ]
         },
         "sectors": {
@@ -15665,9 +15621,10 @@
                 "jica",
                 "cdc",
                 "the-global-fund-to-fight-aids",
-                "unicef",
+                "unicef-usa",
                 "gavi",
-                "unops"
+                "unops",
+                "unicef"
             ]
         },
         "sectors": {
@@ -15836,11 +15793,13 @@
                 "unicef"
             ],
             "funding": [
-                "unicef",
+                "unicef-usa",
                 "gac",
                 "usaid",
                 "the-global-fund-to-fight-aids",
                 "fcdo",
+                "unicef",
+                "unicef-saudi-arabia",
                 "kuwait",
                 "ocha",
                 "unaids",
@@ -16394,7 +16353,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Human Settlements Programme*Programme Des Nations Unies Pour Les Etablissements Humains"
+                "un-habitat"
             ],
             "programming": [
                 "european-development-fund"
@@ -16438,7 +16397,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Office For Project Services*Bureau Des Nations Unies Pour Les Services D'Appui Aux Projets"
+                "unops"
             ],
             "programming": [
                 "european-development-fund"
@@ -16520,7 +16479,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Nations Human Settlements Programme*Programme Des Nations Unies Pour Les Etablissements Humains"
+                "un-habitat"
             ],
             "programming": [
                 "european-development-fund"
@@ -16698,10 +16657,12 @@
                 "usaid",
                 "echo",
                 "jica",
+                "unicef-qatar",
                 "unicef",
                 "global-education-cluster",
                 "global-partnership-for-education",
                 "gac",
+                "unicef-canada",
                 "undp",
                 "bmz",
                 "sida"
@@ -16801,12 +16762,17 @@
                 "unicef"
             ],
             "funding": [
-                "unicef",
+                "unicef-qatar",
+                "unicef-usa",
                 "fcdo",
+                "unicef",
+                "unicef-saudi-arabia",
                 "usaid",
+                "unicef-uk",
                 "global-partnership-for-education",
                 "sida",
                 "global-education-cluster",
+                "unicef-germany",
                 "undp",
                 "danida",
                 "global-nutrition-cluster",
@@ -16867,10 +16833,12 @@
                 "gac",
                 "sida",
                 "republic-of-korea",
-                "unicef",
+                "unicef-canada",
+                "unicef-qatar",
                 "echo",
                 "global-partnership-for-education",
                 "education-cannot-wait-fund",
+                "unicef",
                 "jica",
                 "usa-state-bprm",
                 "bmz",
@@ -16938,6 +16906,7 @@
                 "echo",
                 "fcdo",
                 "netherlands-mfa",
+                "unicef-uk",
                 "belgian-development-cooperation",
                 "usaid",
                 "ocha",
@@ -16999,12 +16968,14 @@
             ],
             "funding": [
                 "usaid",
-                "unicef",
+                "unicef-saudi-arabia",
                 "sida",
+                "unicef",
                 "fcdo",
                 "gavi",
                 "unops",
                 "jica",
+                "unicef-usa",
                 "bmz",
                 "usa-state-bprm",
                 "unaids",
@@ -17012,7 +16983,7 @@
                 "government-of-somalia",
                 "cdc",
                 "gac",
-                "World Bank - Washington D.C.",
+                "world-bank",
                 "belgian-development-cooperation",
                 "kuwait",
                 "echo",
@@ -17081,6 +17052,7 @@
                 "bmz",
                 "usaid",
                 "china",
+                "unicef-germany",
                 "ocha",
                 "echo",
                 "sida"
@@ -17147,11 +17119,12 @@
                 "netherlands-mfa",
                 "echo",
                 "undp",
-                "global-water-sanitation-hygiene-wash-cluster",
+                "wash",
                 "bmz",
                 "unops",
                 "fcdo",
                 "norad",
+                "unicef-belgium",
                 "ocha",
                 "jica",
                 "usaid"
@@ -17216,12 +17189,13 @@
                 "belgian-development-cooperation",
                 "sida",
                 "netherlands-mfa",
-                "unicef",
+                "unicef-belgium",
                 "usaid",
                 "fcdo",
                 "jica",
-                "global-water-sanitation-hygiene-wash-cluster",
+                "wash",
                 "bmz",
+                "unicef",
                 "ocha",
                 "kfw-germany",
                 "echo",
@@ -18146,7 +18120,7 @@
             "implementing": [],
             "programming": [
                 "devco",
-                "World Bank Group (WB)"
+                "world-bank"
             ],
             "funding": [
                 "devco"
@@ -18309,7 +18283,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -18629,7 +18603,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -19104,7 +19078,7 @@
     {
         "identifier": "CA-3-D002532001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "Market-based Solutions to Preventing Undernutrition",
         "description": "The project aims to support the World Food Programme (WFP) in the fight against hunger. WFP is partnering with the private sector, agriculture producers, African governments and other stakeholders to support the establishment of commercially sustainable factories in Ethiopia and Rwanda to produce Supercereal Plus, a fortified cereal that responds specifically to the nutritional needs of children aged 6-24 months.  Project activities include: (1) purchasing Supercereal Plus from the three factories for five years to be used for WFP operations; and (2) using Supercereal Plus a locally-produced product in its nutrition programmes in 11 African countries.",
@@ -19157,7 +19131,7 @@
     {
         "identifier": "CA-3-D003499001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "Addressing Protracted Food Insecurity Through Collaborative Resilience-Based Approaches",
         "description": "This project aims to increase food security and resilience for populations, especially women and children, in Somalia, Niger and the Democratic Republic of Congo.  With GAC\u2019s support, the World Food Programme (WFP), the Food and Agriculture Organization of the United Nations (FAO), and the International Fund for Agricultural Development (IFAD) is working jointly to respond to food assistance needs in protracted crises. Project activities include: (1) responding to immediate food needs of specific beneficiaries, especially women and children; (2) restoring livelihoods; (3) protecting assets; and (4) preventing negative coping behaviors that contribute to food insecurity. This combination of activities is crucial to building resilience of populations, eventually decreasing dependence on humanitarian food assistance.",
@@ -19199,7 +19173,7 @@
     {
         "identifier": "CA-3-P007070001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "Multi-Country Emergency Food Assistance - World Food Program 2019",
         "description": "March 2019 - The World Food Programme (WFP) is the United Nations\u2019 frontline agency in the fight against hunger. It responds to emergencies, saves lives by quickly getting food to the hungry, and works to help prevent hunger in the future.  In humanitarian emergencies, WFP focuses on providing targeted food assistance to reduce acute malnutrition and food insecurity, and to protect livelihoods. As the global lead agency for logistics and emergency telecommunications, WFP also plays a major role in providing common services for the humanitarian community. It transports passengers undertaking humanitarian work, carries light cargo for humanitarian agencies, and carries out emergency medical and security evacuations.  Project activities include: (1) distributing food; (2) supplementary feeding for children under five years of age as well as pregnant and lactating women; (3) emergency school feeding programs; (4) vouchers and cash transfers for food; and (5) food for work. With the support of GAC and other donors, WFP is providing emergency food assistance to more than 90 million people facing famine, malnutrition and severe food insecurity.",
@@ -19963,14 +19937,14 @@
     {
         "identifier": "CA-3-P007688001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": false,
         "title": "UNdaunted: Educating Girls with Disabilities in Somalia",
         "description": "This project aims to remove barriers to girls\u2019 education in Somalia, particularly those with disabilities.  It builds on the positive experience of Canadian philanthropic engagement via UNICEF Canada\u2019s UNdaunted Initiative already established in Sub-Saharan Africa. This project works to improve learning outcomes for girls, including those with disabilities, by increasing their equitable access to safe, quality, inclusive, education within an education system that recognizes their needs, and provides innovative and quality gender-responsive formal and non-formal education. The project aims to target 156 schools in up to 20 districts of the Federal Government of Somalia and Federal Member States: the Puntland State of Somalia and Somaliland. Project activities include: (1) facilitating public awareness around disability and gender issues through activities such as community outreach, and providing training to education stakeholders on developing policies on the protection of girls from gender-based violence in schools and to foster safe learning spaces; and (2) providing technical assistance to Ministries of Education and educational officials to strengthen capacity on data collection, as well as to integrate adolescent girls with disabilities into their education systems. This project is expected to reach 22,500 girls, including 7,500 girls with disabilities in the formal and informal education systems. The project is also expected to benefit 1,248 teachers; 1,092 members of community education committees; and 70 government officials.",
         "active": true,
         "orgs": {
             "implementing": [
-                "UNICEF CANADA"
+                "unicef-canada"
             ],
             "programming": [
                 "gac"
@@ -20005,14 +19979,14 @@
     {
         "identifier": "CA-3-P007688002",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": false,
         "title": "UNdaunted: Educating Girls with Disabilities in Response to Coronavirus (COVID-19) in Somalia",
         "description": "This project aims to address the education needs arising from COVID-19 in Somalia, by providing support to education stakeholders with COVID-19 response plans and gender-responsive remote education programming for girls, particularly girls with disabilities. The project works to ensure that safe spaces for girls are being adapted to remain safely accessible in the context of COVID-19. Project activities include: (1) organizing gender-responsive messaging on COVID-19, sexual and gender-based violence, and girls with disabilities; (2) piloting digital learning solutions for girls with disabilities; (3) providing cash transfers to families to support girls\u2019 return to school; (4) ensuring schools are disability-friendly; and (5) providing gender-responsive teacher training on distance learning, disabilities, COVID-19, and psychosocial support.  This project expects to benefit 22,500 girls, including 7,500 girls with disabilities, 1,248 teachers, 1,092 members of community education committees, and 70 government officials. The project also expects to indirectly benefit 200,000 community members.",
         "active": true,
         "orgs": {
             "implementing": [
-                "UNICEF CANADA"
+                "unicef-canada"
             ],
             "programming": [
                 "gac"
@@ -20047,7 +20021,7 @@
     {
         "identifier": "CA-3-P008798001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "World Food Program - Multi-Country Emergency Food Assistance - CAP 2020",
         "description": "The World Food Programme (WFP) is the United Nations\u2019 frontline agency in the fight against hunger. It responds to emergencies, saves lives by quickly getting food to the hungry, and works to help prevent hunger in the future.  In humanitarian emergencies, WFP focuses on providing targeted food assistance to reduce acute malnutrition and food insecurity, and to protect livelihoods. As the global lead agency for logistics and emergency telecommunications, WFP also plays a major role in providing common services for the humanitarian community. It transports passengers undertaking humanitarian work, carries light cargo for humanitarian agencies, and carries out emergency medical and security evacuations.  With the support of GAC and other donors, WFP is providing emergency food assistance to more than 90 million people facing famine, malnutrition and severe food insecurity.Project activities include: (1) distributing food; (2) supplementary feeding for children under five years of age as well as pregnant and lactating women; (3) emergency school feeding programs; (4) vouchers and cash transfers for food; and (5) food for work.",
@@ -20106,7 +20080,7 @@
     {
         "identifier": "CA-3-P008911001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "Coordination of Humanitarian Responses in Multiple Countries - OCHA 2020",
         "description": "The United Nations Office for the Coordination of Humanitarian Affairs\u2019 (OCHA) primary mandate is to oversee the coordination of international humanitarian responses, in partnership with national and international actors, in order to achieve more coherent and effective humanitarian action. This grant represents Canada\u2019s support to OCHA in Afghanistan, Burkina Faso, Cameroon, the Central African Republic (CAR), Ethiopia, Mali, Nigeria, Somalia, South Sudan, Sudan, and Ukraine.  With the support of Canada and other donors, OCHA fulfills its mandate by: (1) strengthening humanitarian leadership; (2) establishing and overseeing coordination systems; (3) monitoring and reporting on humanitarian situations; (4) advocating on behalf of affected people; (5) supporting the assessment and prioritization of humanitarian needs and strategic planning; (6) promoting emergency preparedness; and (7) mobilizing funding for humanitarian assistance.",
@@ -20156,7 +20130,7 @@
     {
         "identifier": "CA-3-P008928001",
         "source": "IATI",
-        "reported_by": "Foreign Affairs, Trade and Development Canada (DFATD)",
+        "reported_by": "gac",
         "humanitarian": true,
         "title": "Multi-Country - UNICEF Humanitarian Appeals 2020",
         "description": "The United Nations Children's Fund (UNICEF) is mandated by the United Nations General Assembly to advocate for the protection of children's rights, to help meet their basic needs and to expand their opportunities to reach their full potential. UNICEF works in developing countries through its development and humanitarian assistance programming to fulfill its mandate, including promoting the equal rights of women and girls, and to support their full participation in the political, social, and economic development of their communities.  In humanitarian emergencies, UNICEF\u2019s project activities include: (1) providing people with access to safe drinking water and sanitation facilities; (2) treating children for severe acute malnutrition; (3) providing emergency education programming for children; (4) ensuring protection services for children and women; and (5) providing basic healthcare.",
@@ -20210,7 +20184,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "UNICEF - Children's Fund - PRT",
+                "unicef",
                 "Commitment"
             ],
             "programming": [],
@@ -20733,7 +20707,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -21321,10 +21295,8 @@
                 "Saudi Arabia",
                 "fcdo",
                 "Slovenia",
-                "UN Other Funds and Agencies (excl. CERF)",
                 "european-commission-service-for-foreign-policy-instruments",
-                "UN CERF",
-                "Multilateral",
+                "cerf",
                 "republic-of-korea"
             ]
         },
@@ -21375,14 +21347,12 @@
                 "wfp",
                 "fcdo",
                 "united-states-of-america",
-                "Multilateral",
                 "Czech Republic",
                 "Hungary",
                 "republic-of-korea",
                 "Russian Federation",
-                "UN Other Funds and Agencies (excl. CERF)",
                 "aics",
-                "UN CERF",
+                "cerf",
                 "european-commission-service-for-foreign-policy-instruments",
                 "South Africa"
             ]
@@ -21466,11 +21436,10 @@
                 "bmz",
                 "un",
                 "wfp",
-                "Multilateral",
                 "united-states-of-america",
                 "Lithuania",
                 "Russian Federation",
-                "UN CERF"
+                "cerf"
             ]
         },
         "sectors": {
@@ -21514,9 +21483,7 @@
                 "sdc",
                 "un",
                 "wfp",
-                "fcdo",
-                "Multilateral",
-                "UN Other Funds and Agencies (excl. CERF)"
+                "fcdo"
             ]
         },
         "sectors": {
@@ -21560,10 +21527,8 @@
                 "sdc",
                 "un",
                 "wfp",
-                "UN Other Funds and Agencies (excl. CERF)",
                 "republic-of-korea",
                 "Lithuania",
-                "Multilateral",
                 "european-commission-service-for-foreign-policy-instruments",
                 "Saudi Arabia"
             ]
@@ -21605,11 +21570,9 @@
                 "bmz",
                 "un",
                 "wfp",
-                "Multilateral",
                 "united-states-of-america",
-                "UN Other Funds and Agencies (excl. CERF)",
                 "fcdo",
-                "UN CERF"
+                "cerf"
             ]
         },
         "sectors": {
@@ -21645,8 +21608,7 @@
             "implementing": [],
             "programming": [],
             "funding": [
-                "wfp",
-                "Multilateral"
+                "wfp"
             ]
         },
         "sectors": {
@@ -21683,8 +21645,7 @@
             "programming": [],
             "funding": [
                 "un",
-                "UN CERF",
-                "UN Other Funds and Agencies (excl. CERF)"
+                "cerf"
             ]
         },
         "sectors": {
@@ -21722,7 +21683,7 @@
                 "fcdo"
             ],
             "funding": [
-                "Conflict, Stability and Security Fund (CSSF)"
+                "cssf"
             ]
         },
         "sectors": {
@@ -21806,7 +21767,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "UN Fund for Population"
+                "unfpa"
             ],
             "funding": [
                 "finland-mfa"
@@ -22013,7 +21974,7 @@
                 "alkowthar-water-supply-company",
                 "waterschap-aa-en-maas",
                 "dutch-international-business-development-cooperatieve-vereniging",
-                "yme-foundation",
+                "yme",
                 "dur-dur-water-supply"
             ],
             "programming": [
@@ -22296,9 +22257,7 @@
             "programming": [
                 "ilo"
             ],
-            "funding": [
-                "Multi Partner Trust Fund Office, UNDP"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -22339,7 +22298,7 @@
                 "ilo"
             ],
             "funding": [
-                "International Labour Orgamization (ILO)"
+                "ilo"
             ]
         },
         "sectors": {
@@ -22758,9 +22717,14 @@
                 "unhcr"
             ],
             "funding": [
-                "unhcr",
+                "unhcr-australia",
                 "espana-con-acnur",
                 "fundacion-acnur-comite-argentino",
+                "unhcr-japan",
+                "unhcr-sweden",
+                "unhcr-uk",
+                "unhcr",
+                "unhcr-usa",
                 "united-arab-emirates",
                 "echo",
                 "danida",
@@ -22771,9 +22735,7 @@
                 "united-states-of-america",
                 "un-habitat",
                 "jica",
-                "republic-of-korea",
-                "Private donors in Italy",
-                "Private donors in the United States of America"
+                "republic-of-korea"
             ]
         },
         "sectors": {
@@ -22973,7 +22935,7 @@
                 "undp"
             ],
             "funding": [
-                "un-dept-of-economic-and-social-affairs",
+                "desa",
                 "aics",
                 "norad",
                 "european-commission-service-for-foreign-policy-instruments",
@@ -23073,7 +23035,7 @@
                 "undp"
             ],
             "funding": [
-                "un-dept-of-economic-and-social-affairs",
+                "desa",
                 "global-environment-fund-truste",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "undp",
@@ -23309,7 +23271,7 @@
                 "undp"
             ],
             "funding": [
-                "un-political-office-for-somali",
+                "unpos",
                 "undp",
                 "peacebuilding-fund",
                 "united-nations-multi-partner-trust-fund-for-somalia",
@@ -23360,7 +23322,7 @@
                 "sdc",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "peacebuilding-fund",
-                "un-political-office-for-somali"
+                "unpos"
             ]
         },
         "sectors": {
@@ -23531,9 +23493,7 @@
             "programming": [
                 "ilo"
             ],
-            "funding": [
-                "Multi Partner Trust Fund Office, UNDP"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -23961,7 +23921,7 @@
                 "undp"
             ],
             "funding": [
-                "un-dept-of-economic-and-social-affairs",
+                "desa",
                 "poland",
                 "european-commission-service-for-foreign-policy-instruments",
                 "united-nations-multi-partner-trust-fund-for-somalia",
@@ -24014,7 +23974,7 @@
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "european-commission-service-for-foreign-policy-instruments",
                 "poland",
-                "un-dept-of-economic-and-social-affairs"
+                "desa"
             ]
         },
         "sectors": {
@@ -25916,7 +25876,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "World Health Organization Regional Office for the Eastern Mediterranean"
+                "who"
             ],
             "programming": [],
             "funding": [
