@@ -190,7 +190,7 @@ def fetch_activities(files):
     for file in files:
         with open(file, "r") as input:
             for activity in diterator.XMLIterator(input):
-                if not activity.identifier in identifiers_seen:
+                if not activity.identifier in identifiers_seen and not activity.secondary_reporter:
                     data = make_activity(activity)
                     if data is not None:
                         result.append(data)
