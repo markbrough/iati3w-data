@@ -4208,11 +4208,20 @@
         "partners": {
             "all": {
                 "local": {
+                    "taado": 45,
+                    "sadi": 22,
                     "sypd": 54,
                     "ahio": 82,
+                    "mudro": 10,
+                    "badef": 7,
+                    "grasho": 53,
                     "ard": 6,
+                    "soydavo": 12,
+                    "hod": 8,
+                    "uvrdo": 20,
                     "deh-relief-somalia": 18,
-                    "hadmo": 10
+                    "hadmo": 10,
+                    "cerelpa": 1
                 },
                 "regional": {},
                 "international": {
@@ -4225,19 +4234,14 @@
                     "aics": 1,
                     "undp": 1,
                     "echo": 1,
-                    "devco": 1
+                    "devco": 1,
+                    "icd": 14
                 },
                 "unknown": {
                     "eu-institutions": 6,
-                    "taado": 45,
                     "sedo": 14,
                     "vrd": 12,
-                    "sadi": 22,
                     "rew": 7,
-                    "mudro": 10,
-                    "badef": 7,
-                    "grasho": 53,
-                    "icd": 14,
                     "sir": 6,
                     "pda": 15,
                     "sea": 4,
@@ -4245,33 +4249,34 @@
                     "cohope": 16,
                     "arin": 51,
                     "agrah": 21,
-                    "ars": 10,
-                    "soydavo": 12,
-                    "hod": 8,
-                    "uvrdo": 20,
-                    "cerelpa": 1
+                    "ars": 10
                 }
             },
             "3w": {
                 "local": {
+                    "taado": 45,
+                    "sadi": 22,
                     "sypd": 54,
                     "ahio": 82,
-                    "ard": 6,
-                    "deh-relief-somalia": 18,
-                    "hadmo": 10
-                },
-                "regional": {},
-                "international": {},
-                "unknown": {
-                    "taado": 45,
-                    "sedo": 14,
-                    "vrd": 12,
-                    "sadi": 22,
-                    "rew": 7,
                     "mudro": 10,
                     "badef": 7,
                     "grasho": 53,
-                    "icd": 14,
+                    "ard": 6,
+                    "soydavo": 12,
+                    "hod": 8,
+                    "uvrdo": 20,
+                    "deh-relief-somalia": 18,
+                    "hadmo": 10,
+                    "cerelpa": 1
+                },
+                "regional": {},
+                "international": {
+                    "icd": 14
+                },
+                "unknown": {
+                    "sedo": 14,
+                    "vrd": 12,
+                    "rew": 7,
                     "sir": 6,
                     "pda": 15,
                     "sea": 4,
@@ -4279,11 +4284,7 @@
                     "cohope": 16,
                     "arin": 51,
                     "agrah": 21,
-                    "ars": 10,
-                    "soydavo": 12,
-                    "hod": 8,
-                    "uvrdo": 20,
-                    "cerelpa": 1
+                    "ars": 10
                 }
             },
             "iati": {
@@ -50499,8 +50500,8 @@
     },
     "taado": {
         "info": {
-            "name": "TAADO",
-            "scope": "unknown",
+            "name": "Tayo Action And Development Organization",
+            "scope": "local",
             "synonyms": [],
             "shortname": "TAADO",
             "stub": "taado"
@@ -50626,7 +50627,7 @@
     },
     "vrd": {
         "info": {
-            "name": "VRD",
+            "name": "Volunteers for Relief Development",
             "scope": "unknown",
             "synonyms": [],
             "shortname": "VRD",
@@ -50686,8 +50687,8 @@
     },
     "sadi": {
         "info": {
-            "name": "SADI",
-            "scope": "unknown",
+            "name": "Sustainable Africa Development Initiatives",
+            "scope": "local",
             "synonyms": [],
             "shortname": "SADI",
             "stub": "sadi"
@@ -50881,8 +50882,9 @@
     },
     "mudro": {
         "info": {
-            "name": "MUDRO",
-            "scope": "unknown",
+            "name": "Mustaqbal Development and Relief Organization",
+            "scope": "local",
+            "url": "http://mudro.org",
             "synonyms": [],
             "shortname": "MUDRO",
             "stub": "mudro"
@@ -50941,8 +50943,9 @@
     },
     "badef": {
         "info": {
-            "name": "BADEF",
-            "scope": "unknown",
+            "name": "BADEF Development Foundation",
+            "scope": "local",
+            "url": "http://badef.org",
             "synonyms": [],
             "shortname": "BADEF",
             "stub": "badef"
@@ -51003,8 +51006,8 @@
     },
     "grasho": {
         "info": {
-            "name": "GRASHO",
-            "scope": "unknown",
+            "name": "Grassroot Support for Humanity Organization in Berbera",
+            "scope": "local",
             "synonyms": [],
             "shortname": "GRASHO",
             "stub": "grasho"
@@ -51066,8 +51069,8 @@
     },
     "icd": {
         "info": {
-            "name": "ICD",
-            "scope": "unknown",
+            "name": "International Cooperation for Development",
+            "scope": "international",
             "synonyms": [],
             "shortname": "ICD",
             "stub": "icd"
@@ -51629,8 +51632,9 @@
     },
     "soydavo": {
         "info": {
-            "name": "SOYDAVO",
-            "scope": "unknown",
+            "name": "Somaliland Youth Development and Voluntary Organization",
+            "scope": "local",
+            "url": "https://soydavo.org",
             "synonyms": [],
             "shortname": "SOYDAVO",
             "stub": "soydavo"
@@ -51689,8 +51693,8 @@
     },
     "hod": {
         "info": {
-            "name": "HOD",
-            "scope": "unknown",
+            "name": "Himilo Organization for Development",
+            "scope": "local",
             "synonyms": [],
             "shortname": "HOD",
             "stub": "hod"
@@ -51749,8 +51753,9 @@
     },
     "uvrdo": {
         "info": {
-            "name": "UVRDO",
-            "scope": "unknown",
+            "name": "Unique Vision Pastoral and Agro-Pastol Research and Development Organization",
+            "scope": "local",
+            "url": "https://www.facebook.com/UVRDO/",
             "synonyms": [],
             "shortname": "UVRDO",
             "stub": "uvrdo"
@@ -51872,8 +51877,9 @@
     },
     "cerelpa": {
         "info": {
-            "name": "CERELPA",
-            "scope": "unknown",
+            "name": "Central Regions Livestock Professional Association",
+            "scope": "local",
+            "url": "http://cerelpa.org/",
             "synonyms": [],
             "shortname": "CERELPA",
             "stub": "cerelpa"
