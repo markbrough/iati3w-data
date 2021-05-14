@@ -2614,8 +2614,9 @@
         "shortname": "Awale Driling com"
     },
     "BADEF": {
-        "name": "BADEF",
-        "scope": "unknown",
+        "name": "BADEF Development Foundation",
+        "scope": "local",
+        "url": "http://badef.org",
         "synonyms": [],
         "shortname": "BADEF"
     },
@@ -3692,8 +3693,9 @@
         "shortname": "CEDA"
     },
     "CERELPA": {
-        "name": "CERELPA",
-        "scope": "unknown",
+        "name": "Central Regions Livestock Professional Association",
+        "scope": "local",
+        "url": "http://cerelpa.org/",
         "synonyms": [],
         "shortname": "CERELPA"
     },
@@ -8602,8 +8604,8 @@
         "iati_id": "NL-KVK-41217404"
     },
     "GRASHO": {
-        "name": "GRASHO",
-        "scope": "unknown",
+        "name": "Grassroot Support for Humanity Organization in Berbera",
+        "scope": "local",
         "synonyms": [],
         "shortname": "GRASHO"
     },
@@ -9360,8 +9362,8 @@
         "iati_id": "GB-GOV-2"
     },
     "HOD": {
-        "name": "HOD",
-        "scope": "unknown",
+        "name": "Himilo Organization for Development",
+        "scope": "local",
         "synonyms": [],
         "shortname": "HOD"
     },
@@ -9949,8 +9951,8 @@
         "iati_id": "NL-KVK-56484038"
     },
     "ICD": {
-        "name": "ICD",
-        "scope": "unknown",
+        "name": "International Cooperation for Development",
+        "scope": "international",
         "synonyms": [],
         "shortname": "ICD"
     },
@@ -12773,8 +12775,9 @@
         "iati_id": "GB-COH-1102208"
     },
     "MUDRO": {
-        "name": "MUDRO",
-        "scope": "unknown",
+        "name": "Mustaqbal Development and Relief Organization",
+        "scope": "local",
+        "url": "http://mudro.org",
         "synonyms": [],
         "shortname": "MUDRO"
     },
@@ -16886,8 +16889,8 @@
         "shortname": "SADAG"
     },
     "SADI": {
-        "name": "SADI",
-        "scope": "unknown",
+        "name": "Sustainable Africa Development Initiatives",
+        "scope": "local",
         "synonyms": [],
         "shortname": "SADI"
     },
@@ -17345,8 +17348,9 @@
         "shortname": "SOYDA"
     },
     "SOYDAVO": {
-        "name": "SOYDAVO",
-        "scope": "unknown",
+        "name": "Somaliland Youth Development and Voluntary Organization",
+        "scope": "local",
+        "url": "https://soydavo.org",
         "synonyms": [],
         "shortname": "SOYDAVO"
     },
@@ -18985,8 +18989,8 @@
         "iati_id": "FR-RCS-83764263600018"
     },
     "TAADO": {
-        "name": "TAADO",
-        "scope": "unknown",
+        "name": "Tayo Action And Development Organization",
+        "scope": "local",
         "synonyms": [],
         "shortname": "TAADO"
     },
@@ -21237,8 +21241,9 @@
         "iati_id": "NL-KVK-34159275"
     },
     "UVRDO": {
-        "name": "UVRDO",
-        "scope": "unknown",
+        "name": "Unique Vision Pastoral and Agro-Pastol Research and Development Organization",
+        "scope": "local",
+        "url": "https://www.facebook.com/UVRDO/",
         "synonyms": [],
         "shortname": "UVRDO"
     },
@@ -21953,7 +21958,7 @@
         "iati_id": "NL-KVK-27195046"
     },
     "VRD": {
-        "name": "VRD",
+        "name": "Volunteers for Relief Development",
         "scope": "unknown",
         "synonyms": [],
         "shortname": "VRD"

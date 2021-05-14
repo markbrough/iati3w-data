@@ -21,10 +21,24 @@ TEMPLATE = {
         "funding": [],
     },
     "partners": {
-        "local": {},
-        "regional": {},
-        "international": {},
-        "unknown": {},
+        "all": {
+            "local": {},
+            "regional": {},
+            "international": {},
+            "unknown": {}
+        },
+        "3w": {
+            "local": {},
+            "regional": {},
+            "international": {},
+            "unknown": {}
+        },
+        "iati": {
+            "local": {},
+            "regional": {},
+            "international": {},
+            "unknown": {}
+        },
     },
     "sectors": {
         "humanitarian": {},
@@ -60,7 +74,7 @@ def get_entry (org):
 
     return index[stub]
 
-def add_partner (org, partner):
+def add_partner (org, partner, source):
     """ Record one org as a partner of another
     The function works only one way, so you need to call it twice
     """
@@ -72,7 +86,10 @@ def add_partner (org, partner):
         return
 
     stub = partner["stub"]
-    basedata = get_entry(org)["partners"][partner["scope"]]
+    basedata = get_entry(org)["partners"]["all"][partner["scope"]]
+    basedata[stub] = 1 + basedata.get(stub, 0)
+
+    basedata = get_entry(org)["partners"][source.lower()][partner["scope"]]
     basedata[stub] = 1 + basedata.get(stub, 0)
 
 if __name__ == "__main__":
@@ -130,8 +147,8 @@ if __name__ == "__main__":
                         add_unique(activity["identifier"], entry["activities"][role])
 
                         # Add the reporting org as a partner
-                        add_partner(org, reporting_org)
-                        add_partner(reporting_org, org)
+                        add_partner(org, reporting_org, activity["source"])
+                        add_partner(reporting_org, org, activity["source"])
 
                         # Add the sectors (DAC and Humanitarian)
                         for type in SECTOR_TYPES:
