@@ -3573,6 +3573,7 @@
                     "grrn": 19,
                     "moewr": 1,
                     "taado": 45,
+                    "sedo": 14,
                     "sypd": 54
                 },
                 "regional": {
@@ -3658,7 +3659,6 @@
                     "sosyo": 8,
                     "kanava": 2,
                     "mow": 11,
-                    "sedo": 14,
                     "vrd": 12,
                     "dho": 6
                 }
@@ -9041,7 +9041,8 @@
                     "gsa": 45,
                     "pmwdo": 115,
                     "pwda": 13,
-                    "moewr": 1
+                    "moewr": 1,
+                    "pda": 7
                 },
                 "regional": {},
                 "international": {
@@ -9102,7 +9103,6 @@
                     "idil": 3,
                     "agrah": 21,
                     "hope-foundation": 18,
-                    "pda": 7,
                     "khedi": 26
                 }
             },
@@ -19170,6 +19170,7 @@
                     "ahio": 24,
                     "gavo": 1,
                     "adec": 1,
+                    "sedo": 5,
                     "hpa": 1,
                     "wardi": 1
                 },
@@ -19197,7 +19198,6 @@
                     "shilcon-concern": 4,
                     "sro": 4,
                     "strep": 1,
-                    "sedo": 5,
                     "saedo": 18,
                     "heapl": 6
                 }
@@ -22414,7 +22414,8 @@
                     "zamzam-foundation": 14,
                     "sypd": 35,
                     "gsa": 1,
-                    "moewr": 2
+                    "moewr": 2,
+                    "pda": 15
                 },
                 "regional": {},
                 "international": {
@@ -22446,7 +22447,6 @@
                     "soado": 10,
                     "mcan": 2,
                     "lta-safa": 2,
-                    "pda": 15,
                     "hrec": 4,
                     "sdpbi": 9
                 }
@@ -36107,7 +36107,8 @@
                 "local": {
                     "moh-xs": 41,
                     "ard": 6,
-                    "adec": 1
+                    "adec": 1,
+                    "sedo": 4
                 },
                 "regional": {},
                 "international": {
@@ -36125,8 +36126,7 @@
                 },
                 "unknown": {
                     "shilcon-concern": 4,
-                    "strep": 1,
-                    "sedo": 4
+                    "strep": 1
                 }
             },
             "sectors": {
@@ -36951,6 +36951,7 @@
                     "pwda": 2,
                     "tasco": 7,
                     "uvrdo": 20,
+                    "sedo": 1,
                     "wardi": 1
                 },
                 "regional": {},
@@ -36970,7 +36971,6 @@
                 },
                 "unknown": {
                     "sro": 4,
-                    "sedo": 1,
                     "saedo": 18,
                     "heapl": 3
                 }
@@ -39616,7 +39616,8 @@
                     "dpa": 5,
                     "sypd": 35,
                     "gsa": 1,
-                    "moewr": 2
+                    "moewr": 2,
+                    "pda": 15
                 },
                 "regional": {},
                 "international": {
@@ -39646,7 +39647,6 @@
                     "hirdo": 11,
                     "mcan": 2,
                     "lta-safa": 2,
-                    "pda": 15,
                     "hrec": 1,
                     "sdpbi": 9
                 }
@@ -43576,7 +43576,8 @@
                     "deh-relief-somalia": 27,
                     "cpd": 39,
                     "gsa": 25,
-                    "moewr": 1
+                    "moewr": 1,
+                    "pda": 4
                 },
                 "regional": {},
                 "international": {
@@ -43599,7 +43600,6 @@
                     "secco": 8,
                     "idil": 3,
                     "sdro": 1,
-                    "pda": 4,
                     "khedi": 26
                 }
             },
@@ -52811,7 +52811,8 @@
             "orgs": {
                 "local": {
                     "moh": 6,
-                    "urro": 2
+                    "urro": 2,
+                    "sedo": 14
                 },
                 "regional": {},
                 "international": {
@@ -52825,8 +52826,7 @@
                 },
                 "unknown": {
                     "socwrh": 2,
-                    "mow": 10,
-                    "sedo": 14
+                    "mow": 10
                 }
             },
             "sectors": {
@@ -53441,6 +53441,7 @@
                 "local": {
                     "rawa": 36,
                     "cpd": 3,
+                    "pda": 3,
                     "deh-relief-somalia": 1
                 },
                 "regional": {},
@@ -53449,9 +53450,7 @@
                     "unicef": 3,
                     "wfp": 4
                 },
-                "unknown": {
-                    "pda": 3
-                }
+                "unknown": {}
             },
             "sectors": {
                 "humanitarian": {
