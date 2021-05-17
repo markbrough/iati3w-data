@@ -15175,8 +15175,9 @@
         "shortname": "PBF"
     },
     "PDA": {
-        "name": "PDA",
-        "scope": "unknown",
+        "name": "Peace and Development Action",
+        "scope": "local",
+        "url": "https://pda.org.so",
         "synonyms": [],
         "shortname": "PDA"
     },
@@ -17039,8 +17040,9 @@
         "shortname": "SEDHURO"
     },
     "SEDO": {
-        "name": "SEDO",
-        "scope": "unknown",
+        "name": "Social and Environmental Development Organization",
+        "scope": "local",
+        "url": "https://sedosomalia.org/",
         "synonyms": [],
         "shortname": "SEDO"
     },
