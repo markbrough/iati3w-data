@@ -6871,8 +6871,8 @@
         "iati_id": "GB-SC-SC032327"
     },
     "EVSO": {
-        "name": "EVSO",
-        "scope": "unknown",
+        "name": "Empowering the Vulnerable Society Organization",
+        "scope": "local",
         "synonyms": [],
         "shortname": "EVSO"
     },
@@ -16906,8 +16906,8 @@
         "shortname": "SADO"
     },
     "SAEDO": {
-        "name": "SAEDO",
-        "scope": "unknown",
+        "name": "Social and Economic Development Organization",
+        "scope": "regional",
         "synonyms": [],
         "shortname": "SAEDO"
     },
