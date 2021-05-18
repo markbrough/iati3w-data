@@ -17428,6 +17428,7 @@
                     "intersom": 2,
                     "gsa": 5,
                     "scc": 38,
+                    "evso": 18,
                     "moewr": 2
                 },
                 "regional": {},
@@ -17461,7 +17462,6 @@
                     "vad": 2,
                     "mcan": 2,
                     "mow": 2,
-                    "evso": 18,
                     "lta-safa": 1,
                     "rew": 7,
                     "sir": 6,
@@ -19174,7 +19174,9 @@
                     "hpa": 1,
                     "wardi": 1
                 },
-                "regional": {},
+                "regional": {
+                    "saedo": 18
+                },
                 "international": {
                     "acted": 410,
                     "nrc": 2,
@@ -19198,7 +19200,6 @@
                     "shilcon-concern": 4,
                     "sro": 4,
                     "strep": 1,
-                    "saedo": 18,
                     "heapl": 6
                 }
             },
@@ -35244,7 +35245,8 @@
                     "avord": 5,
                     "wocca": 186,
                     "intersom": 2,
-                    "scc": 38
+                    "scc": 38,
+                    "evso": 18
                 },
                 "regional": {},
                 "international": {
@@ -35270,7 +35272,6 @@
                     "global-environment-fund-truste": 1,
                     "vad": 2,
                     "mcan": 2,
-                    "evso": 18,
                     "lta-safa": 1,
                     "sir": 6,
                     "onkod": 7
@@ -36954,7 +36955,9 @@
                     "sedo": 1,
                     "wardi": 1
                 },
-                "regional": {},
+                "regional": {
+                    "saedo": 18
+                },
                 "international": {
                     "acted": 78,
                     "wvi": 12,
@@ -36971,7 +36974,6 @@
                 },
                 "unknown": {
                     "sro": 4,
-                    "saedo": 18,
                     "heapl": 3
                 }
             },

@@ -6297,6 +6297,7 @@
                     "scc": 2,
                     "moh": 73,
                     "pmwdo": 83,
+                    "evso": 18,
                     "gsa": 1,
                     "saredo": 67,
                     "new-ways": 52,
@@ -6371,7 +6372,6 @@
                     "shr": 3,
                     "sophpa": 16,
                     "shra": 27,
-                    "evso": 18,
                     "sro": 16,
                     "saafi-company": 5,
                     "lta-safa": 3,
@@ -6393,6 +6393,7 @@
                     "scc": 2,
                     "moh": 73,
                     "pmwdo": 83,
+                    "evso": 18,
                     "gsa": 1,
                     "saredo": 67,
                     "new-ways": 52,
@@ -6423,7 +6424,6 @@
                     "shr": 3,
                     "sophpa": 16,
                     "shra": 27,
-                    "evso": 18,
                     "sro": 16,
                     "saafi-company": 5,
                     "lta-safa": 3,
@@ -9557,6 +9557,7 @@
                 },
                 "regional": {
                     "ayda": 27,
+                    "saedo": 18,
                     "anppcan": 15
                 },
                 "international": {
@@ -9625,7 +9626,6 @@
                     "khedi": 26,
                     "horyal-organization": 32,
                     "saba-saba-two": 17,
-                    "saedo": 18,
                     "prdo": 19,
                     "rays-rehab-and-dev-association": 46,
                     "foore": 9,
@@ -9673,6 +9673,7 @@
                 },
                 "regional": {
                     "ayda": 27,
+                    "saedo": 18,
                     "anppcan": 15
                 },
                 "international": {
@@ -9711,7 +9712,6 @@
                     "khedi": 26,
                     "horyal-organization": 32,
                     "saba-saba-two": 17,
-                    "saedo": 18,
                     "prdo": 19,
                     "rays-rehab-and-dev-association": 46,
                     "foore": 9,
@@ -48679,8 +48679,8 @@
     },
     "evso": {
         "info": {
-            "name": "EVSO",
-            "scope": "unknown",
+            "name": "Empowering the Vulnerable Society Organization",
+            "scope": "local",
             "synonyms": [],
             "shortname": "EVSO",
             "stub": "evso"
@@ -53292,8 +53292,8 @@
     },
     "saedo": {
         "info": {
-            "name": "SAEDO",
-            "scope": "unknown",
+            "name": "Social and Economic Development Organization",
+            "scope": "regional",
             "synonyms": [],
             "shortname": "SAEDO",
             "stub": "saedo"
