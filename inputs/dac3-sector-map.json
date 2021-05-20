@@ -47,12 +47,12 @@
     "151": {
         "name": "Government & Civil Society-general",
         "dac-group": "Government & Civil Society",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "152": {
         "name": "Conflict, Peace & Security",
         "dac-group": "Government & Civil Society",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "160": {
         "name": "Other Social Infrastructure & Services",
@@ -71,47 +71,47 @@
     "230": {
         "name": "ENERGY GENERATION AND SUPPLY",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "231": {
         "name": "Energy Policy",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "232": {
         "name": "Energy generation, renewable sources",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "233": {
         "name": "Energy generation, non-renewable sources",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "234": {
         "name": "Hybrid energy plants",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "235": {
         "name": "Nuclear energy plants",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "236": {
         "name": "Energy distribution",
         "dac-group": "Energy",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "240": {
         "name": "Banking & Financial Services",
         "dac-group": "Banking & Financial Services",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "250": {
         "name": "Business & Other Services",
         "dac-group": "Business & Other Services",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "311": {
         "name": "Agriculture",
@@ -121,7 +121,7 @@
     "312": {
         "name": "Forestry",
         "dac-group": "Agriculture, Forestry, Fishing",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "313": {
         "name": "Fishing",
@@ -131,12 +131,12 @@
     "321": {
         "name": "Industry",
         "dac-group": "Industry, Mining, Construction",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "322": {
         "name": "Mineral Resources & Mining",
         "dac-group": "Industry, Mining, Construction",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "323": {
         "name": "Construction",
@@ -146,27 +146,27 @@
     "331": {
         "name": "Trade Policies & Regulations",
         "dac-group": "Trade Policies & Regulations",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "332": {
         "name": "Tourism",
         "dac-group": "Tourism",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "410": {
         "name": "General Environment Protection",
         "dac-group": "General Environment Protection",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "430": {
         "name": "Other Multisector",
         "dac-group": "Other Multisector",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "510": {
         "name": "General Budget Support",
         "dac-group": "General Budget Support",
-        "skip": true
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "520": {
         "name": "Development Food Assistance",
@@ -181,7 +181,8 @@
     "600": {
         "name": "Action Relating to Debt",
         "dac-group": "Action Relating to Debt",
-        "skip": true
+        "skip": true,
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "720": {
         "name": "Emergency Response",
@@ -199,7 +200,8 @@
     "910": {
         "name": "Administrative Costs of Donors",
         "dac-group": "Administrative Costs of Donors",
-        "skip": true
+        "skip": true,
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     },
     "930": {
         "name": "Refugees in Donor Countries",
@@ -208,6 +210,7 @@
     "998": {
         "name": "Unallocated / Unspecified",
         "dac-group": "Unallocated / Unspecified",
-        "skip": true
+        "skip": true,
+        "humanitarian-mapping": "(No corresponding humanitarian cluster)"
     }
 }
