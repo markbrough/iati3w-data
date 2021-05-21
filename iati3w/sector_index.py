@@ -33,6 +33,7 @@ for filename in sys.argv[1:]:
         for activity in activities:
 
             identifier = activity["identifier"]
+            source = activity["source"]
 
             #
             # Loop through the sector types
@@ -50,15 +51,41 @@ for filename in sys.argv[1:]:
                         "stub": make_token(sector),
                         "activities": [],
                         "orgs": {
-                            "local": {},
-                            "regional": {},
-                            "international": {},
-                            "unknown": {},
+                            "all": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
+                            "3w": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
+                            "iati": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
                         },
                         "locations": {
-                            "admin1": {},
-                            "admin2": {},
-                            "unclassified": {},
+                            "all": {
+                                "admin1": {},
+                                "admin2": {},
+                                "unclassified": {},
+                            },
+                            "3w": {
+                                "admin1": {},
+                                "admin2": {},
+                                "unclassified": {},
+                            },
+                            "iati": {
+                                "admin1": {},
+                                "admin2": {},
+                                "unclassified": {},
+                            },
                         },
                     });
                     entry = index[type][stub]
@@ -70,16 +97,18 @@ for filename in sys.argv[1:]:
                     for role in ROLES:
                         for org_name in activity["orgs"].get(role, []):
                             if org_name:
-                                org = lookup_org(org_name, create=True)
-                                entry["orgs"][org["scope"]].setdefault(org["stub"], 0)
-                                entry["orgs"][org["scope"]][org["stub"]] += 1
+                                for facet in ("all", source.lower(),):
+                                    org = lookup_org(org_name, create=True)
+                                    entry["orgs"][facet][org["scope"]].setdefault(org["stub"], 0)
+                                    entry["orgs"][facet][org["scope"]][org["stub"]] += 1
 
                     # locations
                     for loctype in LOCATION_TYPES:
                         for location in activity["locations"].get(loctype, []):
                             if location:
-                                entry["locations"][loctype].setdefault(location, 0)
-                                entry["locations"][loctype][location] += 1
+                                for facet in ("all", source.lower(),):
+                                    entry["locations"][facet][loctype].setdefault(location, 0)
+                                    entry["locations"][facet][loctype][location] += 1
 
 # Dump index to standard output
 json.dump(index, sys.stdout, indent=4)

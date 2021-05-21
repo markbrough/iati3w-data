@@ -33,6 +33,7 @@ for filename in sys.argv[1:]:
         for activity in activities:
 
             identifier = activity["identifier"]
+            source = activity["source"]
 
             #
             # Loop through the subnational location types
@@ -57,14 +58,38 @@ for filename in sys.argv[1:]:
                         "info": location,
                         "activities": [],
                         "orgs": {
-                            "local": {},
-                            "regional": {},
-                            "international": {},
-                            "unknown": {},
+                            "all": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
+                            "3w": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
+                            "iati": {
+                                "local": {},
+                                "regional": {},
+                                "international": {},
+                                "unknown": {},
+                            },
                         },
                         "sectors": {
-                            "humanitarian": {},
-                            "dac": {},
+                            "all": {
+                                "humanitarian": {},
+                                "dac": {},
+                            },
+                            "3w": {
+                                "humanitarian": {},
+                                "dac": {},
+                            },
+                            "iati": {
+                                "humanitarian": {},
+                                "dac": {},
+                            },
                         },
                     })
 
@@ -80,8 +105,9 @@ for filename in sys.argv[1:]:
                             if not org_name:
                                 continue
                             org = lookup_org(org_name, create=True)
-                            entry["orgs"][org["scope"]].setdefault(org["stub"], 0)
-                            entry["orgs"][org["scope"]][org["stub"]] += 1
+                            for facet in ("all", source.lower(),):
+                                entry["orgs"][facet][org["scope"]].setdefault(org["stub"], 0)
+                                entry["orgs"][facet][org["scope"]][org["stub"]] += 1
 
                     # Add the sectors for each type
                     for type in SECTOR_TYPES:
@@ -89,8 +115,9 @@ for filename in sys.argv[1:]:
                             if not sector:
                                 continue
                             stub = make_token(sector)
-                            entry["sectors"][type].setdefault(stub, 0)
-                            entry["sectors"][type][stub] += 1
+                            for facet in ("all", source.lower(),):
+                                entry["sectors"][facet][type].setdefault(stub, 0)
+                                entry["sectors"][facet][type][stub] += 1
 
 
 # Dump the index as JSON to stdout
