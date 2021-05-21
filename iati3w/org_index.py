@@ -41,15 +41,41 @@ TEMPLATE = {
         },
     },
     "sectors": {
-        "humanitarian": {},
-        "dac": {},
+        "all": {
+            "humanitarian": {},
+            "dac": {},
+        },
+        "3w": {
+            "humanitarian": {},
+            "dac": {},
+        },
+        "iati": {
+            "humanitarian": {},
+            "dac": {},
+        },
     },
     "locations": {
-        "admin1": {},
-        "admin2": {},
-        "unclassified": {},
+        "all": {
+            "admin1": {},
+            "admin2": {},
+            "unclassified": {},
+        },
+        "3w": {
+            "admin1": {},
+            "admin2": {},
+            "unclassified": {},
+        },
+        "iati": {
+            "admin1": {},
+            "admin2": {},
+            "unclassified": {},
+        },
     },
-    "total_activities": 0,
+    "activity_totals": {
+        "all": 0,
+        "3w": 0,
+        "iati": 0,
+    },
 }
 
 
@@ -110,6 +136,7 @@ if __name__ == "__main__":
             for activity in activities:
 
                 identifier = activity["identifier"]
+                source = activity["source"]
 
                 # Make sure we have an entry for the reporting org
                 reporting_org = lookup_org(activity["reported_by"], create=True)
@@ -138,32 +165,35 @@ if __name__ == "__main__":
                             entry["humanitarian"] = True
 
                         # Note how we know about the org
-                        add_unique(activity["source"], entry["sources"])
+                        add_unique(source, entry["sources"])
 
                         # Count activities
-                        entry["total_activities"] += 1;
+                        entry["activity_totals"]["all"] += 1
+                        entry["activity_totals"][source.lower()] += 1
 
                         # Add this activity to the org's index
                         add_unique(activity["identifier"], entry["activities"][role])
 
                         # Add the reporting org as a partner
-                        add_partner(org, reporting_org, activity["source"])
-                        add_partner(reporting_org, org, activity["source"])
+                        add_partner(org, reporting_org, source)
+                        add_partner(reporting_org, org, source)
 
                         # Add the sectors (DAC and Humanitarian)
                         for type in SECTOR_TYPES:
                             for sector in activity["sectors"].get(type, []):
                                 stub = make_token(sector)
                                 if sector:
-                                    entry["sectors"][type].setdefault(stub, 0)
-                                    entry["sectors"][type][stub] += 1
+                                    for facet in ("all", source.lower(),):
+                                        entry["sectors"][facet][type].setdefault(stub, 0)
+                                        entry["sectors"][facet][type][stub] += 1
 
                         # Add the subnational locations
                         for type in LOCATION_TYPES:
                             for location in activity["locations"].get(type, []):
                                 if location:
-                                    entry["locations"][type].setdefault(location, 0)
-                                    entry["locations"][type][location] += 1
+                                    for facet in ("all", source.lower(),):
+                                        entry["locations"][facet][type].setdefault(location, 0)
+                                        entry["locations"][facet][type][location] += 1
 
     # Dump the index to stdout
     json.dump(index, sys.stdout, indent=4)
