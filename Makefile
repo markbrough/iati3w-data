@@ -83,6 +83,9 @@ $(3W_ACTIVITIES): venv iati3w/activities_3w.py iati3w/common.py $(MAPS) $(DOWNLO
 $(DOWNLOADS): admin-scripts/download-data.sh
 	bash admin-scripts/download-data.sh
 
+force-download:
+	bash admin-scripts/download-data.sh
+
 
 #
 # Extras
