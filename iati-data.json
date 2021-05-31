@@ -8927,10 +8927,10 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Puntland Minority Women Development Organization"
+                "pmwdo"
             ],
             "programming": [
-                "Puntland Minority Women Development Organization"
+                "pmwdo"
             ],
             "funding": [
                 "shf"
@@ -10429,7 +10429,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "United Kingdom Of Great Britain And Northern Ireland*Pre Brexit"
+                "fcdo"
             ],
             "programming": [
                 "european-development-fund"
@@ -11148,7 +11148,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Kingdom Of Great Britain And Northern Ireland*Pre Brexit"
+                "fcdo"
             ],
             "programming": [
                 "european-development-fund"
@@ -11526,7 +11526,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "United Kingdom Of Great Britain And Northern Ireland*Pre Brexit"
+                "fcdo"
             ],
             "programming": [
                 "european-development-fund"
@@ -12197,7 +12197,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "International Monetary Fund*Fonds Monetaire International"
+                "imf"
             ],
             "programming": [
                 "european-development-fund",
@@ -16541,9 +16541,7 @@
         "description": "1-3 staffmembers working within thecorrectional unit in UNSOM.",
         "active": true,
         "orgs": {
-            "implementing": [
-                "United Nations"
-            ],
+            "implementing": [],
             "programming": [
                 "Swedish Prison and Probation Service"
             ],
@@ -22415,7 +22413,7 @@
             ],
             "programming": [
                 "sida",
-                "devco"
+                "EC/European Commission"
             ],
             "funding": [
                 "sida"
@@ -23769,7 +23767,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Norwegian Refugee Council USA"
+                "nrc"
             ],
             "programming": [],
             "funding": [
@@ -34192,7 +34190,7 @@
                 "Saudi Arabia",
                 "fcdo",
                 "Slovenia",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "cerf",
                 "republic-of-korea"
             ]
@@ -34250,7 +34248,7 @@
                 "Russian Federation",
                 "aics",
                 "cerf",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "South Africa"
             ]
         },
@@ -34290,7 +34288,7 @@
             "programming": [],
             "funding": [
                 "government-of-somalia",
-                "european-commission-service-for-foreign-policy-instruments"
+                "ec"
             ]
         },
         "sectors": {
@@ -34426,7 +34424,7 @@
                 "wfp",
                 "republic-of-korea",
                 "Lithuania",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "Saudi Arabia"
             ]
         },
@@ -35088,7 +35086,7 @@
                 "plan-international-uk"
             ],
             "funding": [
-                "devco",
+                "EC (European Commission)",
                 "plan-international-uk"
             ]
         },
@@ -36054,9 +36052,7 @@
         "active": true,
         "orgs": {
             "implementing": [],
-            "programming": [
-                "United Nations"
-            ],
+            "programming": [],
             "funding": [
                 "australia-dfat",
                 "Austria",
@@ -36064,7 +36060,7 @@
                 "Bhutan",
                 "gac",
                 "china",
-                "Commission of the European Communities",
+                "ec",
                 "Croatia",
                 "Czechia",
                 "danida",
@@ -36077,7 +36073,7 @@
                 "ifad",
                 "ilo",
                 "iom",
-                "International Telecommunications Union",
+                "itu",
                 "ireland-department-of-foreign-affairs-and-trade",
                 "aics",
                 "jica",
@@ -36102,11 +36098,10 @@
                 "Timor-Leste",
                 "United Arab Emirates (the)",
                 "United Kingdom of Great Britain and Northern Ireland (the)",
-                "United Nations",
                 "unicef",
-                "United Nations Development Fund for Women",
+                "un-women",
                 "undp",
-                "United Nations Educational, Scientific and Cultural Organisation",
+                "unesco",
                 "United Nations Industrial Development Organisation",
                 "unhcr",
                 "unfpa",
@@ -38670,6 +38665,7 @@
                 "european-commission-service-for-foreign-policy-instruments",
                 "sida",
                 "cpr-the-goverment-of-korea",
+                "ec",
                 "undp",
                 "belgian-development-cooperation",
                 "danida",
@@ -38761,6 +38757,7 @@
                 "norad",
                 "european-commission-service-for-foreign-policy-instruments",
                 "sida",
+                "ec",
                 "belgian-development-cooperation",
                 "sdc",
                 "danida",
@@ -38815,6 +38812,7 @@
                 "european-commission-service-for-foreign-policy-instruments",
                 "sida",
                 "cpr-the-goverment-of-korea",
+                "ec",
                 "unpos",
                 "peacebuilding-fund",
                 "MDTFO/UNDP-Counter Piracy",
@@ -38868,6 +38866,7 @@
                 "danida",
                 "belgian-development-cooperation",
                 "unpos",
+                "ec",
                 "european-commission-service-for-foreign-policy-instruments"
             ]
         },
@@ -38919,6 +38918,7 @@
                 "poland",
                 "european-commission-service-for-foreign-policy-instruments",
                 "sida",
+                "ec",
                 "MDTFO/UNDP-Counter Piracy",
                 "unicef",
                 "bmz",
@@ -39437,7 +39437,7 @@
                 "desa",
                 "norad",
                 "sida",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "fcdo",
                 "undp"
@@ -39528,7 +39528,7 @@
                 "undp",
                 "fcdo",
                 "united-nations-multi-partner-trust-fund-for-somalia",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "sida",
                 "norad",
                 "desa"
@@ -39580,7 +39580,7 @@
                 "luxembourg",
                 "norad",
                 "sida",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "peacebuilding-fund",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "mptfo-un-action-agst-sexual-violence-in-conflict-unaoo",
@@ -39637,7 +39637,7 @@
                 "danida",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "peacebuilding-fund",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "sida",
                 "norad",
                 "luxembourg"
@@ -39690,7 +39690,7 @@
                 "fcdo",
                 "danida",
                 "united-nations-multi-partner-trust-fund-for-somalia",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "sida",
                 "norad"
             ]
@@ -40437,7 +40437,7 @@
             "funding": [
                 "desa",
                 "poland",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "united-nations-multi-partner-trust-fund-for-somalia",
                 "undp",
                 "sdc",
@@ -40486,7 +40486,7 @@
                 "undp",
                 "fcdo",
                 "united-nations-multi-partner-trust-fund-for-somalia",
-                "european-commission-service-for-foreign-policy-instruments",
+                "ec",
                 "poland",
                 "desa"
             ]
@@ -44317,9 +44317,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -44359,9 +44357,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -45573,9 +45569,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -45657,9 +45651,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -45741,9 +45733,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -45989,9 +45979,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -46193,9 +46181,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -46319,9 +46305,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -46399,9 +46383,7 @@
             "programming": [
                 "fao"
             ],
-            "funding": [
-                "EU Institutions"
-            ]
+            "funding": []
         },
         "sectors": {
             "dac": [
@@ -48111,13 +48093,13 @@
         "orgs": {
             "implementing": [
                 "itc",
-                "Shaqodoon Organization, Somalia"
+                "shaqodoon"
             ],
             "programming": [
                 "itc"
             ],
             "funding": [
-                "Danish Refugee Council, Denmark",
+                "drc",
                 "Ministry of Foreign Affairs of Japan, Japan",
                 "nrc"
             ]
@@ -52533,7 +52515,7 @@
         "orgs": {
             "implementing": [],
             "programming": [
-                "World Bank Group"
+                "world-bank"
             ],
             "funding": [
                 "finland-mfa"
@@ -53108,7 +53090,7 @@
                 "concern-worldwide-uk",
                 "international-medical-corps-uk",
                 "Aamin Ambulance",
-                "Wardi Relief",
+                "wardi",
                 "action-against-hunger-uk"
             ],
             "programming": [
@@ -54085,14 +54067,14 @@
     {
         "identifier": "46002-P-SO-DB0-005",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Road Infrastructure Programme (RIP)",
         "description": "The Road  Infrastructure  Programme aims  to  improve  management  of  the  road sector  at  the  national  level  and  improve  transport  connectivity  for  road  users  in  the  targeted  road corridors  for  rehabilitation  while  reinforcing  the  capacities  of  federal  and  regional  institutions  that manage  road infrastructure.  The  programme  entails:  (i)  rehabilitation  and  surface  dressing  of  82km (BeledWeyne-Kalabeyr  22km;  and  Dhusamareb-Qaradhi  60km)  of  the  existing  327km,  7.3m  wide Beled Weyne-Galkayo paved road; (ii) rehabilitation and surface dressing of 85 km(Galkayo-Faratoyo) of the existing 240 km, 7.3 m wide Galkayo-Garowe paved road; (iii) rehabilitation and construction of the existing 80km, 7.3m wide Luuq, Ganane-Dolow earth road to gravel road standard; and (iv) new construction  of  100  km,  7.3m  wide  Galkayo-Elgula  (part  of  241km  Galkayo-Hobyo  feeder  road)  to compacted  gravel  standard  and  Feasibility  study,  environmental  and  social  impact  assessment  and detailed engineering design of 280 km Lowyaddo-Farddaha-Borama road.",
         "active": true,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54131,7 +54113,7 @@
     {
         "identifier": "46002-P-SO-E00-001",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Water Infrastructure Development Program for Resilience in Somaliland",
         "description": "The Water Infrastructure Development Program for Building Resilience in Somaliland is broadly aimed at sustainably strengthening the resilience of the water and sanitation sector, and at developing water and sanitation infrastructure in the high priority areas of the country. It is an autonomous institutional strengthening and investment program, funded by the Rural Water Supply and Sanitation Initiative Trust Fund (RWSSI) and the Facility for Rural Water Supply and Sanitation (RWSSI). Transition Support (FAT). It contributes directly to Somaliland's current efforts to strengthen water security and improve community livelihoods. To achieve this, the program takes an integrated approach, combining small- and medium-scale water storage facilities and the use of well water to increase the quantity and availability of water, facilitate adaptation the consequences of climate change and build resilience. Its total cost is estimated at UA 6 million. The program is structured around the following three components: 1) support for water and sanitation infrastructure to strengthen resilience; 2) capacity building; and 3) program management.",
@@ -54139,7 +54121,7 @@
         "orgs": {
             "implementing": [
                 "Minist\u00e8re de l'\u00c9nergie et des Ressources en Eau du Somaliland",
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54176,7 +54158,7 @@
     {
         "identifier": "46002-P-SO-E00-002",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Improving Access to Water and Sanitation Services in Somalia",
         "description": "The Improving Access to Rural Water and Sanitation in Somalia (IAWSRS) project is an autonomous investment and institutional strengthening operation. The project addresses urgent needs for water and sanitation provision in rural and peri-urban areas affected by recurring droughts and waterborne diseases such as acute watery diarrhea and cholera. Indeed, the state of disrepair of water and sanitation infrastructure is a major factor contributing to significant outbreaks of water-borne diseases, particularly diarrhea whose incidence rate in Somalia is 21%. The interventions proposed under this project will therefore improve the quality of life of about 175,000 people and their livestock in rural Somalia. They are articulated around the following two operational components: 1) capacity building and 2) construction / rehabilitation of water supply and sanitation infrastructure for stability and resilience that will create about 1,300 jobs. In addition, the project will promote the use of water for multiple purposes, community mobilization campaigns and awareness of health and hygiene issues will be conducted, practices of nond\u00e9f\u00e9cation in the open, through the community-led total sanitation approach will also be promoted. The total cost of the project is estimated at about UA 8,189 million.",
@@ -54184,7 +54166,7 @@
         "orgs": {
             "implementing": [
                 "moewr",
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54223,14 +54205,14 @@
     {
         "identifier": "46002-P-SO-E00-003",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Kismayo-Baidoa Urban Water Supply and Sanitation project",
         "description": "The proposed project aims at contributing to improve quality of life, inclusiveness and resilience through the  provision  of  sustainable  water  supply  and  sanitation  services.  The  project  focuses  on increasing access to safe water, improved sanitation and strengthening capacity for improved delivery of water and sanitation services in Kismayo (Jubbaland State) and Baidoa (South West State) towns. The project will reduce  economic  and  social  exclusion  of  poor  and  vulnerable  groups in the  two  towns,  where an estimated 65% of the population live below the basic needs poverty line and 70% of the population is younger than 30 years is often unemployed by improving access to safe and reliable water supply. The project will improve access to affordable water supply and sanitation services in Kismayo and  Baidoa,  particularly for  the  Internally  Displaced  Persons  (IDP\u2019s) -who  comprise  43%  of  the population, have contributed significantly to the growing urban informality in the two towns, and are facing great hardship in accessing clean water and improved sanitation. Water and Sanitation tariffs will be reviewed to incorporate lifeline tariffs, which often ensure that those in greatest hardship can afford water  and  sanitation  services.  Selected  education,  health and  market facilities  will  also  benefit  from improved water and sanitation facilities and  hygiene training and promotion.  The  project  will  cost an estimated  UA 9.589 million  and its implementation period is 48 months with a completion date of September 2023.",
         "active": true,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [
                 "government-of-somalia"
@@ -54272,7 +54254,7 @@
     {
         "identifier": "46002-P-SO-EAZ-001",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Building Resilience to Water Stress in Somaliland Project - Preparation of Water Resources Management and Investment Plan",
         "description": "The proposed project aims at addressing the identified need for a comprehensive plan for integrated water resources management and development in Somaliland, which will contribute to ongoing efforts to create water security and drought resilience, recover from the impacts of the drought, improve livelihoods and support economic recovery. The project, which is part of Somalia's National Action Programme for Adaptation to Climate Change (NAPA), focuses on the need to prepare regional water resource management plans. It constitutes an important step in the efforts of Somaliland to develop and sustainably manage its water resources. The project will have four main components: (i) preparation of an integrated water resources management plan; (ii) preparation of an investment plan comprising projects and programmes for financing; (iii) design and implementation of priority rehabilitation works; and (iv) provision of sector support and capacity building. Through the preparation of a water resources management and investment plan, the project will not only improve water resources management, but catalyse the large investments needed to develop the sector. Over the long term, the project is expected to have a significant impact on efforts to recover from the impacts of the drought, help create water security and drought resilience, improve livelihoods and support economic recovery. Its implementation will be conducted over a period of 30 months after approval. The estimated total cost of the project, including duty and taxes, is \u20ac3,000,000.",
@@ -54317,14 +54299,14 @@
     {
         "identifier": "46002-P-SO-F00-002",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Technical Assistance and Capacity Building Project for the Setting Up of the Energy Regulatory Authority (ERA)",
         "description": "",
         "active": true,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54359,7 +54341,7 @@
     {
         "identifier": "46002-P-SO-IZ0-007",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Financing of the Strengthening Institutions for Public Works Project",
         "description": "The Strengthening Institutions for Public Works Project is part of addressing fragility and building resilience in Somalia. This project directly contributes to Somalia\u2019s on-going recovery efforts and the measures to promote stability and inclusion through investment in strengthening the public works institutions towards effective delivery of basic services. It will improve the capacities of MPWR&H and State-level Authorities responsible for public works to enable them to independently plan, manage and oversee infrastructure construction projects and maintenance works. The former includes the ability of Public Works Authorities to work with all relevant stakeholders and ensure the involvement of local communities and other marginalized groups (e.g. women and the youth). The enhanced and certified expertise of youth achieved through the project\u2019s activities will lead to an increase of employment in the sector, result in higher household incomes and help rebuilt the country. The outlined project will help pave the way for a well capacitated and sovereign Somali government.",
@@ -54367,7 +54349,7 @@
         "orgs": {
             "implementing": [
                 "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen",
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [
                 "government-of-somalia"
@@ -54410,14 +54392,14 @@
     {
         "identifier": "46002-P-SO-K00-002",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Strengthening Institution for Economic Policy Management and Infrastructure Development Project (SIEPMID)",
         "description": "Le projet de renforcement des institutions pour la gestion de la politique \u00e9conomique et le d\u00e9veloppement des infrastructures (SIEPMID) vise \u00e0 am\u00e9liorer la gouvernance financi\u00e8re et \u00e9conomique en Somalie. Le projet soutient \u00e9galement la r\u00e9habilitation des infrastructures en veillant \u00e0 ce que tous les travaux de g\u00e9nie civil soient \u00e9tay\u00e9s par des \u00e9tudes de faisabilit\u00e9 technique et des analyses solides. Le projet comprend les trois composantes suivantes : (i) Renforcement des capacit\u00e9s institutionnelles pour une meilleure analyse, mise en \u0153uvre et coordination de la politique \u00e9conomique. Cette composante se concentre sur l'\u00e9tablissement, la dotation en personnel et l'\u00e9quipement de l'Unit\u00e9 de strat\u00e9gie \u00e9conomique (ESU) sous l'autorit\u00e9 du ministre des finances. Six (6) experts en la mati\u00e8re (\u00e9conomistes, analyste financier, analyste fiscal, gestion des d\u00e9penses et affaires intergouvernementales) seront recrut\u00e9s dans le cadre du projet. Les principales activit\u00e9s de l'ESU propos\u00e9e consisteront \u00e0 fournir des conseils d'experts au ministre des finances, \u00e0 renforcer la coordination entre les fonctions de finances et de planification, et \u00e0 coordonner la mise en \u0153uvre des diverses actions dans les minist\u00e8res et agences gouvernementales n\u00e9cessaires pour atteindre les objectifs de r\u00e9f\u00e9rence dans le cadre des programmes de suivi du personnel. (ii) Am\u00e9liorer les comp\u00e9tences pour le d\u00e9veloppement des infrastructures. Ce volet est ax\u00e9 sur le renforcement des comp\u00e9tences de la Somalie en mati\u00e8re d'\u00e9tudes en amont n\u00e9cessaires \u00e0 la mise en \u0153uvre de projets d'infrastructure, notamment le programme de corridors. Ce travail s'inspirera et s'appuiera sur les conclusions des \u00e9valuations des besoins du secteur des transports (TSNA) pour la Somalie, qui ont \u00e9t\u00e9 command\u00e9es et parrain\u00e9es par la Banque. Ces \u00e9tudes en amont seront ax\u00e9es sur des travaux de r\u00e9habilitation cibl\u00e9s pour : La route Belet Weyne-Galkayo-Garowe (y compris la liaison entre Belet Weyn et Ferfer (fronti\u00e8re entre la Somalie et l'\u00c9thiopie)) ; Luuq, la route Ganane-Dolow, et ; la route Galkayo-Hobyo. (iii) Gestion du projet : Cette composante comprend des activit\u00e9s de suivi et d'\u00e9valuation, un audit externe et des activit\u00e9s de gestion de projet.",
         "active": true,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54454,14 +54436,14 @@
     {
         "identifier": "46002-P-SO-K00-003",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Economic and Financial Reforms Support Program (EFRSP)",
         "description": "The proposed operation is a grant to the Federal Republic of Somalia of UA 89 million from pillar I of the Transition Support Facility (TSF) from ADF-14 resources, to finance the Economic and Financial Reforms Support Program (EFRSP). The Program complements Somalia\u2019s efforts to advance its development agenda (consolidate peace, accelerate reductions in poverty and income inequality, catalyze needed financing for transformative growth generating infrastructure). It consists of two broad components namely: (i) strengthening domestic revenue mobilization and public financial management; and (ii) advancing financial sector development. The operation has been designed in anticipation of Somalia\u2019s arrears clearance, a process being undertaken by the United Kingdom (UK). It takes into account the need for the Bank to step up its re-engagement with Somalia, post-arrears clearance, and to support the country\u2019s on-going economic and financial reforms. The implementation of the reforms being supported by the program is expected to lead to high, sustainable and inclusive growth for Somalia. This operation is strongly coordinated with those of the WB and IMF.",
         "active": false,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54498,14 +54480,14 @@
     {
         "identifier": "46002-P-SO-KF0-006",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - Economic and Financial Governance Institutional Support Project (EFGISP) Phase II",
         "description": "The proposed intervention concerns the second phase of the Economic and Financial Governance Institutional Support Project in Somalia. This is part of the Bank\u2019s continuous engagement with countries in fragile situation as well as a response to a specific request from the Federal Government of Somalia to support the government\u2019s state building efforts. The project will contribute to capacity enhancement in macroeconomic management through strengthened revenue and PFM institutions, as well as improving transparency and accountability for better public service delivery. It builds on the work of the previous financial governance projects, and aims to consolidate their achievements. Specific areas that will be maintained include support to debt management and budget preparation. The project has three mutually reinforcing components: (i) Strengthening macro-economic planning and management (ii) Enhancing control, transparency and accountability in the use of public resources, and (iii) strengthening capacity for project management. The expected outcomes are: (i) Enhanced domestic revenue mobilization which will be measured through increased revenue to GDP ratio, and; (ii) Improved fiscal space to increase share of budget allocated to social sectors. The project will be implemented over the period 2018-2020 with a total cost (exclusive of tax and customs duty) estimated at UA 5.5 million, including contingencies.",
         "active": true,
         "orgs": {
             "implementing": [
-                "government-of-somalia"
+                "mof"
             ],
             "programming": [],
             "funding": [
@@ -54542,7 +54524,7 @@
     {
         "identifier": "46002-P-SO-KF0-010",
         "source": "IATI",
-        "reported_by": "African Development Bank Group",
+        "reported_by": "african-development-bank",
         "humanitarian": false,
         "title": "Somalia - National statistical capacity building project",
         "description": "The Somalia National Statistical Capacity Building Project is initiated by Government of the Republic of Somalia with the support of the African Development Bank. The project includes four components: (i) Institutional Development is to facilitate the establishment and transformation of the Statistics Departments through the formulation and implementation of National/regional statistical development strategies and Statistics Acts; (ii) Staff Training will be composed of two subcomponents; (iii) Information Communication Technology (ICT) is to facilitate the production and management of statistical data in the Statistics Departments on a sustainable basis; (iv) Project Management and Audit.",
@@ -54550,7 +54532,7 @@
         "orgs": {
             "implementing": [
                 "Federal Ministry of Planning, Investment and Economic Development",
-                "GOVERNMENT OF SOMALIAMINISTRY OF FINANCE"
+                "mof"
             ],
             "programming": [],
             "funding": [

@@ -3528,13 +3528,14 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 28,
+                        "government-of-somalia": 24,
                         "moewr": 5,
                         "avord": 13,
                         "scc": 28,
                         "nofyl": 35,
                         "sswc": 19,
                         "fenps": 82,
+                        "mof": 5,
                         "hinna": 40,
                         "aid-vision": 264,
                         "moh": 230,
@@ -3597,7 +3598,8 @@
                         "international-development-association": 8,
                         "belgian-development-cooperation": 1,
                         "unpos": 2,
-                        "european-commission-service-for-foreign-policy-instruments": 5,
+                        "ec": 5,
+                        "european-commission-service-for-foreign-policy-instruments": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 24,
                         "sdc": 4,
                         "peacebuilding-fund": 13,
@@ -3670,7 +3672,6 @@
                         "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
                         "fragile-states-facility": 5,
                         "federal-ministry-of-planning-investment-and-economic-development": 1,
-                        "government-of-somaliaministry-of-finance": 1,
                         "human-appeal": 2,
                         "vad": 46,
                         "mc": 7,
@@ -3782,13 +3783,14 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 28,
+                        "government-of-somalia": 24,
                         "moewr": 1,
                         "avord": 8,
                         "scc": 8,
                         "nofyl": 6,
                         "sswc": 2,
-                        "fenps": 2
+                        "fenps": 2,
+                        "mof": 5
                     },
                     "regional": {},
                     "international": {
@@ -3834,7 +3836,8 @@
                         "international-development-association": 8,
                         "belgian-development-cooperation": 1,
                         "unpos": 2,
-                        "european-commission-service-for-foreign-policy-instruments": 5,
+                        "ec": 5,
+                        "european-commission-service-for-foreign-policy-instruments": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 24,
                         "sdc": 4,
                         "peacebuilding-fund": 13,
@@ -3877,8 +3880,7 @@
                         "africawater-facility-fund": 1,
                         "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
                         "fragile-states-facility": 5,
-                        "federal-ministry-of-planning-investment-and-economic-development": 1,
-                        "government-of-somaliaministry-of-finance": 1
+                        "federal-ministry-of-planning-investment-and-economic-development": 1
                     }
                 }
             },
@@ -4978,7 +4980,7 @@
                         "us-department-of-state-office-to-monitor-combat-tracking-in-pers": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 4,
                         "peacebuilding-fund": 1,
-                        "european-commission-service-for-foreign-policy-instruments": 1,
+                        "ec": 1,
                         "luxembourg": 1,
                         "wfp": 121,
                         "world-vision-somalia": 2,
@@ -5124,7 +5126,7 @@
                         "us-department-of-state-office-to-monitor-combat-tracking-in-pers": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 4,
                         "peacebuilding-fund": 1,
-                        "european-commission-service-for-foreign-policy-instruments": 1,
+                        "ec": 1,
                         "luxembourg": 1,
                         "wfp": 2,
                         "world-vision-somalia": 2,
@@ -9422,8 +9424,9 @@
                         "reado": 392,
                         "hidig": 6,
                         "dmo": 37,
-                        "government-of-somalia": 5,
+                        "government-of-somalia": 4,
                         "avord": 16,
+                        "mof": 1,
                         "sswc": 1,
                         "moh": 76,
                         "gredo": 206,
@@ -9600,8 +9603,9 @@
                         "reado": 8,
                         "hidig": 2,
                         "dmo": 2,
-                        "government-of-somalia": 5,
-                        "avord": 2
+                        "government-of-somalia": 4,
+                        "avord": 2,
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {
@@ -11603,8 +11607,9 @@
                         "wasda": 72,
                         "wrrs": 181,
                         "nofyl": 16,
-                        "government-of-somalia": 8,
+                        "mof": 4,
                         "moewr": 1,
+                        "government-of-somalia": 4,
                         "sado": 146,
                         "juba-foundation": 5,
                         "somali-aid": 369,
@@ -11752,8 +11757,9 @@
                         "wasda": 4,
                         "wrrs": 2,
                         "nofyl": 2,
-                        "government-of-somalia": 8,
-                        "moewr": 1
+                        "mof": 4,
+                        "moewr": 1,
+                        "government-of-somalia": 4
                     },
                     "regional": {},
                     "international": {
@@ -19416,6 +19422,7 @@
             "orgs": {
                 "all": {
                     "local": {
+                        "pmwdo": 2,
                         "tass": 2,
                         "government-of-somalia": 2,
                         "kaalo": 3,
@@ -19474,7 +19481,6 @@
                         "irc": 3
                     },
                     "unknown": {
-                        "puntland-minority-women-development-organization": 2,
                         "kawasaki-kisen-kaisha-limited": 1,
                         "nippon-yusen-kabushiki-kaisha": 1,
                         "stena-ab": 1,
@@ -19537,6 +19543,7 @@
                 },
                 "iati": {
                     "local": {
+                        "pmwdo": 2,
                         "tass": 2,
                         "government-of-somalia": 2,
                         "kaalo": 2
@@ -19575,7 +19582,6 @@
                         "nrc": 2
                     },
                     "unknown": {
-                        "puntland-minority-women-development-organization": 2,
                         "kawasaki-kisen-kaisha-limited": 1,
                         "nippon-yusen-kabushiki-kaisha": 1,
                         "stena-ab": 1,
@@ -29170,7 +29176,7 @@
                         "us-department-of-state-office-to-monitor-combat-tracking-in-pers": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 4,
                         "peacebuilding-fund": 1,
-                        "european-commission-service-for-foreign-policy-instruments": 1,
+                        "ec": 1,
                         "luxembourg": 1,
                         "mercy-corps": 3,
                         "wvi": 109,
@@ -29298,7 +29304,7 @@
                         "us-department-of-state-office-to-monitor-combat-tracking-in-pers": 1,
                         "united-nations-multi-partner-trust-fund-for-somalia": 4,
                         "peacebuilding-fund": 1,
-                        "european-commission-service-for-foreign-policy-instruments": 1,
+                        "ec": 1,
                         "luxembourg": 1
                     },
                     "unknown": {
@@ -32782,7 +32788,8 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 5,
+                        "government-of-somalia": 4,
+                        "mof": 1,
                         "wrrs": 196,
                         "avord": 14,
                         "sswc": 1,
@@ -32944,7 +32951,8 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 5
+                        "government-of-somalia": 4,
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {
@@ -34156,7 +34164,8 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 3,
+                        "mof": 1,
+                        "government-of-somalia": 2,
                         "sado": 146,
                         "juba-foundation": 5,
                         "somali-aid": 194,
@@ -34286,7 +34295,8 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 3
+                        "mof": 1,
+                        "government-of-somalia": 2
                     },
                     "regional": {},
                     "international": {
@@ -62476,7 +62486,8 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 10
+                        "government-of-somalia": 7,
+                        "mof": 3
                     },
                     "regional": {
                         "african-development-bank": 3
@@ -62498,6 +62509,7 @@
                         "united-states-of-america": 2,
                         "kuwait": 4,
                         "uncdf": 1,
+                        "nrc": 1,
                         "who": 4,
                         "unicef": 103,
                         "the-global-fund-to-fight-aids": 4,
@@ -62561,7 +62573,6 @@
                         "united-kingdom-of-great-britain-and-northern-ireland-the": 1,
                         "italy-ministry-of-foreign-affairs-and-international-cooperation": 1,
                         "london-school-of-hygiene-and-tropical-medicine": 1,
-                        "norwegian-refugee-council-usa": 1,
                         "united-nations-multi-partner-trust": 13,
                         "saudi-arabia": 2,
                         "montreal-protocol-old-400712": 1,
@@ -62592,7 +62603,8 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 10
+                        "government-of-somalia": 7,
+                        "mof": 3
                     },
                     "regional": {
                         "african-development-bank": 3
@@ -62614,6 +62626,7 @@
                         "united-states-of-america": 2,
                         "kuwait": 4,
                         "uncdf": 1,
+                        "nrc": 1,
                         "who": 4,
                         "unicef": 103,
                         "the-global-fund-to-fight-aids": 4,
@@ -62677,7 +62690,6 @@
                         "united-kingdom-of-great-britain-and-northern-ireland-the": 1,
                         "italy-ministry-of-foreign-affairs-and-international-cooperation": 1,
                         "london-school-of-hygiene-and-tropical-medicine": 1,
-                        "norwegian-refugee-council-usa": 1,
                         "united-nations-multi-partner-trust": 13,
                         "saudi-arabia": 2,
                         "montreal-protocol-old-400712": 1,
@@ -66927,8 +66939,9 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 6,
-                        "moewr": 1
+                        "mof": 4,
+                        "moewr": 1,
+                        "government-of-somalia": 2
                     },
                     "regional": {},
                     "international": {
@@ -66948,8 +66961,9 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 6,
-                        "moewr": 1
+                        "mof": 4,
+                        "moewr": 1,
+                        "government-of-somalia": 2
                     },
                     "regional": {},
                     "international": {
@@ -67215,8 +67229,9 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 5,
-                        "moewr": 1
+                        "mof": 3,
+                        "moewr": 1,
+                        "government-of-somalia": 2
                     },
                     "regional": {},
                     "international": {
@@ -67236,8 +67251,9 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 5,
-                        "moewr": 1
+                        "mof": 3,
+                        "moewr": 1,
+                        "government-of-somalia": 2
                     },
                     "regional": {},
                     "international": {
@@ -69659,7 +69675,7 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 1
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {},
@@ -69677,7 +69693,7 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 1
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {},
@@ -69724,7 +69740,7 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "government-of-somalia": 1
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {},
@@ -69742,7 +69758,7 @@
                 },
                 "iati": {
                     "local": {
-                        "government-of-somalia": 1
+                        "mof": 1
                     },
                     "regional": {},
                     "international": {},
