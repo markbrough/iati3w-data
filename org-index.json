@@ -3342,7 +3342,9 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 13
+                },
                 "international": {
                     "gavi": 5,
                     "unicef": 6,
@@ -3351,9 +3353,7 @@
                     "iom": 1,
                     "undp": 19
                 },
-                "unknown": {
-                    "african-development-bank-group": 13
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -3363,7 +3363,9 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 13
+                },
                 "international": {
                     "gavi": 5,
                     "unicef": 6,
@@ -3372,9 +3374,7 @@
                     "iom": 1,
                     "undp": 19
                 },
-                "unknown": {
-                    "african-development-bank-group": 13
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -4988,6 +4988,8 @@
                     "shaqodoon": 9,
                     "innovate-ventures": 4,
                     "sswc": 5,
+                    "mopca": 1,
+                    "moad": 1,
                     "sosta": 2,
                     "har-hub": 1,
                     "nagaad-network": 1,
@@ -5032,9 +5034,6 @@
                     "shaqodoon-organization": 9,
                     "innovate-venture": 4,
                     "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                    "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                    "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
-                    "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                     "ministry-of-agriculture-developmen": 1,
                     "somaliland-skills-training-associat": 2,
                     "hargeisa-hub": 1,
@@ -5057,6 +5056,8 @@
                     "shaqodoon": 9,
                     "innovate-ventures": 4,
                     "sswc": 5,
+                    "mopca": 1,
+                    "moad": 1,
                     "sosta": 2,
                     "har-hub": 1,
                     "nagaad-network": 1,
@@ -5101,9 +5102,6 @@
                     "shaqodoon-organization": 9,
                     "innovate-venture": 4,
                     "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                    "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                    "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
-                    "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                     "ministry-of-agriculture-developmen": 1,
                     "somaliland-skills-training-associat": 2,
                     "hargeisa-hub": 1,
@@ -10552,14 +10550,16 @@
             "iati": 10
         }
     },
-    "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": {
+    "mopca": {
         "info": {
-            "name": "The MOPCA was established in 1995, by president decree No.59/95, Ref: JSL/M/XERM/249/59/1995, dated the 8th November 1995. Throughout this period, there were ten ministers appointed to lead the Ministry. During this historical period of different presidencies, the MOPCA name changed numerous times. The original name given to the MoPCA in 1995 was #The Relations of the Executive Branch and theParliament of Somaliland# with the Presidential Decree No.59/95. In 2010, during the time of the 4th President of Somaliland, the Ministry lost its autonomous status, and it was placed under the Ministry of Presidency. Then the role of the Ministry changed again,and it was named, #The Ministry of Parliamentary Relations research and Technology# regaining its ministerial statues. The 5th President of Somaliland, HE Muse Bihi Abdi rearranged the role of the Ministry on 14th December 2017. In accordance of Article 26 of presidential act No.012018-1, the new title of the Ministry became #The Ministry of ParliamentaryRelations <(>&<)> Constitutional Affairs#. The 5th President of the Republic of Somaliland fulfilling his political commitment to the reform on the rule of law has mandated the role of the constitutional affairs for the first time, with which the constitutionis the basis for national legislation. The power of the Ministry includes but not limited to reform the Somaliland Constitution, by preparing a national plan to review and amend the constitution where necessary. The MoPCA has a significant role to play in constitutional and national law reforms; thus, it was mandated with the following 12 points in achieving its objectives. Vision The Ministry envisions a law-oriented society in which both citizens and state institutions abide by the Constitution andwhereby the working relationship among the Executive, Houses of Parliament and Judiciary is co-ordinated systematically and effectively to ensure that the interest of the nation is protected and well-served. Mission is to create a society where allSomaliland citizens enjoy their constitutional privileges, through strengthening the competence of the Ministry, to promote civic education of the Constitution, and to develop a strong working relationship between government institutions, Houses of Parliament and non-state actors",
-            "shortname": "The MOPCA was established in 1995, by president decree No.59/95, Ref: JSL/M/XERM/249/59/1995, dated the 8th November 1995. Throughout this period, there were ten ministers appointed to lead the Ministry. During this historical period of different presidencies, the MOPCA name changed numerous times. The original name given to the MoPCA in 1995 was #The Relations of the Executive Branch and theParliament of Somaliland# with the Presidential Decree No.59/95. In 2010, during the time of the 4th President of Somaliland, the Ministry lost its autonomous status, and it was placed under the Ministry of Presidency. Then the role of the Ministry changed again,and it was named, #The Ministry of Parliamentary Relations research and Technology# regaining its ministerial statues. The 5th President of Somaliland, HE Muse Bihi Abdi rearranged the role of the Ministry on 14th December 2017. In accordance of Article 26 of presidential act No.012018-1, the new title of the Ministry became #The Ministry of ParliamentaryRelations <(>&<)> Constitutional Affairs#. The 5th President of the Republic of Somaliland fulfilling his political commitment to the reform on the rule of law has mandated the role of the constitutional affairs for the first time, with which the constitutionis the basis for national legislation. The power of the Ministry includes but not limited to reform the Somaliland Constitution, by preparing a national plan to review and amend the constitution where necessary. The MoPCA has a significant role to play in constitutional and national law reforms; thus, it was mandated with the following 12 points in achieving its objectives. Vision The Ministry envisions a law-oriented society in which both citizens and state institutions abide by the Constitution andwhereby the working relationship among the Executive, Houses of Parliament and Judiciary is co-ordinated systematically and effectively to ensure that the interest of the nation is protected and well-served. Mission is to create a society where allSomaliland citizens enjoy their constitutional privileges, through strengthening the competence of the Ministry, to promote civic education of the Constitution, and to develop a strong working relationship between government institutions, Houses of Parliament and non-state actors",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r"
+            "name": "Somaliland Ministry of Parliamentary Relations and Constitutional Affairs",
+            "scope": "local",
+            "synonyms": [
+                "Somaliland Ministry of Parliamentar Relations and Constitutional Affair",
+                "The MOPCA was established in 1995, by president decree No.59/95, Ref: JSL/M/XERM/249/59/1995, dated the 8th November 1995. Throughout this period, there were ten ministers appointed to lead the Ministry. During this historical period of different presidencies, the MOPCA name changed numerous times. The original name given to the MoPCA in 1995 was #The Relations of the Executive Branch and theParliament of Somaliland# with the Presidential Decree No.59/95. In 2010, during the time of the 4th President of Somaliland, the Ministry lost its autonomous status, and it was placed under the Ministry of Presidency. Then the role of the Ministry changed again,and it was named, #The Ministry of Parliamentary Relations research and Technology# regaining its ministerial statues. The 5th President of Somaliland, HE Muse Bihi Abdi rearranged the role of the Ministry on 14th December 2017. In accordance of Article 26 of presidential act No.012018-1, the new title of the Ministry became #The Ministry of ParliamentaryRelations <(>&<)> Constitutional Affairs#. The 5th President of the Republic of Somaliland fulfilling his political commitment to the reform on the rule of law has mandated the role of the constitutional affairs for the first time, with which the constitutionis the basis for national legislation. The power of the Ministry includes but not limited to reform the Somaliland Constitution, by preparing a national plan to review and amend the constitution where necessary. The MoPCA has a significant role to play in constitutional and national law reforms; thus, it was mandated with the following 12 points in achieving its objectives. Vision The Ministry envisions a law-oriented society in which both citizens and state institutions abide by the Constitution andwhereby the working relationship among the Executive, Houses of Parliament and Judiciary is co-ordinated systematically and effectively to ensure that the interest of the nation is protected and well-served. Mission is to create a society where allSomaliland citizens enjoy their constitutional privileges, through strengthening the competence of the Ministry, to promote civic education of the Constitution, and to develop a strong working relationship between government institutions, Houses of Parliament and non-state actors"
+            ],
+            "shortname": "MoPCA",
+            "stub": "mopca"
         },
         "sources": [
             "IATI"
@@ -10641,103 +10641,16 @@
             "iati": 1
         }
     },
-    "somaliland-ministry-of-parliamentar-relations-and-constitutional": {
+    "moad": {
         "info": {
-            "name": "Somaliland Ministry of Parliamentar Relations and Constitutional Affair",
-            "shortname": "Somaliland Ministry of Parliamentar Relations and Constitutional Affair",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "somaliland-ministry-of-parliamentar-relations-and-constitutional"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": false,
-        "activities": {
-            "implementing": [
-                "NL-KVK-27108436-A-06256-03:SO"
+            "name": "Somaliland Ministry of Agricultural Development",
+            "scope": "local",
+            "synonyms": [
+                "Ministry of Agricultural Developmen",
+                "Mandate of the Somaliland ministry of agricultural development is to develop and implement of agriculture sector policies, rules and regulations, formulating sector development plans, programmers and projects, documentation and registration of agricultural land,agricultural research. Establishment, management and maintenance of agriculture databases and dissemination to stakeholders, promotion of increased agricultural production, ensuring the country#s food security. Promotion of sustainable utilization and management of natural agricultural resources, ensuring food quality and safety, provision and coordination of agriculture extension and othersupport services. Coordination, Monitoring and Evaluation of agricultural programmers, projects and activities, agricultural humanresource development and management, promoting agricultural marketing, awareness raising and agri-business. Guiding regulations ofimport and export of agricultural products and controlling unwanted seeds to avoid pests and diseases effect food production of thecountry. Consultation of agricultural community to the control of the pests and diseases effect food production of the country."
             ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "oxfam-novib": 1
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "oxfam-novib": 1
-                },
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 1
-                },
-                "dac": {
-                    "government-civil-society": 1
-                }
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 1
-                },
-                "dac": {
-                    "government-civil-society": 1
-                }
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 1,
-            "3w": 0,
-            "iati": 1
-        }
-    },
-    "mandate-of-the-somaliland-ministry-of-agricultural-development-i": {
-        "info": {
-            "name": "Mandate of the Somaliland ministry of agricultural development is to develop and implement of agriculture sector policies, rules and regulations, formulating sector development plans, programmers and projects, documentation and registration of agricultural land,agricultural research. Establishment, management and maintenance of agriculture databases and dissemination to stakeholders, promotion of increased agricultural production, ensuring the country#s food security. Promotion of sustainable utilization and management of natural agricultural resources, ensuring food quality and safety, provision and coordination of agriculture extension and othersupport services. Coordination, Monitoring and Evaluation of agricultural programmers, projects and activities, agricultural humanresource development and management, promoting agricultural marketing, awareness raising and agri-business. Guiding regulations ofimport and export of agricultural products and controlling unwanted seeds to avoid pests and diseases effect food production of thecountry. Consultation of agricultural community to the control of the pests and diseases effect food production of the country.",
-            "shortname": "Mandate of the Somaliland ministry of agricultural development is to develop and implement of agriculture sector policies, rules and regulations, formulating sector development plans, programmers and projects, documentation and registration of agricultural land,agricultural research. Establishment, management and maintenance of agriculture databases and dissemination to stakeholders, promotion of increased agricultural production, ensuring the country#s food security. Promotion of sustainable utilization and management of natural agricultural resources, ensuring food quality and safety, provision and coordination of agriculture extension and othersupport services. Coordination, Monitoring and Evaluation of agricultural programmers, projects and activities, agricultural humanresource development and management, promoting agricultural marketing, awareness raising and agri-business. Guiding regulations ofimport and export of agricultural products and controlling unwanted seeds to avoid pests and diseases effect food production of thecountry. Consultation of agricultural community to the control of the pests and diseases effect food production of the country.",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "mandate-of-the-somaliland-ministry-of-agricultural-development-i"
+            "shortname": "MoAD",
+            "stub": "moad"
         },
         "sources": [
             "IATI"
@@ -13980,14 +13893,14 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {
                     "bmz": 1,
                     "unicef": 18
                 },
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -13999,13 +13912,13 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {
                     "bmz": 1
                 },
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -24746,7 +24659,8 @@
         "partners": {
             "all": {
                 "local": {
-                    "juba-foundation": 13
+                    "juba-foundation": 13,
+                    "wardi": 1
                 },
                 "regional": {},
                 "international": {
@@ -24770,7 +24684,6 @@
                 },
                 "unknown": {
                     "aamin-ambulance": 1,
-                    "wardi-relief": 1,
                     "payment-1-from-psi": 1,
                     "lshtm": 1
                 }
@@ -24785,7 +24698,8 @@
             },
             "iati": {
                 "local": {
-                    "juba-foundation": 1
+                    "juba-foundation": 1,
+                    "wardi": 1
                 },
                 "regional": {},
                 "international": {
@@ -24809,7 +24723,6 @@
                 },
                 "unknown": {
                     "aamin-ambulance": 1,
-                    "wardi-relief": 1,
                     "payment-1-from-psi": 1,
                     "lshtm": 1
                 }
@@ -31441,6 +31354,7 @@
             "synonyms": [
                 "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT",
                 "The World Bank",
+                "World Bank Group",
                 "World Bank Group (WB)",
                 "World Bank - Washington D.C."
             ],
@@ -31471,7 +31385,8 @@
                 "XI-IATI-EC_INTPA-2017/393-426",
                 "XI-IATI-EC_INTPA-2017/393-439",
                 "XI-IATI-EC_INTPA-2017/393-444",
-                "XI-IATI-EC_INTPA-2019/41636/0"
+                "XI-IATI-EC_INTPA-2019/41636/0",
+                "FI-3-2020-2015150682"
             ],
             "funding": [
                 "XM-DAC-41122-Somalia-3920/A0/07/001/001",
@@ -31487,7 +31402,8 @@
                     "devco": 8,
                     "unicef": 1,
                     "international-development-association": 20,
-                    "undp": 2
+                    "undp": 2,
+                    "finland-mfa": 1
                 },
                 "unknown": {}
             },
@@ -31504,7 +31420,8 @@
                     "devco": 8,
                     "unicef": 1,
                     "international-development-association": 20,
-                    "undp": 2
+                    "undp": 2,
+                    "finland-mfa": 1
                 },
                 "unknown": {}
             }
@@ -31513,14 +31430,14 @@
             "all": {
                 "humanitarian": {
                     "logistics": 2,
-                    "no-corresponding-humanitarian-cluster": 7,
+                    "no-corresponding-humanitarian-cluster": 8,
                     "water-sanitation-hygiene": 1,
                     "health": 1
                 },
                 "dac": {
                     "transport-storage": 2,
                     "other-multisector": 3,
-                    "government-civil-society": 4,
+                    "government-civil-society": 5,
                     "water-supply-sanitation": 1,
                     "health": 1,
                     "population-policies-programmes-reproductive-health": 1,
@@ -31535,14 +31452,14 @@
             "iati": {
                 "humanitarian": {
                     "logistics": 2,
-                    "no-corresponding-humanitarian-cluster": 7,
+                    "no-corresponding-humanitarian-cluster": 8,
                     "water-sanitation-hygiene": 1,
                     "health": 1
                 },
                 "dac": {
                     "transport-storage": 2,
                     "other-multisector": 3,
-                    "government-civil-society": 4,
+                    "government-civil-society": 5,
                     "water-supply-sanitation": 1,
                     "health": 1,
                     "population-policies-programmes-reproductive-health": 1,
@@ -31595,9 +31512,9 @@
             }
         },
         "activity_totals": {
-            "all": 11,
+            "all": 12,
             "3w": 0,
-            "iati": 11
+            "iati": 12
         }
     },
     "redsea-online-culture-foundation": {
@@ -49037,12 +48954,12 @@
                     "halo-trust": 3,
                     "unfpa": 3,
                     "undco": 1,
-                    "unaids": 5
+                    "unaids": 5,
+                    "world-bank": 1
                 },
                 "unknown": {
                     "deaconess-institute-in-helsinki": 2,
                     "media-and-development-fund": 2,
-                    "world-bank-group": 1,
                     "finland-somalia-association": 1,
                     "laakarin-sosialinen-vastuu-ry": 2,
                     "africarewo-ry": 1,
@@ -49065,12 +48982,12 @@
                     "halo-trust": 3,
                     "unfpa": 3,
                     "undco": 1,
-                    "unaids": 5
+                    "unaids": 5,
+                    "world-bank": 1
                 },
                 "unknown": {
                     "deaconess-institute-in-helsinki": 2,
                     "media-and-development-fund": 2,
-                    "world-bank-group": 1,
                     "finland-somalia-association": 1,
                     "laakarin-sosialinen-vastuu-ry": 2,
                     "africarewo-ry": 1,
@@ -62247,7 +62164,9 @@
             "name": "Wardi Relief and Development Initiatives",
             "scope": "local",
             "url": "https://www.facebook.com/pg/WardiRDI/about/",
-            "synonyms": [],
+            "synonyms": [
+                "Wardi Relief"
+            ],
             "shortname": "WARDI",
             "iati_id": "XI-IATI-WARDI",
             "stub": "wardi"
@@ -62260,6 +62179,7 @@
         "activities": {
             "implementing": [
                 "KE-NCB-218/051/9384/74-GB720",
+                "GB-CHC-1047501-SHINE",
                 "00b7d081",
                 "7afece38",
                 "bb9ca40f",
@@ -62321,6 +62241,7 @@
                 "regional": {},
                 "international": {
                     "care-somalia": 1,
+                    "action-contre-la-faim": 1,
                     "unicef": 18,
                     "iom": 36,
                     "care": 2,
@@ -62343,7 +62264,8 @@
                 "local": {},
                 "regional": {},
                 "international": {
-                    "care-somalia": 1
+                    "care-somalia": 1,
+                    "action-contre-la-faim": 1
                 },
                 "unknown": {}
             }
@@ -62352,12 +62274,14 @@
             "all": {
                 "humanitarian": {
                     "education": 1,
+                    "health": 1,
                     "nutrition": 30,
                     "water-sanitation-hygiene": 56,
                     "food-security": 32
                 },
                 "dac": {
-                    "education": 1
+                    "education": 1,
+                    "health": 1
                 }
             },
             "3w": {
@@ -62370,10 +62294,12 @@
             },
             "iati": {
                 "humanitarian": {
-                    "education": 1
+                    "education": 1,
+                    "health": 1
                 },
                 "dac": {
-                    "education": 1
+                    "education": 1,
+                    "health": 1
                 }
             }
         },
@@ -62427,9 +62353,9 @@
             }
         },
         "activity_totals": {
-            "all": 119,
+            "all": 120,
             "3w": 118,
-            "iati": 1
+            "iati": 2
         }
     },
     "daf": {
@@ -74407,7 +74333,9 @@
         "info": {
             "name": "African Development Bank",
             "scope": "regional",
-            "synonyms": [],
+            "synonyms": [
+                "African Development Bank Group"
+            ],
             "shortname": "African Development Bank",
             "iati": {
                 "code": "46002",
@@ -74436,12 +74364,26 @@
         },
         "partners": {
             "all": {
-                "local": {},
+                "local": {
+                    "government-of-somalia": 13,
+                    "moewr": 1
+                },
                 "regional": {},
                 "international": {
-                    "iom": 3
+                    "iom": 3,
+                    "african-development-fund": 3
                 },
-                "unknown": {}
+                "unknown": {
+                    "fragile-states-facility": 10,
+                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
+                    "rural-water-supply-sanitation": 1,
+                    "african-water-facility": 1,
+                    "ministry-of-finance-and-planning": 1,
+                    "africawater-facility-fund": 1,
+                    "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
+                    "federal-ministry-of-planning-investment-and-economic-development": 1,
+                    "government-of-somaliaministry-of-finance": 1
+                }
             },
             "3w": {
                 "local": {},
@@ -74450,12 +74392,26 @@
                 "unknown": {}
             },
             "iati": {
-                "local": {},
+                "local": {
+                    "government-of-somalia": 13,
+                    "moewr": 1
+                },
                 "regional": {},
                 "international": {
-                    "iom": 3
+                    "iom": 3,
+                    "african-development-fund": 3
                 },
-                "unknown": {}
+                "unknown": {
+                    "fragile-states-facility": 10,
+                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
+                    "rural-water-supply-sanitation": 1,
+                    "african-water-facility": 1,
+                    "ministry-of-finance-and-planning": 1,
+                    "africawater-facility-fund": 1,
+                    "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
+                    "federal-ministry-of-planning-investment-and-economic-development": 1,
+                    "government-of-somaliaministry-of-finance": 1
+                }
             }
         },
         "sectors": {
@@ -89274,95 +89230,6 @@
             "iati": 1
         }
     },
-    "world-bank-group": {
-        "info": {
-            "name": "World Bank Group",
-            "shortname": "World Bank Group",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "world-bank-group"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": false,
-        "activities": {
-            "implementing": [],
-            "programming": [
-                "FI-3-2020-2015150682"
-            ],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "finland-mfa": 1
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "finland-mfa": 1
-                },
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 1
-                },
-                "dac": {
-                    "government-civil-society": 1
-                }
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 1
-                },
-                "dac": {
-                    "government-civil-society": 1
-                }
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 1,
-            "3w": 0,
-            "iati": 1
-        }
-    },
     "finland-somalia-association": {
         "info": {
             "name": "Finland-Somalia Association",
@@ -90172,95 +90039,6 @@
             "unrecognised": true,
             "synonyms": [],
             "stub": "aamin-ambulance"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "GB-CHC-1047501-SHINE"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "action-contre-la-faim": 1
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "action-contre-la-faim": 1
-                },
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "health": 1
-                },
-                "dac": {
-                    "health": 1
-                }
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {
-                    "health": 1
-                },
-                "dac": {
-                    "health": 1
-                }
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 1,
-            "3w": 0,
-            "iati": 1
-        }
-    },
-    "wardi-relief": {
-        "info": {
-            "name": "Wardi Relief",
-            "shortname": "Wardi Relief",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "wardi-relief"
         },
         "sources": [
             "IATI"
@@ -91808,109 +91586,6 @@
             "iati": 1
         }
     },
-    "african-development-bank-group": {
-        "info": {
-            "name": "African Development Bank Group",
-            "shortname": "African Development Bank Group",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "african-development-bank-group"
-        },
-        "sources": [],
-        "humanitarian": false,
-        "activities": {
-            "implementing": [],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {
-                    "government-of-somalia": 13,
-                    "moewr": 1
-                },
-                "regional": {},
-                "international": {
-                    "african-development-fund": 3
-                },
-                "unknown": {
-                    "fragile-states-facility": 10,
-                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
-                    "rural-water-supply-sanitation": 1,
-                    "african-water-facility": 1,
-                    "ministry-of-finance-and-planning": 1,
-                    "africawater-facility-fund": 1,
-                    "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
-                    "federal-ministry-of-planning-investment-and-economic-development": 1,
-                    "government-of-somaliaministry-of-finance": 1
-                }
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {
-                    "government-of-somalia": 13,
-                    "moewr": 1
-                },
-                "regional": {},
-                "international": {
-                    "african-development-fund": 3
-                },
-                "unknown": {
-                    "fragile-states-facility": 10,
-                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
-                    "rural-water-supply-sanitation": 1,
-                    "african-water-facility": 1,
-                    "ministry-of-finance-and-planning": 1,
-                    "africawater-facility-fund": 1,
-                    "ministere-des-travaux-publics-de-la-reconstruction-et-du-logemen": 1,
-                    "federal-ministry-of-planning-investment-and-economic-development": 1,
-                    "government-of-somaliaministry-of-finance": 1
-                }
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {},
-                "dac": {}
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 0,
-            "3w": 0,
-            "iati": 0
-        }
-    },
     "african-development-fund": {
         "info": {
             "name": "African Development Fund",
@@ -91935,11 +91610,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 3
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 3
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -91949,11 +91624,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 3
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 3
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92052,11 +91727,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 10
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 10
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92066,11 +91741,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 10
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 10
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92181,11 +91856,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92195,11 +91870,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92275,11 +91950,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92289,11 +91964,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92369,11 +92044,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92383,11 +92058,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92466,11 +92141,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92480,11 +92155,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92562,11 +92237,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92576,11 +92251,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92658,11 +92333,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92672,11 +92347,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92759,11 +92434,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92773,11 +92448,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {
@@ -92852,11 +92527,11 @@
         "partners": {
             "all": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -92866,11 +92541,11 @@
             },
             "iati": {
                 "local": {},
-                "regional": {},
+                "regional": {
+                    "african-development-bank": 1
+                },
                 "international": {},
-                "unknown": {
-                    "african-development-bank-group": 1
-                }
+                "unknown": {}
             }
         },
         "sectors": {

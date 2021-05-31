@@ -1993,7 +1993,8 @@
                     "local": {
                         "government-of-somalia": 7,
                         "shaqodoon": 2,
-                        "juba-foundation": 1
+                        "juba-foundation": 1,
+                        "wardi": 1
                     },
                     "regional": {
                         "abubef": 1,
@@ -2109,7 +2110,6 @@
                         "laakarin-sosialinen-vastuu-ry": 2,
                         "africarewo-ry": 1,
                         "aamin-ambulance": 1,
-                        "wardi-relief": 1,
                         "payment-1-from-psi": 1,
                         "irc-uk": 1
                     }
@@ -2124,7 +2124,8 @@
                     "local": {
                         "government-of-somalia": 7,
                         "shaqodoon": 2,
-                        "juba-foundation": 1
+                        "juba-foundation": 1,
+                        "wardi": 1
                     },
                     "regional": {
                         "abubef": 1,
@@ -2240,7 +2241,6 @@
                         "laakarin-sosialinen-vastuu-ry": 2,
                         "africarewo-ry": 1,
                         "aamin-ambulance": 1,
-                        "wardi-relief": 1,
                         "payment-1-from-psi": 1,
                         "irc-uk": 1
                     }
@@ -3012,6 +3012,7 @@
                 "all": {
                     "local": {
                         "university-of-hargeisa": 1,
+                        "mopca": 1,
                         "sswc": 3,
                         "nagaad-network": 2,
                         "kaalo": 3,
@@ -3035,7 +3036,7 @@
                         "nuffic": 1,
                         "european-development-fund": 24,
                         "devco": 89,
-                        "world-bank": 4,
+                        "world-bank": 5,
                         "unops": 12,
                         "kirkon-ulkomaanapu-sr": 1,
                         "imf": 1,
@@ -3123,8 +3124,6 @@
                         "danish-ministry-of-foreign-affairs": 1,
                         "university-of-hargeisa-legal-aid-clinic": 1,
                         "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                        "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                        "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
                         "nagaad-umbrella-organization": 1,
                         "ujamaa-na-watoto-wenyahaki-initiative": 1,
                         "kampala-international-university": 2,
@@ -3246,7 +3245,6 @@
                         "berghof-foundation": 1,
                         "britische-botschaft-mogadischu": 1,
                         "berghof-foundation-operations-ggmbh": 1,
-                        "world-bank-group": 1,
                         "mudug-peace-and-human-development-organization-mphdo": 1,
                         "irc-uk": 3,
                         "mudug-peace-and-human-development-organisation": 1,
@@ -3268,6 +3266,7 @@
                 "iati": {
                     "local": {
                         "university-of-hargeisa": 1,
+                        "mopca": 1,
                         "sswc": 3,
                         "nagaad-network": 2,
                         "kaalo": 3,
@@ -3291,7 +3290,7 @@
                         "nuffic": 1,
                         "european-development-fund": 24,
                         "devco": 89,
-                        "world-bank": 4,
+                        "world-bank": 5,
                         "unops": 12,
                         "kirkon-ulkomaanapu-sr": 1,
                         "imf": 1,
@@ -3379,8 +3378,6 @@
                         "danish-ministry-of-foreign-affairs": 1,
                         "university-of-hargeisa-legal-aid-clinic": 1,
                         "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                        "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                        "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
                         "nagaad-umbrella-organization": 1,
                         "ujamaa-na-watoto-wenyahaki-initiative": 1,
                         "kampala-international-university": 2,
@@ -3502,7 +3499,6 @@
                         "berghof-foundation": 1,
                         "britische-botschaft-mogadischu": 1,
                         "berghof-foundation-operations-ggmbh": 1,
-                        "world-bank-group": 1,
                         "mudug-peace-and-human-development-organization-mphdo": 1,
                         "irc-uk": 3,
                         "mudug-peace-and-human-development-organisation": 1,
@@ -4789,6 +4785,7 @@
                 "all": {
                     "local": {
                         "kaalo": 1,
+                        "moad": 1,
                         "candlelight-for-environment-education-and-health": 1,
                         "university-of-hargeisa": 1
                     },
@@ -4831,7 +4828,6 @@
                     },
                     "unknown": {
                         "one-earth-future-foundation": 1,
-                        "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                         "ministry-of-agriculture-developmen": 1,
                         "centre-for-development-innovation-wageningen-university-research": 2,
                         "van-hall-larenstein-university-of-applied-sciences": 1,
@@ -4852,6 +4848,7 @@
                 "iati": {
                     "local": {
                         "kaalo": 1,
+                        "moad": 1,
                         "candlelight-for-environment-education-and-health": 1,
                         "university-of-hargeisa": 1
                     },
@@ -4894,7 +4891,6 @@
                     },
                     "unknown": {
                         "one-earth-future-foundation": 1,
-                        "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                         "ministry-of-agriculture-developmen": 1,
                         "centre-for-development-innovation-wageningen-university-research": 2,
                         "van-hall-larenstein-university-of-applied-sciences": 1,
@@ -8583,6 +8579,7 @@
                         "shaqodoon": 2,
                         "juba-foundation": 1,
                         "nafis": 1,
+                        "wardi": 1,
                         "ayuub-ngo": 538,
                         "shacdo": 196,
                         "hdc": 1970,
@@ -8778,7 +8775,6 @@
                         "laakarin-sosialinen-vastuu-ry": 2,
                         "africarewo-ry": 1,
                         "aamin-ambulance": 1,
-                        "wardi-relief": 1,
                         "payment-1-from-psi": 1,
                         "irc-uk": 1
                     }
@@ -8828,7 +8824,8 @@
                         "government-of-somalia": 7,
                         "shaqodoon": 2,
                         "juba-foundation": 1,
-                        "nafis": 1
+                        "nafis": 1,
+                        "wardi": 1
                     },
                     "regional": {
                         "abubef": 1,
@@ -8999,7 +8996,6 @@
                         "laakarin-sosialinen-vastuu-ry": 2,
                         "africarewo-ry": 1,
                         "aamin-ambulance": 1,
-                        "wardi-relief": 1,
                         "payment-1-from-psi": 1,
                         "irc-uk": 1
                     }
@@ -9882,6 +9878,7 @@
                         "university-of-hargeisa": 2,
                         "innovate-ventures": 3,
                         "shaqodoon": 4,
+                        "mopca": 1,
                         "sswc": 7,
                         "sosta": 2,
                         "nagaad-network": 2,
@@ -9963,7 +9960,7 @@
                         "sci": 6,
                         "european-development-fund": 32,
                         "devco": 115,
-                        "world-bank": 7,
+                        "world-bank": 8,
                         "unops": 13,
                         "kirkon-ulkomaanapu-sr": 1,
                         "imf": 2,
@@ -10079,8 +10076,6 @@
                         "innovate-venture": 3,
                         "shaqodoon-organization": 3,
                         "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                        "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                        "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
                         "one-earth-future-foundation": 2,
                         "somaliland-skills-training-associat": 2,
                         "nagaad-umbrella-organization": 1,
@@ -10359,7 +10354,6 @@
                         "conservation-lower-zambezi": 2,
                         "durrell-wildlife-conservation-trust": 1,
                         "fauna-and-flora-international": 1,
-                        "world-bank-group": 1,
                         "mudug-peace-and-human-development-organization-mphdo": 1,
                         "irc-uk": 4,
                         "mudug-peace-and-human-development-organisation": 1,
@@ -10391,6 +10385,7 @@
                         "university-of-hargeisa": 2,
                         "innovate-ventures": 3,
                         "shaqodoon": 4,
+                        "mopca": 1,
                         "sswc": 7,
                         "sosta": 2,
                         "nagaad-network": 2,
@@ -10472,7 +10467,7 @@
                         "sci": 6,
                         "european-development-fund": 32,
                         "devco": 115,
-                        "world-bank": 7,
+                        "world-bank": 8,
                         "unops": 13,
                         "kirkon-ulkomaanapu-sr": 1,
                         "imf": 2,
@@ -10588,8 +10583,6 @@
                         "innovate-venture": 3,
                         "shaqodoon-organization": 3,
                         "care-international-is-a-global-network-of-14-national-members-wi": 2,
-                        "the-mopca-was-established-in-1995-by-president-decree-no-59-95-r": 1,
-                        "somaliland-ministry-of-parliamentar-relations-and-constitutional": 1,
                         "one-earth-future-foundation": 2,
                         "somaliland-skills-training-associat": 2,
                         "nagaad-umbrella-organization": 1,
@@ -10868,7 +10861,6 @@
                         "conservation-lower-zambezi": 2,
                         "durrell-wildlife-conservation-trust": 1,
                         "fauna-and-flora-international": 1,
-                        "world-bank-group": 1,
                         "mudug-peace-and-human-development-organization-mphdo": 1,
                         "irc-uk": 4,
                         "mudug-peace-and-human-development-organisation": 1,
@@ -11673,6 +11665,7 @@
                         "kaalo": 3,
                         "havoyoco": 1,
                         "sswc": 1,
+                        "moad": 1,
                         "university-of-hargeisa": 1,
                         "sado": 86,
                         "tasco": 101,
@@ -11789,7 +11782,6 @@
                     "unknown": {
                         "one-earth-future-foundation": 1,
                         "care-international-is-a-global-network-of-14-national-members-wi": 1,
-                        "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                         "ministry-of-agriculture-developmen": 1,
                         "ministerium-fur-inneres": 1,
                         "centre-for-development-innovation-wageningen-university-research": 2,
@@ -11965,6 +11957,7 @@
                         "kaalo": 3,
                         "havoyoco": 1,
                         "sswc": 1,
+                        "moad": 1,
                         "university-of-hargeisa": 1
                     },
                     "regional": {
@@ -12020,7 +12013,6 @@
                     "unknown": {
                         "one-earth-future-foundation": 1,
                         "care-international-is-a-global-network-of-14-national-members-wi": 1,
-                        "mandate-of-the-somaliland-ministry-of-agricultural-development-i": 1,
                         "ministry-of-agriculture-developmen": 1,
                         "ministerium-fur-inneres": 1,
                         "centre-for-development-innovation-wageningen-university-research": 2,
