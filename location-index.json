@@ -3530,12 +3530,13 @@
                     "local": {
                         "government-of-somalia": 24,
                         "moewr": 5,
+                        "somaliland-ministry-of-planning": 3,
                         "avord": 13,
                         "scc": 28,
                         "nofyl": 35,
                         "sswc": 19,
                         "fenps": 82,
-                        "mof": 5,
+                        "mof": 7,
                         "hinna": 40,
                         "aid-vision": 264,
                         "moh": 230,
@@ -3654,7 +3655,6 @@
                     "unknown": {
                         "ministerium-fur-inneres": 2,
                         "eu-eu": 2,
-                        "somalilandische-fachbehorde-fur-planung-und-entwicklung": 3,
                         "ministry-of-public-works-housing-transportation": 1,
                         "mptf-somalia-multi-partner-tf-for-somalia": 1,
                         "climate-analytics": 1,
@@ -3785,12 +3785,13 @@
                     "local": {
                         "government-of-somalia": 24,
                         "moewr": 1,
+                        "somaliland-ministry-of-planning": 3,
                         "avord": 8,
                         "scc": 8,
                         "nofyl": 6,
                         "sswc": 2,
                         "fenps": 2,
-                        "mof": 5
+                        "mof": 7
                     },
                     "regional": {},
                     "international": {
@@ -3863,7 +3864,6 @@
                     "unknown": {
                         "ministerium-fur-inneres": 2,
                         "eu-eu": 2,
-                        "somalilandische-fachbehorde-fur-planung-und-entwicklung": 3,
                         "ministry-of-public-works-housing-transportation": 1,
                         "mptf-somalia-multi-partner-tf-for-somalia": 1,
                         "climate-analytics": 1,
@@ -18509,6 +18509,7 @@
                 "all": {
                     "local": {
                         "hod": 10,
+                        "mof": 2,
                         "government-of-somalia": 1,
                         "tass": 23,
                         "moh": 53,
@@ -18610,6 +18611,7 @@
                 "iati": {
                     "local": {
                         "hod": 2,
+                        "mof": 2,
                         "government-of-somalia": 1,
                         "tass": 2
                     },
@@ -62486,7 +62488,7 @@
                 "all": {
                     "local": {
                         "government-of-somalia": 7,
-                        "mof": 3
+                        "mof": 5
                     },
                     "regional": {
                         "african-development-bank": 3
@@ -62603,7 +62605,7 @@
                 "iati": {
                     "local": {
                         "government-of-somalia": 7,
-                        "mof": 3
+                        "mof": 5
                     },
                     "regional": {
                         "african-development-bank": 3
@@ -66938,7 +66940,7 @@
             "orgs": {
                 "all": {
                     "local": {
-                        "mof": 4,
+                        "mof": 6,
                         "moewr": 1,
                         "government-of-somalia": 2
                     },
@@ -66960,7 +66962,7 @@
                 },
                 "iati": {
                     "local": {
-                        "mof": 4,
+                        "mof": 6,
                         "moewr": 1,
                         "government-of-somalia": 2
                     },

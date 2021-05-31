@@ -5613,7 +5613,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "somalilandische-fachbehorde-fur-planung-und-entwicklung"
+                "somaliland-ministry-of-planning"
             ],
             "programming": [
                 "deutsche-gesellschaft-fur-internationale-zusammenarbeit-giz-gmbh"
@@ -6908,7 +6908,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "somalilandische-fachbehorde-fur-planung-und-entwicklung"
+                "somaliland-ministry-of-planning"
             ],
             "programming": [
                 "deutsche-gesellschaft-fur-internationale-zusammenarbeit-giz-gmbh"
@@ -10043,7 +10043,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "somalilandische-fachbehorde-fur-planung-und-entwicklung"
+                "somaliland-ministry-of-planning"
             ],
             "programming": [
                 "deutsche-gesellschaft-fur-internationale-zusammenarbeit-giz-gmbh"
@@ -12153,7 +12153,7 @@
         "active": false,
         "orgs": {
             "implementing": [
-                "International Development Law Organization*Istituto Internazionale Didiritto Per Lo Sviluppo"
+                "idlo"
             ],
             "programming": [
                 "european-development-fund"
@@ -18608,9 +18608,7 @@
         "description": "The Somalia Stability Fund has developed a new strategy for a phase II of its initiative to build up the conditions for a stable Somalia with the potential to develop the society by political, social and financial means. \n\nSSF phase II is developed as a flexible program which is shaped so as to adapt its approach by new learning to a dynamic context. Phase II will implement a Problem-Driven Iterative Adaptation Model (PDIA) which identifies the root causes to the instability in Somalia and solutions are developed on a case-by-case basis. The aim of this model is to generate a sequence of iterative solutions, in other Words, investments and adaptations will be based on previous lessons learned and experiences so as to enable a proper response.\n\nThe Theory of Change (ToC) for phase II claims that:\nIf the stability in newly recovered areas in Somalia is improved by a strengthened relation between societies, an increased trust for the government, and a reduced risk for revolt among the population -If governmental institutions gain increased legitimacy - through the participation of women and marginalized Groups, representation and ability to establish a broad normative framework over their jurisdiction - and an increased capacity - characterized by increased effectiveness, profitability, and the state's accountability of core functions - and; If the communities' vulnerabilities to conflict reduce through the implementation of grievance redress mechanisms, and support to actors for Peace; Then, the stability in Somalia will improve since the state institutions are more inclusive, more legitimate, and better able to perform its tasks, the vulnerabilities to conflict have reduced and the possibilities for social and economic development are available for the larger population.\n\nThe Theory of Change (ToC) is based on Three pillars:\n1. Stabilization (The stability in the newly recovered areas is strengthened, which is characterized by improved relations between Clans, improved trust and confidence in the government, and a reduced capacity for revolt);\n2. Statebuilding (State institutions have an increased legitimacy which is characterized by inclusiveness, representation and participation; and which has an increased capacity which is characterized by the ability to establish a broad normative framework over their jurisdictions, and an increased effectiveness of state core functions);\n3. Conflict prevention and administration (The communities' vulnerabilities to conflicts have reduced through grievance redress mechanisms as well as support to actors for peace).\nThe overall impact of phase II is to improve the stability in Somalia through more inclusive, more legitimate and better capable state institutions to perform their tasks, and the vulnerabilities to conflicts have reduced and the possibilities for social and economic development are available for the wider population. The Somalia Stability Fund supports activities in newly recovered areas through trustbuilding for the government as well as improved social cohesion as part of the statebuilding process.\nThe fund is in a good position to support capacity building and strenghten the legitimacy within administrations. With its ability to connect the political engagement with the Project financial support, SSF becomes specifically relevant to support inclusive settlements through support to:\n- marginalized areas;\n- job Creation;\n- rehabilitation of infrastructure;\n- integration of state administrations.\n\nThe niche of SSF is to invest in long-term capacity building so as to develop the core functions within the state. Particularly, the SSF is able to build administrative Control and provide infrastructural services (especially at the local level); and with a small grant support to a legal monopoly of the use of violence (especially through collaboration with the UN and bilateral programs to adapt the police to underinvested areas); rule of law; and market Creations, especially protection of land rights; and the management of public finances.\n\nPhase II of SSF aims to prevent and resolve conflicts through conflict and gender sensitive approach. The fund has particular abilities to support states by acting as mediator. It also has the possibility to bring added value to the UN and bilateral programs which support the judicial system through a discussion-based approach, as well as the possibility to develop institution-building which contributes as a mediator in land disputes or women's access to legal support. The support to youth employment is also a comparative advantage for the fund due to its ability to deliver innovative partnerships within the private sector.\n\nThe Fund which is donor-driven will be supported by Norway, Denmark, the Netherlands, the EU, Germany, and DFID. Sweden is through this decision allocating a total of SEK 40,000,000 between 2018-2020.",
         "active": true,
         "orgs": {
-            "implementing": [
-                "Other non-financial corporations"
-            ],
+            "implementing": [],
             "programming": [
                 "sida",
                 "fcdo"
@@ -23936,6 +23934,7 @@
         "active": true,
         "orgs": {
             "implementing": [
+                "mof",
                 "city-of-garowe"
             ],
             "programming": [
@@ -35250,9 +35249,12 @@
         "description": "The development objective of the Second Public Financial Management (PFM) Capacity Strengthening Project for Somalia is to establish and strengthen institutional capacity for the management of public funds in central finance agencies and targeted sectors. The project comprises of six components. The first component, revenue mobilization, planning, and budget preparation consists of following two sub-components: (i) strengthening planning and budget preparation; and (ii) revenue mobilization and tax administration. The second component, treasury management, budget execution, procurement, accounting, and financial reporting consists of following five sub-components: (i) treasury management and budget execution; (ii) accounting and financial reporting; (iii) concessions, procurement, and contract management; (iv) bespoke financial management information systems (FMIS); and (v) modernizing Central Bank of Somalia banking operations and financial control environment. The third component, strengthening the integrity pillars consists of following two sub-components: (i) foundations for supreme audit institutions (SAI); and (ii) planning, finance, and public accounts committee (PAC). The fourth component, PFM professionalization will build capacity at the individual level for planning and budget preparation officials, procurement officers, accountants, and internal and external auditors to obtain the required capability knowledge, skills, abilities, and other characteristics (values, integrity etc.). The fifth component, PFM oversight, coordination, and management will anchor the reform and capacity building efforts. The sixth component, demand-driven just-in-time services (Bank Executed) will be implemented by the Bank on behalf of the beneficiaries according to paragraph (12)(d) of the Bank's operating policy (OP) 10.00 due to insufficient capacity by the beneficiaries to u",
         "active": true,
         "orgs": {
-            "implementing": [],
+            "implementing": [
+                "mof"
+            ],
             "programming": [
-                "international-development-association"
+                "international-development-association",
+                "mof"
             ],
             "funding": [
                 "international-development-association"
@@ -35292,9 +35294,12 @@
         "description": "The development objective of the Second Phase of the Recurrent Cost and Reform Financing Project for Somalia is to enable the Somali Government to achieve reliable and transparent financing of critical civil service operations to help strengthen the legitimacy of the state. The project comprises of four components. The first component, support to core government functions of ministries, departments, and agencies (MDAs) in Federal Government of Somalia (FGS) will finance: the salaries of eligible non-security sector civil servants in the MDAs; the cost of staff injected under the capacity injection mechanism (CIM); and non-salary operating costs for MDAs. It consists of following three sub-components: (i) financing of eligible civil service salaries in non-security sectors in FGS; (ii) financing of salaries and allowances to government staff and young graduates recruited under the capacity injection mechanism (CIM) in FGS; and (iii) financing of eligible non-salary recurrent costs in MDA in the FGS. The second component is inter-governmental fiscal transfers to core government functions of eligible federal member states, interim, and emerging administrations. It consists of following two sub-components: (i) transfers to interim and emerging states for core government functions; and (ii) inter-governmental fora on transfers and information exchanges. The third component, support of recurrent costs in health and education sectors in FGS and eligible member states, interim, and emerging administrations will support the FGS, Puntland, and interim Jubba administration (IJA) to expand their service delivery systems through improvement of accountability systems and support of recurrent costs in the education and health sectors. The fourth component, project management and coordination will support coordination, administration, communication, management, procurement, monitorin",
         "active": true,
         "orgs": {
-            "implementing": [],
+            "implementing": [
+                "mof"
+            ],
             "programming": [
-                "international-development-association"
+                "international-development-association",
+                "mof"
             ],
             "funding": [
                 "international-development-association"
@@ -39573,7 +39578,7 @@
                 "undp"
             ],
             "funding": [
-                "UN DEPARTMENT OF INTERNATIONAL ECONOMIC AND SOCIAL AFFAIRS",
+                "desa",
                 "jica",
                 "luxembourg",
                 "norad",
@@ -53554,14 +53559,7 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "irc",
-                "Anonymous Org 1",
-                "Anonymous Org 2",
-                "Anonymous Org 3",
-                "Anonymous Org 4",
-                "Anonymous Org 5",
-                "Anonymous Org 6",
-                "Anonymous Org 7"
+                "irc"
             ],
             "programming": [
                 "irc"
