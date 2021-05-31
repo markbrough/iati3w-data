@@ -1868,7 +1868,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy.",
                 "care"
             ],
             "programming": [
@@ -2217,7 +2216,6 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy.",
                 "care"
             ],
             "programming": [
@@ -8619,10 +8617,10 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Iimaan Relief and Development Organization"
+                "irdo"
             ],
             "programming": [
-                "Iimaan Relief and Development Organization"
+                "irdo"
             ],
             "funding": [
                 "shf"
@@ -33129,13 +33127,13 @@
         "active": true,
         "orgs": {
             "implementing": [
-                "Cordaid Global Office"
+                "cordaid"
             ],
             "programming": [
-                "Cordaid Global Office"
+                "cordaid"
             ],
             "funding": [
-                "Cordaid Global Office"
+                "cordaid"
             ]
         },
         "sectors": {

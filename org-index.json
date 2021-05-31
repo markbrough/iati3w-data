@@ -5033,7 +5033,6 @@
                     "university-of-hargeisa-legal-aid-clinic": 1,
                     "shaqodoon-organization": 9,
                     "innovate-venture": 4,
-                    "care-international-is-a-global-network-of-14-national-members-wi": 2,
                     "ministry-of-agriculture-developmen": 1,
                     "somaliland-skills-training-associat": 2,
                     "hargeisa-hub": 1,
@@ -5101,7 +5100,6 @@
                     "university-of-hargeisa-legal-aid-clinic": 1,
                     "shaqodoon-organization": 9,
                     "innovate-venture": 4,
-                    "care-international-is-a-global-network-of-14-national-members-wi": 2,
                     "ministry-of-agriculture-developmen": 1,
                     "somaliland-skills-training-associat": 2,
                     "hargeisa-hub": 1,
@@ -6958,105 +6956,13 @@
             "iati": 4
         }
     },
-    "care-international-is-a-global-network-of-14-national-members-wi": {
-        "info": {
-            "name": "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy.",
-            "shortname": "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy.",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "care-international-is-a-global-network-of-14-national-members-wi"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "NL-KVK-27108436-A-05714-03:SO",
-                "NL-KVK-27108436-A-05718-17:SO"
-            ],
-            "programming": [],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "oxfam-novib": 2
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "oxfam-novib": 2
-                },
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 2,
-                    "food-security": 1,
-                    "protection": 1
-                },
-                "dac": {
-                    "government-civil-society": 2
-                }
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 2,
-                    "food-security": 1,
-                    "protection": 1
-                },
-                "dac": {
-                    "government-civil-society": 2
-                }
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 2,
-            "3w": 0,
-            "iati": 2
-        }
-    },
     "care": {
         "info": {
             "name": "CARE International",
             "scope": "international",
-            "synonyms": [],
+            "synonyms": [
+                "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy."
+            ],
             "shortname": "CARE",
             "stub": "care"
         },
@@ -14421,6 +14327,7 @@
                     "adec": 1,
                     "aap": 21,
                     "sedo": 5,
+                    "irdo": 5,
                     "hpa": 49,
                     "new-ways": 3,
                     "hado": 11,
@@ -14511,7 +14418,6 @@
                     "rays-rehab-and-dev-association": 46,
                     "foore": 9,
                     "onkod": 11,
-                    "irdo": 5,
                     "sdpbi": 9,
                     "horsed-relief-and-dev-org": 1,
                     "hirdo": 2,
@@ -14539,6 +14445,7 @@
                     "adec": 1,
                     "aap": 21,
                     "sedo": 5,
+                    "irdo": 5,
                     "hpa": 49,
                     "new-ways": 3,
                     "hado": 11,
@@ -14597,7 +14504,6 @@
                     "rays-rehab-and-dev-association": 46,
                     "foore": 9,
                     "onkod": 11,
-                    "irdo": 5,
                     "sdpbi": 9,
                     "horsed-relief-and-dev-org": 1,
                     "hirdo": 2,
@@ -18989,6 +18895,7 @@
                     "avord": 14,
                     "ayuub-ngo": 12,
                     "grrn": 2,
+                    "irdo": 2,
                     "scc": 10,
                     "nofyl": 12,
                     "pmwdo": 2,
@@ -19077,7 +18984,6 @@
                 },
                 "unknown": {
                     "horn-of-africa-peace-network": 4,
-                    "iimaan-relief-and-development-organization": 2,
                     "community-empowerment-and-social-development-organization": 2,
                     "nomadic-development-organization": 2,
                     "african-relief-and-development": 6,
@@ -19108,6 +19014,7 @@
                     "avord": 14,
                     "ayuub-ngo": 12,
                     "grrn": 2,
+                    "irdo": 2,
                     "scc": 10,
                     "nofyl": 12,
                     "pmwdo": 2,
@@ -19196,7 +19103,6 @@
                 },
                 "unknown": {
                     "horn-of-africa-peace-network": 4,
-                    "iimaan-relief-and-development-organization": 2,
                     "community-empowerment-and-social-development-organization": 2,
                     "nomadic-development-organization": 2,
                     "african-relief-and-development": 6,
@@ -25674,25 +25580,30 @@
             "iati": 313
         }
     },
-    "iimaan-relief-and-development-organization": {
+    "irdo": {
         "info": {
             "name": "Iimaan Relief and Development Organization",
-            "shortname": "Iimaan Relief and Development Organization",
-            "scope": "unknown",
-            "unrecognised": true,
+            "scope": "local",
             "synonyms": [],
-            "stub": "iimaan-relief-and-development-organization"
+            "shortname": "IRDO",
+            "stub": "irdo"
         },
         "sources": [
-            "IATI"
+            "IATI",
+            "3W"
         ],
         "humanitarian": true,
         "activities": {
             "implementing": [
-                "XM-OCHA-CBPF-SOM-21/3485/SA1/CCCM/INGO/18258"
+                "XM-OCHA-CBPF-SOM-21/3485/SA1/CCCM/INGO/18258",
+                "d2bd96c6",
+                "fec3badd",
+                "3cae56d2"
             ],
             "programming": [
-                "XM-OCHA-CBPF-SOM-21/3485/SA1/CCCM/INGO/18258"
+                "XM-OCHA-CBPF-SOM-21/3485/SA1/CCCM/INGO/18258",
+                "d2bd96c6",
+                "fec3badd"
             ],
             "funding": []
         },
@@ -25701,14 +25612,17 @@
                 "local": {},
                 "regional": {},
                 "international": {
-                    "ocha": 2
+                    "ocha": 2,
+                    "wfp": 5
                 },
                 "unknown": {}
             },
             "3w": {
                 "local": {},
                 "regional": {},
-                "international": {},
+                "international": {
+                    "wfp": 5
+                },
                 "unknown": {}
             },
             "iati": {
@@ -25723,14 +25637,21 @@
         "sectors": {
             "all": {
                 "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 2
+                    "no-corresponding-humanitarian-cluster": 2,
+                    "camp-coordination-management": 6,
+                    "protection": 2,
+                    "food-security": 5
                 },
                 "dac": {
                     "other-multisector": 2
                 }
             },
             "3w": {
-                "humanitarian": {},
+                "humanitarian": {
+                    "camp-coordination-management": 6,
+                    "protection": 2,
+                    "food-security": 5
+                },
                 "dac": {}
             },
             "iati": {
@@ -25745,14 +25666,28 @@
         "locations": {
             "all": {
                 "admin1": {
-                    "lower-shabelle": 2
+                    "lower-shabelle": 8,
+                    "galgaduud": 2,
+                    "middle-shabelle": 5
                 },
-                "admin2": {},
+                "admin2": {
+                    "wanla-weyn": 6,
+                    "cadaado": 2,
+                    "balcad": 5
+                },
                 "unclassified": {}
             },
             "3w": {
-                "admin1": {},
-                "admin2": {},
+                "admin1": {
+                    "lower-shabelle": 6,
+                    "galgaduud": 2,
+                    "middle-shabelle": 5
+                },
+                "admin2": {
+                    "wanla-weyn": 6,
+                    "cadaado": 2,
+                    "balcad": 5
+                },
                 "unclassified": {}
             },
             "iati": {
@@ -25764,8 +25699,8 @@
             }
         },
         "activity_totals": {
-            "all": 2,
-            "3w": 0,
+            "all": 15,
+            "3w": 13,
             "iati": 2
         }
     },
@@ -40703,7 +40638,9 @@
         "info": {
             "name": "Cordaid",
             "scope": "international",
-            "synonyms": [],
+            "synonyms": [
+                "Cordaid Global Office"
+            ],
             "shortname": "Cordaid",
             "iati": {
                 "code": "NL-KVK-41160054",
@@ -40724,10 +40661,15 @@
         "activities": {
             "implementing": [
                 "NL-KVK-72849770-ACM",
+                "NL-KVK-41160054-200718",
                 "NL-KVK-41197577-2020DLJR-L"
             ],
-            "programming": [],
-            "funding": []
+            "programming": [
+                "NL-KVK-41160054-200718"
+            ],
+            "funding": [
+                "NL-KVK-41160054-200718"
+            ]
         },
         "partners": {
             "all": {
@@ -40737,9 +40679,7 @@
                     "stichting-beheer-subsidiegelden-dra": 1,
                     "sos-cv-netherlands": 1
                 },
-                "unknown": {
-                    "cordaid-global-office": 3
-                }
+                "unknown": {}
             },
             "3w": {
                 "local": {},
@@ -40754,16 +40694,17 @@
                     "stichting-beheer-subsidiegelden-dra": 1,
                     "sos-cv-netherlands": 1
                 },
-                "unknown": {
-                    "cordaid-global-office": 3
-                }
+                "unknown": {}
             }
         },
         "sectors": {
             "all": {
-                "humanitarian": {},
+                "humanitarian": {
+                    "no-corresponding-humanitarian-cluster": 3
+                },
                 "dac": {
-                    "emergency-response": 2
+                    "emergency-response": 2,
+                    "other-multisector": 3
                 }
             },
             "3w": {
@@ -40771,9 +40712,12 @@
                 "dac": {}
             },
             "iati": {
-                "humanitarian": {},
+                "humanitarian": {
+                    "no-corresponding-humanitarian-cluster": 3
+                },
                 "dac": {
-                    "emergency-response": 2
+                    "emergency-response": 2,
+                    "other-multisector": 3
                 }
             }
         },
@@ -40795,9 +40739,9 @@
             }
         },
         "activity_totals": {
-            "all": 2,
+            "all": 5,
             "3w": 0,
-            "iati": 2
+            "iati": 5
         }
     },
     "plan-international-netherlands": {
@@ -60598,99 +60542,6 @@
             "all": 1,
             "3w": 0,
             "iati": 1
-        }
-    },
-    "cordaid-global-office": {
-        "info": {
-            "name": "Cordaid Global Office",
-            "shortname": "Cordaid Global Office",
-            "scope": "unknown",
-            "unrecognised": true,
-            "synonyms": [],
-            "stub": "cordaid-global-office"
-        },
-        "sources": [
-            "IATI"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "NL-KVK-41160054-200718"
-            ],
-            "programming": [
-                "NL-KVK-41160054-200718"
-            ],
-            "funding": [
-                "NL-KVK-41160054-200718"
-            ]
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "cordaid": 3
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "cordaid": 3
-                },
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 3
-                },
-                "dac": {
-                    "other-multisector": 3
-                }
-            },
-            "3w": {
-                "humanitarian": {},
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {
-                    "no-corresponding-humanitarian-cluster": 3
-                },
-                "dac": {
-                    "other-multisector": 3
-                }
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 3,
-            "3w": 0,
-            "iati": 3
         }
     },
     "idlo": {
@@ -92120,115 +91971,6 @@
         "activity_totals": {
             "all": 161,
             "3w": 161,
-            "iati": 0
-        }
-    },
-    "irdo": {
-        "info": {
-            "name": "IRDO",
-            "scope": "unknown",
-            "synonyms": [],
-            "shortname": "IRDO",
-            "stub": "irdo"
-        },
-        "sources": [
-            "3W"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "d2bd96c6",
-                "fec3badd",
-                "3cae56d2"
-            ],
-            "programming": [
-                "d2bd96c6",
-                "fec3badd"
-            ],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "wfp": 5
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {},
-                "regional": {},
-                "international": {
-                    "wfp": 5
-                },
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "camp-coordination-management": 6,
-                    "protection": 2,
-                    "food-security": 5
-                },
-                "dac": {}
-            },
-            "3w": {
-                "humanitarian": {
-                    "camp-coordination-management": 6,
-                    "protection": 2,
-                    "food-security": 5
-                },
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {},
-                "dac": {}
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {
-                    "lower-shabelle": 6,
-                    "galgaduud": 2,
-                    "middle-shabelle": 5
-                },
-                "admin2": {
-                    "wanla-weyn": 6,
-                    "cadaado": 2,
-                    "balcad": 5
-                },
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {
-                    "lower-shabelle": 6,
-                    "galgaduud": 2,
-                    "middle-shabelle": 5
-                },
-                "admin2": {
-                    "wanla-weyn": 6,
-                    "cadaado": 2,
-                    "balcad": 5
-                },
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 13,
-            "3w": 13,
             "iati": 0
         }
     },
