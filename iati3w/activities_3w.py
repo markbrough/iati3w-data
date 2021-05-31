@@ -11,26 +11,6 @@ import hxl, hashlib, json, sys
 from .common import *
 
 #
-# Constants
-#
-
-AMBIGUOUS_ORGS = set([
-    "moh",
-    "moewr"
-])
-""" Orgs that differ between Somalia proper and Somaliland """
-
-SOMALILAND_REGIONS = set([
-    "awdal",
-    "sanaag",
-    "sool",
-    "togdheer",
-    "woqooyi-galbeed",
-])
-""" Regions of Somaliland (tokenised) """
-
-
-#
 # Utility functions
 #
 
@@ -54,13 +34,6 @@ def fix_cluster_name (name):
     else:
         return normalise_string(name)
 
-def adjust_org (org_name, region_name):
-    """ Adjust government ministries for Somaliland """
-    if make_token(org_name) in AMBIGUOUS_ORGS:
-        if make_token(region_name) in SOMALILAND_REGIONS:
-            org_name = org_name + "-XS"
-    return org_name
-    
 def get_entity_key (entity):
     """ At this stage, we want to use the entity stub if it's recognised, but keep the entity name if it's not """
     key = "name" if entity.get("unrecognised", False) else "stub"
@@ -143,8 +116,6 @@ def make_activity(row):
     ]:
         org_name = row.get(params[0])
         if org_name:
-            # adjust some names contextually for Somaliland vs the rest of Somalia
-            org_name = adjust_org(org_name, admin1["name"])
             org = lookup_org(org_name, create=True)
             if org is not None and not org.get("skip", False):
                 # Add the name here instead of the stub if the org isn't in the map
