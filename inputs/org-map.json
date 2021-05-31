@@ -1,4 +1,10 @@
 {
+    "ITU": {
+        "name": "International Telecommunications Union",
+        "scope": "international",
+        "synonyms": [],
+        "shortname": "ITU"
+    },
     "Har-Hub": {
         "name": "Har-Hub",
         "shortname": "Har-Hub",
@@ -1493,7 +1499,9 @@
     "African Development Bank": {
         "name": "African Development Bank",
         "scope": "regional",
-        "synonyms": [],
+        "synonyms": [
+            "African Development Bank Group"
+        ],
         "shortname": "African Development Bank",
         "iati": {
             "code": "46002",
@@ -3419,7 +3427,9 @@
     "CARE": {
         "name": "CARE International",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "CARE International is a global network of 14 National Members with a common vision and mission to defeat global poverty. Each CARE Member is an independent organisation that leads programmes, raises funds, advocates on key issues, and communicates to the public in their country. These efforts supported our life-changing work in 94 countries in fiscal year 2016. Around the world, CARE works alongside a broad network of partners and allies to help rebuild and improve the lives of the most disadvantaged, with a particular focus on women and girls. In the world#s poorest communities, girls and women bear the brunt of poverty and are also the key to overcoming it. The CARE International Secretariat coordinates and supports the network to achieve our goals and shared global priorities in line with our global CARE 2020 Vision and Programme Strategy."
+        ],
         "shortname": "CARE"
     },
     "CARE Benin/Togo": {
@@ -5671,7 +5681,9 @@
     "Cordaid": {
         "name": "Cordaid",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "Cordaid Global Office"
+        ],
         "shortname": "Cordaid",
         "iati": {
             "code": "NL-KVK-41160054",
@@ -5914,6 +5926,14 @@
         "synonyms": [],
         "shortname": "DEUTSCHE GESELLSCHAFT FUR INTERNATIONALE ZUSAMMENARBEIT GIZ GMBH"
     },
+    "EC": {
+        "name": "European Commission",
+        "scope": "international",
+        "synonyms": [
+            "Commission of the European Communities"
+        ],
+        "shortname": "EC"
+    },
     "DEVCO": {
         "name": "European Commission - International Partnerships",
         "scope": "international",
@@ -5921,7 +5941,6 @@
             "DEVCO",
             "DG for International Cooperation and Development DEVCO European Commission",
             "EC_DEVCO",
-            "EC (European Commission)",
             "European Commission Directorate General for International Cooperation and Development",
             "European Commission Directorate General for International Cooperation and Development (DEVCO)",
             "European Commission Directorate General for International Partnerships DEVCO"
@@ -6044,7 +6063,8 @@
         "synonyms": [
             "DRC",
             "Danish Refugee Council",
-            "Danish Refugee Council (DRC)"
+            "Danish Refugee Council (DRC)",
+            "Danish Refugee Council, Denmark"
         ],
         "shortname": "DRC",
         "iati": {
@@ -7606,6 +7626,7 @@
             "Foreign, Commonwealth & Development Office",
             "British Government (DFID)",
             "United Kingdom of Great Britain and Northern Ireland",
+            "United Kingdom Of Great Britain And Northern Ireland*Pre Brexit",
             "DFID/Department for International Development",
             "UNITED KINGDOM, Government of",
             "The United Kingdom",
@@ -9095,13 +9116,21 @@
         "name": "Government Of Somalia",
         "scope": "local",
         "synonyms": [
-            "Government of Somalia, Ministry of Finance",
             "Somalia",
             "SOMALIA, Government of",
             "Gvt_of_SOM",
             "The Government of Somalia"
         ],
         "shortname": "Government Of Somalia"
+    },
+    "MoF": {
+        "name": "Somalia Ministry of Finance",
+        "scope": "local",
+        "synonyms": [
+            "Government of Somalia, Ministry of Finance",
+            "GOVERNMENT OF SOMALIAMINISTRY OF FINANCE"
+        ],
+        "shortname": "MoF"
     },
     "Grand Challenges Canada": {
         "name": "Grand Challenges Canada",
@@ -10238,7 +10267,8 @@
             "Fonds Monetaire International",
             "IMF",
             "International Monetary Fund",
-            "International Monetary Fund (IMF)"
+            "International Monetary Fund (IMF)",
+            "International Monetary Fund*Fonds Monetaire International"
         ],
         "shortname": "IMF",
         "iati": {
@@ -10447,8 +10477,8 @@
         "iati_id": "NL-KVK-41151952"
     },
     "IRDO": {
-        "name": "IRDO",
-        "scope": "unknown",
+        "name": "Iimaan Relief and Development Organization",
+        "scope": "local",
         "synonyms": [],
         "shortname": "IRDO"
     },
@@ -11119,7 +11149,7 @@
     },
     "IFAD": {
         "name": "International Fund for Agricultural Development",
-        "scope": "unknown",
+        "scope": "international",
         "synonyms": [],
         "shortname": "IFAD",
         "iati": {
@@ -12707,17 +12737,10 @@
         "shortname": "MINISTERIO DE ENERGIA"
     },
     "MOH": {
-        "name": "Somalia Ministry of Health",
+        "name": "Ministry of Health",
         "scope": "local",
-        "url": "https://moh.gov.so/en/",
         "synonyms": [],
         "shortname": "MOH"
-    },
-    "MOH-XS": {
-        "name": "Somaliland Ministry of Health",
-        "scope": "local",
-        "synonyms": [],
-        "shortname": "MOH-XS"
     },
     "MORDA": {
         "name": "MORDA",
@@ -13526,9 +13549,8 @@
         "shortname": "MoESAF"
     },
     "MoEWR": {
-        "name": "Somalia Ministry of Energy and Water Resources",
+        "name": "Ministry of Energy and Water Resources",
         "scope": "local",
-        "url": "https://moewr.gov.so/",
         "synonyms": [
             "FMOEWR",
             "FRS MoEWR",
@@ -13537,18 +13559,9 @@
         ],
         "shortname": "MoEWR"
     },
-    "MoEWR-XS": {
-        "name": "Somalialand Ministry of Energy and Water Resources",
-        "scope": "local",
-        "synonyms": [
-            "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
-            "Ministère de l Énergie et des Ressources en Eau du Somaliland"
-        ],
-        "shortname": "MoEWR-XS"
-    },
     "MoW": {
-        "name": "MoW",
-        "scope": "unknown",
+        "name": "Ministry of Women",
+        "scope": "local",
         "synonyms": [],
         "shortname": "MoW"
     },
@@ -13567,18 +13580,6 @@
             "status": "active"
         },
         "iati_id": "NL-KvK-41177601"
-    },
-    "Montreal Protocol HFC": {
-        "name": "Montreal Protocol HFC",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Montreal Protocol HFC"
-    },
-    "Montreal Protocol old 400712 ": {
-        "name": "Montreal Protocol old 400712 ",
-        "scope": "unknown",
-        "synonyms": [],
-        "shortname": "Montreal Protocol old 400712 "
     },
     "Montrose International LLP": {
         "name": "Montrose International LLP",
@@ -13900,6 +13901,7 @@
             "Norwegian Refugee Council (NRC)",
             "Norwegian Refugee Council Flüchtlingshilfe Deutschland",
             "Norwegian Refugee Council, Norway",
+            "Norwegian Refugee Council USA",
             "The Norwegian Refugee Council is an independent humanitarian organization helping people forced to flee, tarted their relief efforts after World War Two, humanitarian needs were critical. They still are # and NRC still there, protecting people forced toflee and supporting them as they build a new future. Today, NRC work in both new and protracted crises across 31 countries NRC provide camp management, food assistance, clean water, shelter, legal aid, and education. displaced people's rights and dignityin local communities, with national governments and in the international arena. NRC#s Internal Displacement Monitoring Centre in Geneva is a global leader in monitoring, reporting on and advocating for people displaced within their own country."
         ],
         "shortname": "NRC",
@@ -15241,6 +15243,7 @@
         "url": "https://www.facebook.com/pmwdo/",
         "synonyms": [
             "PMWDO",
+            "Puntland Minority Women Development Organization",
             "Puntland Minority Women Development Organisation (PMWDO)"
         ],
         "shortname": "PMWDO"
@@ -17823,6 +17826,7 @@
         "name": "Shaqodoon",
         "scope": "local",
         "synonyms": [
+            "Shaqodoon Organization, Somalia",
             "Shaqodoon is a local nonprofit organization that designs delivers and evaluates innovative programs to address some of the local most urgent challenges in livelihood skill training education and health Shaqodoon has offices and or presences in Somaliland Puntland Galmudug and South Central Somali Shaqodoon is a national platform whose goal is to prioritize youth employment and educationon the development agenda and to exchange knowledge on effective policies and programs to improve employment andeducation opportunities for youth prioritizing at risk youth marginalized groups and people who have lost hope and are thus often jailed for local crimes Shaqodoon Organization is a service provider dedicated to skill development employment services youth entrepreneurship private sector business development and technology for development Shaqodoon makes use of participatory methods to ensure youth participate in delivering its services "
         ],
         "shortname": "Shaqodoon"
@@ -19939,6 +19943,7 @@
         "synonyms": [
             "WORLD BANK INT L BANK FOR RECONSTRUCTION DEVELOPMENT",
             "The World Bank",
+            "World Bank Group",
             "World Bank Group (WB)",
             "World Bank - Washington D.C."
         ],
@@ -20649,7 +20654,8 @@
         "name": "UN Department of Economic and Social Affairs",
         "scope": "international",
         "synonyms": [
-            "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS"
+            "UN DEPT OF ECONOMIC AND SOCIAL AFFAIRS",
+            "United Nations Department of Economic and Social Affairs"
         ],
         "shortname": "DESA"
     },
@@ -20700,10 +20706,11 @@
         "iati_id": "XI-IATI-UNPF"
     },
     "UN Women": {
-        "name": "UN Women",
+        "name": "United Nations Entity for Gender Equality and the Empowerment of Women",
         "scope": "international",
         "synonyms": [
-            "United Nations Entity for Gender Equality and the Empowerment of Women"
+            "United Nations Entity for Gender Equality and the Empowerment of Women",
+            "United Nations Development Fund for Women"
         ],
         "shortname": "UN Women",
         "iati": {
@@ -20851,7 +20858,7 @@
         "synonyms": [
             "UNESCO",
             "United Nations Educational, Scientific, and Cultural Organization",
-            "United Nations Educational, Scientific, and Cultural Organization (UNESCO)"
+            "United Nations Educational, Scientific and Cultural Organisation"
         ],
         "shortname": "UNESCO",
         "iati": {
@@ -21091,7 +21098,9 @@
     "UNIDO": {
         "name": "United Nations Industrial Development Organization",
         "scope": "international",
-        "synonyms": [],
+        "synonyms": [
+            "United Nations Educational, Scientific and Cultural Organisation"
+        ],
         "shortname": "UNIDO",
         "iati": {
             "code": "XM-DAC-41123",
@@ -21772,11 +21781,13 @@
         "skip": true,
         "synonyms": [
             "Multilateral",
+            "United Nations",
             "UN ORGANISATIONS",
             "Multi lateral organization",
             "Multilateral organisations",
             "Multilateral organizations",
             "UN agency",
+            "EU Institutions",
             "United Nations Organisation*Organisation Des Nations Unies",
             "UN Other Funds and Agencies (excl. CERF)",
             "United Nations agency, fund, or commission (UN)"
@@ -22200,7 +22211,9 @@
         "name": "Wardi Relief and Development Initiatives",
         "scope": "local",
         "url": "https://www.facebook.com/pg/WardiRDI/about/",
-        "synonyms": [],
+        "synonyms": [
+            "Wardi Relief"
+        ],
         "shortname": "WARDI",
         "iati_id": "XI-IATI-WARDI"
     },
@@ -24069,5 +24082,23 @@
         "synonyms": [],
         "shortname": "SWSC",
         "iati_id": "XI-IATI-SWSC"
+    },
+    "MoPCA": {
+        "name": "Somaliland Ministry of Parliamentary Relations and Constitutional Affairs",
+        "scope": "local",
+        "synonyms": [
+            "Somaliland Ministry of Parliamentar Relations and Constitutional Affair",
+            "The MOPCA was established in 1995, by president decree No.59/95, Ref: JSL/M/XERM/249/59/1995, dated the 8th November 1995. Throughout this period, there were ten ministers appointed to lead the Ministry. During this historical period of different presidencies, the MOPCA name changed numerous times. The original name given to the MoPCA in 1995 was #The Relations of the Executive Branch and theParliament of Somaliland# with the Presidential Decree No.59/95. In 2010, during the time of the 4th President of Somaliland, the Ministry lost its autonomous status, and it was placed under the Ministry of Presidency. Then the role of the Ministry changed again,and it was named, #The Ministry of Parliamentary Relations research and Technology# regaining its ministerial statues. The 5th President of Somaliland, HE Muse Bihi Abdi rearranged the role of the Ministry on 14th December 2017. In accordance of Article 26 of presidential act No.012018-1, the new title of the Ministry became #The Ministry of ParliamentaryRelations <(>&<)> Constitutional Affairs#. The 5th President of the Republic of Somaliland fulfilling his political commitment to the reform on the rule of law has mandated the role of the constitutional affairs for the first time, with which the constitutionis the basis for national legislation. The power of the Ministry includes but not limited to reform the Somaliland Constitution, by preparing a national plan to review and amend the constitution where necessary. The MoPCA has a significant role to play in constitutional and national law reforms; thus, it was mandated with the following 12 points in achieving its objectives. Vision The Ministry envisions a law-oriented society in which both citizens and state institutions abide by the Constitution andwhereby the working relationship among the Executive, Houses of Parliament and Judiciary is co-ordinated systematically and effectively to ensure that the interest of the nation is protected and well-served. Mission is to create a society where allSomaliland citizens enjoy their constitutional privileges, through strengthening the competence of the Ministry, to promote civic education of the Constitution, and to develop a strong working relationship between government institutions, Houses of Parliament and non-state actors"
+        ],
+        "shortname": "MoPCA"
+    },
+    "MoAD": {
+        "name": "Somaliland Ministry of Agricultural Development",
+        "scope": "local",
+        "synonyms": [
+            "Ministry of Agricultural Developmen",
+            "Mandate of the Somaliland ministry of agricultural development is to develop and implement of agriculture sector policies, rules and regulations, formulating sector development plans, programmers and projects, documentation and registration of agricultural land,agricultural research. Establishment, management and maintenance of agriculture databases and dissemination to stakeholders, promotion of increased agricultural production, ensuring the country#s food security. Promotion of sustainable utilization and management of natural agricultural resources, ensuring food quality and safety, provision and coordination of agriculture extension and othersupport services. Coordination, Monitoring and Evaluation of agricultural programmers, projects and activities, agricultural humanresource development and management, promoting agricultural marketing, awareness raising and agri-business. Guiding regulations ofimport and export of agricultural products and controlling unwanted seeds to avoid pests and diseases effect food production of thecountry. Consultation of agricultural community to the control of the pests and diseases effect food production of the country."
+        ],
+        "shortname": "MoAD"
     }
 }
