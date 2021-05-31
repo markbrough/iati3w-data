@@ -7171,12 +7171,12 @@
                 "bc9abed0",
                 "c8c48ea9",
                 "ffa8a1e3",
-                "625c8f9d",
-                "5d139be9",
-                "f92fa17c",
-                "4a097106",
-                "6cc43358",
-                "b8cabad0",
+                "7fee4803",
+                "5453a729",
+                "dd0c80bb",
+                "997269c7",
+                "0d1e0473",
+                "7b09adc3",
                 "e55e59c4",
                 "c29956db",
                 "49cc4627",
@@ -7281,8 +7281,7 @@
         "partners": {
             "all": {
                 "local": {
-                    "moh": 10,
-                    "moh-xs": 42,
+                    "moh": 52,
                     "wasda": 64,
                     "wardi": 2
                 },
@@ -7298,8 +7297,7 @@
             },
             "3w": {
                 "local": {
-                    "moh": 10,
-                    "moh-xs": 42,
+                    "moh": 52,
                     "wasda": 64,
                     "wardi": 2
                 },
@@ -8074,7 +8072,7 @@
                 "2980f867",
                 "29beaa69",
                 "91df84bb",
-                "d33b69b6",
+                "f9f557d5",
                 "f9248cb1",
                 "a013c4c5",
                 "08cc7a63",
@@ -8170,8 +8168,7 @@
         "partners": {
             "all": {
                 "local": {
-                    "moh": 236,
-                    "moh-xs": 2,
+                    "moh": 238,
                     "ard": 1,
                     "dmo": 18,
                     "tasco": 12
@@ -8189,8 +8186,7 @@
             },
             "3w": {
                 "local": {
-                    "moh": 236,
-                    "moh-xs": 2,
+                    "moh": 238,
                     "ard": 1,
                     "dmo": 18,
                     "tasco": 12
@@ -13945,9 +13941,8 @@
     },
     "moewr": {
         "info": {
-            "name": "Somalia Ministry of Energy and Water Resources",
+            "name": "Ministry of Energy and Water Resources",
             "scope": "local",
-            "url": "https://moewr.gov.so/",
             "synonyms": [
                 "FMOEWR",
                 "FRS MoEWR",
@@ -17051,7 +17046,7 @@
                 "03b6a719",
                 "3be77cbe",
                 "57d93a46",
-                "9668a28e",
+                "ae4d1004",
                 "75913328",
                 "789e4942",
                 "964e25ce",
@@ -17226,9 +17221,8 @@
         "partners": {
             "all": {
                 "local": {
-                    "moh": 195,
-                    "gredo": 46,
-                    "moh-xs": 1
+                    "moh": 196,
+                    "gredo": 46
                 },
                 "regional": {},
                 "international": {
@@ -17250,9 +17244,8 @@
             },
             "3w": {
                 "local": {
-                    "moh": 195,
-                    "gredo": 46,
-                    "moh-xs": 1
+                    "moh": 196,
+                    "gredo": 46
                 },
                 "regional": {},
                 "international": {
@@ -19482,16 +19475,16 @@
                 "XM-DAC-41122-Somalia-3920/A0/07/880/003",
                 "XM-DAC-2-10-2139",
                 "86e1ec27",
-                "b28dca6c",
-                "608c3dbc",
-                "9e4d4251",
-                "3cc782ef",
-                "1deba6d4",
-                "10acafbb",
-                "a19966e0",
-                "44695bd4",
-                "ff699c28",
-                "82e2f146",
+                "c481192f",
+                "f39e60a9",
+                "e3d36d27",
+                "f61212a4",
+                "afbf7323",
+                "ed3c0d30",
+                "781fb265",
+                "81ec33b8",
+                "be61349a",
+                "2d7c7b99",
                 "0303a88f",
                 "389f996c",
                 "26096f15"
@@ -20064,12 +20057,12 @@
                     "ard": 6,
                     "dmo": 24,
                     "grrn": 43,
-                    "moh-xs": 80,
+                    "moh": 153,
                     "cpd": 39,
+                    "mow": 50,
                     "wardi": 18,
                     "intersom": 38,
                     "scc": 2,
-                    "moh": 73,
                     "pmwdo": 83,
                     "evso": 18,
                     "gsa": 1,
@@ -20144,7 +20137,6 @@
                     "kaah": 2,
                     "btsc": 8,
                     "ccc": 6,
-                    "mow": 50,
                     "mowd": 5,
                     "shr": 3,
                     "sophpa": 16,
@@ -20163,12 +20155,12 @@
                     "ard": 6,
                     "dmo": 24,
                     "grrn": 43,
-                    "moh-xs": 80,
+                    "moh": 153,
                     "cpd": 39,
+                    "mow": 50,
                     "wardi": 18,
                     "intersom": 38,
                     "scc": 2,
-                    "moh": 73,
                     "pmwdo": 83,
                     "evso": 18,
                     "gsa": 1,
@@ -20196,7 +20188,6 @@
                     "kaah": 2,
                     "btsc": 8,
                     "ccc": 6,
-                    "mow": 50,
                     "mowd": 5,
                     "shr": 3,
                     "sophpa": 16,
@@ -38002,14 +37993,14 @@
                 "eba98412",
                 "41a88000",
                 "8747b9af",
-                "b54ab0aa",
-                "422e27f6",
-                "125f8309",
+                "486a199d",
+                "efd1e0ca",
+                "1d7bc5da",
                 "a1063fd8",
-                "c57f92a0",
-                "8a691b98",
-                "e38c5ac4",
-                "6c7d52c9",
+                "3febf062",
+                "1723b603",
+                "e7a35e96",
+                "e8b74808",
                 "ff4d0be9",
                 "a2f46470",
                 "7c75aca0",
@@ -38100,8 +38091,7 @@
                 "local": {
                     "government-of-somalia": 1,
                     "avord": 1,
-                    "moh": 15,
-                    "moh-xs": 24,
+                    "moh": 39,
                     "wardi": 36,
                     "srda": 10
                 },
@@ -38146,8 +38136,7 @@
             "3w": {
                 "local": {
                     "avord": 1,
-                    "moh": 15,
-                    "moh-xs": 24,
+                    "moh": 39,
                     "wardi": 36,
                     "srda": 10
                 },
@@ -50762,10 +50751,10 @@
             "programming": [
                 "XM-OCHA-CBPF-SOM-19/3485/SA1/Ed-Prot/NGO/12511",
                 "XM-OCHA-CBPF-SOM-20/3485/SA1/Prot/NGO/15118",
-                "9331855c",
-                "eef1ac68",
-                "0972e245",
-                "f67fb599",
+                "426834bd",
+                "3c5db64a",
+                "86275513",
+                "5b002172",
                 "07b53525",
                 "d6290013",
                 "7b432245",
@@ -50776,7 +50765,7 @@
         "partners": {
             "all": {
                 "local": {
-                    "moh-xs": 11
+                    "moh": 11
                 },
                 "regional": {},
                 "international": {
@@ -50787,7 +50776,7 @@
             },
             "3w": {
                 "local": {
-                    "moh-xs": 11
+                    "moh": 11
                 },
                 "regional": {},
                 "international": {},
@@ -61389,10 +61378,11 @@
     },
     "montreal-protocol-old-400712": {
         "info": {
-            "name": "Montreal Protocol old 400712 ",
+            "name": "Montreal Protocol (old 400712)",
+            "shortname": "Montreal Protocol (old 400712)",
             "scope": "unknown",
+            "unrecognised": true,
             "synonyms": [],
-            "shortname": "Montreal Protocol old 400712 ",
             "stub": "montreal-protocol-old-400712"
         },
         "sources": [
@@ -61482,9 +61472,10 @@
     "montreal-protocol-hfc": {
         "info": {
             "name": "Montreal Protocol HFC",
-            "scope": "unknown",
-            "synonyms": [],
             "shortname": "Montreal Protocol HFC",
+            "scope": "unknown",
+            "unrecognised": true,
+            "synonyms": [],
             "stub": "montreal-protocol-hfc"
         },
         "sources": [
@@ -91837,7 +91828,6 @@
             "all": {
                 "local": {
                     "government-of-somalia": 13,
-                    "moewr-xs": 1,
                     "moewr": 1
                 },
                 "regional": {},
@@ -91846,6 +91836,7 @@
                 },
                 "unknown": {
                     "fragile-states-facility": 10,
+                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
                     "rural-water-supply-sanitation": 1,
                     "african-water-facility": 1,
                     "ministry-of-finance-and-planning": 1,
@@ -91864,7 +91855,6 @@
             "iati": {
                 "local": {
                     "government-of-somalia": 13,
-                    "moewr-xs": 1,
                     "moewr": 1
                 },
                 "regional": {},
@@ -91873,6 +91863,7 @@
                 },
                 "unknown": {
                     "fragile-states-facility": 10,
+                    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": 1,
                     "rural-water-supply-sanitation": 1,
                     "african-water-facility": 1,
                     "ministry-of-finance-and-planning": 1,
@@ -92167,16 +92158,14 @@
             "iati": 10
         }
     },
-    "moewr-xs": {
+    "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland": {
         "info": {
-            "name": "Somalialand Ministry of Energy and Water Resources",
-            "scope": "local",
-            "synonyms": [
-                "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland",
-                "Minist\u00e8re de l \u00c9nergie et des Ressources en Eau du Somaliland"
-            ],
-            "shortname": "MoEWR-XS",
-            "stub": "moewr-xs"
+            "name": "Minist\u00e8re de l'\u00c9nergie et des Ressources en Eau du Somaliland",
+            "shortname": "Minist\u00e8re de l'\u00c9nergie et des Ressources en Eau du Somaliland",
+            "scope": "unknown",
+            "unrecognised": true,
+            "synonyms": [],
+            "stub": "ministere-de-l-energie-et-des-ressources-en-eau-du-somaliland"
         },
         "sources": [
             "IATI"
@@ -94856,9 +94845,8 @@
     },
     "moh": {
         "info": {
-            "name": "Somalia Ministry of Health",
+            "name": "Ministry of Health",
             "scope": "local",
-            "url": "https://moh.gov.so/en/",
             "synonyms": [],
             "shortname": "MOH",
             "stub": "moh"
@@ -94923,7 +94911,14 @@
                 "eba98412",
                 "41a88000",
                 "8747b9af",
+                "486a199d",
+                "efd1e0ca",
+                "1d7bc5da",
                 "a1063fd8",
+                "3febf062",
+                "1723b603",
+                "e7a35e96",
+                "e8b74808",
                 "ff4d0be9",
                 "a2f46470",
                 "7c75aca0",
@@ -94943,6 +94938,7 @@
                 "2980f867",
                 "29beaa69",
                 "91df84bb",
+                "f9f557d5",
                 "f9248cb1",
                 "a013c4c5",
                 "08cc7a63",
@@ -94952,6 +94948,16 @@
                 "06de540a",
                 "b0a52878",
                 "ffa8a1e3",
+                "7fee4803",
+                "5453a729",
+                "dd0c80bb",
+                "997269c7",
+                "0d1e0473",
+                "7b09adc3",
+                "426834bd",
+                "3c5db64a",
+                "86275513",
+                "5b002172",
                 "d54c1a65",
                 "f463974f",
                 "0ca875c5",
@@ -94969,6 +94975,9 @@
                 "eb61dbd3",
                 "b1b3453c",
                 "b168843c",
+                "61e21554",
+                "0ec38aa6",
+                "ae4d1004",
                 "75913328",
                 "789e4942",
                 "964e25ce",
@@ -95031,6 +95040,16 @@
                 "0756db0c"
             ],
             "programming": [
+                "c481192f",
+                "f39e60a9",
+                "e3d36d27",
+                "f61212a4",
+                "afbf7323",
+                "ed3c0d30",
+                "781fb265",
+                "81ec33b8",
+                "be61349a",
+                "2d7c7b99",
                 "73e67a96",
                 "24186c6d"
             ],
@@ -95038,30 +95057,36 @@
         },
         "partners": {
             "all": {
-                "local": {},
+                "local": {
+                    "tass": 11,
+                    "scodo": 12
+                },
                 "regional": {},
                 "international": {
                     "irc": 381,
-                    "wvi": 236,
-                    "iom": 15,
-                    "care": 10,
+                    "wvi": 238,
+                    "iom": 39,
+                    "care": 52,
                     "nrc": 1,
-                    "sci": 195,
-                    "unicef": 73
+                    "sci": 196,
+                    "unicef": 153
                 },
                 "unknown": {}
             },
             "3w": {
-                "local": {},
+                "local": {
+                    "tass": 11,
+                    "scodo": 12
+                },
                 "regional": {},
                 "international": {
                     "irc": 381,
-                    "wvi": 236,
-                    "iom": 15,
-                    "care": 10,
+                    "wvi": 238,
+                    "iom": 39,
+                    "care": 52,
                     "nrc": 1,
-                    "sci": 195,
-                    "unicef": 73
+                    "sci": 196,
+                    "unicef": 153
                 },
                 "unknown": {}
             },
@@ -95076,7 +95101,7 @@
             "all": {
                 "humanitarian": {
                     "health": 435,
-                    "nutrition": 403,
+                    "nutrition": 575,
                     "protection": 4,
                     "water-sanitation-hygiene": 73
                 },
@@ -95085,7 +95110,7 @@
             "3w": {
                 "humanitarian": {
                     "health": 435,
-                    "nutrition": 403,
+                    "nutrition": 575,
                     "protection": 4,
                     "water-sanitation-hygiene": 73
                 },
@@ -95107,9 +95132,13 @@
                     "lower-juba": 10,
                     "lower-shabelle": 1,
                     "nugaal": 180,
+                    "sanaag": 45,
                     "mudug": 81,
+                    "sool": 53,
                     "bari": 122,
-                    "hiraan": 28
+                    "hiraan": 28,
+                    "togdheer": 18,
+                    "woqooyi-galbeed": 56
                 },
                 "admin2": {
                     "banadir-mogadishu": 227,
@@ -95123,7 +95152,12 @@
                     "kismaayo": 5,
                     "afgooye": 1,
                     "garoowe": 107,
+                    "ceerigaabo": 3,
+                    "ceel-afweyn": 1,
                     "gaalkacyo": 55,
+                    "laasqoray": 41,
+                    "xudun": 7,
+                    "laas-caanood": 34,
                     "afmadow": 5,
                     "baardheere": 3,
                     "eyl": 33,
@@ -95131,16 +95165,23 @@
                     "qardho": 16,
                     "jariiban": 10,
                     "bossaso": 59,
+                    "taleex": 11,
                     "waberi": 1,
                     "hamar-weyne": 1,
                     "hamar-jajab": 1,
                     "cadaado": 8,
                     "belet-weyne": 28,
+                    "buuhoodle": 4,
                     "iskushuban": 25,
                     "bandarbeyla": 12,
                     "qandala": 4,
                     "caluula": 6,
-                    "galdogob": 16
+                    "galdogob": 16,
+                    "hargeysa": 55,
+                    "burco": 13,
+                    "owdweyne": 1,
+                    "caynabo": 1,
+                    "gebiley": 1
                 },
                 "unclassified": {}
             },
@@ -95154,9 +95195,13 @@
                     "lower-juba": 10,
                     "lower-shabelle": 1,
                     "nugaal": 180,
+                    "sanaag": 45,
                     "mudug": 81,
+                    "sool": 53,
                     "bari": 122,
-                    "hiraan": 28
+                    "hiraan": 28,
+                    "togdheer": 18,
+                    "woqooyi-galbeed": 56
                 },
                 "admin2": {
                     "banadir-mogadishu": 227,
@@ -95170,7 +95215,12 @@
                     "kismaayo": 5,
                     "afgooye": 1,
                     "garoowe": 107,
+                    "ceerigaabo": 3,
+                    "ceel-afweyn": 1,
                     "gaalkacyo": 55,
+                    "laasqoray": 41,
+                    "xudun": 7,
+                    "laas-caanood": 34,
                     "afmadow": 5,
                     "baardheere": 3,
                     "eyl": 33,
@@ -95178,16 +95228,23 @@
                     "qardho": 16,
                     "jariiban": 10,
                     "bossaso": 59,
+                    "taleex": 11,
                     "waberi": 1,
                     "hamar-weyne": 1,
                     "hamar-jajab": 1,
                     "cadaado": 8,
                     "belet-weyne": 28,
+                    "buuhoodle": 4,
                     "iskushuban": 25,
                     "bandarbeyla": 12,
                     "qandala": 4,
                     "caluula": 6,
-                    "galdogob": 16
+                    "galdogob": 16,
+                    "hargeysa": 55,
+                    "burco": 13,
+                    "owdweyne": 1,
+                    "caynabo": 1,
+                    "gebiley": 1
                 },
                 "unclassified": {}
             },
@@ -95198,8 +95255,8 @@
             }
         },
         "activity_totals": {
-            "all": 915,
-            "3w": 915,
+            "all": 1087,
+            "3w": 1087,
             "iati": 0
         }
     },
@@ -96674,171 +96731,6 @@
         "activity_totals": {
             "all": 1066,
             "3w": 1066,
-            "iati": 0
-        }
-    },
-    "moh-xs": {
-        "info": {
-            "name": "Somaliland Ministry of Health",
-            "scope": "local",
-            "synonyms": [],
-            "shortname": "MOH-XS",
-            "stub": "moh-xs"
-        },
-        "sources": [
-            "3W"
-        ],
-        "humanitarian": true,
-        "activities": {
-            "implementing": [
-                "b54ab0aa",
-                "422e27f6",
-                "125f8309",
-                "c57f92a0",
-                "8a691b98",
-                "e38c5ac4",
-                "6c7d52c9",
-                "d33b69b6",
-                "625c8f9d",
-                "5d139be9",
-                "f92fa17c",
-                "4a097106",
-                "6cc43358",
-                "b8cabad0",
-                "9331855c",
-                "eef1ac68",
-                "0972e245",
-                "f67fb599",
-                "7af46df8",
-                "ad019843",
-                "9668a28e"
-            ],
-            "programming": [
-                "b28dca6c",
-                "608c3dbc",
-                "9e4d4251",
-                "3cc782ef",
-                "1deba6d4",
-                "10acafbb",
-                "a19966e0",
-                "44695bd4",
-                "ff699c28",
-                "82e2f146"
-            ],
-            "funding": []
-        },
-        "partners": {
-            "all": {
-                "local": {
-                    "tass": 11,
-                    "scodo": 12
-                },
-                "regional": {},
-                "international": {
-                    "iom": 24,
-                    "wvi": 2,
-                    "care": 42,
-                    "sci": 1,
-                    "unicef": 80
-                },
-                "unknown": {}
-            },
-            "3w": {
-                "local": {
-                    "tass": 11,
-                    "scodo": 12
-                },
-                "regional": {},
-                "international": {
-                    "iom": 24,
-                    "wvi": 2,
-                    "care": 42,
-                    "sci": 1,
-                    "unicef": 80
-                },
-                "unknown": {}
-            },
-            "iati": {
-                "local": {},
-                "regional": {},
-                "international": {},
-                "unknown": {}
-            }
-        },
-        "sectors": {
-            "all": {
-                "humanitarian": {
-                    "nutrition": 172
-                },
-                "dac": {}
-            },
-            "3w": {
-                "humanitarian": {
-                    "nutrition": 172
-                },
-                "dac": {}
-            },
-            "iati": {
-                "humanitarian": {},
-                "dac": {}
-            }
-        },
-        "locations": {
-            "all": {
-                "admin1": {
-                    "sanaag": 45,
-                    "sool": 53,
-                    "togdheer": 18,
-                    "woqooyi-galbeed": 56
-                },
-                "admin2": {
-                    "ceerigaabo": 3,
-                    "ceel-afweyn": 1,
-                    "laasqoray": 41,
-                    "xudun": 7,
-                    "laas-caanood": 34,
-                    "taleex": 11,
-                    "buuhoodle": 4,
-                    "hargeysa": 55,
-                    "burco": 13,
-                    "owdweyne": 1,
-                    "caynabo": 1,
-                    "gebiley": 1
-                },
-                "unclassified": {}
-            },
-            "3w": {
-                "admin1": {
-                    "sanaag": 45,
-                    "sool": 53,
-                    "togdheer": 18,
-                    "woqooyi-galbeed": 56
-                },
-                "admin2": {
-                    "ceerigaabo": 3,
-                    "ceel-afweyn": 1,
-                    "laasqoray": 41,
-                    "xudun": 7,
-                    "laas-caanood": 34,
-                    "taleex": 11,
-                    "buuhoodle": 4,
-                    "hargeysa": 55,
-                    "burco": 13,
-                    "owdweyne": 1,
-                    "caynabo": 1,
-                    "gebiley": 1
-                },
-                "unclassified": {}
-            },
-            "iati": {
-                "admin1": {},
-                "admin2": {},
-                "unclassified": {}
-            }
-        },
-        "activity_totals": {
-            "all": 172,
-            "3w": 172,
             "iati": 0
         }
     },
@@ -99196,15 +99088,15 @@
                 "8ddc3400"
             ],
             "programming": [
-                "7af46df8",
-                "ad019843"
+                "61e21554",
+                "0ec38aa6"
             ],
             "funding": []
         },
         "partners": {
             "all": {
                 "local": {
-                    "moh-xs": 12
+                    "moh": 12
                 },
                 "regional": {},
                 "international": {
@@ -99214,7 +99106,7 @@
             },
             "3w": {
                 "local": {
-                    "moh-xs": 12
+                    "moh": 12
                 },
                 "regional": {},
                 "international": {
@@ -105241,8 +105133,8 @@
     },
     "mow": {
         "info": {
-            "name": "MoW",
-            "scope": "unknown",
+            "name": "Ministry of Women",
+            "scope": "local",
             "synonyms": [],
             "shortname": "MoW",
             "stub": "mow"
