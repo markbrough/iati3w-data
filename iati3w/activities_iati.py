@@ -101,7 +101,7 @@ def make_activity(activity):
             "unclassified": [],
             "admin2": [],
             "admin1": [],
-            "countries": [country.code.upper() for country in activity.recipient_countries],
+            "countries": [country.code.upper() for country in filter(lambda country: hasattr(country, 'code'), activity.recipient_countries)],
         },
         "dates": {
             "start": activity.start_date_actual if activity.start_date_actual else activity.start_date_planned,
