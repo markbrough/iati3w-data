@@ -27,7 +27,7 @@ def has_humanitarian_content (activity):
         if sector.vocabulary == "10":
             # humanitarian clusters
             return True
-        elif sector.vocabulary in ["1", "2"] and sector.code.startswith("7"):
+        elif sector.vocabulary in ["1", "2"] and sector.code != None and sector.code.startswith("7"):
             # DAC humanitarian sectors
             return True
         else:
