@@ -66,11 +66,13 @@ def add_org (org, role, data):
 #
 
 def lookup_sector (code):
+    if code == None: return None
     """ Look up a DAC purpose by 3-digit code """
     map = get_dataset("inputs/dac3-sector-map.json")
     return map.get(code[:3], None) # use the 3-digit code
 
 def lookup_cluster (code):
+    if code == None: return None
     """ Look up a humanitarian cluster by code """
     map = get_dataset("inputs/humanitarian-cluster-map.json")
     return map.get(code, None)
